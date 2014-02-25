@@ -1,0 +1,1876 @@
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd in Library work.
+ERROR:HDLParsers:3312 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 73. Undefined symbol 'InAB'.
+ERROR:HDLParsers:1209 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 73. InAB: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 73. Undefined symbol 'InAB_S'.
+ERROR:HDLParsers:1209 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 73. InAB_S: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 80. Undefined symbol 'n_SV_BR_BIT0'.
+ERROR:HDLParsers:1209 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 80. n_SV_BR_BIT0: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 80. Undefined symbol 'n_SV_BR_BIT1'.
+ERROR:HDLParsers:1209 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 80. n_SV_BR_BIT1: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 80. Undefined symbol 'n_SV_BR_BIT2'.
+ERROR:HDLParsers:1209 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 80. n_SV_BR_BIT2: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 80. Undefined symbol 'n_SV_BR_BIT3'.
+ERROR:HDLParsers:1209 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 80. n_SV_BR_BIT3: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 80. Undefined symbol 'n_SV_BR_BIT4'.
+ERROR:HDLParsers:1209 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 80. n_SV_BR_BIT4: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 80. Undefined symbol 'n_SV_BR_BIT5'.
+ERROR:HDLParsers:1209 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 80. n_SV_BR_BIT5: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 80. Undefined symbol 'n_SV_BR_BIT6'.
+ERROR:HDLParsers:1209 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 80. n_SV_BR_BIT6: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 80. Undefined symbol 'n_SV_BR_BIT7'.
+ERROR:HDLParsers:1209 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 80. n_SV_BR_BIT7: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 80. Undefined symbol 'n_SV_BR_BIT8'.
+ERROR:HDLParsers:1209 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 80. n_SV_BR_BIT8: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 80. Undefined symbol 'n_COUNT_L'.
+ERROR:HDLParsers:1209 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 80. n_COUNT_L: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 80. Undefined symbol 'n_COUNT_S'.
+ERROR:HDLParsers:1209 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 80. n_COUNT_S: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 83. Undefined symbol 'ST_CTRL_00'.
+ERROR:HDLParsers:1209 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 83. ST_CTRL_00: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 84. Undefined symbol 'SV_BR_BIT0_M'.
+ERROR:HDLParsers:3312 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 84. Undefined symbol 'ST_BR_EN_BIT0_0'.
+ERROR:HDLParsers:1209 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 84. ST_BR_EN_BIT0_0: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 85. Undefined symbol 'SV_BR_BIT1_M'.
+ERROR:HDLParsers:3312 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 85. Undefined symbol 'ST_BR_EN_BIT1_0'.
+ERROR:HDLParsers:1209 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 85. ST_BR_EN_BIT1_0: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 86. Undefined symbol 'SV_BR_BIT2_M'.
+ERROR:HDLParsers:3312 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 86. Undefined symbol 'ST_BR_EN_BIT2_0'.
+ERROR:HDLParsers:1209 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 86. ST_BR_EN_BIT2_0: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 87. Undefined symbol 'SV_BR_BIT3_M'.
+ERROR:HDLParsers:3312 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 87. Undefined symbol 'ST_BR_EN_BIT3_0'.
+ERROR:HDLParsers:1209 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 87. ST_BR_EN_BIT3_0: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 88. Undefined symbol 'SV_BR_BIT4_M'.
+ERROR:HDLParsers:3312 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 88. Undefined symbol 'ST_BR_EN_BIT4_0'.
+ERROR:HDLParsers:1209 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 88. ST_BR_EN_BIT4_0: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 89. Undefined symbol 'SV_BR_BIT5_M'.
+ERROR:HDLParsers:3312 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 89. Undefined symbol 'ST_BR_EN_BIT5_0'.
+ERROR:HDLParsers:1209 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 89. ST_BR_EN_BIT5_0: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 90. Undefined symbol 'SV_BR_BIT6_M'.
+ERROR:HDLParsers:3312 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 90. Undefined symbol 'ST_BR_EN_BIT6_0'.
+ERROR:HDLParsers:1209 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 90. ST_BR_EN_BIT6_0: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 91. Undefined symbol 'SV_BR_BIT7_M'.
+ERROR:HDLParsers:3312 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 91. Undefined symbol 'ST_BR_EN_BIT7_0'.
+ERROR:HDLParsers:1209 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 91. ST_BR_EN_BIT7_0: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 92. Undefined symbol 'SV_BR_BIT8_M'.
+ERROR:HDLParsers:3312 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 92. Undefined symbol 'ST_BR_EN_BIT8_0'.
+ERROR:HDLParsers:1209 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 92. ST_BR_EN_BIT8_0: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 93. Undefined symbol 'SV_BYTE_CHECK_M'.
+ERROR:HDLParsers:1209 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 99. SV_BR_BIT0_M: Undefined symbol (last report in this block)
+ERROR:HDLParsers:1209 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 100. SV_BR_BIT1_M: Undefined symbol (last report in this block)
+ERROR:HDLParsers:1209 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 101. SV_BR_BIT2_M: Undefined symbol (last report in this block)
+ERROR:HDLParsers:1209 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 102. SV_BR_BIT3_M: Undefined symbol (last report in this block)
+ERROR:HDLParsers:1209 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 103. SV_BR_BIT4_M: Undefined symbol (last report in this block)
+ERROR:HDLParsers:1209 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 104. SV_BR_BIT5_M: Undefined symbol (last report in this block)
+ERROR:HDLParsers:1209 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 105. SV_BR_BIT6_M: Undefined symbol (last report in this block)
+ERROR:HDLParsers:1209 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 106. SV_BR_BIT7_M: Undefined symbol (last report in this block)
+ERROR:HDLParsers:1209 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 107. SV_BR_BIT8_M: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 108. Undefined symbol 'COUNT_L_M'.
+ERROR:HDLParsers:3312 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 109. Undefined symbol 'COUNT_S_M'.
+ERROR:HDLParsers:1209 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 110. SV_BYTE_CHECK_M: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 110. Undefined symbol 'n_SV_BYTE_CHECK'.
+ERROR:HDLParsers:1209 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 110. n_SV_BYTE_CHECK: Undefined symbol (last report in this block)
+ERROR:HDLParsers:1209 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 122. COUNT_L_M: Undefined symbol (last report in this block)
+ERROR:HDLParsers:1209 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 123. COUNT_S_M: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 131. Undefined symbol 'SV_BR_BIT0_M'.
+ERROR:HDLParsers:1209 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 131. SV_BR_BIT0_M: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 131. Undefined symbol 'SV_BR_BIT1_M'.
+ERROR:HDLParsers:1209 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 131. SV_BR_BIT1_M: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 131. Undefined symbol 'SV_BR_BIT2_M'.
+ERROR:HDLParsers:1209 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 131. SV_BR_BIT2_M: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 131. Undefined symbol 'SV_BR_BIT3_M'.
+ERROR:HDLParsers:1209 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 131. SV_BR_BIT3_M: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 131. Undefined symbol 'SV_BR_BIT4_M'.
+ERROR:HDLParsers:1209 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 131. SV_BR_BIT4_M: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 131. Undefined symbol 'SV_BR_BIT5_M'.
+ERROR:HDLParsers:1209 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 131. SV_BR_BIT5_M: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 131. Undefined symbol 'SV_BR_BIT6_M'.
+ERROR:HDLParsers:1209 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 131. SV_BR_BIT6_M: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 131. Undefined symbol 'SV_BR_BIT7_M'.
+ERROR:HDLParsers:1209 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 131. SV_BR_BIT7_M: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 131. Undefined symbol 'SV_BR_BIT8_M'.
+ERROR:HDLParsers:1209 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 131. SV_BR_BIT8_M: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 131. Undefined symbol 'COUNT_L_M'.
+ERROR:HDLParsers:1209 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 131. COUNT_L_M: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 131. Undefined symbol 'COUNT_S_M'.
+ERROR:HDLParsers:1209 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 131. COUNT_S_M: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 134. Undefined symbol 'ST_CTRL_00'.
+ERROR:HDLParsers:1209 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 134. ST_CTRL_00: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 135. Undefined symbol 'SV_BR_BIT0'.
+ERROR:HDLParsers:3312 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 135. Undefined symbol 'ST_BR_EN_BIT0_0'.
+ERROR:HDLParsers:1209 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 135. ST_BR_EN_BIT0_0: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 136. Undefined symbol 'SV_BR_BIT1'.
+ERROR:HDLParsers:3312 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 136. Undefined symbol 'ST_BR_EN_BIT1_0'.
+ERROR:HDLParsers:1209 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 136. ST_BR_EN_BIT1_0: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 137. Undefined symbol 'SV_BR_BIT2'.
+ERROR:HDLParsers:3312 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 137. Undefined symbol 'ST_BR_EN_BIT2_0'.
+ERROR:HDLParsers:1209 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 137. ST_BR_EN_BIT2_0: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 138. Undefined symbol 'SV_BR_BIT3'.
+ERROR:HDLParsers:3312 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 138. Undefined symbol 'ST_BR_EN_BIT3_0'.
+ERROR:HDLParsers:1209 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 138. ST_BR_EN_BIT3_0: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 139. Undefined symbol 'SV_BR_BIT4'.
+ERROR:HDLParsers:3312 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 139. Undefined symbol 'ST_BR_EN_BIT4_0'.
+ERROR:HDLParsers:1209 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 139. ST_BR_EN_BIT4_0: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 140. Undefined symbol 'SV_BR_BIT5'.
+ERROR:HDLParsers:3312 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 140. Undefined symbol 'ST_BR_EN_BIT5_0'.
+ERROR:HDLParsers:1209 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 140. ST_BR_EN_BIT5_0: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 141. Undefined symbol 'SV_BR_BIT6'.
+ERROR:HDLParsers:3312 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 141. Undefined symbol 'ST_BR_EN_BIT6_0'.
+ERROR:HDLParsers:1209 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 141. ST_BR_EN_BIT6_0: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 142. Undefined symbol 'SV_BR_BIT7'.
+ERROR:HDLParsers:3312 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 142. Undefined symbol 'ST_BR_EN_BIT7_0'.
+ERROR:HDLParsers:1209 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 142. ST_BR_EN_BIT7_0: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 143. Undefined symbol 'SV_BR_BIT8'.
+ERROR:HDLParsers:3312 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 143. Undefined symbol 'ST_BR_EN_BIT8_0'.
+ERROR:HDLParsers:1209 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 143. ST_BR_EN_BIT8_0: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 144. Undefined symbol 'SV_BYTE_CHECK'.
+ERROR:HDLParsers:1209 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 148. SV_BR_BIT0: Undefined symbol (last report in this block)
+ERROR:HDLParsers:1209 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 149. SV_BR_BIT1: Undefined symbol (last report in this block)
+ERROR:HDLParsers:1209 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 150. SV_BR_BIT2: Undefined symbol (last report in this block)
+ERROR:HDLParsers:1209 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 151. SV_BR_BIT3: Undefined symbol (last report in this block)
+ERROR:HDLParsers:1209 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 152. SV_BR_BIT4: Undefined symbol (last report in this block)
+ERROR:HDLParsers:1209 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 153. SV_BR_BIT5: Undefined symbol (last report in this block)
+ERROR:HDLParsers:1209 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 154. SV_BR_BIT6: Undefined symbol (last report in this block)
+ERROR:HDLParsers:1209 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 155. SV_BR_BIT7: Undefined symbol (last report in this block)
+ERROR:HDLParsers:1209 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 156. SV_BR_BIT8: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 157. Undefined symbol 'COUNT_L'.
+ERROR:HDLParsers:3312 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 158. Undefined symbol 'COUNT_S'.
+ERROR:HDLParsers:1209 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 159. SV_BYTE_CHECK: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 159. Undefined symbol 'SV_BYTE_CHECK_M'.
+ERROR:HDLParsers:1209 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 159. SV_BYTE_CHECK_M: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 165. Undefined symbol 'SV_BYTE_CHECK'.
+ERROR:HDLParsers:1209 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 165. SV_BYTE_CHECK: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 174. Undefined symbol 'n_SV_BYTE_CHECK'.
+ERROR:HDLParsers:1209 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 179. n_SV_BYTE_CHECK: Undefined symbol (last report in this block)
+ERROR:HDLParsers:1401 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 263. Object BYTE_NUM of mode OUT can not be read.
+ERROR:HDLParsers:1401 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 264. Object BYTE_NUM of mode OUT can not be read.
+ERROR:HDLParsers:1401 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 265. Object BYTE_NUM of mode OUT can not be read.
+ERROR:HDLParsers:1401 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 266. Object BYTE_NUM of mode OUT can not be read.
+ERROR:HDLParsers:1401 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 268. Object BYTE_NUM of mode OUT can not be read.
+ERROR:HDLParsers:1401 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 269. Object BYTE_NUM of mode OUT can not be read.
+ERROR:HDLParsers:1401 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 270. Object BYTE_NUM of mode OUT can not be read.
+ERROR:HDLParsers:1401 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 271. Object BYTE_NUM of mode OUT can not be read.
+--> 
+
+Total memory usage is 48104 kilobytes
+
+
+ERROR: XST failed
+Process "Synthesize" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd in Library work.
+ERROR:HDLParsers:3312 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 86. Undefined symbol 'n_SV_BR_BIT0'.
+ERROR:HDLParsers:1209 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 86. n_SV_BR_BIT0: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 86. Undefined symbol 'n_SV_BR_BIT1'.
+ERROR:HDLParsers:1209 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 86. n_SV_BR_BIT1: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 86. Undefined symbol 'n_SV_BR_BIT2'.
+ERROR:HDLParsers:1209 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 86. n_SV_BR_BIT2: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 86. Undefined symbol 'n_SV_BR_BIT3'.
+ERROR:HDLParsers:1209 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 86. n_SV_BR_BIT3: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 86. Undefined symbol 'n_SV_BR_BIT4'.
+ERROR:HDLParsers:1209 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 86. n_SV_BR_BIT4: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 86. Undefined symbol 'n_SV_BR_BIT5'.
+ERROR:HDLParsers:1209 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 86. n_SV_BR_BIT5: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 86. Undefined symbol 'n_SV_BR_BIT6'.
+ERROR:HDLParsers:1209 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 86. n_SV_BR_BIT6: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 86. Undefined symbol 'n_SV_BR_BIT7'.
+ERROR:HDLParsers:1209 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 86. n_SV_BR_BIT7: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 86. Undefined symbol 'n_SV_BR_BIT8'.
+ERROR:HDLParsers:1209 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 86. n_SV_BR_BIT8: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 86. Undefined symbol 'n_COUNT_L'.
+ERROR:HDLParsers:1209 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 86. n_COUNT_L: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 86. Undefined symbol 'n_COUNT_S'.
+ERROR:HDLParsers:1209 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 86. n_COUNT_S: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 89. Undefined symbol 'ST_CTRL_00'.
+ERROR:HDLParsers:1209 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 89. ST_CTRL_00: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 90. Undefined symbol 'SV_BR_BIT0_M'.
+ERROR:HDLParsers:3312 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 90. Undefined symbol 'ST_BR_EN_BIT0_0'.
+ERROR:HDLParsers:1209 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 90. ST_BR_EN_BIT0_0: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 91. Undefined symbol 'SV_BR_BIT1_M'.
+ERROR:HDLParsers:3312 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 91. Undefined symbol 'ST_BR_EN_BIT1_0'.
+ERROR:HDLParsers:1209 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 91. ST_BR_EN_BIT1_0: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 92. Undefined symbol 'SV_BR_BIT2_M'.
+ERROR:HDLParsers:3312 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 92. Undefined symbol 'ST_BR_EN_BIT2_0'.
+ERROR:HDLParsers:1209 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 92. ST_BR_EN_BIT2_0: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 93. Undefined symbol 'SV_BR_BIT3_M'.
+ERROR:HDLParsers:3312 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 93. Undefined symbol 'ST_BR_EN_BIT3_0'.
+ERROR:HDLParsers:1209 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 93. ST_BR_EN_BIT3_0: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 94. Undefined symbol 'SV_BR_BIT4_M'.
+ERROR:HDLParsers:3312 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 94. Undefined symbol 'ST_BR_EN_BIT4_0'.
+ERROR:HDLParsers:1209 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 94. ST_BR_EN_BIT4_0: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 95. Undefined symbol 'SV_BR_BIT5_M'.
+ERROR:HDLParsers:3312 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 95. Undefined symbol 'ST_BR_EN_BIT5_0'.
+ERROR:HDLParsers:1209 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 95. ST_BR_EN_BIT5_0: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 96. Undefined symbol 'SV_BR_BIT6_M'.
+ERROR:HDLParsers:3312 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 96. Undefined symbol 'ST_BR_EN_BIT6_0'.
+ERROR:HDLParsers:1209 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 96. ST_BR_EN_BIT6_0: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 97. Undefined symbol 'SV_BR_BIT7_M'.
+ERROR:HDLParsers:3312 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 97. Undefined symbol 'ST_BR_EN_BIT7_0'.
+ERROR:HDLParsers:1209 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 97. ST_BR_EN_BIT7_0: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 98. Undefined symbol 'SV_BR_BIT8_M'.
+ERROR:HDLParsers:3312 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 98. Undefined symbol 'ST_BR_EN_BIT8_0'.
+ERROR:HDLParsers:1209 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 98. ST_BR_EN_BIT8_0: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 99. Undefined symbol 'SV_BYTE_CHECK_M'.
+ERROR:HDLParsers:1209 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 105. SV_BR_BIT0_M: Undefined symbol (last report in this block)
+ERROR:HDLParsers:1209 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 106. SV_BR_BIT1_M: Undefined symbol (last report in this block)
+ERROR:HDLParsers:1209 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 107. SV_BR_BIT2_M: Undefined symbol (last report in this block)
+ERROR:HDLParsers:1209 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 108. SV_BR_BIT3_M: Undefined symbol (last report in this block)
+ERROR:HDLParsers:1209 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 109. SV_BR_BIT4_M: Undefined symbol (last report in this block)
+ERROR:HDLParsers:1209 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 110. SV_BR_BIT5_M: Undefined symbol (last report in this block)
+ERROR:HDLParsers:1209 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 111. SV_BR_BIT6_M: Undefined symbol (last report in this block)
+ERROR:HDLParsers:1209 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 112. SV_BR_BIT7_M: Undefined symbol (last report in this block)
+ERROR:HDLParsers:1209 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 113. SV_BR_BIT8_M: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 114. Undefined symbol 'COUNT_L_M'.
+ERROR:HDLParsers:3312 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 115. Undefined symbol 'COUNT_S_M'.
+ERROR:HDLParsers:1209 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 116. SV_BYTE_CHECK_M: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 116. Undefined symbol 'n_SV_BYTE_CHECK'.
+ERROR:HDLParsers:1209 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 116. n_SV_BYTE_CHECK: Undefined symbol (last report in this block)
+ERROR:HDLParsers:1209 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 128. COUNT_L_M: Undefined symbol (last report in this block)
+ERROR:HDLParsers:1209 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 129. COUNT_S_M: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 137. Undefined symbol 'SV_BR_BIT0_M'.
+ERROR:HDLParsers:1209 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 137. SV_BR_BIT0_M: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 137. Undefined symbol 'SV_BR_BIT1_M'.
+ERROR:HDLParsers:1209 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 137. SV_BR_BIT1_M: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 137. Undefined symbol 'SV_BR_BIT2_M'.
+ERROR:HDLParsers:1209 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 137. SV_BR_BIT2_M: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 137. Undefined symbol 'SV_BR_BIT3_M'.
+ERROR:HDLParsers:1209 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 137. SV_BR_BIT3_M: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 137. Undefined symbol 'SV_BR_BIT4_M'.
+ERROR:HDLParsers:1209 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 137. SV_BR_BIT4_M: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 137. Undefined symbol 'SV_BR_BIT5_M'.
+ERROR:HDLParsers:1209 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 137. SV_BR_BIT5_M: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 137. Undefined symbol 'SV_BR_BIT6_M'.
+ERROR:HDLParsers:1209 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 137. SV_BR_BIT6_M: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 137. Undefined symbol 'SV_BR_BIT7_M'.
+ERROR:HDLParsers:1209 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 137. SV_BR_BIT7_M: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 137. Undefined symbol 'SV_BR_BIT8_M'.
+ERROR:HDLParsers:1209 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 137. SV_BR_BIT8_M: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 137. Undefined symbol 'COUNT_L_M'.
+ERROR:HDLParsers:1209 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 137. COUNT_L_M: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 137. Undefined symbol 'COUNT_S_M'.
+ERROR:HDLParsers:1209 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 137. COUNT_S_M: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 140. Undefined symbol 'ST_CTRL_00'.
+ERROR:HDLParsers:1209 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 140. ST_CTRL_00: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 141. Undefined symbol 'SV_BR_BIT0'.
+ERROR:HDLParsers:3312 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 141. Undefined symbol 'ST_BR_EN_BIT0_0'.
+ERROR:HDLParsers:1209 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 141. ST_BR_EN_BIT0_0: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 142. Undefined symbol 'SV_BR_BIT1'.
+ERROR:HDLParsers:3312 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 142. Undefined symbol 'ST_BR_EN_BIT1_0'.
+ERROR:HDLParsers:1209 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 142. ST_BR_EN_BIT1_0: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 143. Undefined symbol 'SV_BR_BIT2'.
+ERROR:HDLParsers:3312 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 143. Undefined symbol 'ST_BR_EN_BIT2_0'.
+ERROR:HDLParsers:1209 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 143. ST_BR_EN_BIT2_0: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 144. Undefined symbol 'SV_BR_BIT3'.
+ERROR:HDLParsers:3312 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 144. Undefined symbol 'ST_BR_EN_BIT3_0'.
+ERROR:HDLParsers:1209 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 144. ST_BR_EN_BIT3_0: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 145. Undefined symbol 'SV_BR_BIT4'.
+ERROR:HDLParsers:3312 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 145. Undefined symbol 'ST_BR_EN_BIT4_0'.
+ERROR:HDLParsers:1209 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 145. ST_BR_EN_BIT4_0: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 146. Undefined symbol 'SV_BR_BIT5'.
+ERROR:HDLParsers:3312 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 146. Undefined symbol 'ST_BR_EN_BIT5_0'.
+ERROR:HDLParsers:1209 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 146. ST_BR_EN_BIT5_0: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 147. Undefined symbol 'SV_BR_BIT6'.
+ERROR:HDLParsers:3312 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 147. Undefined symbol 'ST_BR_EN_BIT6_0'.
+ERROR:HDLParsers:1209 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 147. ST_BR_EN_BIT6_0: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 148. Undefined symbol 'SV_BR_BIT7'.
+ERROR:HDLParsers:3312 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 148. Undefined symbol 'ST_BR_EN_BIT7_0'.
+ERROR:HDLParsers:1209 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 148. ST_BR_EN_BIT7_0: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 149. Undefined symbol 'SV_BR_BIT8'.
+ERROR:HDLParsers:3312 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 149. Undefined symbol 'ST_BR_EN_BIT8_0'.
+ERROR:HDLParsers:1209 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 149. ST_BR_EN_BIT8_0: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 150. Undefined symbol 'SV_BYTE_CHECK'.
+ERROR:HDLParsers:1209 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 154. SV_BR_BIT0: Undefined symbol (last report in this block)
+ERROR:HDLParsers:1209 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 155. SV_BR_BIT1: Undefined symbol (last report in this block)
+ERROR:HDLParsers:1209 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 156. SV_BR_BIT2: Undefined symbol (last report in this block)
+ERROR:HDLParsers:1209 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 157. SV_BR_BIT3: Undefined symbol (last report in this block)
+ERROR:HDLParsers:1209 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 158. SV_BR_BIT4: Undefined symbol (last report in this block)
+ERROR:HDLParsers:1209 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 159. SV_BR_BIT5: Undefined symbol (last report in this block)
+ERROR:HDLParsers:1209 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 160. SV_BR_BIT6: Undefined symbol (last report in this block)
+ERROR:HDLParsers:1209 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 161. SV_BR_BIT7: Undefined symbol (last report in this block)
+ERROR:HDLParsers:1209 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 162. SV_BR_BIT8: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 163. Undefined symbol 'COUNT_L'.
+ERROR:HDLParsers:3312 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 164. Undefined symbol 'COUNT_S'.
+ERROR:HDLParsers:1209 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 165. SV_BYTE_CHECK: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 165. Undefined symbol 'SV_BYTE_CHECK_M'.
+ERROR:HDLParsers:1209 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 165. SV_BYTE_CHECK_M: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 171. Undefined symbol 'SV_BYTE_CHECK'.
+ERROR:HDLParsers:1209 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 171. SV_BYTE_CHECK: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 180. Undefined symbol 'n_SV_BYTE_CHECK'.
+ERROR:HDLParsers:1209 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 185. n_SV_BYTE_CHECK: Undefined symbol (last report in this block)
+ERROR:HDLParsers:1401 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 269. Object BYTE_NUM of mode OUT can not be read.
+ERROR:HDLParsers:1401 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 270. Object BYTE_NUM of mode OUT can not be read.
+ERROR:HDLParsers:1401 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 271. Object BYTE_NUM of mode OUT can not be read.
+ERROR:HDLParsers:1401 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 272. Object BYTE_NUM of mode OUT can not be read.
+ERROR:HDLParsers:1401 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 274. Object BYTE_NUM of mode OUT can not be read.
+ERROR:HDLParsers:1401 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 275. Object BYTE_NUM of mode OUT can not be read.
+ERROR:HDLParsers:1401 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 276. Object BYTE_NUM of mode OUT can not be read.
+ERROR:HDLParsers:1401 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 277. Object BYTE_NUM of mode OUT can not be read.
+--> 
+
+Total memory usage is 48104 kilobytes
+
+
+ERROR: XST failed
+Process "Synthesize" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd in Library work.
+ERROR:HDLParsers:3312 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 115. Undefined symbol 'SV_BYTE_CHECK'.
+ERROR:HDLParsers:1209 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 115. SV_BYTE_CHECK: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 124. Undefined symbol 'n_SV_BYTE_CHECK'.
+ERROR:HDLParsers:1209 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 129. n_SV_BYTE_CHECK: Undefined symbol (last report in this block)
+ERROR:HDLParsers:1401 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 213. Object BYTE_NUM of mode OUT can not be read.
+ERROR:HDLParsers:1401 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 214. Object BYTE_NUM of mode OUT can not be read.
+ERROR:HDLParsers:1401 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 215. Object BYTE_NUM of mode OUT can not be read.
+ERROR:HDLParsers:1401 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 216. Object BYTE_NUM of mode OUT can not be read.
+ERROR:HDLParsers:1401 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 218. Object BYTE_NUM of mode OUT can not be read.
+ERROR:HDLParsers:1401 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 219. Object BYTE_NUM of mode OUT can not be read.
+ERROR:HDLParsers:1401 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 220. Object BYTE_NUM of mode OUT can not be read.
+ERROR:HDLParsers:1401 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 221. Object BYTE_NUM of mode OUT can not be read.
+--> 
+
+Total memory usage is 48104 kilobytes
+
+
+ERROR: XST failed
+Process "Synthesize" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd in Library work.
+ERROR:HDLParsers:3312 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 124. Undefined symbol 'n_SV_BYTE_CHECK'.
+ERROR:HDLParsers:1209 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 129. n_SV_BYTE_CHECK: Undefined symbol (last report in this block)
+ERROR:HDLParsers:1401 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 213. Object BYTE_NUM of mode OUT can not be read.
+ERROR:HDLParsers:1401 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 214. Object BYTE_NUM of mode OUT can not be read.
+ERROR:HDLParsers:1401 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 215. Object BYTE_NUM of mode OUT can not be read.
+ERROR:HDLParsers:1401 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 216. Object BYTE_NUM of mode OUT can not be read.
+ERROR:HDLParsers:1401 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 218. Object BYTE_NUM of mode OUT can not be read.
+ERROR:HDLParsers:1401 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 219. Object BYTE_NUM of mode OUT can not be read.
+ERROR:HDLParsers:1401 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 220. Object BYTE_NUM of mode OUT can not be read.
+ERROR:HDLParsers:1401 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 221. Object BYTE_NUM of mode OUT can not be read.
+--> 
+
+Total memory usage is 48104 kilobytes
+
+
+ERROR: XST failed
+Process "Synthesize" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd in Library work.
+ERROR:HDLParsers:1401 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 213. Object BYTE_NUM of mode OUT can not be read.
+ERROR:HDLParsers:1401 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 214. Object BYTE_NUM of mode OUT can not be read.
+ERROR:HDLParsers:1401 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 215. Object BYTE_NUM of mode OUT can not be read.
+ERROR:HDLParsers:1401 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 216. Object BYTE_NUM of mode OUT can not be read.
+ERROR:HDLParsers:1401 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 218. Object BYTE_NUM of mode OUT can not be read.
+ERROR:HDLParsers:1401 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 219. Object BYTE_NUM of mode OUT can not be read.
+ERROR:HDLParsers:1401 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 220. Object BYTE_NUM of mode OUT can not be read.
+ERROR:HDLParsers:1401 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 221. Object BYTE_NUM of mode OUT can not be read.
+--> 
+
+Total memory usage is 48104 kilobytes
+
+
+ERROR: XST failed
+Process "Synthesize" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd in Library work.
+ERROR:HDLParsers:3312 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 172. Undefined symbol 'DISPL_COUNT_SWITCH'.
+ERROR:HDLParsers:1209 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd Line 172. DISPL_COUNT_SWITCH: Undefined symbol (last report in this block)
+--> 
+
+Total memory usage is 48104 kilobytes
+
+
+ERROR: XST failed
+Process "Synthesize" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd in Library work.
+Entity <CTRL_BYTE_CHECK> (Architecture <Behavioral>) compiled.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <ctrl_byte_check> (Architecture <Behavioral>).
+WARNING:Xst:819 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd line 172: The following signals are missing in the process sensitivity list:
+   BYTE_COUNT.
+Entity <ctrl_byte_check> analyzed. Unit <ctrl_byte_check> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <ctrl_byte_check>.
+    Related source file is c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd.
+WARNING:Xst:1306 - Output <BYTE_OUT> is never assigned.
+WARNING:Xst:646 - Signal <NEXT_BYTE_S> is assigned but never used.
+WARNING:Xst:646 - Signal <PARITY_OK_S> is assigned but never used.
+WARNING:Xst:646 - Signal <BYTE_CMPLT_S> is assigned but never used.
+    Found 8-bit adder for signal <$n0011> created at line 150.
+    Found 8-bit register for signal <BYTE_COUNT>.
+    Found 8-bit register for signal <BYTE_COUNT_M>.
+    Found 2-bit register for signal <SV>.
+    Found 2-bit register for signal <SV_M>.
+    Found 8 1-bit 2-to-1 multiplexers.
+    Summary:
+	inferred  20 D-type flip-flop(s).
+	inferred   1 Adder/Subtracter(s).
+	inferred   8 Multiplexer(s).
+Unit <ctrl_byte_check> synthesized.
+
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors               : 1
+ 8-bit adder                       : 1
+# Registers                        : 4
+ 8-bit register                    : 2
+ 2-bit register                    : 2
+# Multiplexers                     : 8
+ 1-bit 2-to-1 multiplexer          : 8
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <ctrl_byte_check> ...
+Loading device for application Xst from file '3s200.nph' in environment C:/Programme/XILINX/WEBPACK_6P3.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block ctrl_byte_check, actual ratio is 0.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s200ft256-5 
+
+ Number of Slices:                      18  out of   1920     0%  
+ Number of Slice Flip Flops:            20  out of   3840     0%  
+ Number of 4 input LUTs:                31  out of   3840     0%  
+ Number of bonded IOBs:                 31  out of    173    17%  
+ Number of GCLKs:                        1  out of      8    12%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+CLK                                | BUFGP                  | 20    |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 8.366ns (Maximum Frequency: 119.531MHz)
+   Minimum input arrival time before clock: 4.117ns
+   Maximum output required time after clock: 7.187ns
+   Maximum combinational path delay: 8.047ns
+
+=========================================================================
+Completed process "Synthesize".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd in Library work.
+Entity <ctrl_byte_check> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <ctrl_byte_check> (Architecture <behavioral>).
+WARNING:Xst:819 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd line 113: The following signals are missing in the process sensitivity list:
+   NEXT_BYTE_S, BYTE_CMPLT_S, PARITY_OK_S.
+WARNING:Xst:819 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd line 171: The following signals are missing in the process sensitivity list:
+   BYTE_COUNT.
+Entity <ctrl_byte_check> analyzed. Unit <ctrl_byte_check> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <ctrl_byte_check>.
+    Related source file is c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd.
+    Found 8-bit adder for signal <$n0011> created at line 149.
+    Found 1-bit register for signal <BYTE_CMPLT_S>.
+    Found 8-bit register for signal <BYTE_COUNT>.
+    Found 8-bit register for signal <BYTE_COUNT_M>.
+    Found 1-bit register for signal <NEXT_BYTE_S>.
+    Found 1-bit register for signal <PARITY_OK_S>.
+    Found 2-bit register for signal <SV>.
+    Found 2-bit register for signal <SV_M>.
+    Found 8 1-bit 2-to-1 multiplexers.
+    Summary:
+	inferred  23 D-type flip-flop(s).
+	inferred   1 Adder/Subtracter(s).
+	inferred   8 Multiplexer(s).
+Unit <ctrl_byte_check> synthesized.
+
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors               : 1
+ 8-bit adder                       : 1
+# Registers                        : 7
+ 8-bit register                    : 2
+ 2-bit register                    : 2
+ 1-bit register                    : 3
+# Multiplexers                     : 8
+ 1-bit 2-to-1 multiplexer          : 8
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <ctrl_byte_check> ...
+Loading device for application Xst from file '3s200.nph' in environment C:/Programme/XILINX/WEBPACK_6P3.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block ctrl_byte_check, actual ratio is 0.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s200ft256-5 
+
+ Number of Slices:                      19  out of   1920     0%  
+ Number of Slice Flip Flops:            23  out of   3840     0%  
+ Number of 4 input LUTs:                32  out of   3840     0%  
+ Number of bonded IOBs:                 31  out of    173    17%  
+ Number of GCLKs:                        2  out of      8    25%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+CLK                                | BUFGP                  | 20    |
+CLK_IO                             | BUFGP                  | 3     |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 8.366ns (Maximum Frequency: 119.531MHz)
+   Minimum input arrival time before clock: 4.117ns
+   Maximum output required time after clock: 7.187ns
+   Maximum combinational path delay: 7.385ns
+
+=========================================================================
+Completed process "Synthesize".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd in Library work.
+Entity <ctrl_byte_check> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <ctrl_byte_check> (Architecture <behavioral>).
+WARNING:Xst:819 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd line 171: The following signals are missing in the process sensitivity list:
+   BYTE_COUNT.
+Entity <ctrl_byte_check> analyzed. Unit <ctrl_byte_check> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <ctrl_byte_check>.
+    Related source file is c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd.
+    Found 8-bit adder for signal <$n0011> created at line 149.
+    Found 1-bit register for signal <BYTE_CMPLT_S>.
+    Found 8-bit register for signal <BYTE_COUNT>.
+    Found 8-bit register for signal <BYTE_COUNT_M>.
+    Found 1-bit register for signal <NEXT_BYTE_S>.
+    Found 1-bit register for signal <PARITY_OK_S>.
+    Found 2-bit register for signal <SV>.
+    Found 2-bit register for signal <SV_M>.
+    Found 8 1-bit 2-to-1 multiplexers.
+    Summary:
+	inferred  23 D-type flip-flop(s).
+	inferred   1 Adder/Subtracter(s).
+	inferred   8 Multiplexer(s).
+Unit <ctrl_byte_check> synthesized.
+
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors               : 1
+ 8-bit adder                       : 1
+# Registers                        : 7
+ 8-bit register                    : 2
+ 2-bit register                    : 2
+ 1-bit register                    : 3
+# Multiplexers                     : 8
+ 1-bit 2-to-1 multiplexer          : 8
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <ctrl_byte_check> ...
+Loading device for application Xst from file '3s200.nph' in environment C:/Programme/XILINX/WEBPACK_6P3.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block ctrl_byte_check, actual ratio is 0.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s200ft256-5 
+
+ Number of Slices:                      19  out of   1920     0%  
+ Number of Slice Flip Flops:            23  out of   3840     0%  
+ Number of 4 input LUTs:                32  out of   3840     0%  
+ Number of bonded IOBs:                 31  out of    173    17%  
+ Number of GCLKs:                        2  out of      8    25%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+CLK                                | BUFGP                  | 20    |
+CLK_IO                             | BUFGP                  | 3     |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 8.366ns (Maximum Frequency: 119.531MHz)
+   Minimum input arrival time before clock: 4.117ns
+   Maximum output required time after clock: 7.187ns
+   Maximum combinational path delay: 7.385ns
+
+=========================================================================
+Completed process "Synthesize".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd in Library work.
+Entity <ctrl_byte_check> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <ctrl_byte_check> (Architecture <behavioral>).
+WARNING:Xst:819 - c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd line 171: The following signals are missing in the process sensitivity list:
+   BYTE_COUNT.
+Entity <ctrl_byte_check> analyzed. Unit <ctrl_byte_check> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <ctrl_byte_check>.
+    Related source file is c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd.
+    Found 8-bit adder for signal <$n0011> created at line 149.
+    Found 1-bit register for signal <BYTE_CMPLT_S>.
+    Found 8-bit register for signal <BYTE_COUNT>.
+    Found 8-bit register for signal <BYTE_COUNT_M>.
+    Found 1-bit register for signal <NEXT_BYTE_S>.
+    Found 1-bit register for signal <PARITY_OK_S>.
+    Found 2-bit register for signal <SV>.
+    Found 2-bit register for signal <SV_M>.
+    Found 8 1-bit 2-to-1 multiplexers.
+    Summary:
+	inferred  23 D-type flip-flop(s).
+	inferred   1 Adder/Subtracter(s).
+	inferred   8 Multiplexer(s).
+Unit <ctrl_byte_check> synthesized.
+
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors               : 1
+ 8-bit adder                       : 1
+# Registers                        : 7
+ 8-bit register                    : 2
+ 2-bit register                    : 2
+ 1-bit register                    : 3
+# Multiplexers                     : 8
+ 1-bit 2-to-1 multiplexer          : 8
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <ctrl_byte_check> ...
+Loading device for application Xst from file '3s200.nph' in environment C:/Programme/XILINX/WEBPACK_6P3.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block ctrl_byte_check, actual ratio is 0.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s200ft256-5 
+
+ Number of Slices:                      19  out of   1920     0%  
+ Number of Slice Flip Flops:            23  out of   3840     0%  
+ Number of 4 input LUTs:                32  out of   3840     0%  
+ Number of bonded IOBs:                 31  out of    173    17%  
+ Number of GCLKs:                        2  out of      8    25%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+CLK                                | BUFGP                  | 20    |
+CLK_IO                             | BUFGP                  | 3     |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 8.366ns (Maximum Frequency: 119.531MHz)
+   Minimum input arrival time before clock: 4.117ns
+   Maximum output required time after clock: 7.187ns
+   Maximum combinational path delay: 7.385ns
+
+=========================================================================
+Completed process "Synthesize".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd in Library work.
+Entity <ctrl_byte_check> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <ctrl_byte_check> (Architecture <behavioral>).
+Entity <ctrl_byte_check> analyzed. Unit <ctrl_byte_check> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <ctrl_byte_check>.
+    Related source file is c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd.
+    Found 8-bit adder for signal <$n0011> created at line 149.
+    Found 1-bit register for signal <BYTE_CMPLT_S>.
+    Found 8-bit register for signal <BYTE_COUNT>.
+    Found 8-bit register for signal <BYTE_COUNT_M>.
+    Found 1-bit register for signal <NEXT_BYTE_S>.
+    Found 1-bit register for signal <PARITY_OK_S>.
+    Found 2-bit register for signal <SV>.
+    Found 2-bit register for signal <SV_M>.
+    Found 8 1-bit 2-to-1 multiplexers.
+    Summary:
+	inferred  23 D-type flip-flop(s).
+	inferred   1 Adder/Subtracter(s).
+	inferred   8 Multiplexer(s).
+Unit <ctrl_byte_check> synthesized.
+
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors               : 1
+ 8-bit adder                       : 1
+# Registers                        : 7
+ 8-bit register                    : 2
+ 2-bit register                    : 2
+ 1-bit register                    : 3
+# Multiplexers                     : 8
+ 1-bit 2-to-1 multiplexer          : 8
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <ctrl_byte_check> ...
+Loading device for application Xst from file '3s200.nph' in environment C:/Programme/XILINX/WEBPACK_6P3.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block ctrl_byte_check, actual ratio is 0.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s200ft256-5 
+
+ Number of Slices:                      19  out of   1920     0%  
+ Number of Slice Flip Flops:            23  out of   3840     0%  
+ Number of 4 input LUTs:                32  out of   3840     0%  
+ Number of bonded IOBs:                 31  out of    173    17%  
+ Number of GCLKs:                        2  out of      8    25%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+CLK                                | BUFGP                  | 20    |
+CLK_IO                             | BUFGP                  | 3     |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 8.366ns (Maximum Frequency: 119.531MHz)
+   Minimum input arrival time before clock: 4.117ns
+   Maximum output required time after clock: 7.187ns
+   Maximum combinational path delay: 7.385ns
+
+=========================================================================
+Completed process "Synthesize".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file C:/STUDY/UEBUNG/Studium/Profibus/CTRL_BYTE_CHECK/CTRL_BYTE_CHECK.vhd in Library work.
+Entity <ctrl_byte_check> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <ctrl_byte_check> (Architecture <behavioral>).
+Entity <ctrl_byte_check> analyzed. Unit <ctrl_byte_check> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <ctrl_byte_check>.
+    Related source file is C:/STUDY/UEBUNG/Studium/Profibus/CTRL_BYTE_CHECK/CTRL_BYTE_CHECK.vhd.
+    Using one-hot encoding for signal <SV>.
+    Found 8-bit adder for signal <$n0007> created at line 140.
+    Found 1-bit register for signal <BYTE_CMPLT_S>.
+    Found 8-bit register for signal <BYTE_COUNT>.
+    Found 8-bit register for signal <BYTE_COUNT_M>.
+    Found 1-bit register for signal <NEXT_BYTE_S>.
+    Found 1-bit register for signal <PARITY_OK_S>.
+    Found 3-bit register for signal <SV>.
+    Found 3-bit register for signal <SV_M>.
+    Summary:
+	inferred  19 D-type flip-flop(s).
+	inferred   1 Adder/Subtracter(s).
+Unit <ctrl_byte_check> synthesized.
+
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors               : 1
+ 8-bit adder                       : 1
+# Registers                        : 7
+ 8-bit register                    : 2
+ 1-bit register                    : 3
+ 3-bit register                    : 2
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <ctrl_byte_check> ...
+Loading device for application Xst from file '3s200.nph' in environment C:/Programme/XILINX/WEBPACK_6P3.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block ctrl_byte_check, actual ratio is 0.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s200ft256-5 
+
+ Number of Slices:                      20  out of   1920     1%  
+ Number of Slice Flip Flops:            25  out of   3840     0%  
+ Number of 4 input LUTs:                25  out of   3840     0%  
+ Number of bonded IOBs:                 14  out of    173     8%  
+ Number of GCLKs:                        2  out of      8    25%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+CLK                                | BUFGP                  | 22    |
+CLK_IO                             | BUFGP                  | 3     |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 8.262ns (Maximum Frequency: 121.036MHz)
+   Minimum input arrival time before clock: 4.176ns
+   Maximum output required time after clock: 6.527ns
+   Maximum combinational path delay: No path found
+
+=========================================================================
+Completed process "Synthesize".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+deleting ctrl_byte_check.lso
+deleting ctrl_byte_check.syr
+deleting ctrl_byte_check.prj
+deleting ctrl_byte_check.sprj
+deleting ctrl_byte_check.ana
+deleting ctrl_byte_check.stx
+deleting ctrl_byte_check.cmd_log
+deleting ctrl_byte_check.lso
+deleting ctrl_byte_check.syr
+deleting ctrl_byte_check.prj
+deleting ctrl_byte_check.sprj
+deleting ctrl_byte_check.ana
+deleting ctrl_byte_check.stx
+deleting ctrl_byte_check.cmd_log
+deleting ctrl_byte_check.lso
+deleting ctrl_byte_check.syr
+deleting ctrl_byte_check.prj
+deleting ctrl_byte_check.sprj
+deleting ctrl_byte_check.ana
+deleting ctrl_byte_check.stx
+deleting ctrl_byte_check.cmd_log
+deleting ctrl_byte_check.lso
+deleting ctrl_byte_check.syr
+deleting ctrl_byte_check.prj
+deleting ctrl_byte_check.sprj
+deleting ctrl_byte_check.ana
+deleting ctrl_byte_check.stx
+deleting ctrl_byte_check.cmd_log
+deleting ctrl_byte_check.lso
+deleting ctrl_byte_check.syr
+deleting ctrl_byte_check.prj
+deleting ctrl_byte_check.sprj
+deleting ctrl_byte_check.ana
+deleting ctrl_byte_check.stx
+deleting ctrl_byte_check.cmd_log
+deleting ctrl_byte_check.lso
+deleting ctrl_byte_check.syr
+deleting ctrl_byte_check.prj
+deleting ctrl_byte_check.sprj
+deleting ctrl_byte_check.ana
+deleting ctrl_byte_check.stx
+deleting ctrl_byte_check.cmd_log
+deleting ctrl_byte_check.lso
+deleting ctrl_byte_check.syr
+deleting ctrl_byte_check.prj
+deleting ctrl_byte_check.sprj
+deleting ctrl_byte_check.ana
+deleting ctrl_byte_check.stx
+deleting ctrl_byte_check.cmd_log
+deleting ctrl_byte_check.ngc
+deleting ctrl_byte_check.ngr
+deleting ctrl_byte_check.lso
+deleting ctrl_byte_check.syr
+deleting ctrl_byte_check.prj
+deleting ctrl_byte_check.sprj
+deleting ctrl_byte_check.ana
+deleting ctrl_byte_check.stx
+deleting ctrl_byte_check.cmd_log
+deleting ctrl_byte_check.ngc
+deleting ctrl_byte_check.ngr
+deleting ctrl_byte_check.lso
+deleting ctrl_byte_check.syr
+deleting ctrl_byte_check.prj
+deleting ctrl_byte_check.sprj
+deleting ctrl_byte_check.ana
+deleting ctrl_byte_check.stx
+deleting ctrl_byte_check.cmd_log
+deleting ctrl_byte_check.ngc
+deleting ctrl_byte_check.ngr
+deleting ctrl_byte_check.lso
+deleting ctrl_byte_check.syr
+deleting ctrl_byte_check.prj
+deleting ctrl_byte_check.sprj
+deleting ctrl_byte_check.ana
+deleting ctrl_byte_check.stx
+deleting ctrl_byte_check.cmd_log
+deleting ctrl_byte_check.ngc
+deleting ctrl_byte_check.ngr
+deleting ctrl_byte_check.lso
+deleting ctrl_byte_check.syr
+deleting ctrl_byte_check.prj
+deleting ctrl_byte_check.sprj
+deleting ctrl_byte_check.ana
+deleting ctrl_byte_check.stx
+deleting ctrl_byte_check.cmd_log
+deleting ctrl_byte_check.ngc
+deleting ctrl_byte_check.ngr
+deleting ctrl_byte_check.lso
+deleting ctrl_byte_check.syr
+deleting ctrl_byte_check.prj
+deleting ctrl_byte_check.sprj
+deleting ctrl_byte_check.ana
+deleting ctrl_byte_check.stx
+deleting ctrl_byte_check.cmd_log
+deleting ctrl_byte_check.ngc
+deleting ctrl_byte_check.ngr
+deleting ctrl_byte_check.prj
+deleting ctrl_byte_check.prj
+deleting __projnav/ctrl_byte_check.xst
+deleting ./xst
+deleting ctrl_byte_check.prj
+deleting ctrl_byte_check.prj
+deleting __projnav/ctrl_byte_check.xst
+deleting ./xst
+deleting ctrl_byte_check.prj
+deleting ctrl_byte_check.prj
+deleting __projnav/ctrl_byte_check.xst
+deleting ./xst
+deleting ctrl_byte_check.prj
+deleting ctrl_byte_check.prj
+deleting __projnav/ctrl_byte_check.xst
+deleting ./xst
+deleting ctrl_byte_check.prj
+deleting ctrl_byte_check.prj
+deleting __projnav/ctrl_byte_check.xst
+deleting ./xst
+deleting ctrl_byte_check.prj
+deleting ctrl_byte_check.prj
+deleting __projnav/ctrl_byte_check.xst
+deleting ./xst
+deleting ctrl_byte_check.prj
+deleting ctrl_byte_check.prj
+deleting __projnav/ctrl_byte_check.xst
+deleting ./xst
+deleting ctrl_byte_check.prj
+deleting ctrl_byte_check.prj
+deleting __projnav/ctrl_byte_check.xst
+deleting ./xst
+deleting ctrl_byte_check.prj
+deleting ctrl_byte_check.prj
+deleting __projnav/ctrl_byte_check.xst
+deleting ./xst
+deleting ctrl_byte_check.prj
+deleting ctrl_byte_check.prj
+deleting __projnav/ctrl_byte_check.xst
+deleting ./xst
+deleting ctrl_byte_check.prj
+deleting ctrl_byte_check.prj
+deleting __projnav/ctrl_byte_check.xst
+deleting ./xst
+deleting ctrl_byte_check.prj
+deleting ctrl_byte_check.prj
+deleting __projnav/ctrl_byte_check.xst
+deleting ./xst
+deleting __projnav/CTRL_BYTE_CHECK.gfl
+deleting __projnav/CTRL_BYTE_CHECK_flowplus.gfl
+Finished cleaning up project
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file C:/STUDY/UEBUNG/Studium/Profibus/CTRL_BYTE_CHECK/CTRL_BYTE_CHECK.vhd in Library work.
+Entity <ctrl_byte_check> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <ctrl_byte_check> (Architecture <behavioral>).
+Entity <ctrl_byte_check> analyzed. Unit <ctrl_byte_check> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <ctrl_byte_check>.
+    Related source file is C:/STUDY/UEBUNG/Studium/Profibus/CTRL_BYTE_CHECK/CTRL_BYTE_CHECK.vhd.
+    Using one-hot encoding for signal <SV>.
+    Found 8-bit adder for signal <$n0007> created at line 139.
+    Found 1-bit register for signal <BYTE_CMPLT_S>.
+    Found 8-bit register for signal <BYTE_COUNT>.
+    Found 8-bit register for signal <BYTE_COUNT_M>.
+    Found 1-bit register for signal <PARITY_OK_S>.
+    Found 3-bit register for signal <SV>.
+    Found 3-bit register for signal <SV_M>.
+    Summary:
+	inferred  18 D-type flip-flop(s).
+	inferred   1 Adder/Subtracter(s).
+Unit <ctrl_byte_check> synthesized.
+
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors               : 1
+ 8-bit adder                       : 1
+# Registers                        : 6
+ 8-bit register                    : 2
+ 1-bit register                    : 2
+ 3-bit register                    : 2
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <ctrl_byte_check> ...
+Loading device for application Xst from file '3s200.nph' in environment C:/Programme/XILINX/WEBPACK_6P3.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block ctrl_byte_check, actual ratio is 0.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s200ft256-5 
+
+ Number of Slices:                      20  out of   1920     1%  
+ Number of Slice Flip Flops:            24  out of   3840     0%  
+ Number of 4 input LUTs:                25  out of   3840     0%  
+ Number of bonded IOBs:                 14  out of    173     8%  
+ Number of GCLKs:                        2  out of      8    25%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+CLK                                | BUFGP                  | 22    |
+CLK_IO                             | BUFGP                  | 2     |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 8.262ns (Maximum Frequency: 121.036MHz)
+   Minimum input arrival time before clock: 4.176ns
+   Maximum output required time after clock: 6.527ns
+   Maximum combinational path delay: No path found
+
+=========================================================================
+Completed process "Synthesize".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file C:/STUDY/UEBUNG/Studium/Profibus/CTRL_BYTE_CHECK/CTRL_BYTE_CHECK.vhd in Library work.
+Entity <ctrl_byte_check> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <ctrl_byte_check> (Architecture <behavioral>).
+Entity <ctrl_byte_check> analyzed. Unit <ctrl_byte_check> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <ctrl_byte_check>.
+    Related source file is C:/STUDY/UEBUNG/Studium/Profibus/CTRL_BYTE_CHECK/CTRL_BYTE_CHECK.vhd.
+    Using one-hot encoding for signal <SV>.
+    Found 8-bit adder for signal <$n0007> created at line 137.
+    Found 8-bit register for signal <BYTE_COUNT>.
+    Found 8-bit register for signal <BYTE_COUNT_M>.
+    Found 1-bit register for signal <PARITY_OK_S>.
+    Found 3-bit register for signal <SV>.
+    Found 3-bit register for signal <SV_M>.
+    Summary:
+	inferred  17 D-type flip-flop(s).
+	inferred   1 Adder/Subtracter(s).
+Unit <ctrl_byte_check> synthesized.
+
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors               : 1
+ 8-bit adder                       : 1
+# Registers                        : 5
+ 8-bit register                    : 2
+ 1-bit register                    : 1
+ 3-bit register                    : 2
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <ctrl_byte_check> ...
+Loading device for application Xst from file '3s200.nph' in environment C:/Programme/XILINX/WEBPACK_6P3.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block ctrl_byte_check, actual ratio is 0.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s200ft256-5 
+
+ Number of Slices:                      19  out of   1920     0%  
+ Number of Slice Flip Flops:            23  out of   3840     0%  
+ Number of 4 input LUTs:                25  out of   3840     0%  
+ Number of bonded IOBs:                 14  out of    173     8%  
+ Number of GCLKs:                        2  out of      8    25%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+CLK                                | BUFGP                  | 22    |
+CLK_IO                             | BUFGP                  | 1     |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 8.262ns (Maximum Frequency: 121.036MHz)
+   Minimum input arrival time before clock: 4.176ns
+   Maximum output required time after clock: 6.527ns
+   Maximum combinational path delay: No path found
+
+=========================================================================
+Completed process "Synthesize".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file C:/STUDY/UEBUNG/Studium/Profibus/CTRL_BYTE_CHECK/CTRL_BYTE_CHECK.vhd in Library work.
+Entity <ctrl_byte_check> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <ctrl_byte_check> (Architecture <behavioral>).
+Entity <ctrl_byte_check> analyzed. Unit <ctrl_byte_check> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <ctrl_byte_check>.
+    Related source file is C:/STUDY/UEBUNG/Studium/Profibus/CTRL_BYTE_CHECK/CTRL_BYTE_CHECK.vhd.
+    Using one-hot encoding for signal <SV>.
+    Found 8-bit adder for signal <$n0007> created at line 119.
+    Found 8-bit register for signal <BYTE_COUNT>.
+    Found 8-bit register for signal <BYTE_COUNT_M>.
+    Found 3-bit register for signal <SV>.
+    Found 3-bit register for signal <SV_M>.
+    Summary:
+	inferred  16 D-type flip-flop(s).
+	inferred   1 Adder/Subtracter(s).
+Unit <ctrl_byte_check> synthesized.
+
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors               : 1
+ 8-bit adder                       : 1
+# Registers                        : 4
+ 8-bit register                    : 2
+ 3-bit register                    : 2
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <ctrl_byte_check> ...
+Loading device for application Xst from file '3s200.nph' in environment C:/Programme/XILINX/WEBPACK_6P3.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block ctrl_byte_check, actual ratio is 0.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s200ft256-5 
+
+ Number of Slices:                      19  out of   1920     0%  
+ Number of Slice Flip Flops:            22  out of   3840     0%  
+ Number of 4 input LUTs:                24  out of   3840     0%  
+ Number of bonded IOBs:                 14  out of    173     8%  
+ Number of GCLKs:                        1  out of      8    12%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+CLK                                | BUFGP                  | 22    |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 8.262ns (Maximum Frequency: 121.036MHz)
+   Minimum input arrival time before clock: 4.176ns
+   Maximum output required time after clock: 6.527ns
+   Maximum combinational path delay: 7.580ns
+
+=========================================================================
+Completed process "Synthesize".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+deleting ctrl_byte_check.lso
+deleting ctrl_byte_check.syr
+deleting ctrl_byte_check.prj
+deleting ctrl_byte_check.sprj
+deleting ctrl_byte_check.ana
+deleting ctrl_byte_check.stx
+deleting ctrl_byte_check.cmd_log
+deleting ctrl_byte_check.lso
+deleting ctrl_byte_check.syr
+deleting ctrl_byte_check.prj
+deleting ctrl_byte_check.sprj
+deleting ctrl_byte_check.ana
+deleting ctrl_byte_check.stx
+deleting ctrl_byte_check.cmd_log
+deleting ctrl_byte_check.lso
+deleting ctrl_byte_check.syr
+deleting ctrl_byte_check.prj
+deleting ctrl_byte_check.sprj
+deleting ctrl_byte_check.ana
+deleting ctrl_byte_check.stx
+deleting ctrl_byte_check.cmd_log
+deleting ctrl_byte_check.lso
+deleting ctrl_byte_check.syr
+deleting ctrl_byte_check.prj
+deleting ctrl_byte_check.sprj
+deleting ctrl_byte_check.ana
+deleting ctrl_byte_check.stx
+deleting ctrl_byte_check.cmd_log
+deleting ctrl_byte_check.lso
+deleting ctrl_byte_check.syr
+deleting ctrl_byte_check.prj
+deleting ctrl_byte_check.sprj
+deleting ctrl_byte_check.ana
+deleting ctrl_byte_check.stx
+deleting ctrl_byte_check.cmd_log
+deleting ctrl_byte_check.lso
+deleting ctrl_byte_check.syr
+deleting ctrl_byte_check.prj
+deleting ctrl_byte_check.sprj
+deleting ctrl_byte_check.ana
+deleting ctrl_byte_check.stx
+deleting ctrl_byte_check.cmd_log
+deleting ctrl_byte_check.lso
+deleting ctrl_byte_check.syr
+deleting ctrl_byte_check.prj
+deleting ctrl_byte_check.sprj
+deleting ctrl_byte_check.ana
+deleting ctrl_byte_check.stx
+deleting ctrl_byte_check.cmd_log
+deleting ctrl_byte_check.ngc
+deleting ctrl_byte_check.ngr
+deleting ctrl_byte_check.lso
+deleting ctrl_byte_check.syr
+deleting ctrl_byte_check.prj
+deleting ctrl_byte_check.sprj
+deleting ctrl_byte_check.ana
+deleting ctrl_byte_check.stx
+deleting ctrl_byte_check.cmd_log
+deleting ctrl_byte_check.ngc
+deleting ctrl_byte_check.ngr
+deleting ctrl_byte_check.lso
+deleting ctrl_byte_check.syr
+deleting ctrl_byte_check.prj
+deleting ctrl_byte_check.sprj
+deleting ctrl_byte_check.ana
+deleting ctrl_byte_check.stx
+deleting ctrl_byte_check.cmd_log
+deleting ctrl_byte_check.ngc
+deleting ctrl_byte_check.ngr
+deleting ctrl_byte_check.lso
+deleting ctrl_byte_check.syr
+deleting ctrl_byte_check.prj
+deleting ctrl_byte_check.sprj
+deleting ctrl_byte_check.ana
+deleting ctrl_byte_check.stx
+deleting ctrl_byte_check.cmd_log
+deleting ctrl_byte_check.ngc
+deleting ctrl_byte_check.ngr
+deleting ctrl_byte_check.lso
+deleting ctrl_byte_check.syr
+deleting ctrl_byte_check.prj
+deleting ctrl_byte_check.sprj
+deleting ctrl_byte_check.ana
+deleting ctrl_byte_check.stx
+deleting ctrl_byte_check.cmd_log
+deleting ctrl_byte_check.ngc
+deleting ctrl_byte_check.ngr
+deleting ctrl_byte_check.lso
+deleting ctrl_byte_check.syr
+deleting ctrl_byte_check.prj
+deleting ctrl_byte_check.sprj
+deleting ctrl_byte_check.ana
+deleting ctrl_byte_check.stx
+deleting ctrl_byte_check.cmd_log
+deleting ctrl_byte_check.ngc
+deleting ctrl_byte_check.ngr
+deleting ctrl_byte_check.lso
+deleting ctrl_byte_check.syr
+deleting ctrl_byte_check.prj
+deleting ctrl_byte_check.sprj
+deleting ctrl_byte_check.ana
+deleting ctrl_byte_check.stx
+deleting ctrl_byte_check.cmd_log
+deleting ctrl_byte_check.ngc
+deleting ctrl_byte_check.ngr
+deleting ctrl_byte_check.lso
+deleting ctrl_byte_check.syr
+deleting ctrl_byte_check.prj
+deleting ctrl_byte_check.sprj
+deleting ctrl_byte_check.ana
+deleting ctrl_byte_check.stx
+deleting ctrl_byte_check.cmd_log
+deleting ctrl_byte_check.ngc
+deleting ctrl_byte_check.ngr
+deleting ctrl_byte_check.prj
+deleting ctrl_byte_check.prj
+deleting __projnav/ctrl_byte_check.xst
+deleting ./xst
+deleting ctrl_byte_check.prj
+deleting ctrl_byte_check.prj
+deleting __projnav/ctrl_byte_check.xst
+deleting ./xst
+deleting ctrl_byte_check.prj
+deleting ctrl_byte_check.prj
+deleting __projnav/ctrl_byte_check.xst
+deleting ./xst
+deleting ctrl_byte_check.prj
+deleting ctrl_byte_check.prj
+deleting __projnav/ctrl_byte_check.xst
+deleting ./xst
+deleting ctrl_byte_check.prj
+deleting ctrl_byte_check.prj
+deleting __projnav/ctrl_byte_check.xst
+deleting ./xst
+deleting ctrl_byte_check.prj
+deleting ctrl_byte_check.prj
+deleting __projnav/ctrl_byte_check.xst
+deleting ./xst
+deleting ctrl_byte_check.prj
+deleting ctrl_byte_check.prj
+deleting __projnav/ctrl_byte_check.xst
+deleting ./xst
+deleting ctrl_byte_check.prj
+deleting ctrl_byte_check.prj
+deleting __projnav/ctrl_byte_check.xst
+deleting ./xst
+deleting ctrl_byte_check.prj
+deleting ctrl_byte_check.prj
+deleting __projnav/ctrl_byte_check.xst
+deleting ./xst
+deleting ctrl_byte_check.prj
+deleting ctrl_byte_check.prj
+deleting __projnav/ctrl_byte_check.xst
+deleting ./xst
+deleting ctrl_byte_check.prj
+deleting ctrl_byte_check.prj
+deleting __projnav/ctrl_byte_check.xst
+deleting ./xst
+deleting ctrl_byte_check.prj
+deleting ctrl_byte_check.prj
+deleting __projnav/ctrl_byte_check.xst
+deleting ./xst
+deleting ctrl_byte_check.prj
+deleting ctrl_byte_check.prj
+deleting __projnav/ctrl_byte_check.xst
+deleting ./xst
+deleting ctrl_byte_check.prj
+deleting ctrl_byte_check.prj
+deleting __projnav/ctrl_byte_check.xst
+deleting ./xst
+deleting __projnav/CTRL_BYTE_CHECK.gfl
+deleting __projnav/CTRL_BYTE_CHECK_flowplus.gfl
+Finished cleaning up project
+

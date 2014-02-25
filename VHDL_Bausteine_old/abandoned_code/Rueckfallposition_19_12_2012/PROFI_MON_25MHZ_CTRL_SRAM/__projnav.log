@@ -1,0 +1,517 @@
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+Started process "Create Schematic Symbol".
+
+Compiling vhdl file
+c:/study/uebung/studium/profibus/profi_mon_25mhz_ctrl_sram/SRAM_25MHZ_255_BYTE.v
+hd in Library work.
+Entity <SRAM_25MHZ_255_BYTE> (Architecture <Behavioral>) compiled.
+tdtfi(vhdl) completed successfully.
+
+
+Release 6.3.03i - spl2sym G.35
+Copyright (c) 1995-2004 Xilinx, Inc.  All rights reserved.
+Completed process "Create Schematic Symbol".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file c:/study/uebung/studium/profibus/profi_mon_25mhz_ctrl_sram/SRAM_25MHZ_255_BYTE.vhd in Library work.
+Architecture behavioral of Entity sram_25mhz_255_byte is up to date.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <sram_25mhz_255_byte> (Architecture <behavioral>).
+Entity <sram_25mhz_255_byte> analyzed. Unit <sram_25mhz_255_byte> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <sram_25mhz_255_byte>.
+    Related source file is c:/study/uebung/studium/profibus/profi_mon_25mhz_ctrl_sram/SRAM_25MHZ_255_BYTE.vhd.
+    Found 16-bit tristate buffer for signal <COUNT_DAT_INOUT>.
+    Found 19-bit addsub for signal <$n0024> created at line 143.
+    Found 16-bit subtractor for signal <$n0041> created at line 191.
+    Found 19-bit register for signal <COUNT_ADR>.
+    Found 19-bit register for signal <COUNT_ADR_M>.
+    Found 16-bit register for signal <COUNT_DAT>.
+    Found 16-bit register for signal <COUNT_DAT_M>.
+    Found 1-bit register for signal <GO_S>.
+    Found 1-bit register for signal <MINUS_S>.
+    Found 1-bit register for signal <PLUS_S>.
+    Found 4-bit register for signal <SV>.
+    Found 4-bit register for signal <SV_M>.
+    Found 1-bit register for signal <WRITE_M>.
+    Found 16 1-bit 2-to-1 multiplexers.
+    Summary:
+	inferred  82 D-type flip-flop(s).
+	inferred   2 Adder/Subtracter(s).
+	inferred  16 Multiplexer(s).
+	inferred  16 Tristate(s).
+Unit <sram_25mhz_255_byte> synthesized.
+
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors               : 2
+ 16-bit subtractor                 : 1
+ 19-bit addsub                     : 1
+# Registers                        : 10
+ 16-bit register                   : 2
+ 19-bit register                   : 2
+ 4-bit register                    : 2
+ 1-bit register                    : 4
+# Multiplexers                     : 16
+ 1-bit 2-to-1 multiplexer          : 16
+# Tristates                        : 1
+ 16-bit tristate buffer            : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <sram_25mhz_255_byte> ...
+Loading device for application Xst from file '3s200.nph' in environment C:/Programme/XILINX/WEBPACK_6P3.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block sram_25mhz_255_byte, actual ratio is 5.
+FlipFlop SV_2 has been replicated 1 time(s)
+FlipFlop SV_3 has been replicated 2 time(s)
+FlipFlop SV_1 has been replicated 1 time(s)
+FlipFlop SV_0 has been replicated 2 time(s)
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s200ft256-5 
+
+ Number of Slices:                      96  out of   1920     5%  
+ Number of Slice Flip Flops:            88  out of   3840     2%  
+ Number of 4 input LUTs:               175  out of   3840     4%  
+ Number of bonded IOBs:                 64  out of    173    36%  
+ Number of GCLKs:                        2  out of      8    25%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+CLK                                | BUFGP                  | 85    |
+CLK_IO                             | BUFGP                  | 3     |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 12.810ns (Maximum Frequency: 78.064MHz)
+   Minimum input arrival time before clock: 5.037ns
+   Maximum output required time after clock: 10.709ns
+   Maximum combinational path delay: 7.385ns
+
+=========================================================================
+Completed process "Synthesize".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+Started process "Create Schematic Symbol".
+
+Compiling vhdl file
+c:/study/uebung/studium/profibus/profi_mon_25mhz_ctrl_sram/SRAM_25MHZ_255_BYTE.v
+hd in Library work.
+Entity <sram_25mhz_255_byte> (Architecture <behavioral>) compiled.
+tdtfi(vhdl) completed successfully.
+
+
+Release 6.3.03i - spl2sym G.35
+Copyright (c) 1995-2004 Xilinx, Inc.  All rights reserved.
+Completed process "Create Schematic Symbol".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file c:/study/uebung/studium/profibus/profi_mon_25mhz_ctrl_sram/CTRL_9P6_50MHZ.vhd in Library work.
+Entity <CTRL_9P6_50MHZ_VHDL> (Architecture <Behavioral>) compiled.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <ctrl_9p6_50mhz_vhdl> (Architecture <Behavioral>).
+Entity <ctrl_9p6_50mhz_vhdl> analyzed. Unit <ctrl_9p6_50mhz_vhdl> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <ctrl_9p6_50mhz_vhdl>.
+    Related source file is c:/study/uebung/studium/profibus/profi_mon_25mhz_ctrl_sram/CTRL_9P6_50MHZ.vhd.
+    Found 20-bit adder for signal <$n0075> created at line 606.
+    Found 16-bit adder for signal <$n0076> created at line 606.
+    Found 16-bit comparator equal for signal <$n0087> created at line 850.
+    Found 16-bit comparator equal for signal <$n0089> created at line 890.
+    Found 16-bit comparator equal for signal <$n0091> created at line 930.
+    Found 16-bit comparator equal for signal <$n0093> created at line 970.
+    Found 16-bit comparator equal for signal <$n0095> created at line 1010.
+    Found 16-bit comparator equal for signal <$n0097> created at line 1050.
+    Found 16-bit comparator equal for signal <$n0099> created at line 1090.
+    Found 16-bit comparator equal for signal <$n0101> created at line 1130.
+    Found 16-bit comparator equal for signal <$n0103> created at line 1170.
+    Found 20-bit comparator equal for signal <$n0180> created at line 648.
+    Found 16-bit comparator equal for signal <$n0183> created at line 730.
+    Found 16-bit comparator equal for signal <$n0187> created at line 1210.
+    Found 16-bit comparator equal for signal <$n0189> created at line 1330.
+    Found 16-bit comparator equal for signal <$n0192> created at line 1410.
+    Found 1-bit xor9 for signal <$n0218> created at line 1482.
+    Found 20-bit register for signal <COUNT_L>.
+    Found 20-bit register for signal <COUNT_L_M>.
+    Found 16-bit register for signal <COUNT_S>.
+    Found 16-bit register for signal <COUNT_S_M>.
+    Found 1-bit register for signal <InAB_S>.
+    Found 5-bit register for signal <SV>.
+    Found 1-bit register for signal <SV_BR_BIT0<0>>.
+    Found 1-bit register for signal <SV_BR_BIT0_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT1<0>>.
+    Found 1-bit register for signal <SV_BR_BIT1_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT2<0>>.
+    Found 1-bit register for signal <SV_BR_BIT2_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT3<0>>.
+    Found 1-bit register for signal <SV_BR_BIT3_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT4<0>>.
+    Found 1-bit register for signal <SV_BR_BIT4_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT5<0>>.
+    Found 1-bit register for signal <SV_BR_BIT5_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT6<0>>.
+    Found 1-bit register for signal <SV_BR_BIT6_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT7<0>>.
+    Found 1-bit register for signal <SV_BR_BIT7_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT8<0>>.
+    Found 1-bit register for signal <SV_BR_BIT8_M<0>>.
+    Found 5-bit register for signal <SV_M>.
+    Summary:
+	inferred 101 D-type flip-flop(s).
+	inferred   2 Adder/Subtracter(s).
+	inferred  14 Comparator(s).
+	inferred   1 Xor(s).
+Unit <ctrl_9p6_50mhz_vhdl> synthesized.
+
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors               : 2
+ 16-bit adder                      : 1
+ 20-bit adder                      : 1
+# Registers                        : 25
+ 16-bit register                   : 2
+ 20-bit register                   : 2
+ 1-bit register                    : 19
+ 5-bit register                    : 2
+# Comparators                      : 14
+ 20-bit comparator equal           : 1
+ 16-bit comparator equal           : 13
+# Xors                             : 1
+ 1-bit xor9                        : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <ctrl_9p6_50mhz_vhdl> ...
+Loading device for application Xst from file '3s200.nph' in environment C:/Programme/XILINX/WEBPACK_6P3.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block ctrl_9p6_50mhz_vhdl, actual ratio is 9.
+FlipFlop SV_4 has been replicated 1 time(s)
+FlipFlop SV_2 has been replicated 1 time(s)
+FlipFlop SV_1 has been replicated 1 time(s)
+FlipFlop SV_0 has been replicated 1 time(s)
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s200ft256-5 
+
+ Number of Slices:                     158  out of   1920     8%  
+ Number of Slice Flip Flops:           105  out of   3840     2%  
+ Number of 4 input LUTs:               280  out of   3840     7%  
+ Number of bonded IOBs:                 36  out of    173    20%  
+ Number of GCLKs:                        2  out of      8    25%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+CLK                                | BUFGP                  | 104   |
+CLK_IO                             | BUFGP                  | 1     |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 12.611ns (Maximum Frequency: 79.296MHz)
+   Minimum input arrival time before clock: 7.608ns
+   Maximum output required time after clock: 11.160ns
+   Maximum combinational path delay: 12.553ns
+
+=========================================================================
+Completed process "Synthesize".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+Started process "Create Schematic Symbol".
+
+Compiling vhdl file
+c:/study/uebung/studium/profibus/profi_mon_25mhz_ctrl_sram/CTRL_9P6_50MHZ.vhd in
+Library work.
+Entity <ctrl_9p6_50mhz_vhdl> (Architecture <behavioral>) compiled.
+tdtfi(vhdl) completed successfully.
+
+
+Release 6.3.03i - spl2sym G.35
+Copyright (c) 1995-2004 Xilinx, Inc.  All rights reserved.
+Completed process "Create Schematic Symbol".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+deleting __projnav/profi_mon_25mhz_ctrl_sram_jhdparse_tcl.rsp
+deleting __projnav/tb.rsp
+deleting sram_25mhz_255_byte.spl
+deleting __projnav/vhd2spl.err
+deleting sram_25mhz_255_byte.lso
+deleting sram_25mhz_255_byte.syr
+deleting sram_25mhz_255_byte.prj
+deleting sram_25mhz_255_byte.sprj
+deleting sram_25mhz_255_byte.ana
+deleting sram_25mhz_255_byte.stx
+deleting sram_25mhz_255_byte.cmd_log
+deleting sram_25mhz_255_byte.ngc
+deleting sram_25mhz_255_byte.ngr
+deleting __projnav/tb.rsp
+deleting sram_25mhz_255_byte.spl
+deleting __projnav/vhd2spl.err
+deleting ctrl_9p6_50mhz_vhdl.lso
+deleting ctrl_9p6_50mhz_vhdl.syr
+deleting ctrl_9p6_50mhz_vhdl.prj
+deleting ctrl_9p6_50mhz_vhdl.sprj
+deleting ctrl_9p6_50mhz_vhdl.ana
+deleting ctrl_9p6_50mhz_vhdl.stx
+deleting ctrl_9p6_50mhz_vhdl.cmd_log
+deleting ctrl_9p6_50mhz_vhdl.ngc
+deleting ctrl_9p6_50mhz_vhdl.ngr
+deleting __projnav/tb.rsp
+deleting ctrl_9p6_50mhz_vhdl.spl
+deleting __projnav/vhd2spl.err
+deleting sram_25mhz_255_byte.prj
+deleting sram_25mhz_255_byte.prj
+deleting __projnav/sram_25mhz_255_byte.xst
+deleting ./xst
+deleting ctrl_9p6_50mhz_vhdl.prj
+deleting ctrl_9p6_50mhz_vhdl.prj
+deleting __projnav/ctrl_9p6_50mhz_vhdl.xst
+deleting ./xst
+deleting __projnav/PROFI_MON_25MHZ_CTRL_SRAM.gfl
+deleting __projnav/PROFI_MON_25MHZ_CTRL_SRAM_flowplus.gfl
+Finished cleaning up project
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+Started process "Create Schematic Symbol".
+
+Compiling vhdl file
+c:/study/uebung/studium/profibus/profi_mon_25mhz_ctrl_sram/CTRL_9P6_50MHZ.vhd in
+Library work.
+Entity <CTRL_9P6_50MHZ_VHDL> (Architecture <Behavioral>) compiled.
+tdtfi(vhdl) completed successfully.
+
+
+Release 6.3.03i - spl2sym G.35
+Copyright (c) 1995-2004 Xilinx, Inc.  All rights reserved.
+Completed process "Create Schematic Symbol".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+Started process "Create Schematic Symbol".
+
+Compiling vhdl file
+c:/study/uebung/studium/profibus/profi_mon_25mhz_ctrl_sram/SRAM_25MHZ_255_BYTE.v
+hd in Library work.
+Entity <SRAM_25MHZ_255_BYTE> (Architecture <Behavioral>) compiled.
+tdtfi(vhdl) completed successfully.
+
+
+Release 6.3.03i - spl2sym G.35
+Copyright (c) 1995-2004 Xilinx, Inc.  All rights reserved.
+Completed process "Create Schematic Symbol".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+Started process "Create Schematic Symbol".
+
+Compiling vhdl file
+c:/study/uebung/studium/profibus/profi_mon_25mhz_ctrl_sram/NIB4_7SEG_SRC.vhd in
+Library work.
+Entity <NIB4_7SEG_SRC> (Architecture <Behavioral>) compiled.
+tdtfi(vhdl) completed successfully.
+
+
+Release 6.3.03i - spl2sym G.35
+Copyright (c) 1995-2004 Xilinx, Inc.  All rights reserved.
+Completed process "Create Schematic Symbol".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+Started process "Create Schematic Symbol".
+
+Compiling vhdl file
+c:/study/uebung/studium/profibus/profi_mon_25mhz_ctrl_sram/F_DIV50000_SRC.vhd in
+Library work.
+Entity <F_DIV50000> (Architecture <Behavioral>) compiled.
+tdtfi(vhdl) completed successfully.
+
+
+Release 6.3.03i - spl2sym G.35
+Copyright (c) 1995-2004 Xilinx, Inc.  All rights reserved.
+Completed process "Create Schematic Symbol".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+Started process "Create Schematic Symbol".
+
+Compiling vhdl file
+c:/study/uebung/studium/profibus/profi_mon_25mhz_ctrl_sram/DEB_50MZ_100MS_SRC.vh
+d in Library work.
+Entity <DEB_50MZ_100MS_SRC> (Architecture <Behavioral>) compiled.
+tdtfi(vhdl) completed successfully.
+
+
+Release 6.3.03i - spl2sym G.35
+Copyright (c) 1995-2004 Xilinx, Inc.  All rights reserved.
+Completed process "Create Schematic Symbol".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+Started process "Create Schematic Symbol".
+
+Compiling vhdl file
+c:/study/uebung/studium/profibus/profi_mon_25mhz_ctrl_sram/CLOCK_SINGLE_RUN_SRC.
+vhd in Library work.
+Entity <CLOCK_SINGLE_RUN_SRC> (Architecture <Behavioral>) compiled.
+tdtfi(vhdl) completed successfully.
+
+
+Release 6.3.03i - spl2sym G.35
+Copyright (c) 1995-2004 Xilinx, Inc.  All rights reserved.
+Completed process "Create Schematic Symbol".
+
+

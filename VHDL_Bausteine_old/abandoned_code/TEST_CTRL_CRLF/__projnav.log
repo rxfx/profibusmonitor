@@ -1,0 +1,947 @@
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+Started process "Create Schematic Symbol".
+
+Compiling vhdl file
+c:/study/uebung/studium/profibus/test_ctrl_crlf/CLOCK_SINGLE_RUN_SRC.vhd in
+Library work.
+Entity <CLOCK_SINGLE_RUN_SRC> (Architecture <Behavioral>) compiled.
+tdtfi(vhdl) completed successfully.
+
+
+Release 6.3.03i - spl2sym G.35
+Copyright (c) 1995-2004 Xilinx, Inc.  All rights reserved.
+Completed process "Create Schematic Symbol".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+Started process "Create Schematic Symbol".
+
+Compiling vhdl file
+c:/study/uebung/studium/profibus/test_ctrl_crlf/CTRL_CRLF_VHDL.vhd in Library
+work.
+Entity <CTRL_CRLF_VHDL> (Architecture <Behavioral>) compiled.
+tdtfi(vhdl) completed successfully.
+
+
+Release 6.3.03i - spl2sym G.35
+Copyright (c) 1995-2004 Xilinx, Inc.  All rights reserved.
+Completed process "Create Schematic Symbol".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+Started process "Create Schematic Symbol".
+
+Compiling vhdl file
+c:/study/uebung/studium/profibus/test_ctrl_crlf/DEB_50MZ_100MS_SRC.vhd in
+Library work.
+Entity <DEB_50MZ_100MS_SRC> (Architecture <Behavioral>) compiled.
+tdtfi(vhdl) completed successfully.
+
+
+Release 6.3.03i - spl2sym G.35
+Copyright (c) 1995-2004 Xilinx, Inc.  All rights reserved.
+Completed process "Create Schematic Symbol".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+Started process "Create Schematic Symbol".
+
+Compiling vhdl file
+c:/study/uebung/studium/profibus/test_ctrl_crlf/F_DIV50000_SRC.vhd in Library
+work.
+Entity <F_DIV50000> (Architecture <Behavioral>) compiled.
+tdtfi(vhdl) completed successfully.
+
+
+Release 6.3.03i - spl2sym G.35
+Copyright (c) 1995-2004 Xilinx, Inc.  All rights reserved.
+Completed process "Create Schematic Symbol".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+Started process "Create Schematic Symbol".
+
+Compiling vhdl file
+c:/study/uebung/studium/profibus/test_ctrl_crlf/NIB4_7SEG_SRC.vhd in Library
+work.
+Entity <NIB4_7SEG_SRC> (Architecture <Behavioral>) compiled.
+tdtfi(vhdl) completed successfully.
+
+
+Release 6.3.03i - spl2sym G.35
+Copyright (c) 1995-2004 Xilinx, Inc.  All rights reserved.
+Completed process "Create Schematic Symbol".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+Started process "View VHDL Functional Model".
+
+Release 6.3.03i - sch2vhdl G.35
+Copyright (c) 1995-2004 Xilinx, Inc.  All rights reserved.
+DRC Check completed: No Error found.
+Vhdl netlist file generated.
+Completed process "View VHDL Functional Model".
+
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file c:/study/uebung/studium/profibus/test_ctrl_crlf/CTRL_CRLF_VHDL.vhd in Library work.
+Architecture behavioral of Entity ctrl_crlf_vhdl is up to date.
+Compiling vhdl file c:/study/uebung/studium/profibus/test_ctrl_crlf/NIB4_7SEG_SRC.vhd in Library work.
+Architecture behavioral of Entity nib4_7seg_src is up to date.
+Compiling vhdl file c:/study/uebung/studium/profibus/test_ctrl_crlf/CLOCK_SINGLE_RUN_SRC.vhd in Library work.
+Architecture behavioral of Entity clock_single_run_src is up to date.
+Compiling vhdl file c:/study/uebung/studium/profibus/test_ctrl_crlf/DEB_50MZ_100MS_SRC.vhd in Library work.
+Architecture behavioral of Entity deb_50mz_100ms_src is up to date.
+Compiling vhdl file c:/study/uebung/studium/profibus/test_ctrl_crlf/F_DIV50000_SRC.vhd in Library work.
+Architecture behavioral of Entity f_div50000 is up to date.
+Compiling vhdl file c:/study/uebung/studium/profibus/test_ctrl_crlf/TEST_CTRL_CRLF_SCHEMATIC.vhf in Library work.
+Entity <test_ctrl_crlf_schematic> (Architecture <BEHAVIORAL>) compiled.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <test_ctrl_crlf_schematic> (Architecture <BEHAVIORAL>).
+Entity <test_ctrl_crlf_schematic> analyzed. Unit <test_ctrl_crlf_schematic> generated.
+
+Analyzing Entity <ctrl_crlf_vhdl> (Architecture <behavioral>).
+Entity <ctrl_crlf_vhdl> analyzed. Unit <ctrl_crlf_vhdl> generated.
+
+Analyzing Entity <nib4_7seg_src> (Architecture <behavioral>).
+INFO:Xst:1561 - c:/study/uebung/studium/profibus/test_ctrl_crlf/NIB4_7SEG_SRC.vhd line 74: Mux is complete : default of case is discarded
+INFO:Xst:1561 - c:/study/uebung/studium/profibus/test_ctrl_crlf/NIB4_7SEG_SRC.vhd line 100: Mux is complete : default of case is discarded
+Entity <nib4_7seg_src> analyzed. Unit <nib4_7seg_src> generated.
+
+Analyzing Entity <clock_single_run_src> (Architecture <behavioral>).
+Entity <clock_single_run_src> analyzed. Unit <clock_single_run_src> generated.
+
+Analyzing Entity <deb_50mz_100ms_src> (Architecture <behavioral>).
+Entity <deb_50mz_100ms_src> analyzed. Unit <deb_50mz_100ms_src> generated.
+
+Analyzing Entity <f_div50000> (Architecture <behavioral>).
+Entity <f_div50000> analyzed. Unit <f_div50000> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <f_div50000>.
+    Related source file is c:/study/uebung/studium/profibus/test_ctrl_crlf/F_DIV50000_SRC.vhd.
+    Found 32-bit comparator less for signal <$n0002> created at line 28.
+    Found 32-bit down counter for signal <COUNTER>.
+    Summary:
+	inferred   1 Counter(s).
+	inferred   1 Comparator(s).
+Unit <f_div50000> synthesized.
+
+
+Synthesizing Unit <deb_50mz_100ms_src>.
+    Related source file is c:/study/uebung/studium/profibus/test_ctrl_crlf/DEB_50MZ_100MS_SRC.vhd.
+    Found 24-bit adder for signal <$n0009> created at line 61.
+    Found 24-bit comparator greatequal for signal <$n0014> created at line 65.
+    Found 24-bit subtractor for signal <$n0016> created at line 83.
+    Found 24-bit register for signal <COUNT_DEB>.
+    Found 24-bit register for signal <COUNT_DEB_M>.
+    Found 1-bit register for signal <IN_DEB_S>.
+    Found 1-bit register for signal <SV<0>>.
+    Found 1-bit register for signal <SV_M<0>>.
+    Found 1 1-bit 2-to-1 multiplexers.
+    Summary:
+	inferred  51 D-type flip-flop(s).
+	inferred   2 Adder/Subtracter(s).
+	inferred   1 Comparator(s).
+	inferred   1 Multiplexer(s).
+Unit <deb_50mz_100ms_src> synthesized.
+
+
+Synthesizing Unit <clock_single_run_src>.
+    Related source file is c:/study/uebung/studium/profibus/test_ctrl_crlf/CLOCK_SINGLE_RUN_SRC.vhd.
+    Using one-hot encoding for signal <SV>.
+    Found 1-bit register for signal <RUN_S>.
+    Found 3-bit register for signal <SV>.
+    Found 3-bit register for signal <SV_M>.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+Unit <clock_single_run_src> synthesized.
+
+
+Synthesizing Unit <nib4_7seg_src>.
+    Related source file is c:/study/uebung/studium/profibus/test_ctrl_crlf/NIB4_7SEG_SRC.vhd.
+    Found 16x7-bit ROM for signal <$n0004>.
+    Found 2-bit up counter for signal <COUNTER>.
+    Found 4-bit 4-to-1 multiplexer for signal <NIB_ANZ>.
+    Summary:
+	inferred   1 ROM(s).
+	inferred   1 Counter(s).
+	inferred   4 Multiplexer(s).
+Unit <nib4_7seg_src> synthesized.
+
+
+Synthesizing Unit <ctrl_crlf_vhdl>.
+    Related source file is c:/study/uebung/studium/profibus/test_ctrl_crlf/CTRL_CRLF_VHDL.vhd.
+    Found 8-bit register for signal <BYTE_IN_S>.
+    Found 1-bit register for signal <BYTE_OK_S>.
+    Found 2-bit register for signal <SV>.
+    Found 2-bit register for signal <SV_M>.
+    Found 1-bit register for signal <T_CMPLT_S>.
+    Summary:
+	inferred  14 D-type flip-flop(s).
+Unit <ctrl_crlf_vhdl> synthesized.
+
+
+Synthesizing Unit <test_ctrl_crlf_schematic>.
+    Related source file is c:/study/uebung/studium/profibus/test_ctrl_crlf/TEST_CTRL_CRLF_SCHEMATIC.vhf.
+Unit <test_ctrl_crlf_schematic> synthesized.
+
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# ROMs                             : 1
+ 16x7-bit ROM                      : 1
+# Adders/Subtractors               : 2
+ 24-bit subtractor                 : 1
+ 24-bit adder                      : 1
+# Counters                         : 2
+ 2-bit up counter                  : 1
+ 32-bit down counter               : 1
+# Registers                        : 13
+ 2-bit register                    : 2
+ 8-bit register                    : 1
+ 1-bit register                    : 6
+ 24-bit register                   : 2
+ 3-bit register                    : 2
+# Comparators                      : 2
+ 24-bit comparator greatequal      : 1
+ 32-bit comparator less            : 1
+# Multiplexers                     : 2
+ 4-bit 4-to-1 multiplexer          : 1
+ 1-bit 2-to-1 multiplexer          : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <test_ctrl_crlf_schematic> ...
+
+Optimizing unit <ctrl_crlf_vhdl> ...
+
+Optimizing unit <deb_50mz_100ms_src> ...
+
+Optimizing unit <clock_single_run_src> ...
+
+Optimizing unit <f_div50000> ...
+Loading device for application Xst from file '3s200.nph' in environment C:/Programme/XILINX/WEBPACK_6P3.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block test_ctrl_crlf_schematic, actual ratio is 7.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s200ft256-5 
+
+ Number of Slices:                     122  out of   1920     6%  
+ Number of Slice Flip Flops:           106  out of   3840     2%  
+ Number of 4 input LUTs:               204  out of   3840     5%  
+ Number of bonded IOBs:                 32  out of    173    18%  
+ Number of GCLKs:                        1  out of      8    12%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+F_50MHZ_T9                         | BUFGP                  | 104   |
+XLXI_5_GE_stage_cyo(XLXI_5_GE_stagecy:O)| NONE(*)(XLXI_2_COUNTER_1)| 2     |
+-----------------------------------+------------------------+-------+
+(*) This 1 clock signal(s) are generated by combinatorial logic,
+and XST is not able to identify which are the primary clock signals.
+Please use the CLOCK_SIGNAL constraint to specify the clock signal(s) generated by combinatorial logic.
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 14.911ns (Maximum Frequency: 67.065MHz)
+   Minimum input arrival time before clock: 2.095ns
+   Maximum output required time after clock: 8.614ns
+   Maximum combinational path delay: No path found
+
+=========================================================================
+Completed process "Synthesize".
+
+
+
+Started process "Translate".
+
+
+Command Line: ngdbuild -intstyle ise -dd
+c:\study\uebung\studium\profibus\test_ctrl_crlf/_ngo -i -p xc3s200-ft256-5
+test_ctrl_crlf_schematic.ngc test_ctrl_crlf_schematic.ngd 
+
+Reading NGO file
+"c:/study/uebung/studium/profibus/test_ctrl_crlf/test_ctrl_crlf_schematic.ngc"
+...
+Reading component libraries for design expansion...
+
+Checking timing specifications ...
+Checking expanded design ...
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Total memory usage is 38884 kilobytes
+
+Writing NGD file "test_ctrl_crlf_schematic.ngd" ...
+
+Writing NGDBUILD log file "test_ctrl_crlf_schematic.bld"...
+
+NGDBUILD done.
+Completed process "Translate".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+Started process "View VHDL Functional Model".
+
+Release 6.3.03i - sch2vhdl G.35
+Copyright (c) 1995-2004 Xilinx, Inc.  All rights reserved.
+DRC Check completed: No Error found.
+Vhdl netlist file generated.
+Completed process "View VHDL Functional Model".
+
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file c:/study/uebung/studium/profibus/test_ctrl_crlf/CTRL_CRLF_VHDL.vhd in Library work.
+Architecture behavioral of Entity ctrl_crlf_vhdl is up to date.
+Compiling vhdl file c:/study/uebung/studium/profibus/test_ctrl_crlf/NIB4_7SEG_SRC.vhd in Library work.
+Architecture behavioral of Entity nib4_7seg_src is up to date.
+Compiling vhdl file c:/study/uebung/studium/profibus/test_ctrl_crlf/CLOCK_SINGLE_RUN_SRC.vhd in Library work.
+Architecture behavioral of Entity clock_single_run_src is up to date.
+Compiling vhdl file c:/study/uebung/studium/profibus/test_ctrl_crlf/DEB_50MZ_100MS_SRC.vhd in Library work.
+Architecture behavioral of Entity deb_50mz_100ms_src is up to date.
+Compiling vhdl file c:/study/uebung/studium/profibus/test_ctrl_crlf/F_DIV50000_SRC.vhd in Library work.
+Architecture behavioral of Entity f_div50000 is up to date.
+Compiling vhdl file c:/study/uebung/studium/profibus/test_ctrl_crlf/TEST_CTRL_CRLF_SCHEMATIC.vhf in Library work.
+Entity <test_ctrl_crlf_schematic> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <test_ctrl_crlf_schematic> (Architecture <behavioral>).
+Entity <test_ctrl_crlf_schematic> analyzed. Unit <test_ctrl_crlf_schematic> generated.
+
+Analyzing Entity <ctrl_crlf_vhdl> (Architecture <behavioral>).
+Entity <ctrl_crlf_vhdl> analyzed. Unit <ctrl_crlf_vhdl> generated.
+
+Analyzing Entity <nib4_7seg_src> (Architecture <behavioral>).
+INFO:Xst:1561 - c:/study/uebung/studium/profibus/test_ctrl_crlf/NIB4_7SEG_SRC.vhd line 74: Mux is complete : default of case is discarded
+INFO:Xst:1561 - c:/study/uebung/studium/profibus/test_ctrl_crlf/NIB4_7SEG_SRC.vhd line 100: Mux is complete : default of case is discarded
+Entity <nib4_7seg_src> analyzed. Unit <nib4_7seg_src> generated.
+
+Analyzing Entity <clock_single_run_src> (Architecture <behavioral>).
+Entity <clock_single_run_src> analyzed. Unit <clock_single_run_src> generated.
+
+Analyzing Entity <deb_50mz_100ms_src> (Architecture <behavioral>).
+Entity <deb_50mz_100ms_src> analyzed. Unit <deb_50mz_100ms_src> generated.
+
+Analyzing Entity <f_div50000> (Architecture <behavioral>).
+Entity <f_div50000> analyzed. Unit <f_div50000> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <f_div50000>.
+    Related source file is c:/study/uebung/studium/profibus/test_ctrl_crlf/F_DIV50000_SRC.vhd.
+    Found 32-bit comparator less for signal <$n0002> created at line 28.
+    Found 32-bit down counter for signal <COUNTER>.
+    Summary:
+	inferred   1 Counter(s).
+	inferred   1 Comparator(s).
+Unit <f_div50000> synthesized.
+
+
+Synthesizing Unit <deb_50mz_100ms_src>.
+    Related source file is c:/study/uebung/studium/profibus/test_ctrl_crlf/DEB_50MZ_100MS_SRC.vhd.
+    Found 24-bit adder for signal <$n0009> created at line 61.
+    Found 24-bit comparator greatequal for signal <$n0014> created at line 65.
+    Found 24-bit subtractor for signal <$n0016> created at line 83.
+    Found 24-bit register for signal <COUNT_DEB>.
+    Found 24-bit register for signal <COUNT_DEB_M>.
+    Found 1-bit register for signal <IN_DEB_S>.
+    Found 1-bit register for signal <SV<0>>.
+    Found 1-bit register for signal <SV_M<0>>.
+    Found 1 1-bit 2-to-1 multiplexers.
+    Summary:
+	inferred  51 D-type flip-flop(s).
+	inferred   2 Adder/Subtracter(s).
+	inferred   1 Comparator(s).
+	inferred   1 Multiplexer(s).
+Unit <deb_50mz_100ms_src> synthesized.
+
+
+Synthesizing Unit <clock_single_run_src>.
+    Related source file is c:/study/uebung/studium/profibus/test_ctrl_crlf/CLOCK_SINGLE_RUN_SRC.vhd.
+    Using one-hot encoding for signal <SV>.
+    Found 1-bit register for signal <RUN_S>.
+    Found 3-bit register for signal <SV>.
+    Found 3-bit register for signal <SV_M>.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+Unit <clock_single_run_src> synthesized.
+
+
+Synthesizing Unit <nib4_7seg_src>.
+    Related source file is c:/study/uebung/studium/profibus/test_ctrl_crlf/NIB4_7SEG_SRC.vhd.
+    Found 16x7-bit ROM for signal <$n0004>.
+    Found 2-bit up counter for signal <COUNTER>.
+    Found 4-bit 4-to-1 multiplexer for signal <NIB_ANZ>.
+    Summary:
+	inferred   1 ROM(s).
+	inferred   1 Counter(s).
+	inferred   4 Multiplexer(s).
+Unit <nib4_7seg_src> synthesized.
+
+
+Synthesizing Unit <ctrl_crlf_vhdl>.
+    Related source file is c:/study/uebung/studium/profibus/test_ctrl_crlf/CTRL_CRLF_VHDL.vhd.
+    Found 8-bit register for signal <BYTE_IN_S>.
+    Found 1-bit register for signal <BYTE_OK_S>.
+    Found 2-bit register for signal <SV>.
+    Found 2-bit register for signal <SV_M>.
+    Found 1-bit register for signal <T_CMPLT_S>.
+    Summary:
+	inferred  14 D-type flip-flop(s).
+Unit <ctrl_crlf_vhdl> synthesized.
+
+
+Synthesizing Unit <test_ctrl_crlf_schematic>.
+    Related source file is c:/study/uebung/studium/profibus/test_ctrl_crlf/TEST_CTRL_CRLF_SCHEMATIC.vhf.
+Unit <test_ctrl_crlf_schematic> synthesized.
+
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# ROMs                             : 1
+ 16x7-bit ROM                      : 1
+# Adders/Subtractors               : 2
+ 24-bit subtractor                 : 1
+ 24-bit adder                      : 1
+# Counters                         : 2
+ 2-bit up counter                  : 1
+ 32-bit down counter               : 1
+# Registers                        : 13
+ 2-bit register                    : 2
+ 8-bit register                    : 1
+ 1-bit register                    : 6
+ 24-bit register                   : 2
+ 3-bit register                    : 2
+# Comparators                      : 2
+ 24-bit comparator greatequal      : 1
+ 32-bit comparator less            : 1
+# Multiplexers                     : 2
+ 4-bit 4-to-1 multiplexer          : 1
+ 1-bit 2-to-1 multiplexer          : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <test_ctrl_crlf_schematic> ...
+
+Optimizing unit <ctrl_crlf_vhdl> ...
+
+Optimizing unit <deb_50mz_100ms_src> ...
+
+Optimizing unit <clock_single_run_src> ...
+
+Optimizing unit <f_div50000> ...
+Loading device for application Xst from file '3s200.nph' in environment C:/Programme/XILINX/WEBPACK_6P3.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block test_ctrl_crlf_schematic, actual ratio is 7.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s200ft256-5 
+
+ Number of Slices:                     122  out of   1920     6%  
+ Number of Slice Flip Flops:           106  out of   3840     2%  
+ Number of 4 input LUTs:               204  out of   3840     5%  
+ Number of bonded IOBs:                 32  out of    173    18%  
+ Number of GCLKs:                        1  out of      8    12%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+F_50MHZ_T9                         | BUFGP                  | 104   |
+XLXI_5_GE_stage_cyo(XLXI_5_GE_stagecy:O)| NONE(*)(XLXI_2_COUNTER_1)| 2     |
+-----------------------------------+------------------------+-------+
+(*) This 1 clock signal(s) are generated by combinatorial logic,
+and XST is not able to identify which are the primary clock signals.
+Please use the CLOCK_SIGNAL constraint to specify the clock signal(s) generated by combinatorial logic.
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 14.911ns (Maximum Frequency: 67.065MHz)
+   Minimum input arrival time before clock: 2.095ns
+   Maximum output required time after clock: 8.614ns
+   Maximum combinational path delay: No path found
+
+=========================================================================
+Completed process "Synthesize".
+
+
+
+Started process "Translate".
+
+
+Command Line: ngdbuild -intstyle ise -dd
+c:\study\uebung\studium\profibus\test_ctrl_crlf/_ngo -uc
+test_ctrl_crlf_schematic.ucf -p xc3s200-ft256-5 test_ctrl_crlf_schematic.ngc
+test_ctrl_crlf_schematic.ngd 
+
+Reading NGO file
+"c:/study/uebung/studium/profibus/test_ctrl_crlf/test_ctrl_crlf_schematic.ngc"
+...
+Reading component libraries for design expansion...
+
+Annotating constraints to design from file "test_ctrl_crlf_schematic.ucf" ...
+
+Checking timing specifications ...
+Checking expanded design ...
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Total memory usage is 40932 kilobytes
+
+Writing NGD file "test_ctrl_crlf_schematic.ngd" ...
+
+Writing NGDBUILD log file "test_ctrl_crlf_schematic.bld"...
+
+NGDBUILD done.
+Completed process "Translate".
+
+
+
+Started process "Map".
+
+Using target part "3s200ft256-5".
+Removing unused or disabled logic...
+Running cover...
+Running directed packing...
+Running delay-based LUT packing...
+Running related packing...
+
+Design Summary:
+Number of errors:      0
+Number of warnings:    0
+Logic Utilization:
+  Number of Slice Flip Flops:          94 out of   3,840    2%
+  Number of 4 input LUTs:             172 out of   3,840    4%
+Logic Distribution:
+  Number of occupied Slices:                          132 out of   1,920    6%
+    Number of Slices containing only related logic:     132 out of     132  100%
+    Number of Slices containing unrelated logic:          0 out of     132    0%
+      *See NOTES below for an explanation of the effects of unrelated logic
+Total Number 4 input LUTs:            204 out of   3,840    5%
+  Number used as logic:                172
+  Number used as a route-thru:          32
+  Number of bonded IOBs:               33 out of     173   19%
+    IOB Flip Flops:                    12
+  Number of GCLKs:                     1 out of       8   12%
+
+Total equivalent gate count for design:  2,426
+Additional JTAG gate count for IOBs:  1,584
+Peak Memory Usage:  70 MB
+
+NOTES:
+
+   Related logic is defined as being logic that shares connectivity -
+   e.g. two LUTs are "related" if they share common inputs.
+   When assembling slices, Map gives priority to combine logic that
+   is related.  Doing so results in the best timing performance.
+
+   Unrelated logic shares no connectivity.  Map will only begin
+   packing unrelated logic into a slice once 99% of the slices are
+   occupied through related logic packing.
+
+   Note that once logic distribution reaches the 99% level through
+   related logic packing, this does not mean the device is completely
+   utilized.  Unrelated logic packing will then begin, continuing until
+   all usable LUTs and FFs are occupied.  Depending on your timing
+   budget, increased levels of unrelated logic packing may adversely
+   affect the overall timing performance of your design.
+
+
+Mapping completed.
+See MAP report file "test_ctrl_crlf_schematic_map.mrp" for details.
+Completed process "Map".
+
+Mapping Module test_ctrl_crlf_schematic . . .
+MAP command line:
+map -intstyle ise -p xc3s200-ft256-5 -cm area -pr b -k 4 -c 100 -tx off -o test_ctrl_crlf_schematic_map.ncd test_ctrl_crlf_schematic.ngd test_ctrl_crlf_schematic.pcf
+Mapping Module test_ctrl_crlf_schematic: DONE
+
+
+
+Started process "Place & Route".
+
+
+
+
+
+Constraints file: test_ctrl_crlf_schematic.pcf
+
+Loading device database for application Par from file
+"test_ctrl_crlf_schematic_map.ncd".
+   "test_ctrl_crlf_schematic" is an NCD, version 2.38, device xc3s200, package
+ft256, speed -5
+Loading device for application Par from file '3s200.nph' in environment
+C:/Programme/XILINX/WEBPACK_6P3.
+Device speed data version:  ADVANCED 1.35 2004-11-11.
+
+
+Resolving physical constraints.
+Finished resolving physical constraints.
+
+Device utilization summary:
+
+   Number of External IOBs            33 out of 173    19%
+      Number of LOCed External IOBs   31 out of 33     93%
+
+   Number of Slices                  132 out of 1920    6%
+
+   Number of BUFGMUXs                  1 out of 8      12%
+
+
+
+Overall effort level (-ol):   Standard (set by user)
+Placer effort level (-pl):    Standard (set by user)
+Placer cost table entry (-t): 1
+Router effort level (-rl):    Standard (set by user)
+
+
+Phase 1.1
+Phase 1.1 (Checksum:989949) REAL time: 0 secs 
+
+.
+Phase 3.3
+Phase 3.3 (Checksum:1c9c37d) REAL time: 0 secs 
+
+Phase 4.5
+Phase 4.5 (Checksum:26259fc) REAL time: 0 secs 
+
+Phase 5.8
+...................
+Phase 5.8 (Checksum:9a7c88) REAL time: 0 secs 
+
+Phase 6.5
+Phase 6.5 (Checksum:39386fa) REAL time: 0 secs 
+
+Phase 7.18
+Phase 7.18 (Checksum:42c1d79) REAL time: 0 secs 
+
+Writing design to file test_ctrl_crlf_schematic.ncd.
+
+Total REAL time to Placer completion: 2 secs 
+Total CPU time to Placer completion: 1 secs 
+
+
+Phase 1: 701 unrouted;       REAL time: 2 secs 
+
+Phase 2: 619 unrouted;       REAL time: 2 secs 
+
+Phase 3: 219 unrouted;       REAL time: 2 secs 
+
+Phase 4: 0 unrouted;       REAL time: 2 secs 
+
+Total REAL time to Router completion: 2 secs 
+Total CPU time to Router completion: 1 secs 
+
+Generating "par" statistics.
+
+**************************
+Generating Clock Report
+**************************
+
++-------------------------+----------+------+------+------------+-------------+
+|        Clock Net        | Resource |Locked|Fanout|Net Skew(ns)|Max Delay(ns)|
++-------------------------+----------+------+------+------------+-------------+
+|  F_50MHZ_T9_BUFGP       |  BUFGMUX0| No   |   73 |  0.036     |  0.917      |
++-------------------------+----------+------+------+------------+-------------+
+|     XLXI_5_GE_stage_cyo |   Local  |      |    2 |  0.001     |  1.880      |
++-------------------------+----------+------+------+------------+-------------+
+
+Generating Pad Report.
+
+All signals are completely routed.
+
+Total REAL time to PAR completion: 2 secs 
+Total CPU time to PAR completion: 1 secs 
+
+Peak Memory Usage:  60 MB
+
+Placement: Completed - No errors found.
+Routing: Completed - No errors found.
+
+Writing design to file test_ctrl_crlf_schematic.ncd.
+
+
+PAR done.
+Completed process "Place & Route".
+
+
+Started process "Generate Post-Place & Route Static Timing".
+
+
+Analysis completed Fri Jan 11 16:59:40 2013
+--------------------------------------------------------------------------------
+
+Generating Report ...
+
+Completed process "Generate Post-Place & Route Static Timing".
+
+Place & Route Module test_ctrl_crlf_schematic . . .
+PAR command line: par -w -intstyle ise -ol std -t 1 test_ctrl_crlf_schematic_map.ncd test_ctrl_crlf_schematic.ncd test_ctrl_crlf_schematic.pcf
+PAR completed successfully
+
+
+
+
+Started process "Generate Programming File".
+
+Completed process "Generate Programming File".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+deleting __projnav/TEST_CTRL_CRLF_SCHEMATIC_jhdparse_tcl.rsp
+deleting __projnav/tb.rsp
+deleting clock_single_run_src.spl
+deleting __projnav/vhd2spl.err
+deleting __projnav/tb.rsp
+deleting ctrl_crlf_vhdl.spl
+deleting __projnav/vhd2spl.err
+deleting __projnav/tb.rsp
+deleting deb_50mz_100ms_src.spl
+deleting __projnav/vhd2spl.err
+deleting __projnav/tb.rsp
+deleting f_div50000.spl
+deleting __projnav/vhd2spl.err
+deleting __projnav/tb.rsp
+deleting nib4_7seg_src.spl
+deleting __projnav/vhd2spl.err
+deleting __projnav/TEST_CTRL_CRLF_SCHEMATIC_jhdparse_tcl.rsp
+deleting test_ctrl_crlf_schematic.vhf
+deleting test_ctrl_crlf_schematic.cmd_log
+deleting test_ctrl_crlf_schematic.lso
+deleting test_ctrl_crlf_schematic.syr
+deleting test_ctrl_crlf_schematic.prj
+deleting test_ctrl_crlf_schematic.sprj
+deleting test_ctrl_crlf_schematic.ana
+deleting test_ctrl_crlf_schematic.stx
+deleting test_ctrl_crlf_schematic.cmd_log
+deleting test_ctrl_crlf_schematic.ngc
+deleting test_ctrl_crlf_schematic.ngr
+deleting __projnav/ngdbuild.err
+deleting __projnav/ednTOngd_tcl.rsp
+deleting c:\study\uebung\studium\profibus\test_ctrl_crlf/_ngo
+deleting test_ctrl_crlf_schematic.ngd
+deleting test_ctrl_crlf_schematic_ngdbuild.nav
+deleting test_ctrl_crlf_schematic.bld
+deleting .untf
+deleting test_ctrl_crlf_schematic.cmd_log
+deleting __projnav/parentAssignPackagePinsApp_tcl.rsp
+deleting test_ctrl_crlf_schematic.vhf
+deleting test_ctrl_crlf_schematic.cmd_log
+deleting test_ctrl_crlf_schematic.lso
+deleting test_ctrl_crlf_schematic.syr
+deleting test_ctrl_crlf_schematic.prj
+deleting test_ctrl_crlf_schematic.sprj
+deleting test_ctrl_crlf_schematic.ana
+deleting test_ctrl_crlf_schematic.stx
+deleting test_ctrl_crlf_schematic.cmd_log
+deleting test_ctrl_crlf_schematic.ngc
+deleting test_ctrl_crlf_schematic.ngr
+deleting __projnav/ngdbuild.err
+deleting __projnav/ednTOngd_tcl.rsp
+deleting c:\study\uebung\studium\profibus\test_ctrl_crlf/_ngo
+deleting test_ctrl_crlf_schematic.ngd
+deleting test_ctrl_crlf_schematic_ngdbuild.nav
+deleting test_ctrl_crlf_schematic.bld
+deleting test_ctrl_crlf_schematic.ucf.untf
+deleting test_ctrl_crlf_schematic.cmd_log
+deleting test_ctrl_crlf_schematic_map.ncd
+deleting test_ctrl_crlf_schematic.ngm
+deleting test_ctrl_crlf_schematic.pcf
+deleting test_ctrl_crlf_schematic.nc1
+deleting test_ctrl_crlf_schematic.mrp
+deleting test_ctrl_crlf_schematic_map.mrp
+deleting test_ctrl_crlf_schematic.mdf
+deleting __projnav/map.log
+deleting test_ctrl_crlf_schematic.cmd_log
+deleting __projnav/ncdTOtwr_tcl.rsp
+deleting __projnav/posttrc.log
+deleting test_ctrl_crlf_schematic.twr
+deleting test_ctrl_crlf_schematic.twx
+deleting test_ctrl_crlf_schematic.tsi
+deleting test_ctrl_crlf_schematic.cmd_log
+deleting __projnav/nc1TOncd_tcl.rsp
+deleting test_ctrl_crlf_schematic.ncd
+deleting test_ctrl_crlf_schematic.par
+deleting test_ctrl_crlf_schematic.pad
+deleting test_ctrl_crlf_schematic_pad.txt
+deleting test_ctrl_crlf_schematic_pad.csv
+deleting test_ctrl_crlf_schematic.pad_txt
+deleting test_ctrl_crlf_schematic.dly
+deleting reportgen.log
+deleting test_ctrl_crlf_schematic.xpi
+deleting test_ctrl_crlf_schematic.grf
+deleting test_ctrl_crlf_schematic.itr
+deleting test_ctrl_crlf_schematic_last_par.ncd
+deleting __projnav/par.log
+deleting test_ctrl_crlf_schematic.placed_ncd_tracker
+deleting test_ctrl_crlf_schematic.routed_ncd_tracker
+deleting test_ctrl_crlf_schematic.cmd_log
+deleting __projnav/test_ctrl_crlf_schematic_ncdTOut_tcl.rsp
+deleting __projnav/bitgen.rsp
+deleting bitgen.ut
+deleting test_ctrl_crlf_schematic.ut
+deleting test_ctrl_crlf_schematic.bgn
+deleting test_ctrl_crlf_schematic.rbt
+deleting test_ctrl_crlf_schematic.ll
+deleting test_ctrl_crlf_schematic.msk
+deleting test_ctrl_crlf_schematic.drc
+deleting test_ctrl_crlf_schematic.nky
+deleting test_ctrl_crlf_schematic.bit
+deleting test_ctrl_crlf_schematic.bin
+deleting test_ctrl_crlf_schematic.isc
+deleting test_ctrl_crlf_schematic.cmd_log
+deleting test_ctrl_crlf_schematic.prm
+deleting test_ctrl_crlf_schematic.isc
+deleting test_ctrl_crlf_schematic.svf
+deleting xilinx.sys
+deleting test_ctrl_crlf_schematic.mcs
+deleting test_ctrl_crlf_schematic.exo
+deleting test_ctrl_crlf_schematic.hex
+deleting test_ctrl_crlf_schematic.tek
+deleting test_ctrl_crlf_schematic.dst
+deleting test_ctrl_crlf_schematic.dst_compressed
+deleting test_ctrl_crlf_schematic.mpm
+deleting _impact.cmd
+deleting _impact.log
+deleting test_ctrl_crlf_schematic.prj
+deleting test_ctrl_crlf_schematic.prj
+deleting __projnav/test_ctrl_crlf_schematic.xst
+deleting ./xst
+deleting test_ctrl_crlf_schematic.prj
+deleting test_ctrl_crlf_schematic.prj
+deleting __projnav/test_ctrl_crlf_schematic.xst
+deleting ./xst
+deleting __projnav/TEST_CTRL_CRLF.gfl
+deleting __projnav/TEST_CTRL_CRLF_flowplus.gfl
+Finished cleaning up project
+

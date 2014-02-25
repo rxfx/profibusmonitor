@@ -1,0 +1,8 @@
+V1 3
+FL c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd 2012/12/19.17:14:50
+EN work/CTRL_BYTE_CHECK \
+      FL c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd \
+      PB ieee/STD_LOGIC_1164 PB ieee/STD_LOGIC_ARITH PB ieee/STD_LOGIC_UNSIGNED
+AR work/CTRL_BYTE_CHECK/BEHAVIORAL \
+      FL c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd \
+      EN work/CTRL_BYTE_CHECK

@@ -1,0 +1,4 @@
+Mapping Module test2_sram_25mhz_255_byte . . .
+MAP command line:
+map -intstyle ise -p xc3s200-ft256-5 -cm area -pr b -k 4 -c 100 -tx off -o test2_sram_25mhz_255_byte_map.ncd test2_sram_25mhz_255_byte.ngd test2_sram_25mhz_255_byte.pcf
+Mapping Module test2_sram_25mhz_255_byte: DONE

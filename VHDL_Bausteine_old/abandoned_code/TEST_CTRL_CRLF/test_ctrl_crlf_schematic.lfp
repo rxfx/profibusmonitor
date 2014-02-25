@@ -1,0 +1,21 @@
+# begin LFP file c:\study\uebung\studium\profibus\test_ctrl_crlf\test_ctrl_crlf_schematic.lfp
+designfile test_ctrl_crlf_schematic.ngd
+IO_GROUP "BYTE_SEND" IO_GROUP="test_ctrl_crlf_schematic" ;
+IO_GROUP "BYTE_IN" IO_GROUP="test_ctrl_crlf_schematic" ;
+INST "test_ctrl_crlf_schematic" COLOR=15  ;
+NET "BYTE_SEND<7>" IO_GROUP="BYTE_SEND"  ;
+NET "BYTE_SEND<6>" IO_GROUP="BYTE_SEND"  ;
+NET "BYTE_SEND<5>" IO_GROUP="BYTE_SEND"  ;
+NET "BYTE_SEND<4>" IO_GROUP="BYTE_SEND"  ;
+NET "BYTE_SEND<3>" IO_GROUP="BYTE_SEND"  ;
+NET "BYTE_SEND<2>" IO_GROUP="BYTE_SEND"  ;
+NET "BYTE_SEND<1>" IO_GROUP="BYTE_SEND"  ;
+NET "BYTE_SEND<0>" IO_GROUP="BYTE_SEND"  ;
+NET "BYTE_IN<7>" IO_GROUP="BYTE_IN"  ;
+NET "BYTE_IN<6>" IO_GROUP="BYTE_IN"  ;
+NET "BYTE_IN<5>" IO_GROUP="BYTE_IN"  ;
+NET "BYTE_IN<4>" IO_GROUP="BYTE_IN"  ;
+NET "BYTE_IN<3>" IO_GROUP="BYTE_IN"  ;
+NET "BYTE_IN<2>" IO_GROUP="BYTE_IN"  ;
+NET "BYTE_IN<1>" IO_GROUP="BYTE_IN"  ;
+NET "BYTE_IN<0>" IO_GROUP="BYTE_IN"  ;

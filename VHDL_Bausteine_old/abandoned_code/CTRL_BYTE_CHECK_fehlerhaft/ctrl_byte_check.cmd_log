@@ -1,0 +1,11 @@
+xst -intstyle ise -ifn __projnav/ctrl_byte_check.xst -ofn ctrl_byte_check.syr
+xst -intstyle ise -ifn __projnav/ctrl_byte_check.xst -ofn ctrl_byte_check.syr
+xst -intstyle ise -ifn __projnav/ctrl_byte_check.xst -ofn ctrl_byte_check.syr
+xst -intstyle ise -ifn __projnav/ctrl_byte_check.xst -ofn ctrl_byte_check.syr
+xst -intstyle ise -ifn __projnav/ctrl_byte_check.xst -ofn ctrl_byte_check.syr
+xst -intstyle ise -ifn __projnav/ctrl_byte_check.xst -ofn ctrl_byte_check.syr
+xst -intstyle ise -ifn __projnav/ctrl_byte_check.xst -ofn ctrl_byte_check.syr
+xst -intstyle ise -ifn __projnav/ctrl_byte_check.xst -ofn ctrl_byte_check.syr
+xst -intstyle ise -ifn __projnav/ctrl_byte_check.xst -ofn ctrl_byte_check.syr
+xst -intstyle ise -ifn __projnav/ctrl_byte_check.xst -ofn ctrl_byte_check.syr
+xst -intstyle ise -ifn __projnav/ctrl_byte_check.xst -ofn ctrl_byte_check.syr

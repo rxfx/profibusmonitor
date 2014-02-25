@@ -1,0 +1,3 @@
+Place & Route Module test2_sram_25mhz_255_byte . . .
+PAR command line: par -w -intstyle ise -ol std -t 1 test2_sram_25mhz_255_byte_map.ncd test2_sram_25mhz_255_byte.ncd test2_sram_25mhz_255_byte.pcf
+PAR completed successfully

@@ -1,0 +1,3 @@
+sch2vhdl -family spartan3 -flat -suppress -w PROFIBUS_MONITOR_SCH.sch profibus_monitor_sch.vhf
+xst -intstyle ise -ifn __projnav/profibus_monitor_sch.xst -ofn profibus_monitor_sch.syr
+ngdbuild -intstyle ise -dd g:\profibus\vhdl_bausteine\profibus_monitor/_ngo -uc profibus_monitor_sch.ucf  -p xc3s200-ft256-5 profibus_monitor_sch.ngc profibus_monitor_sch.ngd

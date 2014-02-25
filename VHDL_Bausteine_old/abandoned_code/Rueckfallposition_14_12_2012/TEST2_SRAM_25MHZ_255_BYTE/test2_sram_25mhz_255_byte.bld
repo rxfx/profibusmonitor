@@ -1,0 +1,27 @@
+Release 6.3.03i - ngdbuild G.38
+Copyright (c) 1995-2004 Xilinx, Inc.  All rights reserved.
+
+Command Line: ngdbuild -intstyle ise -dd
+c:\study\uebung\studium\profibus\test2_sram_25mhz_255_byte/_ngo -uc
+test2_sram_25mhz_255_byte.ucf -p xc3s200-ft256-5 test2_sram_25mhz_255_byte.ngc
+test2_sram_25mhz_255_byte.ngd 
+
+Reading NGO file
+"C:/STUDY/UEBUNG/Studium/Profibus/TEST2_SRAM_25MHZ_255_BYTE/test2_sram_25mhz_255
+_byte.ngc" ...
+Reading component libraries for design expansion...
+
+Annotating constraints to design from file "test2_sram_25mhz_255_byte.ucf" ...
+
+Checking timing specifications ...
+Checking expanded design ...
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Total memory usage is 41956 kilobytes
+
+Writing NGD file "test2_sram_25mhz_255_byte.ngd" ...
+
+Writing NGDBUILD log file "test2_sram_25mhz_255_byte.bld"...

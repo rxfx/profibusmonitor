@@ -1,0 +1,1128 @@
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+Started process "Create Schematic Symbol".
+
+Compiling vhdl file
+c:/study/uebung/studium/profibus/test_ctrl_telegram_filter_sd1/CLOCK_SINGLE_RUN_
+SRC.vhd in Library work.
+Entity <CLOCK_SINGLE_RUN_SRC> (Architecture <Behavioral>) compiled.
+tdtfi(vhdl) completed successfully.
+
+
+Release 6.3.03i - spl2sym G.35
+Copyright (c) 1995-2004 Xilinx, Inc.  All rights reserved.
+Completed process "Create Schematic Symbol".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+Started process "Create Schematic Symbol".
+
+Compiling vhdl file
+c:/study/uebung/studium/profibus/test_ctrl_telegram_filter_sd1/CTRL_TELEGRAM_FIL
+TER_SD1_VHDL.vhd in Library work.
+Entity <CTRL_TELEGRAM_FILTER_SD1_VHDL> (Architecture <Behavioral>) compiled.
+tdtfi(vhdl) completed successfully.
+
+
+Release 6.3.03i - spl2sym G.35
+Copyright (c) 1995-2004 Xilinx, Inc.  All rights reserved.
+Completed process "Create Schematic Symbol".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+Started process "Create Schematic Symbol".
+
+Compiling vhdl file
+c:/study/uebung/studium/profibus/test_ctrl_telegram_filter_sd1/DEB_50MZ_100MS_SR
+C.vhd in Library work.
+Entity <DEB_50MZ_100MS_SRC> (Architecture <Behavioral>) compiled.
+tdtfi(vhdl) completed successfully.
+
+
+Release 6.3.03i - spl2sym G.35
+Copyright (c) 1995-2004 Xilinx, Inc.  All rights reserved.
+Completed process "Create Schematic Symbol".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+Started process "Create Schematic Symbol".
+
+Compiling vhdl file
+c:/study/uebung/studium/profibus/test_ctrl_telegram_filter_sd1/F_DIV50000_SRC.vh
+d in Library work.
+Entity <F_DIV50000> (Architecture <Behavioral>) compiled.
+tdtfi(vhdl) completed successfully.
+
+
+Release 6.3.03i - spl2sym G.35
+Copyright (c) 1995-2004 Xilinx, Inc.  All rights reserved.
+Completed process "Create Schematic Symbol".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+Started process "Create Schematic Symbol".
+
+Compiling vhdl file
+c:/study/uebung/studium/profibus/test_ctrl_telegram_filter_sd1/NIB4_7SEG_SRC.vhd
+in Library work.
+Entity <NIB4_7SEG_SRC> (Architecture <Behavioral>) compiled.
+tdtfi(vhdl) completed successfully.
+
+
+Release 6.3.03i - spl2sym G.35
+Copyright (c) 1995-2004 Xilinx, Inc.  All rights reserved.
+Completed process "Create Schematic Symbol".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file c:/study/uebung/studium/profibus/test_ctrl_telegram_filter_sd1/NIB4_7SEG_SRC.vhd in Library work.
+Architecture behavioral of Entity nib4_7seg_src is up to date.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <nib4_7seg_src> (Architecture <behavioral>).
+INFO:Xst:1561 - c:/study/uebung/studium/profibus/test_ctrl_telegram_filter_sd1/NIB4_7SEG_SRC.vhd line 74: Mux is complete : default of case is discarded
+INFO:Xst:1561 - c:/study/uebung/studium/profibus/test_ctrl_telegram_filter_sd1/NIB4_7SEG_SRC.vhd line 100: Mux is complete : default of case is discarded
+Entity <nib4_7seg_src> analyzed. Unit <nib4_7seg_src> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <nib4_7seg_src>.
+    Related source file is c:/study/uebung/studium/profibus/test_ctrl_telegram_filter_sd1/NIB4_7SEG_SRC.vhd.
+    Found 16x7-bit ROM for signal <$n0004>.
+    Found 2-bit up counter for signal <COUNTER>.
+    Found 4-bit 4-to-1 multiplexer for signal <NIB_ANZ>.
+    Summary:
+	inferred   1 ROM(s).
+	inferred   1 Counter(s).
+	inferred   4 Multiplexer(s).
+Unit <nib4_7seg_src> synthesized.
+
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# ROMs                             : 1
+ 16x7-bit ROM                      : 1
+# Counters                         : 1
+ 2-bit up counter                  : 1
+# Multiplexers                     : 1
+ 4-bit 4-to-1 multiplexer          : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <nib4_7seg_src> ...
+Loading device for application Xst from file '3s200.nph' in environment C:/Programme/XILINX/WEBPACK_6P3.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block nib4_7seg_src, actual ratio is 0.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s200ft256-5 
+
+ Number of Slices:                      10  out of   1920     0%  
+ Number of Slice Flip Flops:             2  out of   3840     0%  
+ Number of 4 input LUTs:                20  out of   3840     0%  
+ Number of bonded IOBs:                 27  out of    173    15%  
+ Number of GCLKs:                        1  out of      8    12%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+CLK_DISPL                          | BUFGP                  | 2     |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 2.324ns (Maximum Frequency: 430.293MHz)
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: 7.990ns
+   Maximum combinational path delay: 8.388ns
+
+=========================================================================
+Completed process "Synthesize".
+
+
+
+Started process "Translate".
+
+
+Command Line: ngdbuild -intstyle ise -dd
+c:\study\uebung\studium\profibus\test_ctrl_telegram_filter_sd1/_ngo -i -p
+xc3s200-ft256-5 nib4_7seg_src.ngc nib4_7seg_src.ngd 
+
+Reading NGO file
+"c:/study/uebung/studium/profibus/test_ctrl_telegram_filter_sd1/nib4_7seg_src.ng
+c" ...
+Reading component libraries for design expansion...
+
+Checking timing specifications ...
+Checking expanded design ...
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Total memory usage is 38884 kilobytes
+
+Writing NGD file "nib4_7seg_src.ngd" ...
+
+Writing NGDBUILD log file "nib4_7seg_src.bld"...
+
+NGDBUILD done.
+Completed process "Translate".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+Started process "View VHDL Functional Model".
+
+Release 6.3.03i - sch2vhdl G.35
+Copyright (c) 1995-2004 Xilinx, Inc.  All rights reserved.
+DRC Check completed: No Error found.
+Vhdl netlist file generated.
+Completed process "View VHDL Functional Model".
+
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file c:/study/uebung/studium/profibus/test_ctrl_telegram_filter_sd1/CTRL_TELEGRAM_FILTER_SD1_VHDL.vhd in Library work.
+Architecture behavioral of Entity ctrl_telegram_filter_sd1_vhdl is up to date.
+Compiling vhdl file c:/study/uebung/studium/profibus/test_ctrl_telegram_filter_sd1/NIB4_7SEG_SRC.vhd in Library work.
+Architecture behavioral of Entity nib4_7seg_src is up to date.
+Compiling vhdl file c:/study/uebung/studium/profibus/test_ctrl_telegram_filter_sd1/F_DIV50000_SRC.vhd in Library work.
+Architecture behavioral of Entity f_div50000 is up to date.
+Compiling vhdl file c:/study/uebung/studium/profibus/test_ctrl_telegram_filter_sd1/DEB_50MZ_100MS_SRC.vhd in Library work.
+Architecture behavioral of Entity deb_50mz_100ms_src is up to date.
+Compiling vhdl file c:/study/uebung/studium/profibus/test_ctrl_telegram_filter_sd1/CLOCK_SINGLE_RUN_SRC.vhd in Library work.
+Architecture behavioral of Entity clock_single_run_src is up to date.
+Compiling vhdl file c:/study/uebung/studium/profibus/test_ctrl_telegram_filter_sd1/TEST_CTRL_TELEGRAM_FILTER_SD1_SCH.vhf in Library work.
+Entity <test_ctrl_telegram_filter_sd1_sch> (Architecture <BEHAVIORAL>) compiled.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <test_ctrl_telegram_filter_sd1_sch> (Architecture <BEHAVIORAL>).
+Entity <test_ctrl_telegram_filter_sd1_sch> analyzed. Unit <test_ctrl_telegram_filter_sd1_sch> generated.
+
+Analyzing Entity <ctrl_telegram_filter_sd1_vhdl> (Architecture <behavioral>).
+Entity <ctrl_telegram_filter_sd1_vhdl> analyzed. Unit <ctrl_telegram_filter_sd1_vhdl> generated.
+
+Analyzing Entity <nib4_7seg_src> (Architecture <behavioral>).
+INFO:Xst:1561 - c:/study/uebung/studium/profibus/test_ctrl_telegram_filter_sd1/NIB4_7SEG_SRC.vhd line 74: Mux is complete : default of case is discarded
+INFO:Xst:1561 - c:/study/uebung/studium/profibus/test_ctrl_telegram_filter_sd1/NIB4_7SEG_SRC.vhd line 100: Mux is complete : default of case is discarded
+Entity <nib4_7seg_src> analyzed. Unit <nib4_7seg_src> generated.
+
+Analyzing Entity <f_div50000> (Architecture <behavioral>).
+Entity <f_div50000> analyzed. Unit <f_div50000> generated.
+
+Analyzing Entity <deb_50mz_100ms_src> (Architecture <behavioral>).
+Entity <deb_50mz_100ms_src> analyzed. Unit <deb_50mz_100ms_src> generated.
+
+Analyzing Entity <clock_single_run_src> (Architecture <behavioral>).
+Entity <clock_single_run_src> analyzed. Unit <clock_single_run_src> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <clock_single_run_src>.
+    Related source file is c:/study/uebung/studium/profibus/test_ctrl_telegram_filter_sd1/CLOCK_SINGLE_RUN_SRC.vhd.
+    Using one-hot encoding for signal <SV>.
+    Found 1-bit register for signal <RUN_S>.
+    Found 3-bit register for signal <SV>.
+    Found 3-bit register for signal <SV_M>.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+Unit <clock_single_run_src> synthesized.
+
+
+Synthesizing Unit <deb_50mz_100ms_src>.
+    Related source file is c:/study/uebung/studium/profibus/test_ctrl_telegram_filter_sd1/DEB_50MZ_100MS_SRC.vhd.
+    Found 24-bit adder for signal <$n0009> created at line 61.
+    Found 24-bit comparator greatequal for signal <$n0014> created at line 65.
+    Found 24-bit subtractor for signal <$n0016> created at line 83.
+    Found 24-bit register for signal <COUNT_DEB>.
+    Found 24-bit register for signal <COUNT_DEB_M>.
+    Found 1-bit register for signal <IN_DEB_S>.
+    Found 1-bit register for signal <SV<0>>.
+    Found 1-bit register for signal <SV_M<0>>.
+    Found 1 1-bit 2-to-1 multiplexers.
+    Summary:
+	inferred  51 D-type flip-flop(s).
+	inferred   2 Adder/Subtracter(s).
+	inferred   1 Comparator(s).
+	inferred   1 Multiplexer(s).
+Unit <deb_50mz_100ms_src> synthesized.
+
+
+Synthesizing Unit <f_div50000>.
+    Related source file is c:/study/uebung/studium/profibus/test_ctrl_telegram_filter_sd1/F_DIV50000_SRC.vhd.
+    Found 32-bit comparator less for signal <$n0002> created at line 28.
+    Found 32-bit down counter for signal <COUNTER>.
+    Summary:
+	inferred   1 Counter(s).
+	inferred   1 Comparator(s).
+Unit <f_div50000> synthesized.
+
+
+Synthesizing Unit <nib4_7seg_src>.
+    Related source file is c:/study/uebung/studium/profibus/test_ctrl_telegram_filter_sd1/NIB4_7SEG_SRC.vhd.
+    Found 16x7-bit ROM for signal <$n0004>.
+    Found 2-bit up counter for signal <COUNTER>.
+    Found 4-bit 4-to-1 multiplexer for signal <NIB_ANZ>.
+    Summary:
+	inferred   1 ROM(s).
+	inferred   1 Counter(s).
+	inferred   4 Multiplexer(s).
+Unit <nib4_7seg_src> synthesized.
+
+
+Synthesizing Unit <ctrl_telegram_filter_sd1_vhdl>.
+    Related source file is c:/study/uebung/studium/profibus/test_ctrl_telegram_filter_sd1/CTRL_TELEGRAM_FILTER_SD1_VHDL.vhd.
+    Found 8-bit adder for signal <$n0015> created at line 101.
+    Found 8-bit register for signal <COUNT>.
+    Found 8-bit register for signal <COUNT_M>.
+    Found 2-bit register for signal <SV>.
+    Found 2-bit register for signal <SV_M>.
+    Found 8 1-bit 2-to-1 multiplexers.
+    Summary:
+	inferred  20 D-type flip-flop(s).
+	inferred   1 Adder/Subtracter(s).
+	inferred   8 Multiplexer(s).
+Unit <ctrl_telegram_filter_sd1_vhdl> synthesized.
+
+
+Synthesizing Unit <test_ctrl_telegram_filter_sd1_sch>.
+    Related source file is c:/study/uebung/studium/profibus/test_ctrl_telegram_filter_sd1/TEST_CTRL_TELEGRAM_FILTER_SD1_SCH.vhf.
+Unit <test_ctrl_telegram_filter_sd1_sch> synthesized.
+
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# ROMs                             : 1
+ 16x7-bit ROM                      : 1
+# Adders/Subtractors               : 3
+ 8-bit adder                       : 1
+ 24-bit subtractor                 : 1
+ 24-bit adder                      : 1
+# Counters                         : 2
+ 2-bit up counter                  : 1
+ 32-bit down counter               : 1
+# Registers                        : 12
+ 8-bit register                    : 2
+ 2-bit register                    : 2
+ 1-bit register                    : 4
+ 24-bit register                   : 2
+ 3-bit register                    : 2
+# Comparators                      : 2
+ 32-bit comparator less            : 1
+ 24-bit comparator greatequal      : 1
+# Multiplexers                     : 10
+ 1-bit 2-to-1 multiplexer          : 9
+ 4-bit 4-to-1 multiplexer          : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <test_ctrl_telegram_filter_sd1_sch> ...
+
+Optimizing unit <ctrl_telegram_filter_sd1_vhdl> ...
+
+Optimizing unit <deb_50mz_100ms_src> ...
+
+Optimizing unit <clock_single_run_src> ...
+
+Optimizing unit <f_div50000> ...
+Loading device for application Xst from file '3s200.nph' in environment C:/Programme/XILINX/WEBPACK_6P3.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block test_ctrl_telegram_filter_sd1_sch, actual ratio is 8.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s200ft256-5 
+
+ Number of Slices:                     145  out of   1920     7%  
+ Number of Slice Flip Flops:           112  out of   3840     2%  
+ Number of 4 input LUTs:               244  out of   3840     6%  
+ Number of bonded IOBs:                 35  out of    173    20%  
+ Number of GCLKs:                        1  out of      8    12%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+F_50MHZ_T9                         | BUFGP                  | 110   |
+XLXI_3_GE_stage_cyo(XLXI_3_GE_stagecy:O)| NONE(*)(XLXI_2_COUNTER_0)| 2     |
+-----------------------------------+------------------------+-------+
+(*) This 1 clock signal(s) are generated by combinatorial logic,
+and XST is not able to identify which are the primary clock signals.
+Please use the CLOCK_SIGNAL constraint to specify the clock signal(s) generated by combinatorial logic.
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 14.913ns (Maximum Frequency: 67.056MHz)
+   Minimum input arrival time before clock: 6.571ns
+   Maximum output required time after clock: 11.567ns
+   Maximum combinational path delay: 13.227ns
+
+=========================================================================
+Completed process "Synthesize".
+
+
+
+Started process "Translate".
+
+
+Command Line: ngdbuild -intstyle ise -dd
+c:\study\uebung\studium\profibus\test_ctrl_telegram_filter_sd1/_ngo -i -p
+xc3s200-ft256-5 test_ctrl_telegram_filter_sd1_sch.ngc
+test_ctrl_telegram_filter_sd1_sch.ngd 
+
+Reading NGO file
+"c:/study/uebung/studium/profibus/test_ctrl_telegram_filter_sd1/test_ctrl_telegr
+am_filter_sd1_sch.ngc" ...
+Reading component libraries for design expansion...
+
+Checking timing specifications ...
+Checking expanded design ...
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Total memory usage is 39908 kilobytes
+
+Writing NGD file "test_ctrl_telegram_filter_sd1_sch.ngd" ...
+
+Writing NGDBUILD log file "test_ctrl_telegram_filter_sd1_sch.bld"...
+
+NGDBUILD done.
+Completed process "Translate".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+Started process "View VHDL Functional Model".
+
+Release 6.3.03i - sch2vhdl G.35
+Copyright (c) 1995-2004 Xilinx, Inc.  All rights reserved.
+DRC Check completed: No Error found.
+Vhdl netlist file generated.
+Completed process "View VHDL Functional Model".
+
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file c:/study/uebung/studium/profibus/test_ctrl_telegram_filter_sd1/CTRL_TELEGRAM_FILTER_SD1_VHDL.vhd in Library work.
+Architecture behavioral of Entity ctrl_telegram_filter_sd1_vhdl is up to date.
+Compiling vhdl file c:/study/uebung/studium/profibus/test_ctrl_telegram_filter_sd1/NIB4_7SEG_SRC.vhd in Library work.
+Architecture behavioral of Entity nib4_7seg_src is up to date.
+Compiling vhdl file c:/study/uebung/studium/profibus/test_ctrl_telegram_filter_sd1/F_DIV50000_SRC.vhd in Library work.
+Architecture behavioral of Entity f_div50000 is up to date.
+Compiling vhdl file c:/study/uebung/studium/profibus/test_ctrl_telegram_filter_sd1/DEB_50MZ_100MS_SRC.vhd in Library work.
+Architecture behavioral of Entity deb_50mz_100ms_src is up to date.
+Compiling vhdl file c:/study/uebung/studium/profibus/test_ctrl_telegram_filter_sd1/CLOCK_SINGLE_RUN_SRC.vhd in Library work.
+Architecture behavioral of Entity clock_single_run_src is up to date.
+Compiling vhdl file c:/study/uebung/studium/profibus/test_ctrl_telegram_filter_sd1/TEST_CTRL_TELEGRAM_FILTER_SD1_SCH.vhf in Library work.
+Entity <test_ctrl_telegram_filter_sd1_sch> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <test_ctrl_telegram_filter_sd1_sch> (Architecture <behavioral>).
+Entity <test_ctrl_telegram_filter_sd1_sch> analyzed. Unit <test_ctrl_telegram_filter_sd1_sch> generated.
+
+Analyzing Entity <ctrl_telegram_filter_sd1_vhdl> (Architecture <behavioral>).
+Entity <ctrl_telegram_filter_sd1_vhdl> analyzed. Unit <ctrl_telegram_filter_sd1_vhdl> generated.
+
+Analyzing Entity <nib4_7seg_src> (Architecture <behavioral>).
+INFO:Xst:1561 - c:/study/uebung/studium/profibus/test_ctrl_telegram_filter_sd1/NIB4_7SEG_SRC.vhd line 74: Mux is complete : default of case is discarded
+INFO:Xst:1561 - c:/study/uebung/studium/profibus/test_ctrl_telegram_filter_sd1/NIB4_7SEG_SRC.vhd line 100: Mux is complete : default of case is discarded
+Entity <nib4_7seg_src> analyzed. Unit <nib4_7seg_src> generated.
+
+Analyzing Entity <f_div50000> (Architecture <behavioral>).
+Entity <f_div50000> analyzed. Unit <f_div50000> generated.
+
+Analyzing Entity <deb_50mz_100ms_src> (Architecture <behavioral>).
+Entity <deb_50mz_100ms_src> analyzed. Unit <deb_50mz_100ms_src> generated.
+
+Analyzing Entity <clock_single_run_src> (Architecture <behavioral>).
+Entity <clock_single_run_src> analyzed. Unit <clock_single_run_src> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <clock_single_run_src>.
+    Related source file is c:/study/uebung/studium/profibus/test_ctrl_telegram_filter_sd1/CLOCK_SINGLE_RUN_SRC.vhd.
+    Using one-hot encoding for signal <SV>.
+    Found 1-bit register for signal <RUN_S>.
+    Found 3-bit register for signal <SV>.
+    Found 3-bit register for signal <SV_M>.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+Unit <clock_single_run_src> synthesized.
+
+
+Synthesizing Unit <deb_50mz_100ms_src>.
+    Related source file is c:/study/uebung/studium/profibus/test_ctrl_telegram_filter_sd1/DEB_50MZ_100MS_SRC.vhd.
+    Found 24-bit adder for signal <$n0009> created at line 61.
+    Found 24-bit comparator greatequal for signal <$n0014> created at line 65.
+    Found 24-bit subtractor for signal <$n0016> created at line 83.
+    Found 24-bit register for signal <COUNT_DEB>.
+    Found 24-bit register for signal <COUNT_DEB_M>.
+    Found 1-bit register for signal <IN_DEB_S>.
+    Found 1-bit register for signal <SV<0>>.
+    Found 1-bit register for signal <SV_M<0>>.
+    Found 1 1-bit 2-to-1 multiplexers.
+    Summary:
+	inferred  51 D-type flip-flop(s).
+	inferred   2 Adder/Subtracter(s).
+	inferred   1 Comparator(s).
+	inferred   1 Multiplexer(s).
+Unit <deb_50mz_100ms_src> synthesized.
+
+
+Synthesizing Unit <f_div50000>.
+    Related source file is c:/study/uebung/studium/profibus/test_ctrl_telegram_filter_sd1/F_DIV50000_SRC.vhd.
+    Found 32-bit comparator less for signal <$n0002> created at line 28.
+    Found 32-bit down counter for signal <COUNTER>.
+    Summary:
+	inferred   1 Counter(s).
+	inferred   1 Comparator(s).
+Unit <f_div50000> synthesized.
+
+
+Synthesizing Unit <nib4_7seg_src>.
+    Related source file is c:/study/uebung/studium/profibus/test_ctrl_telegram_filter_sd1/NIB4_7SEG_SRC.vhd.
+    Found 16x7-bit ROM for signal <$n0004>.
+    Found 2-bit up counter for signal <COUNTER>.
+    Found 4-bit 4-to-1 multiplexer for signal <NIB_ANZ>.
+    Summary:
+	inferred   1 ROM(s).
+	inferred   1 Counter(s).
+	inferred   4 Multiplexer(s).
+Unit <nib4_7seg_src> synthesized.
+
+
+Synthesizing Unit <ctrl_telegram_filter_sd1_vhdl>.
+    Related source file is c:/study/uebung/studium/profibus/test_ctrl_telegram_filter_sd1/CTRL_TELEGRAM_FILTER_SD1_VHDL.vhd.
+    Found 8-bit adder for signal <$n0015> created at line 101.
+    Found 8-bit register for signal <COUNT>.
+    Found 8-bit register for signal <COUNT_M>.
+    Found 2-bit register for signal <SV>.
+    Found 2-bit register for signal <SV_M>.
+    Found 8 1-bit 2-to-1 multiplexers.
+    Summary:
+	inferred  20 D-type flip-flop(s).
+	inferred   1 Adder/Subtracter(s).
+	inferred   8 Multiplexer(s).
+Unit <ctrl_telegram_filter_sd1_vhdl> synthesized.
+
+
+Synthesizing Unit <test_ctrl_telegram_filter_sd1_sch>.
+    Related source file is c:/study/uebung/studium/profibus/test_ctrl_telegram_filter_sd1/TEST_CTRL_TELEGRAM_FILTER_SD1_SCH.vhf.
+Unit <test_ctrl_telegram_filter_sd1_sch> synthesized.
+
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# ROMs                             : 1
+ 16x7-bit ROM                      : 1
+# Adders/Subtractors               : 3
+ 8-bit adder                       : 1
+ 24-bit subtractor                 : 1
+ 24-bit adder                      : 1
+# Counters                         : 2
+ 2-bit up counter                  : 1
+ 32-bit down counter               : 1
+# Registers                        : 12
+ 8-bit register                    : 2
+ 2-bit register                    : 2
+ 1-bit register                    : 4
+ 24-bit register                   : 2
+ 3-bit register                    : 2
+# Comparators                      : 2
+ 32-bit comparator less            : 1
+ 24-bit comparator greatequal      : 1
+# Multiplexers                     : 10
+ 1-bit 2-to-1 multiplexer          : 9
+ 4-bit 4-to-1 multiplexer          : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <test_ctrl_telegram_filter_sd1_sch> ...
+
+Optimizing unit <ctrl_telegram_filter_sd1_vhdl> ...
+
+Optimizing unit <deb_50mz_100ms_src> ...
+
+Optimizing unit <clock_single_run_src> ...
+
+Optimizing unit <f_div50000> ...
+Loading device for application Xst from file '3s200.nph' in environment C:/Programme/XILINX/WEBPACK_6P3.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block test_ctrl_telegram_filter_sd1_sch, actual ratio is 8.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s200ft256-5 
+
+ Number of Slices:                     145  out of   1920     7%  
+ Number of Slice Flip Flops:           112  out of   3840     2%  
+ Number of 4 input LUTs:               244  out of   3840     6%  
+ Number of bonded IOBs:                 35  out of    173    20%  
+ Number of GCLKs:                        1  out of      8    12%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+F_50MHZ_T9                         | BUFGP                  | 110   |
+XLXI_3_GE_stage_cyo(XLXI_3_GE_stagecy:O)| NONE(*)(XLXI_2_COUNTER_0)| 2     |
+-----------------------------------+------------------------+-------+
+(*) This 1 clock signal(s) are generated by combinatorial logic,
+and XST is not able to identify which are the primary clock signals.
+Please use the CLOCK_SIGNAL constraint to specify the clock signal(s) generated by combinatorial logic.
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 14.913ns (Maximum Frequency: 67.056MHz)
+   Minimum input arrival time before clock: 6.571ns
+   Maximum output required time after clock: 11.567ns
+   Maximum combinational path delay: 13.227ns
+
+=========================================================================
+Completed process "Synthesize".
+
+
+
+Started process "Translate".
+
+
+Command Line: ngdbuild -intstyle ise -dd
+c:\study\uebung\studium\profibus\test_ctrl_telegram_filter_sd1/_ngo -uc
+test_ctrl_telegram_filter_sd1_sch.ucf -p xc3s200-ft256-5
+test_ctrl_telegram_filter_sd1_sch.ngc test_ctrl_telegram_filter_sd1_sch.ngd 
+
+Reading NGO file
+"c:/study/uebung/studium/profibus/test_ctrl_telegram_filter_sd1/test_ctrl_telegr
+am_filter_sd1_sch.ngc" ...
+Reading component libraries for design expansion...
+
+Annotating constraints to design from file
+"test_ctrl_telegram_filter_sd1_sch.ucf" ...
+
+Checking timing specifications ...
+Checking expanded design ...
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Total memory usage is 40932 kilobytes
+
+Writing NGD file "test_ctrl_telegram_filter_sd1_sch.ngd" ...
+
+Writing NGDBUILD log file "test_ctrl_telegram_filter_sd1_sch.bld"...
+
+NGDBUILD done.
+Completed process "Translate".
+
+
+
+Started process "Map".
+
+Using target part "3s200ft256-5".
+Removing unused or disabled logic...
+Running cover...
+Running directed packing...
+Running delay-based LUT packing...
+Running related packing...
+
+Design Summary:
+Number of errors:      0
+Number of warnings:    0
+Logic Utilization:
+  Number of Slice Flip Flops:         110 out of   3,840    2%
+  Number of 4 input LUTs:             205 out of   3,840    5%
+Logic Distribution:
+  Number of occupied Slices:                          157 out of   1,920    8%
+    Number of Slices containing only related logic:     157 out of     157  100%
+    Number of Slices containing unrelated logic:          0 out of     157    0%
+      *See NOTES below for an explanation of the effects of unrelated logic
+Total Number 4 input LUTs:            244 out of   3,840    6%
+  Number used as logic:                205
+  Number used as a route-thru:          39
+  Number of bonded IOBs:               36 out of     173   20%
+    IOB Flip Flops:                     2
+  Number of GCLKs:                     1 out of       8   12%
+
+Total equivalent gate count for design:  2,714
+Additional JTAG gate count for IOBs:  1,728
+Peak Memory Usage:  70 MB
+
+NOTES:
+
+   Related logic is defined as being logic that shares connectivity -
+   e.g. two LUTs are "related" if they share common inputs.
+   When assembling slices, Map gives priority to combine logic that
+   is related.  Doing so results in the best timing performance.
+
+   Unrelated logic shares no connectivity.  Map will only begin
+   packing unrelated logic into a slice once 99% of the slices are
+   occupied through related logic packing.
+
+   Note that once logic distribution reaches the 99% level through
+   related logic packing, this does not mean the device is completely
+   utilized.  Unrelated logic packing will then begin, continuing until
+   all usable LUTs and FFs are occupied.  Depending on your timing
+   budget, increased levels of unrelated logic packing may adversely
+   affect the overall timing performance of your design.
+
+
+Mapping completed.
+See MAP report file "test_ctrl_telegram_filter_sd1_sch_map.mrp" for details.
+Completed process "Map".
+
+Mapping Module test_ctrl_telegram_filter_sd1_sch . . .
+MAP command line:
+map -intstyle ise -p xc3s200-ft256-5 -cm area -pr b -k 4 -c 100 -tx off -o test_ctrl_telegram_filter_sd1_sch_map.ncd test_ctrl_telegram_filter_sd1_sch.ngd test_ctrl_telegram_filter_sd1_sch.pcf
+Mapping Module test_ctrl_telegram_filter_sd1_sch: DONE
+
+
+
+Started process "Place & Route".
+
+
+
+
+
+Constraints file: test_ctrl_telegram_filter_sd1_sch.pcf
+
+Loading device database for application Par from file
+"test_ctrl_telegram_filter_sd1_sch_map.ncd".
+   "test_ctrl_telegram_filter_sd1_sch" is an NCD, version 2.38, device xc3s200,
+package ft256, speed -5
+Loading device for application Par from file '3s200.nph' in environment
+C:/Programme/XILINX/WEBPACK_6P3.
+Device speed data version:  ADVANCED 1.35 2004-11-11.
+
+
+Resolving physical constraints.
+Finished resolving physical constraints.
+
+Device utilization summary:
+
+   Number of External IOBs            36 out of 173    20%
+      Number of LOCed External IOBs   31 out of 36     86%
+
+   Number of Slices                  157 out of 1920    8%
+
+   Number of BUFGMUXs                  1 out of 8      12%
+
+
+
+Overall effort level (-ol):   Standard (set by user)
+Placer effort level (-pl):    Standard (set by user)
+Placer cost table entry (-t): 1
+Router effort level (-rl):    Standard (set by user)
+
+
+Phase 1.1
+Phase 1.1 (Checksum:989a6f) REAL time: 0 secs 
+
+.
+Phase 3.3
+Phase 3.3 (Checksum:1c9c37d) REAL time: 0 secs 
+
+Phase 4.5
+Phase 4.5 (Checksum:26259fc) REAL time: 0 secs 
+
+Phase 5.8
+....................
+Phase 5.8 (Checksum:9aacdf) REAL time: 0 secs 
+
+Phase 6.5
+Phase 6.5 (Checksum:39386fa) REAL time: 0 secs 
+
+Phase 7.18
+Phase 7.18 (Checksum:42c1d79) REAL time: 0 secs 
+
+Writing design to file test_ctrl_telegram_filter_sd1_sch.ncd.
+
+Total REAL time to Placer completion: 0 secs 
+Total CPU time to Placer completion: 1 secs 
+
+
+Phase 1: 850 unrouted;       REAL time: 0 secs 
+
+Phase 2: 768 unrouted;       REAL time: 0 secs 
+
+Phase 3: 299 unrouted;       REAL time: 0 secs 
+
+Phase 4: 0 unrouted;       REAL time: 2 secs 
+
+Total REAL time to Router completion: 2 secs 
+Total CPU time to Router completion: 1 secs 
+
+Generating "par" statistics.
+
+**************************
+Generating Clock Report
+**************************
+
++-------------------------+----------+------+------+------------+-------------+
+|        Clock Net        | Resource |Locked|Fanout|Net Skew(ns)|Max Delay(ns)|
++-------------------------+----------+------+------+------------+-------------+
+|  F_50MHZ_T9_BUFGP       |  BUFGMUX0| No   |   73 |  0.035     |  0.915      |
++-------------------------+----------+------+------+------------+-------------+
+|     XLXI_3_GE_stage_cyo |   Local  |      |    2 |  0.018     |  1.674      |
++-------------------------+----------+------+------+------------+-------------+
+
+Generating Pad Report.
+
+All signals are completely routed.
+
+Total REAL time to PAR completion: 2 secs 
+Total CPU time to PAR completion: 1 secs 
+
+Peak Memory Usage:  60 MB
+
+Placement: Completed - No errors found.
+Routing: Completed - No errors found.
+
+Writing design to file test_ctrl_telegram_filter_sd1_sch.ncd.
+
+
+PAR done.
+Completed process "Place & Route".
+
+
+Started process "Generate Post-Place & Route Static Timing".
+
+
+Analysis completed Wed Jan 23 18:36:07 2013
+--------------------------------------------------------------------------------
+
+Generating Report ...
+
+Completed process "Generate Post-Place & Route Static Timing".
+
+Place & Route Module test_ctrl_telegram_filter_sd1_sch . . .
+PAR command line: par -w -intstyle ise -ol std -t 1 test_ctrl_telegram_filter_sd1_sch_map.ncd test_ctrl_telegram_filter_sd1_sch.ncd test_ctrl_telegram_filter_sd1_sch.pcf
+PAR completed successfully
+
+
+
+
+Started process "Generate Programming File".
+
+Completed process "Generate Programming File".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+deleting __projnav/TEST_CTRL_TELEGRAM_FILTER_SD1_SCH_jhdparse_tcl.rsp
+deleting __projnav/tb.rsp
+deleting clock_single_run_src.spl
+deleting __projnav/vhd2spl.err
+deleting __projnav/tb.rsp
+deleting ctrl_telegram_filter_sd1_vhdl.spl
+deleting __projnav/vhd2spl.err
+deleting __projnav/tb.rsp
+deleting deb_50mz_100ms_src.spl
+deleting __projnav/vhd2spl.err
+deleting __projnav/tb.rsp
+deleting f_div50000.spl
+deleting __projnav/vhd2spl.err
+deleting __projnav/tb.rsp
+deleting nib4_7seg_src.spl
+deleting __projnav/vhd2spl.err
+deleting __projnav/TEST_CTRL_TELEGRAM_FILTER_SD1_SCH_jhdparse_tcl.rsp
+deleting nib4_7seg_src.lso
+deleting nib4_7seg_src.syr
+deleting nib4_7seg_src.prj
+deleting nib4_7seg_src.sprj
+deleting nib4_7seg_src.ana
+deleting nib4_7seg_src.stx
+deleting nib4_7seg_src.cmd_log
+deleting nib4_7seg_src.ngc
+deleting nib4_7seg_src.ngr
+deleting __projnav/ngdbuild.err
+deleting __projnav/ednTOngd_tcl.rsp
+deleting c:\study\uebung\studium\profibus\test_ctrl_telegram_filter_sd1/_ngo
+deleting nib4_7seg_src.ngd
+deleting nib4_7seg_src_ngdbuild.nav
+deleting nib4_7seg_src.bld
+deleting .untf
+deleting nib4_7seg_src.cmd_log
+deleting __projnav/parentAssignPackagePinsApp_tcl.rsp
+deleting test_ctrl_telegram_filter_sd1_sch.vhf
+deleting test_ctrl_telegram_filter_sd1_sch.cmd_log
+deleting test_ctrl_telegram_filter_sd1_sch.lso
+deleting test_ctrl_telegram_filter_sd1_sch.syr
+deleting test_ctrl_telegram_filter_sd1_sch.prj
+deleting test_ctrl_telegram_filter_sd1_sch.sprj
+deleting test_ctrl_telegram_filter_sd1_sch.ana
+deleting test_ctrl_telegram_filter_sd1_sch.stx
+deleting test_ctrl_telegram_filter_sd1_sch.cmd_log
+deleting nib4_7seg_src.ngc
+deleting test_ctrl_telegram_filter_sd1_sch.ngc
+deleting nib4_7seg_src.ngr
+deleting test_ctrl_telegram_filter_sd1_sch.ngr
+deleting __projnav/ngdbuild.err
+deleting __projnav/ednTOngd_tcl.rsp
+deleting c:\study\uebung\studium\profibus\test_ctrl_telegram_filter_sd1/_ngo
+deleting test_ctrl_telegram_filter_sd1_sch.ngd
+deleting test_ctrl_telegram_filter_sd1_sch_ngdbuild.nav
+deleting test_ctrl_telegram_filter_sd1_sch.bld
+deleting .untf
+deleting test_ctrl_telegram_filter_sd1_sch.cmd_log
+deleting __projnav/parentAssignPackagePinsApp_tcl.rsp
+deleting test_ctrl_telegram_filter_sd1_sch.vhf
+deleting test_ctrl_telegram_filter_sd1_sch.cmd_log
+deleting test_ctrl_telegram_filter_sd1_sch.lso
+deleting test_ctrl_telegram_filter_sd1_sch.syr
+deleting test_ctrl_telegram_filter_sd1_sch.prj
+deleting test_ctrl_telegram_filter_sd1_sch.sprj
+deleting test_ctrl_telegram_filter_sd1_sch.ana
+deleting test_ctrl_telegram_filter_sd1_sch.stx
+deleting test_ctrl_telegram_filter_sd1_sch.cmd_log
+deleting nib4_7seg_src.ngc
+deleting test_ctrl_telegram_filter_sd1_sch.ngc
+deleting nib4_7seg_src.ngr
+deleting test_ctrl_telegram_filter_sd1_sch.ngr
+deleting __projnav/ngdbuild.err
+deleting __projnav/ednTOngd_tcl.rsp
+deleting c:\study\uebung\studium\profibus\test_ctrl_telegram_filter_sd1/_ngo
+deleting test_ctrl_telegram_filter_sd1_sch.ngd
+deleting test_ctrl_telegram_filter_sd1_sch_ngdbuild.nav
+deleting test_ctrl_telegram_filter_sd1_sch.bld
+deleting test_ctrl_telegram_filter_sd1_sch.ucf.untf
+deleting test_ctrl_telegram_filter_sd1_sch.cmd_log
+deleting test_ctrl_telegram_filter_sd1_sch_map.ncd
+deleting test_ctrl_telegram_filter_sd1_sch.ngm
+deleting test_ctrl_telegram_filter_sd1_sch.pcf
+deleting test_ctrl_telegram_filter_sd1_sch.nc1
+deleting test_ctrl_telegram_filter_sd1_sch.mrp
+deleting test_ctrl_telegram_filter_sd1_sch_map.mrp
+deleting test_ctrl_telegram_filter_sd1_sch.mdf
+deleting __projnav/map.log
+deleting test_ctrl_telegram_filter_sd1_sch.cmd_log
+deleting __projnav/ncdTOtwr_tcl.rsp
+deleting __projnav/posttrc.log
+deleting test_ctrl_telegram_filter_sd1_sch.twr
+deleting test_ctrl_telegram_filter_sd1_sch.twx
+deleting test_ctrl_telegram_filter_sd1_sch.tsi
+deleting test_ctrl_telegram_filter_sd1_sch.cmd_log
+deleting __projnav/nc1TOncd_tcl.rsp
+deleting test_ctrl_telegram_filter_sd1_sch.ncd
+deleting test_ctrl_telegram_filter_sd1_sch.par
+deleting test_ctrl_telegram_filter_sd1_sch.pad
+deleting test_ctrl_telegram_filter_sd1_sch_pad.txt
+deleting test_ctrl_telegram_filter_sd1_sch_pad.csv
+deleting test_ctrl_telegram_filter_sd1_sch.pad_txt
+deleting test_ctrl_telegram_filter_sd1_sch.dly
+deleting reportgen.log
+deleting test_ctrl_telegram_filter_sd1_sch.xpi
+deleting test_ctrl_telegram_filter_sd1_sch.grf
+deleting test_ctrl_telegram_filter_sd1_sch.itr
+deleting test_ctrl_telegram_filter_sd1_sch_last_par.ncd
+deleting __projnav/par.log
+deleting test_ctrl_telegram_filter_sd1_sch.placed_ncd_tracker
+deleting test_ctrl_telegram_filter_sd1_sch.routed_ncd_tracker
+deleting test_ctrl_telegram_filter_sd1_sch.cmd_log
+deleting __projnav/test_ctrl_telegram_filter_sd1_sch_ncdTOut_tcl.rsp
+deleting __projnav/bitgen.rsp
+deleting bitgen.ut
+deleting test_ctrl_telegram_filter_sd1_sch.ut
+deleting test_ctrl_telegram_filter_sd1_sch.bgn
+deleting test_ctrl_telegram_filter_sd1_sch.rbt
+deleting test_ctrl_telegram_filter_sd1_sch.ll
+deleting test_ctrl_telegram_filter_sd1_sch.msk
+deleting test_ctrl_telegram_filter_sd1_sch.drc
+deleting test_ctrl_telegram_filter_sd1_sch.nky
+deleting test_ctrl_telegram_filter_sd1_sch.bit
+deleting test_ctrl_telegram_filter_sd1_sch.bin
+deleting test_ctrl_telegram_filter_sd1_sch.isc
+deleting test_ctrl_telegram_filter_sd1_sch.cmd_log
+deleting test_ctrl_telegram_filter_sd1_sch.prm
+deleting test_ctrl_telegram_filter_sd1_sch.isc
+deleting test_ctrl_telegram_filter_sd1_sch.svf
+deleting xilinx.sys
+deleting test_ctrl_telegram_filter_sd1_sch.mcs
+deleting test_ctrl_telegram_filter_sd1_sch.exo
+deleting test_ctrl_telegram_filter_sd1_sch.hex
+deleting test_ctrl_telegram_filter_sd1_sch.tek
+deleting test_ctrl_telegram_filter_sd1_sch.dst
+deleting test_ctrl_telegram_filter_sd1_sch.dst_compressed
+deleting test_ctrl_telegram_filter_sd1_sch.mpm
+deleting _impact.cmd
+deleting _impact.log
+deleting nib4_7seg_src.prj
+deleting nib4_7seg_src.prj
+deleting __projnav/nib4_7seg_src.xst
+deleting ./xst
+deleting test_ctrl_telegram_filter_sd1_sch.prj
+deleting test_ctrl_telegram_filter_sd1_sch.prj
+deleting __projnav/test_ctrl_telegram_filter_sd1_sch.xst
+deleting ./xst
+deleting test_ctrl_telegram_filter_sd1_sch.prj
+deleting test_ctrl_telegram_filter_sd1_sch.prj
+deleting __projnav/test_ctrl_telegram_filter_sd1_sch.xst
+deleting ./xst
+deleting __projnav/TEST_CTRL_TELEGRAM_FILTER_SD1.gfl
+deleting __projnav/TEST_CTRL_TELEGRAM_FILTER_SD1_flowplus.gfl
+Finished cleaning up project
+

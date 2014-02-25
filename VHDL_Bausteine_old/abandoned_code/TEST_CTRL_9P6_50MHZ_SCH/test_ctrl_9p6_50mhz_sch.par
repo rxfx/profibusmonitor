@@ -1,0 +1,148 @@
+Release 6.3.03i Par G.38
+Copyright (c) 1995-2004 Xilinx, Inc.  All rights reserved.
+
+RECHNER-407-05::  Wed Dec 19 16:40:06 2012
+
+
+C:/Programme/XILINX/WEBPACK_6P3/bin/nt/par.exe -w -intstyle ise -ol std -t 1
+test_ctrl_9p6_50mhz_sch_map.ncd test_ctrl_9p6_50mhz_sch.ncd
+test_ctrl_9p6_50mhz_sch.pcf 
+
+
+Constraints file: test_ctrl_9p6_50mhz_sch.pcf
+
+Loading device database for application Par from file
+"test_ctrl_9p6_50mhz_sch_map.ncd".
+   "test_ctrl_9p6_50mhz_sch" is an NCD, version 2.38, device xc3s200, package
+ft256, speed -5
+Loading device for application Par from file '3s200.nph' in environment
+C:/Programme/XILINX/WEBPACK_6P3.
+Device speed data version:  ADVANCED 1.35 2004-11-11.
+
+
+Resolved that IOB <F_50MHZ_T9> must be placed at site T9.
+Resolved that IOB <BA_E14> must be placed at site E14.
+Resolved that IOB <STEP_BTN1_M14> must be placed at site M14.
+Resolved that IOB <BB_G13> must be placed at site G13.
+Resolved that IOB <BC_N15> must be placed at site N15.
+Resolved that IOB <BF_F13> must be placed at site F13.
+Resolved that IOB <BD_P15> must be placed at site P15.
+Resolved that IOB <BE_R16> must be placed at site R16.
+Resolved that IOB <BG_N16> must be placed at site N16.
+Resolved that IOB <AN0_D14> must be placed at site D14.
+Resolved that IOB <DC_SW1_G12> must be placed at site G12.
+Resolved that IOB <RUN_BTN2_L13> must be placed at site L13.
+Resolved that IOB <AN1_G14> must be placed at site G14.
+Resolved that IOB <DC_SW2_H14> must be placed at site H14.
+Resolved that IOB <AN2_F14> must be placed at site F14.
+Resolved that IOB <AN3_E13> must be placed at site E13.
+Resolved that IOB <RST_BTN3_L14> must be placed at site L14.
+Resolved that IOB <BC_SW5_J13> must be placed at site J13.
+Resolved that IOB <BO_LD6_P12> must be placed at site P12.
+Resolved that IOB <InAB_SW7_K13> must be placed at site K13.
+Resolved that IOB <PO_SW4_J14> must be placed at site J14.
+Resolved that IOB <CV_SW0_F12> must be placed at site F12.
+
+
+Device utilization summary:
+
+   Number of External IOBs            39 out of 173    22%
+      Number of LOCed External IOBs   22 out of 39     56%
+
+   Number of Slices                  299 out of 1920   15%
+
+   Number of BUFGMUXs                  1 out of 8      12%
+
+
+
+Overall effort level (-ol):   Standard (set by user)
+Placer effort level (-pl):    Standard (set by user)
+Placer cost table entry (-t): 1
+Router effort level (-rl):    Standard (set by user)
+
+
+Phase 1.1
+Phase 1.1 (Checksum:989f99) REAL time: 0 secs 
+
+.
+Phase 3.3
+Phase 3.3 (Checksum:1c9c37d) REAL time: 0 secs 
+
+Phase 4.5
+Phase 4.5 (Checksum:26259fc) REAL time: 0 secs 
+
+Phase 5.8
+.....................
+Phase 5.8 (Checksum:9c6c87) REAL time: 0 secs 
+
+Phase 6.5
+Phase 6.5 (Checksum:39386fa) REAL time: 0 secs 
+
+Phase 7.18
+Phase 7.18 (Checksum:42c1d79) REAL time: 2 secs 
+
+Writing design to file test_ctrl_9p6_50mhz_sch.ncd.
+
+Total REAL time to Placer completion: 2 secs 
+Total CPU time to Placer completion: 1 secs 
+
+
+Phase 1: 1692 unrouted;       REAL time: 2 secs 
+
+Phase 2: 1525 unrouted;       REAL time: 2 secs 
+
+Phase 3: 648 unrouted;       REAL time: 2 secs 
+
+Phase 4: 0 unrouted;       REAL time: 2 secs 
+
+Total REAL time to Router completion: 2 secs 
+Total CPU time to Router completion: 1 secs 
+
+Generating "par" statistics.
+
+**************************
+Generating Clock Report
+**************************
+
++-------------------------+----------+------+------+------------+-------------+
+|        Clock Net        | Resource |Locked|Fanout|Net Skew(ns)|Max Delay(ns)|
++-------------------------+----------+------+------+------------+-------------+
+|  F_50MHZ_T9_BUFGP       |  BUFGMUX0| No   |  142 |  0.036     |  0.916      |
++-------------------------+----------+------+------+------------+-------------+
+|     XLXI_4_GE_stage_cyo |   Local  |      |    2 |  0.000     |  2.444      |
++-------------------------+----------+------+------+------------+-------------+
+
+
+   The Delay Summary Report
+
+   The SCORE FOR THIS DESIGN is: 162
+
+
+The NUMBER OF SIGNALS NOT COMPLETELY ROUTED for this design is: 0
+
+   The AVERAGE CONNECTION DELAY for this design is:        1.051
+   The MAXIMUM PIN DELAY IS:                               5.049
+   The AVERAGE CONNECTION DELAY on the 10 WORST NETS is:   2.838
+
+   Listing Pin Delays by value: (nsec)
+
+    d < 1.00   < d < 2.00  < d < 3.00  < d < 4.00  < d < 6.00  d >= 6.00
+   ---------   ---------   ---------   ---------   ---------   ---------
+         965         562         127          30           8           0
+
+Generating Pad Report.
+
+All signals are completely routed.
+
+Total REAL time to PAR completion: 3 secs 
+Total CPU time to PAR completion: 2 secs 
+
+Peak Memory Usage:  62 MB
+
+Placement: Completed - No errors found.
+Routing: Completed - No errors found.
+
+Writing design to file test_ctrl_9p6_50mhz_sch.ncd.
+
+
+PAR done.

@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<!-- Generiert durch Microsoft Visio 11.0, SVG Export, v1.0 PAG_PROFI_9P6_50MHZ_REC_BYTE_5.svg Zeichenblatt-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="7.29566in"
+		height="2.92346in" viewBox="0 0 525.288 210.489" xml:space="preserve" color-interpolation-filters="sRGB" class="st10">
+	<v:documentProperties v:langID="1031" v:metric="true" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {marker-end:url(#mrkr5-6);stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.72}
+		.st2 {fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1;stroke-width:0.22222222222222}
+		.st3 {fill:#ffffff;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.72}
+		.st4 {fill:#000000;font-family:Arial;font-size:1.00001em}
+		.st5 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.72}
+		.st6 {fill:none;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.72}
+		.st7 {marker-start:url(#mrkr5-44);stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.72}
+		.st8 {font-size:1em}
+		.st9 {fill:#000000;font-family:Arial;font-size:4.99999em}
+		.st10 {fill:none;fill-rule:evenodd;font-size:12;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<defs id="Markers">
+		<g id="lend5">
+			<path d="M 2 1 L -0 0 L 1.98117 -0.993387 C 1.67173 -0.364515 1.67301 0.372641 1.98465 1.00043 " style="stroke:none"/>
+		</g>
+		<marker id="mrkr5-6" class="st2" v:arrowType="5" v:arrowSize="2" v:setback="7.875" refX="-7.875" orient="auto"
+				markerUnits="strokeWidth">
+			<use xlink:href="#lend5" transform="scale(-4.5,-4.5) "/>
+		</marker>
+		<marker id="mrkr5-44" class="st2" v:arrowType="5" v:arrowSize="2" v:setback="7.375" refX="7.375" orient="auto"
+				markerUnits="strokeWidth">
+			<use xlink:href="#lend5" transform="scale(4.5) "/>
+		</marker>
+	</defs>
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>Zeichenblatt-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="8.50394"
+				v:shadowOffsetY="-8.50394"/>
+		<g id="shape2-1" v:mID="2" v:groupContext="shape" transform="translate(488.443,7.24486) rotate(90)">
+			<title>Tabelle.2</title>
+			<path d="M0 210.49 L22.68 210.49" class="st1"/>
+		</g>
+		<g id="shape3-7" v:mID="3" v:groupContext="shape" transform="translate(207.087,-146.551)">
+			<title>Tabelle.3</title>
+			<desc>Zähler:=5208 (bit)</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="70.8661" cy="196.316" width="141.74" height="28.3465"/>
+			<rect x="0" y="182.143" width="141.732" height="28.3465" class="st3"/>
+			<text x="23.34" y="199.92" class="st4" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>Zähler:=5208 (bit)</text>		</g>
+		<g id="group4-10" transform="translate(207.087,-84.1891)" v:mID="4" v:groupContext="group">
+			<title>Tabelle.4</title>
+			<g id="shape5-11" v:mID="5" v:groupContext="shape" transform="translate(28.3465,-34.0157)">
+				<title>Tabelle.5</title>
+				<path d="M0 210.49 L85.04 210.49" class="st5"/>
+			</g>
+			<g id="shape6-14" v:mID="6" v:groupContext="shape">
+				<title>Tabelle.6</title>
+				<path d="M113.39 176.47 L141.73 193.48 L113.39 210.49 L28.35 210.49 L0 193.48 L28.35 176.47" class="st5"/>
+			</g>
+		</g>
+		<g id="shape7-17" v:mID="7" v:groupContext="shape" transform="translate(241.166,-94.2245)">
+			<title>Tabelle.7</title>
+			<desc>Zähler = 0</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="36.8189" cy="203.517" width="73.64" height="13.9449"/>
+			<rect x="0" y="196.544" width="73.6378" height="13.9449" class="st6"/>
+			<text x="9.64" y="207.12" class="st4" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>Zähler = 0</text>		</g>
+		<g id="shape8-20" v:mID="8" v:groupContext="shape" transform="translate(29.922,-87.0237)">
+			<title>Tabelle.8</title>
+			<desc>dekrementiere Zähler</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="70.8661" cy="196.316" width="141.74" height="28.3465"/>
+			<rect x="0" y="182.143" width="141.732" height="28.3465" class="st3"/>
+			<text x="13.84" y="199.92" class="st4" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>dekrementiere Zähler</text>		</g>
+		<g id="shape9-23" v:mID="9" v:groupContext="shape" transform="translate(207.087,319.781) rotate(180)">
+			<title>Tabelle.9</title>
+			<path d="M0 210.49 L28.35 210.49" class="st1"/>
+		</g>
+		<g id="shape10-28" v:mID="10" v:groupContext="shape" transform="translate(185.828,-101.197)">
+			<title>Tabelle.10</title>
+			<desc>0</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="8.50394" cy="201.985" width="17.01" height="17.0079"/>
+			<rect x="0" y="193.481" width="17.0079" height="17.0079" class="st6"/>
+			<text x="5.17" y="205.59" class="st4" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>0</text>		</g>
+		<g id="shape11-31" v:mID="11" v:groupContext="shape" transform="translate(29.922,319.781) rotate(180)">
+			<title>Tabelle.11</title>
+			<path d="M0 210.49 L22.68 210.49" class="st5"/>
+		</g>
+		<g id="shape12-34" v:mID="12" v:groupContext="shape" transform="translate(488.443,63.9378) rotate(90)">
+			<title>Tabelle.12</title>
+			<path d="M0 210.49 L22.68 210.49" class="st1"/>
+		</g>
+		<g id="shape13-39" v:mID="13" v:groupContext="shape" transform="translate(277.954,285.765) rotate(180)">
+			<title>Tabelle.13</title>
+			<path d="M5.31 210.49 L5.67 210.49 L270.71 210.49" class="st7"/>
+		</g>
+		<g id="shape14-45" v:mID="14" v:groupContext="shape" transform="translate(-203.244,109.292) rotate(-90)">
+			<title>Tabelle.14</title>
+			<path d="M0 210.49 L34.02 210.49" class="st5"/>
+		</g>
+		<g id="shape15-48" v:mID="15" v:groupContext="shape" transform="translate(351.654,-152.221)">
+			<title>Tabelle.15</title>
+			<desc>(zählt bis12,5 bit)</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="82.2047" cy="200.489" width="164.41" height="20"/>
+			<rect x="0" y="190.489" width="164.409" height="20" class="st6"/>
+			<text x="4" y="204.09" class="st4" v:langID="1031"><v:paragraph/><v:tabList/>(zählt bis12,5 bit)</text>		</g>
+		<g id="shape1-51" v:mID="1" v:groupContext="shape" transform="translate(347.056,-130.882)">
+			<title>Tabelle.1</title>
+			<desc>Prüfung auf weitere Bits oder SYN</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="84.5039" cy="200.489" width="169.01" height="20"/>
+			<rect x="0" y="190.489" width="169.008" height="20" class="st6"/>
+			<text x="4" y="196.89" class="st4" v:langID="1031"><v:paragraph/><v:tabList/>Prüfung auf weitere Bits oder <tspan x="4"
+						dy="1.2em" class="st8">SYN</tspan></text>		</g>
+		<g id="shape16-55" v:mID="16" v:groupContext="shape" transform="translate(488.443,126.3) rotate(90)">
+			<title>Tabelle.16</title>
+			<path d="M0 210.49 L22.68 210.49" class="st1"/>
+		</g>
+		<g id="shape17-60" v:mID="17" v:groupContext="shape" transform="translate(277.954,-67.1812)">
+			<title>Tabelle.17</title>
+			<desc>1</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="8.50394" cy="201.985" width="17.01" height="17.0079"/>
+			<rect x="0" y="193.481" width="17.0079" height="17.0079" class="st6"/>
+			<text x="5.17" y="205.59" class="st4" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>1</text>		</g>
+		<g id="group18-63" transform="translate(207.087,-21.8269)" v:mID="18" v:groupContext="group">
+			<title>Tabelle.18</title>
+			<g id="shape19-64" v:mID="19" v:groupContext="shape" transform="translate(28.3465,-34.0157)">
+				<title>Tabelle.19</title>
+				<path d="M0 210.49 L85.04 210.49" class="st5"/>
+			</g>
+			<g id="shape20-67" v:mID="20" v:groupContext="shape">
+				<title>Tabelle.20</title>
+				<path d="M113.39 176.47 L141.73 193.48 L113.39 210.49 L28.35 210.49 L0 193.48 L28.35 176.47" class="st5"/>
+			</g>
+		</g>
+		<g id="shape21-70" v:mID="21" v:groupContext="shape" transform="translate(204.253,-27.4962)">
+			<title>Tabelle.21</title>
+			<desc>InAB</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="76" cy="200.489" width="152" height="20"/>
+			<rect x="0" y="190.489" width="152" height="20" class="st6"/>
+			<text x="62.99" y="204.09" class="st4" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>InAB</text>		</g>
+		<g id="shape22-73" v:mID="22" v:groupContext="shape" transform="translate(348.82,-38.8347)">
+			<title>Tabelle.22</title>
+			<desc>1</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="8.50394" cy="201.985" width="17.01" height="17.0079"/>
+			<rect x="0" y="193.481" width="17.0079" height="17.0079" class="st6"/>
+			<text x="5.17" y="205.59" class="st4" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>1</text>		</g>
+		<g id="shape23-76" v:mID="23" v:groupContext="shape" transform="translate(187.245,-38.8347)">
+			<title>Tabelle.23</title>
+			<desc>0</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="8.50394" cy="201.985" width="17.01" height="17.0079"/>
+			<rect x="0" y="193.481" width="17.0079" height="17.0079" class="st6"/>
+			<text x="5.17" y="205.59" class="st4" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>0</text>		</g>
+		<g id="shape24-79" v:mID="24" v:groupContext="shape" transform="translate(45.5126,-38.8347)">
+			<title>Tabelle.24</title>
+			<path d="M5.31 210.49 L5.67 210.49 L161.57 210.49" class="st7"/>
+		</g>
+		<g id="shape34-84" v:mID="34" v:groupContext="shape" transform="translate(82.8984,-20.2521)">
+			<title>Tabelle.34</title>
+			<desc>Startbit gefunden</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="76" cy="200.489" width="152" height="20"/>
+			<rect x="0" y="190.489" width="152" height="20" class="st6"/>
+			<text x="30.3" y="204.09" class="st4" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>Startbit gefunden</text>		</g>
+		<g id="shape38-87" v:mID="38" v:groupContext="shape" transform="translate(321.009,-17.4962)">
+			<title>Tabelle.38</title>
+			<desc>Syn oder Leerlauf</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="76" cy="200.489" width="152" height="20"/>
+			<rect x="0" y="190.489" width="152" height="20" class="st6"/>
+			<text x="28.64" y="204.09" class="st4" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>Syn oder Leerlauf</text>		</g>
+		<g id="shape25-90" v:mID="25" v:groupContext="shape" transform="translate(17.1661,-10.4883)">
+			<title>Tabelle.25</title>
+			<desc>*</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="32.5984" cy="184.977" width="65.2" height="51.0236"/>
+			<rect x="0" y="159.465" width="65.1969" height="51.0236" class="st6"/>
+			<text x="20.92" y="202.98" class="st9" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>*</text>		</g>
+		<g id="shape27-93" v:mID="27" v:groupContext="shape" transform="translate(54.0165,-36.0001)">
+			<title>Tabelle.27</title>
+			<desc>1</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="8.50394" cy="201.985" width="17.01" height="17.0079"/>
+			<rect x="0" y="193.481" width="17.0079" height="17.0079" class="st6"/>
+			<text x="5.17" y="205.59" class="st4" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>1</text>		</g>
+		<g id="shape26-96" v:mID="26" v:groupContext="shape" transform="translate(348.82,-38.8347)">
+			<title>Tabelle.26</title>
+			<path d="M0 210.49 L155.9 210.49" class="st1"/>
+		</g>
+		<g id="shape28-101" v:mID="28" v:groupContext="shape" transform="translate(459.371,-10.4883)">
+			<title>Tabelle.28</title>
+			<desc>*</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="32.5984" cy="184.977" width="65.2" height="51.0236"/>
+			<rect x="0" y="159.465" width="65.1969" height="51.0236" class="st6"/>
+			<text x="20.92" y="202.98" class="st9" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>*</text>		</g>
+		<g id="shape29-104" v:mID="29" v:groupContext="shape" transform="translate(496.221,-38.8347)">
+			<title>Tabelle.29</title>
+			<desc>2</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="8.50394" cy="201.985" width="17.01" height="17.0079"/>
+			<rect x="0" y="193.481" width="17.0079" height="17.0079" class="st6"/>
+			<text x="5.17" y="205.59" class="st4" v:langID="1031"><v:paragraph v:horizAlign="1"/><v:tabList/>2</text>		</g>
+	</g>
+</svg>

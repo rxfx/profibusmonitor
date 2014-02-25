@@ -1,0 +1,26 @@
+sch2vhdl -family spartan3 -flat -suppress -w TEST2_SRAM_25MHZ_255_BYTE.sch test2_sram_25mhz_255_byte.vhf
+xst -intstyle ise -ifn __projnav/test2_sram_25mhz_255_byte.xst -ofn test2_sram_25mhz_255_byte.syr
+ngdbuild -intstyle ise -dd c:\study\uebung\studium\profibus\test2_sram_25mhz_255_byte/_ngo -uc test2_sram_25mhz_255_byte.ucf  -p xc3s200-ft256-5 test2_sram_25mhz_255_byte.ngc test2_sram_25mhz_255_byte.ngd
+sch2vhdl -family spartan3 -flat -suppress -w TEST2_SRAM_25MHZ_255_BYTE.sch test2_sram_25mhz_255_byte.vhf
+xst -intstyle ise -ifn __projnav/test2_sram_25mhz_255_byte.xst -ofn test2_sram_25mhz_255_byte.syr
+ngdbuild -intstyle ise -dd c:\study\uebung\studium\profibus\test2_sram_25mhz_255_byte/_ngo -i  -p xc3s200-ft256-5 test2_sram_25mhz_255_byte.ngc test2_sram_25mhz_255_byte.ngd
+sch2vhdl -family spartan3 -flat -suppress -w TEST2_SRAM_25MHZ_255_BYTE.sch test2_sram_25mhz_255_byte.vhf
+xst -intstyle ise -ifn __projnav/test2_sram_25mhz_255_byte.xst -ofn test2_sram_25mhz_255_byte.syr
+ngdbuild -intstyle ise -dd c:\study\uebung\studium\profibus\test2_sram_25mhz_255_byte/_ngo -i  -p xc3s200-ft256-5 test2_sram_25mhz_255_byte.ngc test2_sram_25mhz_255_byte.ngd
+sch2vhdl -family spartan3 -flat -suppress -w TEST2_SRAM_25MHZ_255_BYTE.sch test2_sram_25mhz_255_byte.vhf
+xst -intstyle ise -ifn __projnav/test2_sram_25mhz_255_byte.xst -ofn test2_sram_25mhz_255_byte.syr
+ngdbuild -intstyle ise -dd c:\study\uebung\studium\profibus\test2_sram_25mhz_255_byte/_ngo -uc test2_sram_25mhz_255_byte.ucf  -p xc3s200-ft256-5 test2_sram_25mhz_255_byte.ngc test2_sram_25mhz_255_byte.ngd
+map -intstyle ise -p xc3s200-ft256-5 -cm area -pr b -k 4 -c 100 -tx off -o test2_sram_25mhz_255_byte_map.ncd test2_sram_25mhz_255_byte.ngd test2_sram_25mhz_255_byte.pcf
+par -w -intstyle ise -ol std -t 1 test2_sram_25mhz_255_byte_map.ncd test2_sram_25mhz_255_byte.ncd test2_sram_25mhz_255_byte.pcf
+trce -intstyle ise -e 3 -l 3 -xml test2_sram_25mhz_255_byte test2_sram_25mhz_255_byte.ncd -o test2_sram_25mhz_255_byte.twr test2_sram_25mhz_255_byte.pcf
+bitgen -intstyle ise -f test2_sram_25mhz_255_byte.ut test2_sram_25mhz_255_byte.ncd
+sch2vhdl -family spartan3 -flat -suppress -w TEST2_SRAM_25MHZ_255_BYTE.sch test2_sram_25mhz_255_byte.vhf
+xst -intstyle ise -ifn __projnav/test2_sram_25mhz_255_byte.xst -ofn test2_sram_25mhz_255_byte.syr
+ngdbuild -intstyle ise -dd c:\study\uebung\studium\profibus\test2_sram_25mhz_255_byte/_ngo -uc test2_sram_25mhz_255_byte.ucf  -p xc3s200-ft256-5 test2_sram_25mhz_255_byte.ngc test2_sram_25mhz_255_byte.ngd
+sch2vhdl -family spartan3 -flat -suppress -w TEST2_SRAM_25MHZ_255_BYTE.sch test2_sram_25mhz_255_byte.vhf
+xst -intstyle ise -ifn __projnav/test2_sram_25mhz_255_byte.xst -ofn test2_sram_25mhz_255_byte.syr
+ngdbuild -intstyle ise -dd c:\study\uebung\studium\profibus\test2_sram_25mhz_255_byte/_ngo -uc test2_sram_25mhz_255_byte.ucf  -p xc3s200-ft256-5 test2_sram_25mhz_255_byte.ngc test2_sram_25mhz_255_byte.ngd
+map -intstyle ise -p xc3s200-ft256-5 -cm area -pr b -k 4 -c 100 -tx off -o test2_sram_25mhz_255_byte_map.ncd test2_sram_25mhz_255_byte.ngd test2_sram_25mhz_255_byte.pcf
+par -w -intstyle ise -ol std -t 1 test2_sram_25mhz_255_byte_map.ncd test2_sram_25mhz_255_byte.ncd test2_sram_25mhz_255_byte.pcf
+trce -intstyle ise -e 3 -l 3 -xml test2_sram_25mhz_255_byte test2_sram_25mhz_255_byte.ncd -o test2_sram_25mhz_255_byte.twr test2_sram_25mhz_255_byte.pcf
+bitgen -intstyle ise -f test2_sram_25mhz_255_byte.ut test2_sram_25mhz_255_byte.ncd

@@ -1,0 +1,2222 @@
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file g:/profibus/ctrl_crlf/CTRL_CRLF_VHDL.vhd in Library work.
+Entity <CTRL_CRLF_VHDL> (Architecture <Behavioral>) compiled.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <ctrl_crlf_vhdl> (Architecture <Behavioral>).
+Entity <ctrl_crlf_vhdl> analyzed. Unit <ctrl_crlf_vhdl> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <ctrl_crlf_vhdl>.
+    Related source file is g:/profibus/ctrl_crlf/CTRL_CRLF_VHDL.vhd.
+WARNING:Xst:647 - Input <T_CMPLT> is never used.
+WARNING:Xst:1306 - Output <BYTE_SEND> is never assigned.
+WARNING:Xst:647 - Input <BYTE_IN> is never used.
+WARNING:Xst:647 - Input <BYTE_OK> is never used.
+Unit <ctrl_crlf_vhdl> synthesized.
+
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <ctrl_crlf_vhdl> ...
+Loading device for application Xst from file '3s200.nph' in environment C:/Xilinx.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block ctrl_crlf_vhdl, actual ratio is 0.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s200ft256-5 
+
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+No clock signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: No path found
+   Maximum combinational path delay: No path found
+
+=========================================================================
+Completed process "Synthesize".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file g:/profibus/ctrl_crlf/CTRL_CRLF_VHDL.vhd in Library work.
+ERROR:HDLParsers:3312 - g:/profibus/ctrl_crlf/CTRL_CRLF_VHDL.vhd Line 51. Undefined symbol 'CLK'.
+ERROR:HDLParsers:1209 - g:/profibus/ctrl_crlf/CTRL_CRLF_VHDL.vhd Line 51. CLK: Undefined symbol (last report in this block)
+WARNING:HDLParsers:1406 - g:/profibus/ctrl_crlf/CTRL_CRLF_VHDL.vhd Line 51. No sensitivity list and no wait in the process
+ERROR:HDLParsers:3312 - g:/profibus/ctrl_crlf/CTRL_CRLF_VHDL.vhd Line 55. Undefined symbol 'CLK_IO'.
+ERROR:HDLParsers:1209 - g:/profibus/ctrl_crlf/CTRL_CRLF_VHDL.vhd Line 55. CLK_IO: Undefined symbol (last report in this block)
+WARNING:HDLParsers:1406 - g:/profibus/ctrl_crlf/CTRL_CRLF_VHDL.vhd Line 55. No sensitivity list and no wait in the process
+--> 
+
+Total memory usage is 47848 kilobytes
+
+
+ERROR: XST failed
+Process "Synthesize" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file g:/profibus/ctrl_crlf/CTRL_CRLF_VHDL.vhd in Library work.
+Entity <ctrl_crlf_vhdl> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <ctrl_crlf_vhdl> (Architecture <behavioral>).
+Entity <ctrl_crlf_vhdl> analyzed. Unit <ctrl_crlf_vhdl> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <ctrl_crlf_vhdl>.
+    Related source file is g:/profibus/ctrl_crlf/CTRL_CRLF_VHDL.vhd.
+WARNING:Xst:1306 - Output <DISPL2_n_SV> is never assigned.
+WARNING:Xst:1306 - Output <DISPL1_SV> is never assigned.
+WARNING:Xst:647 - Input <RESET> is never used.
+WARNING:Xst:1306 - Output <BYTE_SEND> is never assigned.
+WARNING:Xst:647 - Input <IN_NEXT_STATE> is never used.
+WARNING:Xst:1306 - Output <DISPL2_SV> is never assigned.
+WARNING:Xst:1306 - Output <DISPL1_n_SV> is never assigned.
+WARNING:Xst:646 - Signal <T_CMPLT_S> is assigned but never used.
+WARNING:Xst:646 - Signal <BYTE_OK_S> is assigned but never used.
+WARNING:Xst:1780 - Signal <n_SV> is never used or assigned.
+WARNING:Xst:646 - Signal <not_CLK> is assigned but never used.
+WARNING:Xst:1780 - Signal <SV> is never used or assigned.
+WARNING:Xst:1780 - Signal <SV_M> is never used or assigned.
+WARNING:Xst:646 - Signal <BYTE_IN_S> is assigned but never used.
+Unit <ctrl_crlf_vhdl> synthesized.
+
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <ctrl_crlf_vhdl> ...
+Loading device for application Xst from file '3s200.nph' in environment C:/Xilinx.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block ctrl_crlf_vhdl, actual ratio is 0.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s200ft256-5 
+
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+No clock signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: No path found
+   Maximum combinational path delay: No path found
+
+=========================================================================
+Completed process "Synthesize".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file g:/profibus/ctrl_crlf/CTRL_CRLF_VHDL.vhd in Library work.
+Entity <ctrl_crlf_vhdl> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <ctrl_crlf_vhdl> (Architecture <behavioral>).
+Entity <ctrl_crlf_vhdl> analyzed. Unit <ctrl_crlf_vhdl> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <ctrl_crlf_vhdl>.
+    Related source file is g:/profibus/ctrl_crlf/CTRL_CRLF_VHDL.vhd.
+WARNING:Xst:1306 - Output <DISPL2_n_SV> is never assigned.
+WARNING:Xst:1306 - Output <DISPL1_SV> is never assigned.
+WARNING:Xst:1306 - Output <BYTE_SEND> is never assigned.
+WARNING:Xst:1306 - Output <DISPL2_SV> is never assigned.
+WARNING:Xst:1306 - Output <DISPL1_n_SV> is never assigned.
+WARNING:Xst:646 - Signal <T_CMPLT_S> is assigned but never used.
+WARNING:Xst:646 - Signal <BYTE_OK_S> is assigned but never used.
+WARNING:Xst:653 - Signal <n_SV> is used but never assigned. Tied to value 00.
+WARNING:Xst:646 - Signal <SV> is assigned but never used.
+WARNING:Xst:646 - Signal <BYTE_IN_S> is assigned but never used.
+Unit <ctrl_crlf_vhdl> synthesized.
+
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <ctrl_crlf_vhdl> ...
+Loading device for application Xst from file '3s200.nph' in environment C:/Xilinx.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block ctrl_crlf_vhdl, actual ratio is 0.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s200ft256-5 
+
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+No clock signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: No path found
+   Maximum combinational path delay: No path found
+
+=========================================================================
+Completed process "Synthesize".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file g:/profibus/ctrl_crlf/CTRL_CRLF_VHDL.vhd in Library work.
+Entity <ctrl_crlf_vhdl> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <ctrl_crlf_vhdl> (Architecture <behavioral>).
+Entity <ctrl_crlf_vhdl> analyzed. Unit <ctrl_crlf_vhdl> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <ctrl_crlf_vhdl>.
+    Related source file is g:/profibus/ctrl_crlf/CTRL_CRLF_VHDL.vhd.
+WARNING:Xst:1306 - Output <DISPL2_n_SV> is never assigned.
+WARNING:Xst:1306 - Output <DISPL1_SV> is never assigned.
+WARNING:Xst:1306 - Output <DISPL2_SV> is never assigned.
+WARNING:Xst:1306 - Output <DISPL1_n_SV> is never assigned.
+WARNING:Xst:646 - Signal <T_CMPLT_S> is assigned but never used.
+    Using one-hot encoding for signal <SV>.
+    Found 8-bit register for signal <BYTE_IN_S>.
+    Found 1-bit register for signal <BYTE_OK_S>.
+    Found 2-bit register for signal <SV>.
+    Found 2-bit register for signal <SV_M>.
+    Summary:
+	inferred   9 D-type flip-flop(s).
+Unit <ctrl_crlf_vhdl> synthesized.
+
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Registers                        : 1
+ 8-bit register                    : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <ctrl_crlf_vhdl> ...
+Loading device for application Xst from file '3s200.nph' in environment C:/Xilinx.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block ctrl_crlf_vhdl, actual ratio is 0.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s200ft256-5 
+
+ Number of Slices:                       5  out of   1920     0%  
+ Number of Slice Flip Flops:             8  out of   3840     0%  
+ Number of 4 input LUTs:                 1  out of   3840     0%  
+ Number of bonded IOBs:                 16  out of    173     9%  
+ Number of GCLKs:                        1  out of      8    12%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+CLK_IO                             | BUFGP                  | 8     |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: 2.095ns
+   Maximum output required time after clock: 5.106ns
+   Maximum combinational path delay: No path found
+
+=========================================================================
+Completed process "Synthesize".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file g:/profibus/ctrl_crlf/CTRL_CRLF_VHDL.vhd in Library work.
+Entity <ctrl_crlf_vhdl> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <ctrl_crlf_vhdl> (Architecture <behavioral>).
+Entity <ctrl_crlf_vhdl> analyzed. Unit <ctrl_crlf_vhdl> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <ctrl_crlf_vhdl>.
+    Related source file is g:/profibus/ctrl_crlf/CTRL_CRLF_VHDL.vhd.
+WARNING:Xst:1306 - Output <DISPL2_n_SV> is never assigned.
+WARNING:Xst:1306 - Output <DISPL1_SV> is never assigned.
+WARNING:Xst:1306 - Output <DISPL2_SV> is never assigned.
+WARNING:Xst:1306 - Output <DISPL1_n_SV> is never assigned.
+    Using one-hot encoding for signal <SV>.
+    Found 8-bit register for signal <BYTE_IN_S>.
+    Found 1-bit register for signal <BYTE_OK_S>.
+    Found 3-bit register for signal <SV>.
+    Found 3-bit register for signal <SV_M>.
+    Found 1-bit register for signal <T_CMPLT_S>.
+    Summary:
+	inferred  10 D-type flip-flop(s).
+Unit <ctrl_crlf_vhdl> synthesized.
+
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Registers                        : 5
+ 1-bit register                    : 2
+ 8-bit register                    : 1
+ 3-bit register                    : 2
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1291 - FF/Latch <2> is unconnected in block <SV_M>.
+WARNING:Xst:1291 - FF/Latch <2> is unconnected in block <SV>.
+WARNING:Xst:1291 - FF/Latch <SV_2> is unconnected in block <ctrl_crlf_vhdl>.
+WARNING:Xst:1291 - FF/Latch <SV_M_2> is unconnected in block <ctrl_crlf_vhdl>.
+
+Optimizing unit <ctrl_crlf_vhdl> ...
+Loading device for application Xst from file '3s200.nph' in environment C:/Xilinx.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block ctrl_crlf_vhdl, actual ratio is 0.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s200ft256-5 
+
+ Number of Slices:                       8  out of   1920     0%  
+ Number of Slice Flip Flops:            14  out of   3840     0%  
+ Number of 4 input LUTs:                12  out of   3840     0%  
+ Number of bonded IOBs:                 20  out of    173    11%  
+ Number of GCLKs:                        2  out of      8    25%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+CLK_IO                             | BUFGP                  | 10    |
+CLK                                | BUFGP                  | 4     |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 4.174ns (Maximum Frequency: 239.578MHz)
+   Minimum input arrival time before clock: 2.668ns
+   Maximum output required time after clock: 6.391ns
+   Maximum combinational path delay: No path found
+
+=========================================================================
+Completed process "Synthesize".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file g:/profibus/ctrl_crlf/CTRL_CRLF_VHDL.vhd in Library work.
+Entity <ctrl_crlf_vhdl> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <ctrl_crlf_vhdl> (Architecture <behavioral>).
+Entity <ctrl_crlf_vhdl> analyzed. Unit <ctrl_crlf_vhdl> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <ctrl_crlf_vhdl>.
+    Related source file is g:/profibus/ctrl_crlf/CTRL_CRLF_VHDL.vhd.
+WARNING:Xst:1306 - Output <DISPL2_n_SV> is never assigned.
+WARNING:Xst:1306 - Output <DISPL1_SV> is never assigned.
+WARNING:Xst:1306 - Output <DISPL2_SV> is never assigned.
+WARNING:Xst:1306 - Output <DISPL1_n_SV> is never assigned.
+    Using one-hot encoding for signal <SV>.
+    Found 8-bit register for signal <BYTE_IN_S>.
+    Found 1-bit register for signal <BYTE_OK_S>.
+    Found 4-bit register for signal <SV>.
+    Found 4-bit register for signal <SV_M>.
+    Found 1-bit register for signal <T_CMPLT_S>.
+    Summary:
+	inferred  10 D-type flip-flop(s).
+Unit <ctrl_crlf_vhdl> synthesized.
+
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Registers                        : 5
+ 1-bit register                    : 2
+ 8-bit register                    : 1
+ 4-bit register                    : 2
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1291 - FF/Latch <3> is unconnected in block <SV_M>.
+WARNING:Xst:1291 - FF/Latch <3> is unconnected in block <SV>.
+WARNING:Xst:1291 - FF/Latch <SV_3> is unconnected in block <ctrl_crlf_vhdl>.
+WARNING:Xst:1291 - FF/Latch <SV_M_3> is unconnected in block <ctrl_crlf_vhdl>.
+
+Optimizing unit <ctrl_crlf_vhdl> ...
+Loading device for application Xst from file '3s200.nph' in environment C:/Xilinx.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block ctrl_crlf_vhdl, actual ratio is 0.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s200ft256-5 
+
+ Number of Slices:                       9  out of   1920     0%  
+ Number of Slice Flip Flops:            16  out of   3840     0%  
+ Number of 4 input LUTs:                13  out of   3840     0%  
+ Number of bonded IOBs:                 20  out of    173    11%  
+ Number of GCLKs:                        2  out of      8    25%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+CLK_IO                             | BUFGP                  | 10    |
+CLK                                | BUFGP                  | 6     |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 4.234ns (Maximum Frequency: 236.183MHz)
+   Minimum input arrival time before clock: 2.780ns
+   Maximum output required time after clock: 6.421ns
+   Maximum combinational path delay: No path found
+
+=========================================================================
+Completed process "Synthesize".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file g:/profibus/ctrl_crlf/CTRL_CRLF_VHDL.vhd in Library work.
+Entity <ctrl_crlf_vhdl> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <ctrl_crlf_vhdl> (Architecture <behavioral>).
+Entity <ctrl_crlf_vhdl> analyzed. Unit <ctrl_crlf_vhdl> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <ctrl_crlf_vhdl>.
+    Related source file is g:/profibus/ctrl_crlf/CTRL_CRLF_VHDL.vhd.
+WARNING:Xst:1306 - Output <DISPL2_n_SV> is never assigned.
+WARNING:Xst:1306 - Output <DISPL1_SV> is never assigned.
+WARNING:Xst:1306 - Output <DISPL2_SV> is never assigned.
+WARNING:Xst:1306 - Output <DISPL1_n_SV> is never assigned.
+    Using one-hot encoding for signal <SV>.
+    Found 8-bit register for signal <BYTE_IN_S>.
+    Found 1-bit register for signal <BYTE_OK_S>.
+    Found 3-bit register for signal <SV>.
+    Found 3-bit register for signal <SV_M>.
+    Found 1-bit register for signal <T_CMPLT_S>.
+    Summary:
+	inferred  10 D-type flip-flop(s).
+Unit <ctrl_crlf_vhdl> synthesized.
+
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Registers                        : 5
+ 1-bit register                    : 2
+ 8-bit register                    : 1
+ 3-bit register                    : 2
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <ctrl_crlf_vhdl> ...
+Loading device for application Xst from file '3s200.nph' in environment C:/Xilinx.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block ctrl_crlf_vhdl, actual ratio is 0.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s200ft256-5 
+
+ Number of Slices:                       9  out of   1920     0%  
+ Number of Slice Flip Flops:            16  out of   3840     0%  
+ Number of 4 input LUTs:                13  out of   3840     0%  
+ Number of bonded IOBs:                 20  out of    173    11%  
+ Number of GCLKs:                        2  out of      8    25%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+CLK_IO                             | BUFGP                  | 10    |
+CLK                                | BUFGP                  | 6     |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 4.234ns (Maximum Frequency: 236.183MHz)
+   Minimum input arrival time before clock: 2.780ns
+   Maximum output required time after clock: 6.421ns
+   Maximum combinational path delay: No path found
+
+=========================================================================
+Completed process "Synthesize".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file g:/profibus/ctrl_crlf/CTRL_CRLF_VHDL.vhd in Library work.
+ERROR:HDLParsers:3312 - g:/profibus/ctrl_crlf/CTRL_CRLF_VHDL.vhd Line 144. Undefined symbol 'DISPL_COUNT'.
+ERROR:HDLParsers:1209 - g:/profibus/ctrl_crlf/CTRL_CRLF_VHDL.vhd Line 144. DISPL_COUNT: Undefined symbol (last report in this block)
+--> 
+
+Total memory usage is 47848 kilobytes
+
+
+ERROR: XST failed
+Process "Synthesize" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file g:/profibus/ctrl_crlf/CTRL_CRLF_VHDL.vhd in Library work.
+Entity <ctrl_crlf_vhdl> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <ctrl_crlf_vhdl> (Architecture <behavioral>).
+Entity <ctrl_crlf_vhdl> analyzed. Unit <ctrl_crlf_vhdl> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <ctrl_crlf_vhdl>.
+    Related source file is g:/profibus/ctrl_crlf/CTRL_CRLF_VHDL.vhd.
+    Found 8-bit register for signal <BYTE_IN_S>.
+    Found 1-bit register for signal <BYTE_OK_S>.
+    Found 2-bit register for signal <SV>.
+    Found 2-bit register for signal <SV_M>.
+    Found 1-bit register for signal <T_CMPLT_S>.
+    Summary:
+	inferred  14 D-type flip-flop(s).
+Unit <ctrl_crlf_vhdl> synthesized.
+
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Registers                        : 5
+ 2-bit register                    : 2
+ 1-bit register                    : 2
+ 8-bit register                    : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <ctrl_crlf_vhdl> ...
+Loading device for application Xst from file '3s200.nph' in environment C:/Xilinx.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block ctrl_crlf_vhdl, actual ratio is 0.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s200ft256-5 
+
+ Number of Slices:                       8  out of   1920     0%  
+ Number of Slice Flip Flops:            14  out of   3840     0%  
+ Number of 4 input LUTs:                12  out of   3840     0%  
+ Number of bonded IOBs:                 36  out of    173    20%  
+ Number of GCLKs:                        2  out of      8    25%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+CLK_IO                             | BUFGP                  | 10    |
+CLK                                | BUFGP                  | 4     |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 4.234ns (Maximum Frequency: 236.183MHz)
+   Minimum input arrival time before clock: 2.668ns
+   Maximum output required time after clock: 6.421ns
+   Maximum combinational path delay: No path found
+
+=========================================================================
+Completed process "Synthesize".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file g:/profibus/ctrl_crlf/CTRL_CRLF_VHDL.vhd in Library work.
+Entity <ctrl_crlf_vhdl> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <ctrl_crlf_vhdl> (Architecture <behavioral>).
+Entity <ctrl_crlf_vhdl> analyzed. Unit <ctrl_crlf_vhdl> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <ctrl_crlf_vhdl>.
+    Related source file is g:/profibus/ctrl_crlf/CTRL_CRLF_VHDL.vhd.
+    Found 8-bit register for signal <BYTE_IN_S>.
+    Found 1-bit register for signal <BYTE_OK_S>.
+    Found 2-bit register for signal <SV>.
+    Found 2-bit register for signal <SV_M>.
+    Found 1-bit register for signal <T_CMPLT_S>.
+    Summary:
+	inferred  14 D-type flip-flop(s).
+Unit <ctrl_crlf_vhdl> synthesized.
+
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Registers                        : 5
+ 2-bit register                    : 2
+ 1-bit register                    : 2
+ 8-bit register                    : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <ctrl_crlf_vhdl> ...
+Loading device for application Xst from file '3s200.nph' in environment C:/Xilinx.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block ctrl_crlf_vhdl, actual ratio is 0.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s200ft256-5 
+
+ Number of Slices:                       8  out of   1920     0%  
+ Number of Slice Flip Flops:            14  out of   3840     0%  
+ Number of 4 input LUTs:                12  out of   3840     0%  
+ Number of bonded IOBs:                 36  out of    173    20%  
+ Number of GCLKs:                        2  out of      8    25%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+CLK_IO                             | BUFGP                  | 10    |
+CLK                                | BUFGP                  | 4     |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 4.234ns (Maximum Frequency: 236.183MHz)
+   Minimum input arrival time before clock: 2.668ns
+   Maximum output required time after clock: 6.421ns
+   Maximum combinational path delay: No path found
+
+=========================================================================
+Completed process "Synthesize".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+deleting ctrl_crlf_vhdl.lso
+deleting ctrl_crlf_vhdl.syr
+deleting ctrl_crlf_vhdl.prj
+deleting ctrl_crlf_vhdl.sprj
+deleting ctrl_crlf_vhdl.ana
+deleting ctrl_crlf_vhdl.stx
+deleting ctrl_crlf_vhdl.cmd_log
+deleting ctrl_crlf_vhdl.ngc
+deleting ctrl_crlf_vhdl.ngr
+deleting ctrl_crlf_vhdl.lso
+deleting ctrl_crlf_vhdl.syr
+deleting ctrl_crlf_vhdl.prj
+deleting ctrl_crlf_vhdl.sprj
+deleting ctrl_crlf_vhdl.ana
+deleting ctrl_crlf_vhdl.stx
+deleting ctrl_crlf_vhdl.cmd_log
+deleting ctrl_crlf_vhdl.ngc
+deleting ctrl_crlf_vhdl.ngr
+deleting ctrl_crlf_vhdl.lso
+deleting ctrl_crlf_vhdl.syr
+deleting ctrl_crlf_vhdl.prj
+deleting ctrl_crlf_vhdl.sprj
+deleting ctrl_crlf_vhdl.ana
+deleting ctrl_crlf_vhdl.stx
+deleting ctrl_crlf_vhdl.cmd_log
+deleting ctrl_crlf_vhdl.ngc
+deleting ctrl_crlf_vhdl.ngr
+deleting ctrl_crlf_vhdl.lso
+deleting ctrl_crlf_vhdl.syr
+deleting ctrl_crlf_vhdl.prj
+deleting ctrl_crlf_vhdl.sprj
+deleting ctrl_crlf_vhdl.ana
+deleting ctrl_crlf_vhdl.stx
+deleting ctrl_crlf_vhdl.cmd_log
+deleting ctrl_crlf_vhdl.ngc
+deleting ctrl_crlf_vhdl.ngr
+deleting ctrl_crlf_vhdl.lso
+deleting ctrl_crlf_vhdl.syr
+deleting ctrl_crlf_vhdl.prj
+deleting ctrl_crlf_vhdl.sprj
+deleting ctrl_crlf_vhdl.ana
+deleting ctrl_crlf_vhdl.stx
+deleting ctrl_crlf_vhdl.cmd_log
+deleting ctrl_crlf_vhdl.ngc
+deleting ctrl_crlf_vhdl.ngr
+deleting ctrl_crlf_vhdl.lso
+deleting ctrl_crlf_vhdl.syr
+deleting ctrl_crlf_vhdl.prj
+deleting ctrl_crlf_vhdl.sprj
+deleting ctrl_crlf_vhdl.ana
+deleting ctrl_crlf_vhdl.stx
+deleting ctrl_crlf_vhdl.cmd_log
+deleting ctrl_crlf_vhdl.ngc
+deleting ctrl_crlf_vhdl.ngr
+deleting ctrl_crlf_vhdl.lso
+deleting ctrl_crlf_vhdl.syr
+deleting ctrl_crlf_vhdl.prj
+deleting ctrl_crlf_vhdl.sprj
+deleting ctrl_crlf_vhdl.ana
+deleting ctrl_crlf_vhdl.stx
+deleting ctrl_crlf_vhdl.cmd_log
+deleting ctrl_crlf_vhdl.ngc
+deleting ctrl_crlf_vhdl.ngr
+deleting ctrl_crlf_vhdl.lso
+deleting ctrl_crlf_vhdl.syr
+deleting ctrl_crlf_vhdl.prj
+deleting ctrl_crlf_vhdl.sprj
+deleting ctrl_crlf_vhdl.ana
+deleting ctrl_crlf_vhdl.stx
+deleting ctrl_crlf_vhdl.cmd_log
+deleting ctrl_crlf_vhdl.ngc
+deleting ctrl_crlf_vhdl.ngr
+deleting ctrl_crlf_vhdl.lso
+deleting ctrl_crlf_vhdl.syr
+deleting ctrl_crlf_vhdl.prj
+deleting ctrl_crlf_vhdl.sprj
+deleting ctrl_crlf_vhdl.ana
+deleting ctrl_crlf_vhdl.stx
+deleting ctrl_crlf_vhdl.cmd_log
+deleting ctrl_crlf_vhdl.ngc
+deleting ctrl_crlf_vhdl.ngr
+deleting ctrl_crlf_vhdl.lso
+deleting ctrl_crlf_vhdl.syr
+deleting ctrl_crlf_vhdl.prj
+deleting ctrl_crlf_vhdl.sprj
+deleting ctrl_crlf_vhdl.ana
+deleting ctrl_crlf_vhdl.stx
+deleting ctrl_crlf_vhdl.cmd_log
+deleting ctrl_crlf_vhdl.ngc
+deleting ctrl_crlf_vhdl.ngr
+deleting ctrl_crlf_vhdl.lso
+deleting ctrl_crlf_vhdl.syr
+deleting ctrl_crlf_vhdl.prj
+deleting ctrl_crlf_vhdl.sprj
+deleting ctrl_crlf_vhdl.ana
+deleting ctrl_crlf_vhdl.stx
+deleting ctrl_crlf_vhdl.cmd_log
+deleting ctrl_crlf_vhdl.ngc
+deleting ctrl_crlf_vhdl.ngr
+deleting ctrl_crlf_vhdl.prj
+deleting ctrl_crlf_vhdl.prj
+deleting __projnav/ctrl_crlf_vhdl.xst
+deleting ./xst
+deleting ctrl_crlf_vhdl.prj
+deleting ctrl_crlf_vhdl.prj
+deleting __projnav/ctrl_crlf_vhdl.xst
+deleting ./xst
+deleting ctrl_crlf_vhdl.prj
+deleting ctrl_crlf_vhdl.prj
+deleting __projnav/ctrl_crlf_vhdl.xst
+deleting ./xst
+deleting ctrl_crlf_vhdl.prj
+deleting ctrl_crlf_vhdl.prj
+deleting __projnav/ctrl_crlf_vhdl.xst
+deleting ./xst
+deleting ctrl_crlf_vhdl.prj
+deleting ctrl_crlf_vhdl.prj
+deleting __projnav/ctrl_crlf_vhdl.xst
+deleting ./xst
+deleting ctrl_crlf_vhdl.prj
+deleting ctrl_crlf_vhdl.prj
+deleting __projnav/ctrl_crlf_vhdl.xst
+deleting ./xst
+deleting ctrl_crlf_vhdl.prj
+deleting ctrl_crlf_vhdl.prj
+deleting __projnav/ctrl_crlf_vhdl.xst
+deleting ./xst
+deleting ctrl_crlf_vhdl.prj
+deleting ctrl_crlf_vhdl.prj
+deleting __projnav/ctrl_crlf_vhdl.xst
+deleting ./xst
+deleting ctrl_crlf_vhdl.prj
+deleting ctrl_crlf_vhdl.prj
+deleting __projnav/ctrl_crlf_vhdl.xst
+deleting ./xst
+deleting ctrl_crlf_vhdl.prj
+deleting ctrl_crlf_vhdl.prj
+deleting __projnav/ctrl_crlf_vhdl.xst
+deleting ./xst
+deleting ctrl_crlf_vhdl.prj
+deleting ctrl_crlf_vhdl.prj
+deleting __projnav/ctrl_crlf_vhdl.xst
+deleting ./xst
+deleting __projnav/CTRL_CRLF.gfl
+deleting __projnav/CTRL_CRLF_flowplus.gfl
+Finished cleaning up project
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file C:/STUDY/UEBUNG/Studium/Profibus/CTRL_CRLF/CTRL_CRLF_VHDL.vhd in Library work.
+Entity <CTRL_CRLF_VHDL> (Architecture <Behavioral>) compiled.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <ctrl_crlf_vhdl> (Architecture <Behavioral>).
+Entity <ctrl_crlf_vhdl> analyzed. Unit <ctrl_crlf_vhdl> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <ctrl_crlf_vhdl>.
+    Related source file is C:/STUDY/UEBUNG/Studium/Profibus/CTRL_CRLF/CTRL_CRLF_VHDL.vhd.
+    Found 8-bit register for signal <BYTE_IN_S>.
+    Found 1-bit register for signal <BYTE_OK_S>.
+    Found 2-bit register for signal <SV>.
+    Found 2-bit register for signal <SV_M>.
+    Found 1-bit register for signal <T_CMPLT_S>.
+    Summary:
+	inferred  14 D-type flip-flop(s).
+Unit <ctrl_crlf_vhdl> synthesized.
+
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Registers                        : 5
+ 2-bit register                    : 2
+ 1-bit register                    : 2
+ 8-bit register                    : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <ctrl_crlf_vhdl> ...
+Loading device for application Xst from file '3s200.nph' in environment C:/Programme/XILINX/WEBPACK_6P3.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block ctrl_crlf_vhdl, actual ratio is 0.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s200ft256-5 
+
+ Number of Slices:                       8  out of   1920     0%  
+ Number of Slice Flip Flops:            14  out of   3840     0%  
+ Number of 4 input LUTs:                12  out of   3840     0%  
+ Number of bonded IOBs:                 36  out of    173    20%  
+ Number of GCLKs:                        2  out of      8    25%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+CLK_IO                             | BUFGP                  | 10    |
+CLK                                | BUFGP                  | 4     |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 4.234ns (Maximum Frequency: 236.183MHz)
+   Minimum input arrival time before clock: 2.668ns
+   Maximum output required time after clock: 6.421ns
+   Maximum combinational path delay: No path found
+
+=========================================================================
+Completed process "Synthesize".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+deleting ctrl_crlf_vhdl.lso
+deleting ctrl_crlf_vhdl.syr
+deleting ctrl_crlf_vhdl.prj
+deleting ctrl_crlf_vhdl.sprj
+deleting ctrl_crlf_vhdl.ana
+deleting ctrl_crlf_vhdl.stx
+deleting ctrl_crlf_vhdl.cmd_log
+deleting ctrl_crlf_vhdl.ngc
+deleting ctrl_crlf_vhdl.ngr
+deleting ctrl_crlf_vhdl.prj
+deleting ctrl_crlf_vhdl.prj
+deleting __projnav/ctrl_crlf_vhdl.xst
+deleting ./xst
+deleting __projnav/CTRL_CRLF.gfl
+deleting __projnav/CTRL_CRLF_flowplus.gfl
+Finished cleaning up project
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file C:/STUDY/UEBUNG/Studium/Profibus/CTRL_CRLF/CTRL_CRLF_VHDL.vhd in Library work.
+Entity <CTRL_CRLF_VHDL> (Architecture <Behavioral>) compiled.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <ctrl_crlf_vhdl> (Architecture <Behavioral>).
+Entity <ctrl_crlf_vhdl> analyzed. Unit <ctrl_crlf_vhdl> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <ctrl_crlf_vhdl>.
+    Related source file is C:/STUDY/UEBUNG/Studium/Profibus/CTRL_CRLF/CTRL_CRLF_VHDL.vhd.
+    Found 8-bit register for signal <BYTE_IN_S>.
+    Found 1-bit register for signal <BYTE_OK_S>.
+    Found 2-bit register for signal <SV>.
+    Found 2-bit register for signal <SV_M>.
+    Found 1-bit register for signal <T_CMPLT_S>.
+    Summary:
+	inferred  14 D-type flip-flop(s).
+Unit <ctrl_crlf_vhdl> synthesized.
+
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Registers                        : 5
+ 2-bit register                    : 2
+ 1-bit register                    : 2
+ 8-bit register                    : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <ctrl_crlf_vhdl> ...
+Loading device for application Xst from file '3s200.nph' in environment C:/Programme/XILINX/WEBPACK_6P3.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block ctrl_crlf_vhdl, actual ratio is 0.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s200ft256-5 
+
+ Number of Slices:                       8  out of   1920     0%  
+ Number of Slice Flip Flops:            14  out of   3840     0%  
+ Number of 4 input LUTs:                12  out of   3840     0%  
+ Number of bonded IOBs:                 36  out of    173    20%  
+ Number of GCLKs:                        2  out of      8    25%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+CLK_IO                             | BUFGP                  | 10    |
+CLK                                | BUFGP                  | 4     |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 4.234ns (Maximum Frequency: 236.183MHz)
+   Minimum input arrival time before clock: 2.668ns
+   Maximum output required time after clock: 6.421ns
+   Maximum combinational path delay: No path found
+
+=========================================================================
+Completed process "Synthesize".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file C:/STUDY/UEBUNG/Studium/Profibus/CTRL_CRLF/CTRL_CRLF_VHDL.vhd in Library work.
+Entity <ctrl_crlf_vhdl> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <ctrl_crlf_vhdl> (Architecture <behavioral>).
+Entity <ctrl_crlf_vhdl> analyzed. Unit <ctrl_crlf_vhdl> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <ctrl_crlf_vhdl>.
+    Related source file is C:/STUDY/UEBUNG/Studium/Profibus/CTRL_CRLF/CTRL_CRLF_VHDL.vhd.
+    Using one-hot encoding for signal <SV>.
+    Found 8-bit register for signal <BYTE_IN_S>.
+    Found 1-bit register for signal <BYTE_OK_S>.
+    Found 3-bit register for signal <SV>.
+    Found 3-bit register for signal <SV_M>.
+    Found 1-bit register for signal <T_CMPLT_S>.
+    Summary:
+	inferred  10 D-type flip-flop(s).
+Unit <ctrl_crlf_vhdl> synthesized.
+
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Registers                        : 5
+ 1-bit register                    : 2
+ 8-bit register                    : 1
+ 3-bit register                    : 2
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <ctrl_crlf_vhdl> ...
+Loading device for application Xst from file '3s200.nph' in environment C:/Programme/XILINX/WEBPACK_6P3.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block ctrl_crlf_vhdl, actual ratio is 0.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s200ft256-5 
+
+ Number of Slices:                       9  out of   1920     0%  
+ Number of Slice Flip Flops:            16  out of   3840     0%  
+ Number of 4 input LUTs:                13  out of   3840     0%  
+ Number of bonded IOBs:                 20  out of    173    11%  
+ Number of GCLKs:                        2  out of      8    25%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+CLK_IO                             | BUFGP                  | 10    |
+CLK                                | BUFGP                  | 6     |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 4.234ns (Maximum Frequency: 236.183MHz)
+   Minimum input arrival time before clock: 2.780ns
+   Maximum output required time after clock: 6.421ns
+   Maximum combinational path delay: No path found
+
+=========================================================================
+Completed process "Synthesize".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+deleting ctrl_crlf_vhdl.lso
+deleting ctrl_crlf_vhdl.syr
+deleting ctrl_crlf_vhdl.prj
+deleting ctrl_crlf_vhdl.sprj
+deleting ctrl_crlf_vhdl.ana
+deleting ctrl_crlf_vhdl.stx
+deleting ctrl_crlf_vhdl.cmd_log
+deleting ctrl_crlf_vhdl.ngc
+deleting ctrl_crlf_vhdl.ngr
+deleting ctrl_crlf_vhdl.lso
+deleting ctrl_crlf_vhdl.syr
+deleting ctrl_crlf_vhdl.prj
+deleting ctrl_crlf_vhdl.sprj
+deleting ctrl_crlf_vhdl.ana
+deleting ctrl_crlf_vhdl.stx
+deleting ctrl_crlf_vhdl.cmd_log
+deleting ctrl_crlf_vhdl.ngc
+deleting ctrl_crlf_vhdl.ngr
+deleting ctrl_crlf_vhdl.prj
+deleting ctrl_crlf_vhdl.prj
+deleting __projnav/ctrl_crlf_vhdl.xst
+deleting ./xst
+deleting ctrl_crlf_vhdl.prj
+deleting ctrl_crlf_vhdl.prj
+deleting __projnav/ctrl_crlf_vhdl.xst
+deleting ./xst
+deleting __projnav/CTRL_CRLF.gfl
+deleting __projnav/CTRL_CRLF_flowplus.gfl
+Finished cleaning up project
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file C:/STUDY/UEBUNG/Studium/Profibus/CTRL_CRLF/CTRL_CRLF_VHDL.vhd in Library work.
+Entity <CTRL_CRLF_VHDL> (Architecture <Behavioral>) compiled.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <ctrl_crlf_vhdl> (Architecture <Behavioral>).
+Entity <ctrl_crlf_vhdl> analyzed. Unit <ctrl_crlf_vhdl> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <ctrl_crlf_vhdl>.
+    Related source file is C:/STUDY/UEBUNG/Studium/Profibus/CTRL_CRLF/CTRL_CRLF_VHDL.vhd.
+    Using one-hot encoding for signal <SV>.
+    Found 8-bit register for signal <BYTE_IN_S>.
+    Found 1-bit register for signal <BYTE_OK_S>.
+    Found 3-bit register for signal <SV>.
+    Found 3-bit register for signal <SV_M>.
+    Found 1-bit register for signal <T_CMPLT_S>.
+    Summary:
+	inferred  10 D-type flip-flop(s).
+Unit <ctrl_crlf_vhdl> synthesized.
+
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Registers                        : 5
+ 1-bit register                    : 2
+ 8-bit register                    : 1
+ 3-bit register                    : 2
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <ctrl_crlf_vhdl> ...
+Loading device for application Xst from file '3s200.nph' in environment C:/Programme/XILINX/WEBPACK_6P3.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block ctrl_crlf_vhdl, actual ratio is 0.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s200ft256-5 
+
+ Number of Slices:                       9  out of   1920     0%  
+ Number of Slice Flip Flops:            16  out of   3840     0%  
+ Number of 4 input LUTs:                13  out of   3840     0%  
+ Number of bonded IOBs:                 20  out of    173    11%  
+ Number of GCLKs:                        2  out of      8    25%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+CLK_IO                             | BUFGP                  | 10    |
+CLK                                | BUFGP                  | 6     |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 4.234ns (Maximum Frequency: 236.183MHz)
+   Minimum input arrival time before clock: 2.780ns
+   Maximum output required time after clock: 6.421ns
+   Maximum combinational path delay: No path found
+
+=========================================================================
+Completed process "Synthesize".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+deleting ctrl_crlf_vhdl.lso
+deleting ctrl_crlf_vhdl.syr
+deleting ctrl_crlf_vhdl.prj
+deleting ctrl_crlf_vhdl.sprj
+deleting ctrl_crlf_vhdl.ana
+deleting ctrl_crlf_vhdl.stx
+deleting ctrl_crlf_vhdl.cmd_log
+deleting ctrl_crlf_vhdl.ngc
+deleting ctrl_crlf_vhdl.ngr
+deleting ctrl_crlf_vhdl.prj
+deleting ctrl_crlf_vhdl.prj
+deleting __projnav/ctrl_crlf_vhdl.xst
+deleting ./xst
+deleting __projnav/CTRL_CRLF.gfl
+deleting __projnav/CTRL_CRLF_flowplus.gfl
+Finished cleaning up project
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file C:/STUDY/UEBUNG/Studium/Profibus/CTRL_CRLF/CTRL_CRLF_VHDL.vhd in Library work.
+Entity <CTRL_CRLF_VHDL> (Architecture <Behavioral>) compiled.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <ctrl_crlf_vhdl> (Architecture <Behavioral>).
+Entity <ctrl_crlf_vhdl> analyzed. Unit <ctrl_crlf_vhdl> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <ctrl_crlf_vhdl>.
+    Related source file is C:/STUDY/UEBUNG/Studium/Profibus/CTRL_CRLF/CTRL_CRLF_VHDL.vhd.
+    Using one-hot encoding for signal <SV>.
+    Found 1-bit register for signal <BYTE_OK_S>.
+    Found 3-bit register for signal <SV>.
+    Found 3-bit register for signal <SV_M>.
+    Found 1-bit register for signal <T_CMPLT_S>.
+    Summary:
+	inferred   2 D-type flip-flop(s).
+Unit <ctrl_crlf_vhdl> synthesized.
+
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Registers                        : 4
+ 1-bit register                    : 2
+ 3-bit register                    : 2
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <ctrl_crlf_vhdl> ...
+Loading device for application Xst from file '3s200.nph' in environment C:/Programme/XILINX/WEBPACK_6P3.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block ctrl_crlf_vhdl, actual ratio is 0.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s200ft256-5 
+
+ Number of Slices:                       7  out of   1920     0%  
+ Number of Slice Flip Flops:             8  out of   3840     0%  
+ Number of 4 input LUTs:                13  out of   3840     0%  
+ Number of bonded IOBs:                 20  out of    173    11%  
+ Number of GCLKs:                        2  out of      8    25%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+CLK_IO                             | BUFGP                  | 2     |
+CLK                                | BUFGP                  | 6     |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 4.234ns (Maximum Frequency: 236.183MHz)
+   Minimum input arrival time before clock: 2.780ns
+   Maximum output required time after clock: 6.421ns
+   Maximum combinational path delay: 6.878ns
+
+=========================================================================
+Completed process "Synthesize".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file C:/STUDY/UEBUNG/Studium/Profibus/CTRL_CRLF/CTRL_CRLF_VHDL.vhd in Library work.
+Entity <ctrl_crlf_vhdl> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <ctrl_crlf_vhdl> (Architecture <behavioral>).
+Entity <ctrl_crlf_vhdl> analyzed. Unit <ctrl_crlf_vhdl> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <ctrl_crlf_vhdl>.
+    Related source file is C:/STUDY/UEBUNG/Studium/Profibus/CTRL_CRLF/CTRL_CRLF_VHDL.vhd.
+    Using one-hot encoding for signal <SV>.
+    Found 3-bit register for signal <SV>.
+    Found 3-bit register for signal <SV_M>.
+    Found 1-bit register for signal <T_CMPLT_S>.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+Unit <ctrl_crlf_vhdl> synthesized.
+
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Registers                        : 3
+ 1-bit register                    : 1
+ 3-bit register                    : 2
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <ctrl_crlf_vhdl> ...
+Loading device for application Xst from file '3s200.nph' in environment C:/Programme/XILINX/WEBPACK_6P3.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block ctrl_crlf_vhdl, actual ratio is 0.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s200ft256-5 
+
+ Number of Slices:                       7  out of   1920     0%  
+ Number of Slice Flip Flops:             7  out of   3840     0%  
+ Number of 4 input LUTs:                13  out of   3840     0%  
+ Number of bonded IOBs:                 20  out of    173    11%  
+ Number of GCLKs:                        2  out of      8    25%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+CLK_IO                             | BUFGP                  | 1     |
+CLK                                | BUFGP                  | 6     |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 4.234ns (Maximum Frequency: 236.183MHz)
+   Minimum input arrival time before clock: 2.799ns
+   Maximum output required time after clock: 6.421ns
+   Maximum combinational path delay: 6.878ns
+
+=========================================================================
+Completed process "Synthesize".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file C:/STUDY/UEBUNG/Studium/Profibus/CTRL_CRLF/CTRL_CRLF_VHDL.vhd in Library work.
+Entity <ctrl_crlf_vhdl> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <ctrl_crlf_vhdl> (Architecture <behavioral>).
+Entity <ctrl_crlf_vhdl> analyzed. Unit <ctrl_crlf_vhdl> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <ctrl_crlf_vhdl>.
+    Related source file is C:/STUDY/UEBUNG/Studium/Profibus/CTRL_CRLF/CTRL_CRLF_VHDL.vhd.
+    Using one-hot encoding for signal <SV>.
+    Found 3-bit register for signal <SV>.
+    Found 3-bit register for signal <SV_M>.
+Unit <ctrl_crlf_vhdl> synthesized.
+
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Registers                        : 2
+ 3-bit register                    : 2
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <ctrl_crlf_vhdl> ...
+Loading device for application Xst from file '3s200.nph' in environment C:/Programme/XILINX/WEBPACK_6P3.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block ctrl_crlf_vhdl, actual ratio is 0.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s200ft256-5 
+
+ Number of Slices:                       7  out of   1920     0%  
+ Number of Slice Flip Flops:             6  out of   3840     0%  
+ Number of 4 input LUTs:                12  out of   3840     0%  
+ Number of bonded IOBs:                 20  out of    173    11%  
+ Number of GCLKs:                        1  out of      8    12%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+CLK                                | BUFGP                  | 6     |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 4.234ns (Maximum Frequency: 236.183MHz)
+   Minimum input arrival time before clock: 3.140ns
+   Maximum output required time after clock: 6.421ns
+   Maximum combinational path delay: 7.444ns
+
+=========================================================================
+Completed process "Synthesize".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+deleting ctrl_crlf_vhdl.lso
+deleting ctrl_crlf_vhdl.syr
+deleting ctrl_crlf_vhdl.prj
+deleting ctrl_crlf_vhdl.sprj
+deleting ctrl_crlf_vhdl.ana
+deleting ctrl_crlf_vhdl.stx
+deleting ctrl_crlf_vhdl.cmd_log
+deleting ctrl_crlf_vhdl.ngc
+deleting ctrl_crlf_vhdl.ngr
+deleting ctrl_crlf_vhdl.lso
+deleting ctrl_crlf_vhdl.syr
+deleting ctrl_crlf_vhdl.prj
+deleting ctrl_crlf_vhdl.sprj
+deleting ctrl_crlf_vhdl.ana
+deleting ctrl_crlf_vhdl.stx
+deleting ctrl_crlf_vhdl.cmd_log
+deleting ctrl_crlf_vhdl.ngc
+deleting ctrl_crlf_vhdl.ngr
+deleting ctrl_crlf_vhdl.lso
+deleting ctrl_crlf_vhdl.syr
+deleting ctrl_crlf_vhdl.prj
+deleting ctrl_crlf_vhdl.sprj
+deleting ctrl_crlf_vhdl.ana
+deleting ctrl_crlf_vhdl.stx
+deleting ctrl_crlf_vhdl.cmd_log
+deleting ctrl_crlf_vhdl.ngc
+deleting ctrl_crlf_vhdl.ngr
+deleting ctrl_crlf_vhdl.prj
+deleting ctrl_crlf_vhdl.prj
+deleting __projnav/ctrl_crlf_vhdl.xst
+deleting ./xst
+deleting ctrl_crlf_vhdl.prj
+deleting ctrl_crlf_vhdl.prj
+deleting __projnav/ctrl_crlf_vhdl.xst
+deleting ./xst
+deleting ctrl_crlf_vhdl.prj
+deleting ctrl_crlf_vhdl.prj
+deleting __projnav/ctrl_crlf_vhdl.xst
+deleting ./xst
+deleting __projnav/CTRL_CRLF.gfl
+deleting __projnav/CTRL_CRLF_flowplus.gfl
+Finished cleaning up project
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file G:/Profibus/CTRL_CRLF/CTRL_CRLF_VHDL.vhd in Library work.
+Entity <CTRL_CRLF_VHDL> (Architecture <Behavioral>) compiled.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <ctrl_crlf_vhdl> (Architecture <Behavioral>).
+Entity <ctrl_crlf_vhdl> analyzed. Unit <ctrl_crlf_vhdl> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <ctrl_crlf_vhdl>.
+    Related source file is G:/Profibus/CTRL_CRLF/CTRL_CRLF_VHDL.vhd.
+    Using one-hot encoding for signal <SV>.
+    Found 3-bit register for signal <SV>.
+    Found 3-bit register for signal <SV_M>.
+Unit <ctrl_crlf_vhdl> synthesized.
+
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Registers                        : 2
+ 3-bit register                    : 2
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <ctrl_crlf_vhdl> ...
+Loading device for application Xst from file '3s200.nph' in environment C:/Xilinx.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block ctrl_crlf_vhdl, actual ratio is 0.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s200ft256-5 
+
+ Number of Slices:                       6  out of   1920     0%  
+ Number of Slice Flip Flops:             6  out of   3840     0%  
+ Number of 4 input LUTs:                11  out of   3840     0%  
+ Number of bonded IOBs:                 20  out of    173    11%  
+ Number of GCLKs:                        1  out of      8    12%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+CLK                                | BUFGP                  | 6     |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 4.234ns (Maximum Frequency: 236.183MHz)
+   Minimum input arrival time before clock: 3.140ns
+   Maximum output required time after clock: 6.421ns
+   Maximum combinational path delay: 7.444ns
+
+=========================================================================
+Completed process "Synthesize".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+deleting ctrl_crlf_vhdl.lso
+deleting ctrl_crlf_vhdl.syr
+deleting ctrl_crlf_vhdl.prj
+deleting ctrl_crlf_vhdl.sprj
+deleting ctrl_crlf_vhdl.ana
+deleting ctrl_crlf_vhdl.stx
+deleting ctrl_crlf_vhdl.cmd_log
+deleting ctrl_crlf_vhdl.ngc
+deleting ctrl_crlf_vhdl.ngr
+deleting ctrl_crlf_vhdl.prj
+deleting ctrl_crlf_vhdl.prj
+deleting __projnav/ctrl_crlf_vhdl.xst
+deleting ./xst
+deleting __projnav/CTRL_CRLF.gfl
+deleting __projnav/CTRL_CRLF_flowplus.gfl
+Finished cleaning up project
+

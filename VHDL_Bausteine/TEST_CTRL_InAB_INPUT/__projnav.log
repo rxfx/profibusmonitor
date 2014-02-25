@@ -1,0 +1,997 @@
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+Started process "Create Schematic Symbol".
+
+Compiling vhdl file
+g:/profibus/martins_profibus_doku/vhdl_bausteine/test_ctrl_inab_input/CLOCK_SING
+LE_RUN_SRC.vhd in Library work.
+Entity <CLOCK_SINGLE_RUN_SRC> (Architecture <Behavioral>) compiled.
+tdtfi(vhdl) completed successfully.
+
+
+Release 6.3.03i - spl2sym G.35
+Copyright (c) 1995-2004 Xilinx, Inc.  All rights reserved.
+Completed process "Create Schematic Symbol".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+Started process "Create Schematic Symbol".
+
+Compiling vhdl file
+g:/profibus/martins_profibus_doku/vhdl_bausteine/test_ctrl_inab_input/CTRL_InAB_
+INPUT_VHDL.vhd in Library work.
+Entity <CTRL_InAB_INPUT_VHDL> (Architecture <Behavioral>) compiled.
+tdtfi(vhdl) completed successfully.
+
+
+Release 6.3.03i - spl2sym G.35
+Copyright (c) 1995-2004 Xilinx, Inc.  All rights reserved.
+Completed process "Create Schematic Symbol".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+Started process "Create Schematic Symbol".
+
+Compiling vhdl file
+g:/profibus/martins_profibus_doku/vhdl_bausteine/test_ctrl_inab_input/DEB_50MZ_1
+00MS_SRC.vhd in Library work.
+Entity <DEB_50MZ_100MS_SRC> (Architecture <Behavioral>) compiled.
+tdtfi(vhdl) completed successfully.
+
+
+Release 6.3.03i - spl2sym G.35
+Copyright (c) 1995-2004 Xilinx, Inc.  All rights reserved.
+Completed process "Create Schematic Symbol".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+Started process "Create Schematic Symbol".
+
+Compiling vhdl file
+g:/profibus/martins_profibus_doku/vhdl_bausteine/test_ctrl_inab_input/F_DIV50000
+_SRC.vhd in Library work.
+Entity <F_DIV50000> (Architecture <Behavioral>) compiled.
+tdtfi(vhdl) completed successfully.
+
+
+Release 6.3.03i - spl2sym G.35
+Copyright (c) 1995-2004 Xilinx, Inc.  All rights reserved.
+Completed process "Create Schematic Symbol".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+Started process "Create Schematic Symbol".
+
+Compiling vhdl file
+g:/profibus/martins_profibus_doku/vhdl_bausteine/test_ctrl_inab_input/NIB4_7SEG_
+SRC.vhd in Library work.
+Entity <NIB4_7SEG_SRC> (Architecture <Behavioral>) compiled.
+tdtfi(vhdl) completed successfully.
+
+
+Release 6.3.03i - spl2sym G.35
+Copyright (c) 1995-2004 Xilinx, Inc.  All rights reserved.
+Completed process "Create Schematic Symbol".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+Started process "View VHDL Functional Model".
+
+Release 6.3.03i - sch2vhdl G.35
+Copyright (c) 1995-2004 Xilinx, Inc.  All rights reserved.
+DRC Check completed: No Error found.
+Vhdl netlist file generated.
+Completed process "View VHDL Functional Model".
+
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file g:/profibus/martins_profibus_doku/vhdl_bausteine/test_ctrl_inab_input/CLOCK_SINGLE_RUN_SRC.vhd in Library work.
+Architecture behavioral of Entity clock_single_run_src is up to date.
+Compiling vhdl file g:/profibus/martins_profibus_doku/vhdl_bausteine/test_ctrl_inab_input/CTRL_InAB_INPUT_VHDL.vhd in Library work.
+Architecture behavioral of Entity ctrl_inab_input_vhdl is up to date.
+Compiling vhdl file g:/profibus/martins_profibus_doku/vhdl_bausteine/test_ctrl_inab_input/DEB_50MZ_100MS_SRC.vhd in Library work.
+Architecture behavioral of Entity deb_50mz_100ms_src is up to date.
+Compiling vhdl file g:/profibus/martins_profibus_doku/vhdl_bausteine/test_ctrl_inab_input/F_DIV50000_SRC.vhd in Library work.
+Architecture behavioral of Entity f_div50000 is up to date.
+Compiling vhdl file g:/profibus/martins_profibus_doku/vhdl_bausteine/test_ctrl_inab_input/NIB4_7SEG_SRC.vhd in Library work.
+Architecture behavioral of Entity nib4_7seg_src is up to date.
+Compiling vhdl file g:/profibus/martins_profibus_doku/vhdl_bausteine/test_ctrl_inab_input/TEST_CTRL_InAB_INPUT_SCH.vhf in Library work.
+Entity <test_ctrl_inab_input_sch> (Architecture <BEHAVIORAL>) compiled.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <test_ctrl_inab_input_sch> (Architecture <BEHAVIORAL>).
+Entity <test_ctrl_inab_input_sch> analyzed. Unit <test_ctrl_inab_input_sch> generated.
+
+Analyzing Entity <clock_single_run_src> (Architecture <behavioral>).
+Entity <clock_single_run_src> analyzed. Unit <clock_single_run_src> generated.
+
+Analyzing Entity <ctrl_inab_input_vhdl> (Architecture <behavioral>).
+Entity <ctrl_inab_input_vhdl> analyzed. Unit <ctrl_inab_input_vhdl> generated.
+
+Analyzing Entity <deb_50mz_100ms_src> (Architecture <behavioral>).
+Entity <deb_50mz_100ms_src> analyzed. Unit <deb_50mz_100ms_src> generated.
+
+Analyzing Entity <f_div50000> (Architecture <behavioral>).
+Entity <f_div50000> analyzed. Unit <f_div50000> generated.
+
+Analyzing Entity <nib4_7seg_src> (Architecture <behavioral>).
+INFO:Xst:1561 - g:/profibus/martins_profibus_doku/vhdl_bausteine/test_ctrl_inab_input/NIB4_7SEG_SRC.vhd line 74: Mux is complete : default of case is discarded
+INFO:Xst:1561 - g:/profibus/martins_profibus_doku/vhdl_bausteine/test_ctrl_inab_input/NIB4_7SEG_SRC.vhd line 100: Mux is complete : default of case is discarded
+Entity <nib4_7seg_src> analyzed. Unit <nib4_7seg_src> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <nib4_7seg_src>.
+    Related source file is g:/profibus/martins_profibus_doku/vhdl_bausteine/test_ctrl_inab_input/NIB4_7SEG_SRC.vhd.
+    Found 16x7-bit ROM for signal <$n0004>.
+    Found 2-bit up counter for signal <COUNTER>.
+    Found 4-bit 4-to-1 multiplexer for signal <NIB_ANZ>.
+    Summary:
+	inferred   1 ROM(s).
+	inferred   1 Counter(s).
+	inferred   4 Multiplexer(s).
+Unit <nib4_7seg_src> synthesized.
+
+
+Synthesizing Unit <f_div50000>.
+    Related source file is g:/profibus/martins_profibus_doku/vhdl_bausteine/test_ctrl_inab_input/F_DIV50000_SRC.vhd.
+    Found 32-bit comparator less for signal <$n0002> created at line 28.
+    Found 32-bit down counter for signal <COUNTER>.
+    Summary:
+	inferred   1 Counter(s).
+	inferred   1 Comparator(s).
+Unit <f_div50000> synthesized.
+
+
+Synthesizing Unit <deb_50mz_100ms_src>.
+    Related source file is g:/profibus/martins_profibus_doku/vhdl_bausteine/test_ctrl_inab_input/DEB_50MZ_100MS_SRC.vhd.
+    Found 24-bit adder for signal <$n0009> created at line 61.
+    Found 24-bit comparator greatequal for signal <$n0014> created at line 65.
+    Found 24-bit subtractor for signal <$n0016> created at line 83.
+    Found 24-bit register for signal <COUNT_DEB>.
+    Found 24-bit register for signal <COUNT_DEB_M>.
+    Found 1-bit register for signal <IN_DEB_S>.
+    Found 1-bit register for signal <SV<0>>.
+    Found 1-bit register for signal <SV_M<0>>.
+    Found 1 1-bit 2-to-1 multiplexers.
+    Summary:
+	inferred  51 D-type flip-flop(s).
+	inferred   2 Adder/Subtracter(s).
+	inferred   1 Comparator(s).
+	inferred   1 Multiplexer(s).
+Unit <deb_50mz_100ms_src> synthesized.
+
+
+Synthesizing Unit <ctrl_inab_input_vhdl>.
+    Related source file is g:/profibus/martins_profibus_doku/vhdl_bausteine/test_ctrl_inab_input/CTRL_InAB_INPUT_VHDL.vhd.
+    Found 16-bit adder for signal <$n0047> created at line 194.
+    Found 16-bit comparator equal for signal <$n0051> created at line 388.
+    Found 16-bit comparator equal for signal <$n0053> created at line 426.
+    Found 16-bit comparator equal for signal <$n0055> created at line 464.
+    Found 16-bit comparator equal for signal <$n0057> created at line 502.
+    Found 16-bit comparator equal for signal <$n0059> created at line 540.
+    Found 16-bit comparator equal for signal <$n0061> created at line 578.
+    Found 16-bit comparator equal for signal <$n0063> created at line 616.
+    Found 16-bit comparator equal for signal <$n0065> created at line 654.
+    Found 16-bit comparator equal for signal <$n0067> created at line 692.
+    Found 16-bit comparator equal for signal <$n0080> created at line 730.
+    Found 16-bit comparator equal for signal <$n0082> created at line 828.
+    Found 16-bit comparator equal for signal <$n0084> created at line 788.
+    Found 16-bit comparator equal for signal <$n0086> created at line 330.
+    Found 20-bit comparator equal for signal <$n0088> created at line 236.
+    Found 20-bit adder for signal <$n0090> created at line 257.
+    Found 20-bit register for signal <COUNT_L>.
+    Found 20-bit register for signal <COUNT_L_M>.
+    Found 16-bit register for signal <COUNT_S>.
+    Found 16-bit register for signal <COUNT_S_M>.
+    Found 1-bit register for signal <InAB_S>.
+    Found 4-bit register for signal <SV>.
+    Found 4-bit register for signal <SV_M>.
+    Summary:
+	inferred  81 D-type flip-flop(s).
+	inferred   2 Adder/Subtracter(s).
+	inferred  14 Comparator(s).
+Unit <ctrl_inab_input_vhdl> synthesized.
+
+
+Synthesizing Unit <clock_single_run_src>.
+    Related source file is g:/profibus/martins_profibus_doku/vhdl_bausteine/test_ctrl_inab_input/CLOCK_SINGLE_RUN_SRC.vhd.
+    Using one-hot encoding for signal <SV>.
+    Found 1-bit register for signal <RUN_S>.
+    Found 3-bit register for signal <SV>.
+    Found 3-bit register for signal <SV_M>.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+Unit <clock_single_run_src> synthesized.
+
+
+Synthesizing Unit <test_ctrl_inab_input_sch>.
+    Related source file is g:/profibus/martins_profibus_doku/vhdl_bausteine/test_ctrl_inab_input/TEST_CTRL_InAB_INPUT_SCH.vhf.
+Unit <test_ctrl_inab_input_sch> synthesized.
+
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# ROMs                             : 1
+ 16x7-bit ROM                      : 1
+# Adders/Subtractors               : 4
+ 20-bit adder                      : 1
+ 16-bit adder                      : 1
+ 24-bit subtractor                 : 1
+ 24-bit adder                      : 1
+# Counters                         : 2
+ 32-bit down counter               : 1
+ 2-bit up counter                  : 1
+# Registers                        : 15
+ 16-bit register                   : 2
+ 20-bit register                   : 2
+ 4-bit register                    : 2
+ 1-bit register                    : 5
+ 24-bit register                   : 2
+ 3-bit register                    : 2
+# Comparators                      : 16
+ 20-bit comparator equal           : 1
+ 16-bit comparator equal           : 13
+ 24-bit comparator greatequal      : 1
+ 32-bit comparator less            : 1
+# Multiplexers                     : 2
+ 1-bit 2-to-1 multiplexer          : 1
+ 4-bit 4-to-1 multiplexer          : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <test_ctrl_inab_input_sch> ...
+
+Optimizing unit <ctrl_inab_input_vhdl> ...
+
+Optimizing unit <deb_50mz_100ms_src> ...
+
+Optimizing unit <clock_single_run_src> ...
+
+Optimizing unit <f_div50000> ...
+Loading device for application Xst from file '3s200.nph' in environment C:/Xilinx.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block test_ctrl_inab_input_sch, actual ratio is 14.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s200ft256-5 
+
+ Number of Slices:                     244  out of   1920    12%  
+ Number of Slice Flip Flops:           173  out of   3840     4%  
+ Number of 4 input LUTs:               423  out of   3840    11%  
+ Number of bonded IOBs:                 28  out of    173    16%  
+ Number of GCLKs:                        1  out of      8    12%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+F_50MHZ_T9                         | BUFGP                  | 171   |
+XLXI_4_GE_stage_cyo(XLXI_4_GE_stagecy:O)| NONE(*)(XLXI_5_COUNTER_0)| 2     |
+-----------------------------------+------------------------+-------+
+(*) This 1 clock signal(s) are generated by combinatorial logic,
+and XST is not able to identify which are the primary clock signals.
+Please use the CLOCK_SIGNAL constraint to specify the clock signal(s) generated by combinatorial logic.
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 14.911ns (Maximum Frequency: 67.065MHz)
+   Minimum input arrival time before clock: 7.696ns
+   Maximum output required time after clock: 12.577ns
+   Maximum combinational path delay: 13.915ns
+
+=========================================================================
+Completed process "Synthesize".
+
+
+
+Started process "Translate".
+
+
+Command Line: ngdbuild -intstyle ise -dd
+g:\profibus\martins_profibus_doku\vhdl_bausteine\test_ctrl_inab_input/_ngo -i -p
+xc3s200-ft256-5 test_ctrl_inab_input_sch.ngc test_ctrl_inab_input_sch.ngd 
+
+Reading NGO file
+"g:/profibus/martins_profibus_doku/vhdl_bausteine/test_ctrl_inab_input/test_ctrl
+_inab_input_sch.ngc" ...
+Reading component libraries for design expansion...
+
+Checking timing specifications ...
+Checking expanded design ...
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Total memory usage is 39652 kilobytes
+
+Writing NGD file "test_ctrl_inab_input_sch.ngd" ...
+
+Writing NGDBUILD log file "test_ctrl_inab_input_sch.bld"...
+
+NGDBUILD done.
+Completed process "Translate".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+Started process "View VHDL Functional Model".
+
+Release 6.3.03i - sch2vhdl G.35
+Copyright (c) 1995-2004 Xilinx, Inc.  All rights reserved.
+DRC Check completed: No Error found.
+Vhdl netlist file generated.
+Completed process "View VHDL Functional Model".
+
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file g:/profibus/martins_profibus_doku/vhdl_bausteine/test_ctrl_inab_input/CLOCK_SINGLE_RUN_SRC.vhd in Library work.
+Architecture behavioral of Entity clock_single_run_src is up to date.
+Compiling vhdl file g:/profibus/martins_profibus_doku/vhdl_bausteine/test_ctrl_inab_input/CTRL_InAB_INPUT_VHDL.vhd in Library work.
+Architecture behavioral of Entity ctrl_inab_input_vhdl is up to date.
+Compiling vhdl file g:/profibus/martins_profibus_doku/vhdl_bausteine/test_ctrl_inab_input/DEB_50MZ_100MS_SRC.vhd in Library work.
+Architecture behavioral of Entity deb_50mz_100ms_src is up to date.
+Compiling vhdl file g:/profibus/martins_profibus_doku/vhdl_bausteine/test_ctrl_inab_input/F_DIV50000_SRC.vhd in Library work.
+Architecture behavioral of Entity f_div50000 is up to date.
+Compiling vhdl file g:/profibus/martins_profibus_doku/vhdl_bausteine/test_ctrl_inab_input/NIB4_7SEG_SRC.vhd in Library work.
+Architecture behavioral of Entity nib4_7seg_src is up to date.
+Compiling vhdl file g:/profibus/martins_profibus_doku/vhdl_bausteine/test_ctrl_inab_input/TEST_CTRL_InAB_INPUT_SCH.vhf in Library work.
+Entity <test_ctrl_inab_input_sch> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <test_ctrl_inab_input_sch> (Architecture <behavioral>).
+Entity <test_ctrl_inab_input_sch> analyzed. Unit <test_ctrl_inab_input_sch> generated.
+
+Analyzing Entity <clock_single_run_src> (Architecture <behavioral>).
+Entity <clock_single_run_src> analyzed. Unit <clock_single_run_src> generated.
+
+Analyzing Entity <ctrl_inab_input_vhdl> (Architecture <behavioral>).
+Entity <ctrl_inab_input_vhdl> analyzed. Unit <ctrl_inab_input_vhdl> generated.
+
+Analyzing Entity <deb_50mz_100ms_src> (Architecture <behavioral>).
+Entity <deb_50mz_100ms_src> analyzed. Unit <deb_50mz_100ms_src> generated.
+
+Analyzing Entity <f_div50000> (Architecture <behavioral>).
+Entity <f_div50000> analyzed. Unit <f_div50000> generated.
+
+Analyzing Entity <nib4_7seg_src> (Architecture <behavioral>).
+INFO:Xst:1561 - g:/profibus/martins_profibus_doku/vhdl_bausteine/test_ctrl_inab_input/NIB4_7SEG_SRC.vhd line 74: Mux is complete : default of case is discarded
+INFO:Xst:1561 - g:/profibus/martins_profibus_doku/vhdl_bausteine/test_ctrl_inab_input/NIB4_7SEG_SRC.vhd line 100: Mux is complete : default of case is discarded
+Entity <nib4_7seg_src> analyzed. Unit <nib4_7seg_src> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <nib4_7seg_src>.
+    Related source file is g:/profibus/martins_profibus_doku/vhdl_bausteine/test_ctrl_inab_input/NIB4_7SEG_SRC.vhd.
+    Found 16x7-bit ROM for signal <$n0004>.
+    Found 2-bit up counter for signal <COUNTER>.
+    Found 4-bit 4-to-1 multiplexer for signal <NIB_ANZ>.
+    Summary:
+	inferred   1 ROM(s).
+	inferred   1 Counter(s).
+	inferred   4 Multiplexer(s).
+Unit <nib4_7seg_src> synthesized.
+
+
+Synthesizing Unit <f_div50000>.
+    Related source file is g:/profibus/martins_profibus_doku/vhdl_bausteine/test_ctrl_inab_input/F_DIV50000_SRC.vhd.
+    Found 32-bit comparator less for signal <$n0002> created at line 28.
+    Found 32-bit down counter for signal <COUNTER>.
+    Summary:
+	inferred   1 Counter(s).
+	inferred   1 Comparator(s).
+Unit <f_div50000> synthesized.
+
+
+Synthesizing Unit <deb_50mz_100ms_src>.
+    Related source file is g:/profibus/martins_profibus_doku/vhdl_bausteine/test_ctrl_inab_input/DEB_50MZ_100MS_SRC.vhd.
+    Found 24-bit adder for signal <$n0009> created at line 61.
+    Found 24-bit comparator greatequal for signal <$n0014> created at line 65.
+    Found 24-bit subtractor for signal <$n0016> created at line 83.
+    Found 24-bit register for signal <COUNT_DEB>.
+    Found 24-bit register for signal <COUNT_DEB_M>.
+    Found 1-bit register for signal <IN_DEB_S>.
+    Found 1-bit register for signal <SV<0>>.
+    Found 1-bit register for signal <SV_M<0>>.
+    Found 1 1-bit 2-to-1 multiplexers.
+    Summary:
+	inferred  51 D-type flip-flop(s).
+	inferred   2 Adder/Subtracter(s).
+	inferred   1 Comparator(s).
+	inferred   1 Multiplexer(s).
+Unit <deb_50mz_100ms_src> synthesized.
+
+
+Synthesizing Unit <ctrl_inab_input_vhdl>.
+    Related source file is g:/profibus/martins_profibus_doku/vhdl_bausteine/test_ctrl_inab_input/CTRL_InAB_INPUT_VHDL.vhd.
+    Found 16-bit adder for signal <$n0047> created at line 194.
+    Found 16-bit comparator equal for signal <$n0051> created at line 388.
+    Found 16-bit comparator equal for signal <$n0053> created at line 426.
+    Found 16-bit comparator equal for signal <$n0055> created at line 464.
+    Found 16-bit comparator equal for signal <$n0057> created at line 502.
+    Found 16-bit comparator equal for signal <$n0059> created at line 540.
+    Found 16-bit comparator equal for signal <$n0061> created at line 578.
+    Found 16-bit comparator equal for signal <$n0063> created at line 616.
+    Found 16-bit comparator equal for signal <$n0065> created at line 654.
+    Found 16-bit comparator equal for signal <$n0067> created at line 692.
+    Found 16-bit comparator equal for signal <$n0080> created at line 730.
+    Found 16-bit comparator equal for signal <$n0082> created at line 828.
+    Found 16-bit comparator equal for signal <$n0084> created at line 788.
+    Found 16-bit comparator equal for signal <$n0086> created at line 330.
+    Found 20-bit comparator equal for signal <$n0088> created at line 236.
+    Found 20-bit adder for signal <$n0090> created at line 257.
+    Found 20-bit register for signal <COUNT_L>.
+    Found 20-bit register for signal <COUNT_L_M>.
+    Found 16-bit register for signal <COUNT_S>.
+    Found 16-bit register for signal <COUNT_S_M>.
+    Found 1-bit register for signal <InAB_S>.
+    Found 4-bit register for signal <SV>.
+    Found 4-bit register for signal <SV_M>.
+    Summary:
+	inferred  81 D-type flip-flop(s).
+	inferred   2 Adder/Subtracter(s).
+	inferred  14 Comparator(s).
+Unit <ctrl_inab_input_vhdl> synthesized.
+
+
+Synthesizing Unit <clock_single_run_src>.
+    Related source file is g:/profibus/martins_profibus_doku/vhdl_bausteine/test_ctrl_inab_input/CLOCK_SINGLE_RUN_SRC.vhd.
+    Using one-hot encoding for signal <SV>.
+    Found 1-bit register for signal <RUN_S>.
+    Found 3-bit register for signal <SV>.
+    Found 3-bit register for signal <SV_M>.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+Unit <clock_single_run_src> synthesized.
+
+
+Synthesizing Unit <test_ctrl_inab_input_sch>.
+    Related source file is g:/profibus/martins_profibus_doku/vhdl_bausteine/test_ctrl_inab_input/TEST_CTRL_InAB_INPUT_SCH.vhf.
+Unit <test_ctrl_inab_input_sch> synthesized.
+
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# ROMs                             : 1
+ 16x7-bit ROM                      : 1
+# Adders/Subtractors               : 4
+ 20-bit adder                      : 1
+ 16-bit adder                      : 1
+ 24-bit subtractor                 : 1
+ 24-bit adder                      : 1
+# Counters                         : 2
+ 32-bit down counter               : 1
+ 2-bit up counter                  : 1
+# Registers                        : 15
+ 16-bit register                   : 2
+ 20-bit register                   : 2
+ 4-bit register                    : 2
+ 1-bit register                    : 5
+ 24-bit register                   : 2
+ 3-bit register                    : 2
+# Comparators                      : 16
+ 20-bit comparator equal           : 1
+ 16-bit comparator equal           : 13
+ 24-bit comparator greatequal      : 1
+ 32-bit comparator less            : 1
+# Multiplexers                     : 2
+ 1-bit 2-to-1 multiplexer          : 1
+ 4-bit 4-to-1 multiplexer          : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <test_ctrl_inab_input_sch> ...
+
+Optimizing unit <ctrl_inab_input_vhdl> ...
+
+Optimizing unit <deb_50mz_100ms_src> ...
+
+Optimizing unit <clock_single_run_src> ...
+
+Optimizing unit <f_div50000> ...
+Loading device for application Xst from file '3s200.nph' in environment C:/Xilinx.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block test_ctrl_inab_input_sch, actual ratio is 14.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s200ft256-5 
+
+ Number of Slices:                     244  out of   1920    12%  
+ Number of Slice Flip Flops:           173  out of   3840     4%  
+ Number of 4 input LUTs:               423  out of   3840    11%  
+ Number of bonded IOBs:                 28  out of    173    16%  
+ Number of GCLKs:                        1  out of      8    12%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+F_50MHZ_T9                         | BUFGP                  | 171   |
+XLXI_4_GE_stage_cyo(XLXI_4_GE_stagecy:O)| NONE(*)(XLXI_5_COUNTER_1)| 2     |
+-----------------------------------+------------------------+-------+
+(*) This 1 clock signal(s) are generated by combinatorial logic,
+and XST is not able to identify which are the primary clock signals.
+Please use the CLOCK_SIGNAL constraint to specify the clock signal(s) generated by combinatorial logic.
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 14.911ns (Maximum Frequency: 67.065MHz)
+   Minimum input arrival time before clock: 7.696ns
+   Maximum output required time after clock: 12.577ns
+   Maximum combinational path delay: 13.915ns
+
+=========================================================================
+Completed process "Synthesize".
+
+
+
+Started process "Translate".
+
+
+Command Line: ngdbuild -intstyle ise -dd
+g:\profibus\martins_profibus_doku\vhdl_bausteine\test_ctrl_inab_input/_ngo -uc
+test_ctrl_inab_input_sch.ucf -p xc3s200-ft256-5 test_ctrl_inab_input_sch.ngc
+test_ctrl_inab_input_sch.ngd 
+
+Reading NGO file
+"g:/profibus/martins_profibus_doku/vhdl_bausteine/test_ctrl_inab_input/test_ctrl
+_inab_input_sch.ngc" ...
+Reading component libraries for design expansion...
+
+Annotating constraints to design from file "test_ctrl_inab_input_sch.ucf" ...
+
+Checking timing specifications ...
+Checking expanded design ...
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Total memory usage is 41700 kilobytes
+
+Writing NGD file "test_ctrl_inab_input_sch.ngd" ...
+
+Writing NGDBUILD log file "test_ctrl_inab_input_sch.bld"...
+
+NGDBUILD done.
+Completed process "Translate".
+
+
+
+Started process "Map".
+
+Using target part "3s200ft256-5".
+Removing unused or disabled logic...
+Running cover...
+Running directed packing...
+Running delay-based LUT packing...
+Running related packing...
+
+Design Summary:
+Number of errors:      0
+Number of warnings:    0
+Logic Utilization:
+  Number of Slice Flip Flops:         170 out of   3,840    4%
+  Number of 4 input LUTs:             357 out of   3,840    9%
+Logic Distribution:
+  Number of occupied Slices:                          267 out of   1,920   13%
+    Number of Slices containing only related logic:     267 out of     267  100%
+    Number of Slices containing unrelated logic:          0 out of     267    0%
+      *See NOTES below for an explanation of the effects of unrelated logic
+Total Number 4 input LUTs:            423 out of   3,840   11%
+  Number used as logic:                357
+  Number used as a route-thru:          66
+  Number of bonded IOBs:               29 out of     173   16%
+    IOB Flip Flops:                     3
+  Number of GCLKs:                     1 out of       8   12%
+
+Total equivalent gate count for design:  4,576
+Additional JTAG gate count for IOBs:  1,392
+Peak Memory Usage:  72 MB
+
+NOTES:
+
+   Related logic is defined as being logic that shares connectivity -
+   e.g. two LUTs are "related" if they share common inputs.
+   When assembling slices, Map gives priority to combine logic that
+   is related.  Doing so results in the best timing performance.
+
+   Unrelated logic shares no connectivity.  Map will only begin
+   packing unrelated logic into a slice once 99% of the slices are
+   occupied through related logic packing.
+
+   Note that once logic distribution reaches the 99% level through
+   related logic packing, this does not mean the device is completely
+   utilized.  Unrelated logic packing will then begin, continuing until
+   all usable LUTs and FFs are occupied.  Depending on your timing
+   budget, increased levels of unrelated logic packing may adversely
+   affect the overall timing performance of your design.
+
+
+Mapping completed.
+See MAP report file "test_ctrl_inab_input_sch_map.mrp" for details.
+Completed process "Map".
+
+Mapping Module test_ctrl_inab_input_sch . . .
+MAP command line:
+map -intstyle ise -p xc3s200-ft256-5 -cm area -pr b -k 4 -c 100 -tx off -o test_ctrl_inab_input_sch_map.ncd test_ctrl_inab_input_sch.ngd test_ctrl_inab_input_sch.pcf
+Mapping Module test_ctrl_inab_input_sch: DONE
+
+
+
+Started process "Place & Route".
+
+
+
+
+
+Constraints file: test_ctrl_inab_input_sch.pcf
+
+Loading device database for application Par from file
+"test_ctrl_inab_input_sch_map.ncd".
+   "test_ctrl_inab_input_sch" is an NCD, version 2.38, device xc3s200, package
+ft256, speed -5
+Loading device for application Par from file '3s200.nph' in environment
+C:/Xilinx.
+Device speed data version:  ADVANCED 1.35 2004-11-11.
+
+
+Resolving physical constraints.
+Finished resolving physical constraints.
+
+Device utilization summary:
+
+   Number of External IOBs            29 out of 173    16%
+      Number of LOCed External IOBs   25 out of 29     86%
+
+   Number of Slices                  267 out of 1920   13%
+
+   Number of BUFGMUXs                  1 out of 8      12%
+
+
+
+Overall effort level (-ol):   Standard (set by user)
+Placer effort level (-pl):    Standard (set by user)
+Placer cost table entry (-t): 1
+Router effort level (-rl):    Standard (set by user)
+
+
+Phase 1.1
+Phase 1.1 (Checksum:989e13) REAL time: 0 secs 
+
+.
+Phase 3.3
+Phase 3.3 (Checksum:1c9c37d) REAL time: 0 secs 
+
+Phase 4.5
+Phase 4.5 (Checksum:26259fc) REAL time: 0 secs 
+
+Phase 5.8
+...............................
+Phase 5.8 (Checksum:9be6a4) REAL time: 0 secs 
+
+Phase 6.5
+Phase 6.5 (Checksum:39386fa) REAL time: 0 secs 
+
+Phase 7.18
+Phase 7.18 (Checksum:42c1d79) REAL time: 0 secs 
+
+Writing design to file test_ctrl_inab_input_sch.ncd.
+
+Total REAL time to Placer completion: 2 secs 
+Total CPU time to Placer completion: 1 secs 
+
+
+Phase 1: 1514 unrouted;       REAL time: 2 secs 
+
+Phase 2: 1385 unrouted;       REAL time: 2 secs 
+
+Phase 3: 483 unrouted;       REAL time: 2 secs 
+
+Phase 4: 0 unrouted;       REAL time: 2 secs 
+
+Total REAL time to Router completion: 2 secs 
+Total CPU time to Router completion: 1 secs 
+
+Generating "par" statistics.
+
+**************************
+Generating Clock Report
+**************************
+
++-------------------------+----------+------+------+------------+-------------+
+|        Clock Net        | Resource |Locked|Fanout|Net Skew(ns)|Max Delay(ns)|
++-------------------------+----------+------+------+------------+-------------+
+|  F_50MHZ_T9_BUFGP       |  BUFGMUX0| No   |  105 |  0.035     |  0.915      |
++-------------------------+----------+------+------+------------+-------------+
+|     XLXI_4_GE_stage_cyo |   Local  |      |    2 |  0.000     |  2.237      |
++-------------------------+----------+------+------+------------+-------------+
+
+Generating Pad Report.
+
+All signals are completely routed.
+
+Total REAL time to PAR completion: 4 secs 
+Total CPU time to PAR completion: 2 secs 
+
+Peak Memory Usage:  61 MB
+
+Placement: Completed - No errors found.
+Routing: Completed - No errors found.
+
+Writing design to file test_ctrl_inab_input_sch.ncd.
+
+
+PAR done.
+Completed process "Place & Route".
+
+
+Started process "Generate Post-Place & Route Static Timing".
+
+
+Analysis completed Thu Apr 25 15:33:08 2013
+--------------------------------------------------------------------------------
+
+Generating Report ...
+
+Completed process "Generate Post-Place & Route Static Timing".
+
+Place & Route Module test_ctrl_inab_input_sch . . .
+PAR command line: par -w -intstyle ise -ol std -t 1 test_ctrl_inab_input_sch_map.ncd test_ctrl_inab_input_sch.ncd test_ctrl_inab_input_sch.pcf
+PAR completed successfully
+
+
+
+
+Started process "Generate Programming File".
+
+Completed process "Generate Programming File".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+deleting __projnav/TEST_CTRL_InAB_INPUT_SCH_jhdparse_tcl.rsp
+deleting __projnav/tb.rsp
+deleting clock_single_run_src.spl
+deleting __projnav/vhd2spl.err
+deleting __projnav/tb.rsp
+deleting ctrl_inab_input_vhdl.spl
+deleting __projnav/vhd2spl.err
+deleting __projnav/tb.rsp
+deleting deb_50mz_100ms_src.spl
+deleting __projnav/vhd2spl.err
+deleting __projnav/tb.rsp
+deleting f_div50000.spl
+deleting __projnav/vhd2spl.err
+deleting __projnav/tb.rsp
+deleting nib4_7seg_src.spl
+deleting __projnav/vhd2spl.err
+deleting __projnav/TEST_CTRL_InAB_INPUT_SCH_jhdparse_tcl.rsp
+deleting test_ctrl_inab_input_sch.vhf
+deleting test_ctrl_inab_input_sch.cmd_log
+deleting test_ctrl_inab_input_sch.lso
+deleting test_ctrl_inab_input_sch.syr
+deleting test_ctrl_inab_input_sch.prj
+deleting test_ctrl_inab_input_sch.sprj
+deleting test_ctrl_inab_input_sch.ana
+deleting test_ctrl_inab_input_sch.stx
+deleting test_ctrl_inab_input_sch.cmd_log
+deleting test_ctrl_inab_input_sch.ngc
+deleting test_ctrl_inab_input_sch.ngr
+deleting __projnav/ngdbuild.err
+deleting __projnav/ednTOngd_tcl.rsp
+deleting g:\profibus\martins_profibus_doku\vhdl_bausteine\test_ctrl_inab_input/_ngo
+deleting test_ctrl_inab_input_sch.ngd
+deleting test_ctrl_inab_input_sch_ngdbuild.nav
+deleting test_ctrl_inab_input_sch.bld
+deleting .untf
+deleting test_ctrl_inab_input_sch.cmd_log
+deleting __projnav/parentAssignPackagePinsApp_tcl.rsp
+deleting test_ctrl_inab_input_sch.vhf
+deleting test_ctrl_inab_input_sch.cmd_log
+deleting test_ctrl_inab_input_sch.lso
+deleting test_ctrl_inab_input_sch.syr
+deleting test_ctrl_inab_input_sch.prj
+deleting test_ctrl_inab_input_sch.sprj
+deleting test_ctrl_inab_input_sch.ana
+deleting test_ctrl_inab_input_sch.stx
+deleting test_ctrl_inab_input_sch.cmd_log
+deleting test_ctrl_inab_input_sch.ngc
+deleting test_ctrl_inab_input_sch.ngr
+deleting __projnav/ngdbuild.err
+deleting __projnav/ednTOngd_tcl.rsp
+deleting g:\profibus\martins_profibus_doku\vhdl_bausteine\test_ctrl_inab_input/_ngo
+deleting test_ctrl_inab_input_sch.ngd
+deleting test_ctrl_inab_input_sch_ngdbuild.nav
+deleting test_ctrl_inab_input_sch.bld
+deleting test_ctrl_inab_input_sch.ucf.untf
+deleting test_ctrl_inab_input_sch.cmd_log
+deleting test_ctrl_inab_input_sch_map.ncd
+deleting test_ctrl_inab_input_sch.ngm
+deleting test_ctrl_inab_input_sch.pcf
+deleting test_ctrl_inab_input_sch.nc1
+deleting test_ctrl_inab_input_sch.mrp
+deleting test_ctrl_inab_input_sch_map.mrp
+deleting test_ctrl_inab_input_sch.mdf
+deleting __projnav/map.log
+deleting test_ctrl_inab_input_sch.cmd_log
+deleting __projnav/ncdTOtwr_tcl.rsp
+deleting __projnav/posttrc.log
+deleting test_ctrl_inab_input_sch.twr
+deleting test_ctrl_inab_input_sch.twx
+deleting test_ctrl_inab_input_sch.tsi
+deleting test_ctrl_inab_input_sch.cmd_log
+deleting __projnav/nc1TOncd_tcl.rsp
+deleting test_ctrl_inab_input_sch.ncd
+deleting test_ctrl_inab_input_sch.par
+deleting test_ctrl_inab_input_sch.pad
+deleting test_ctrl_inab_input_sch_pad.txt
+deleting test_ctrl_inab_input_sch_pad.csv
+deleting test_ctrl_inab_input_sch.pad_txt
+deleting test_ctrl_inab_input_sch.dly
+deleting reportgen.log
+deleting test_ctrl_inab_input_sch.xpi
+deleting test_ctrl_inab_input_sch.grf
+deleting test_ctrl_inab_input_sch.itr
+deleting test_ctrl_inab_input_sch_last_par.ncd
+deleting __projnav/par.log
+deleting test_ctrl_inab_input_sch.placed_ncd_tracker
+deleting test_ctrl_inab_input_sch.routed_ncd_tracker
+deleting test_ctrl_inab_input_sch.cmd_log
+deleting __projnav/test_ctrl_inab_input_sch_ncdTOut_tcl.rsp
+deleting __projnav/bitgen.rsp
+deleting bitgen.ut
+deleting test_ctrl_inab_input_sch.ut
+deleting test_ctrl_inab_input_sch.bgn
+deleting test_ctrl_inab_input_sch.rbt
+deleting test_ctrl_inab_input_sch.ll
+deleting test_ctrl_inab_input_sch.msk
+deleting test_ctrl_inab_input_sch.drc
+deleting test_ctrl_inab_input_sch.nky
+deleting test_ctrl_inab_input_sch.bit
+deleting test_ctrl_inab_input_sch.bin
+deleting test_ctrl_inab_input_sch.isc
+deleting test_ctrl_inab_input_sch.cmd_log
+deleting test_ctrl_inab_input_sch.prm
+deleting test_ctrl_inab_input_sch.isc
+deleting test_ctrl_inab_input_sch.svf
+deleting xilinx.sys
+deleting test_ctrl_inab_input_sch.mcs
+deleting test_ctrl_inab_input_sch.exo
+deleting test_ctrl_inab_input_sch.hex
+deleting test_ctrl_inab_input_sch.tek
+deleting test_ctrl_inab_input_sch.dst
+deleting test_ctrl_inab_input_sch.dst_compressed
+deleting test_ctrl_inab_input_sch.mpm
+deleting _impact.cmd
+deleting _impact.log
+deleting test_ctrl_inab_input_sch.prj
+deleting test_ctrl_inab_input_sch.prj
+deleting __projnav/test_ctrl_inab_input_sch.xst
+deleting ./xst
+deleting test_ctrl_inab_input_sch.prj
+deleting test_ctrl_inab_input_sch.prj
+deleting __projnav/test_ctrl_inab_input_sch.xst
+deleting ./xst
+deleting __projnav/TEST_CTRL_InAB_INPUT.gfl
+deleting __projnav/TEST_CTRL_InAB_INPUT_flowplus.gfl
+Finished cleaning up project
+

@@ -1,0 +1,3891 @@
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file g:/profibus/ctrl_rs232_tx/CTRL_RS232_TX_VHDL.vhd in Library work.
+Entity <CTRL_RS232_TX_VHDL> (Architecture <Behavioral>) compiled.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <ctrl_rs232_tx_vhdl> (Architecture <Behavioral>).
+Entity <ctrl_rs232_tx_vhdl> analyzed. Unit <ctrl_rs232_tx_vhdl> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <ctrl_rs232_tx_vhdl>.
+    Related source file is g:/profibus/ctrl_rs232_tx/CTRL_RS232_TX_VHDL.vhd.
+WARNING:Xst:1306 - Output <DISPL2_n_SV> is never assigned.
+WARNING:Xst:1306 - Output <DISPL1_SV> is never assigned.
+WARNING:Xst:1306 - Output <TX> is never assigned.
+WARNING:Xst:1306 - Output <DISPL2_SV> is never assigned.
+WARNING:Xst:1306 - Output <DISPL1_n_SV> is never assigned.
+WARNING:Xst:1780 - Signal <STATE_n_SV> is never used or assigned.
+WARNING:Xst:646 - Signal <BYTE_OK_S> is assigned but never used.
+WARNING:Xst:1780 - Signal <STATE_SV> is never used or assigned.
+WARNING:Xst:653 - Signal <n_SV> is used but never assigned. Tied to value 0000.
+WARNING:Xst:646 - Signal <SV> is assigned but never used.
+WARNING:Xst:646 - Signal <BYTE_IN_S> is assigned but never used.
+Unit <ctrl_rs232_tx_vhdl> synthesized.
+
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <ctrl_rs232_tx_vhdl> ...
+Loading device for application Xst from file '3s200.nph' in environment C:/Xilinx.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block ctrl_rs232_tx_vhdl, actual ratio is 0.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s200ft256-5 
+
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+No clock signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: No path found
+   Maximum combinational path delay: No path found
+
+=========================================================================
+Completed process "Synthesize".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file g:/profibus/ctrl_rs232_tx/CTRL_RS232_TX_VHDL.vhd in Library work.
+ERROR:HDLParsers:3312 - g:/profibus/ctrl_rs232_tx/CTRL_RS232_TX_VHDL.vhd Line 197. Undefined symbol 'COUNT'.
+ERROR:HDLParsers:1209 - g:/profibus/ctrl_rs232_tx/CTRL_RS232_TX_VHDL.vhd Line 197. COUNT: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - g:/profibus/ctrl_rs232_tx/CTRL_RS232_TX_VHDL.vhd Line 214. Undefined symbol 'CNTS30'.
+ERROR:HDLParsers:3312 - g:/profibus/ctrl_rs232_tx/CTRL_RS232_TX_VHDL.vhd Line 215. Undefined symbol 'CNTT01'.
+ERROR:HDLParsers:3312 - g:/profibus/ctrl_rs232_tx/CTRL_RS232_TX_VHDL.vhd Line 216. Undefined symbol 'CNTT02'.
+ERROR:HDLParsers:3312 - g:/profibus/ctrl_rs232_tx/CTRL_RS232_TX_VHDL.vhd Line 217. Undefined symbol 'CNTT03'.
+ERROR:HDLParsers:3312 - g:/profibus/ctrl_rs232_tx/CTRL_RS232_TX_VHDL.vhd Line 218. Undefined symbol 'CNTT04'.
+ERROR:HDLParsers:3312 - g:/profibus/ctrl_rs232_tx/CTRL_RS232_TX_VHDL.vhd Line 219. Undefined symbol 'CNTT05'.
+ERROR:HDLParsers:3312 - g:/profibus/ctrl_rs232_tx/CTRL_RS232_TX_VHDL.vhd Line 220. Undefined symbol 'CNTT06'.
+ERROR:HDLParsers:3312 - g:/profibus/ctrl_rs232_tx/CTRL_RS232_TX_VHDL.vhd Line 221. Undefined symbol 'CNTT07'.
+ERROR:HDLParsers:3312 - g:/profibus/ctrl_rs232_tx/CTRL_RS232_TX_VHDL.vhd Line 222. Undefined symbol 'CNTT08'.
+ERROR:HDLParsers:3312 - g:/profibus/ctrl_rs232_tx/CTRL_RS232_TX_VHDL.vhd Line 223. Undefined symbol 'CNTT09'.
+ERROR:HDLParsers:3312 - g:/profibus/ctrl_rs232_tx/CTRL_RS232_TX_VHDL.vhd Line 224. Undefined symbol 'CNTT10'.
+ERROR:HDLParsers:3312 - g:/profibus/ctrl_rs232_tx/CTRL_RS232_TX_VHDL.vhd Line 225. Undefined symbol 'CNTT11'.
+ERROR:HDLParsers:3312 - g:/profibus/ctrl_rs232_tx/CTRL_RS232_TX_VHDL.vhd Line 226. Undefined symbol 'CNTT12'.
+ERROR:HDLParsers:3312 - g:/profibus/ctrl_rs232_tx/CTRL_RS232_TX_VHDL.vhd Line 227. Undefined symbol 'CNTT13'.
+ERROR:HDLParsers:1209 - g:/profibus/ctrl_rs232_tx/CTRL_RS232_TX_VHDL.vhd Line 230. CNTS30: Undefined symbol (last report in this block)
+ERROR:HDLParsers:1209 - g:/profibus/ctrl_rs232_tx/CTRL_RS232_TX_VHDL.vhd Line 231. CNTT01: Undefined symbol (last report in this block)
+ERROR:HDLParsers:1209 - g:/profibus/ctrl_rs232_tx/CTRL_RS232_TX_VHDL.vhd Line 232. CNTT02: Undefined symbol (last report in this block)
+ERROR:HDLParsers:1209 - g:/profibus/ctrl_rs232_tx/CTRL_RS232_TX_VHDL.vhd Line 233. CNTT03: Undefined symbol (last report in this block)
+ERROR:HDLParsers:1209 - g:/profibus/ctrl_rs232_tx/CTRL_RS232_TX_VHDL.vhd Line 234. CNTT04: Undefined symbol (last report in this block)
+ERROR:HDLParsers:1209 - g:/profibus/ctrl_rs232_tx/CTRL_RS232_TX_VHDL.vhd Line 235. CNTT05: Undefined symbol (last report in this block)
+ERROR:HDLParsers:1209 - g:/profibus/ctrl_rs232_tx/CTRL_RS232_TX_VHDL.vhd Line 236. CNTT06: Undefined symbol (last report in this block)
+ERROR:HDLParsers:1209 - g:/profibus/ctrl_rs232_tx/CTRL_RS232_TX_VHDL.vhd Line 237. CNTT07: Undefined symbol (last report in this block)
+ERROR:HDLParsers:1209 - g:/profibus/ctrl_rs232_tx/CTRL_RS232_TX_VHDL.vhd Line 238. CNTT08: Undefined symbol (last report in this block)
+ERROR:HDLParsers:1209 - g:/profibus/ctrl_rs232_tx/CTRL_RS232_TX_VHDL.vhd Line 239. CNTT09: Undefined symbol (last report in this block)
+ERROR:HDLParsers:1209 - g:/profibus/ctrl_rs232_tx/CTRL_RS232_TX_VHDL.vhd Line 240. CNTT10: Undefined symbol (last report in this block)
+ERROR:HDLParsers:1209 - g:/profibus/ctrl_rs232_tx/CTRL_RS232_TX_VHDL.vhd Line 241. CNTT11: Undefined symbol (last report in this block)
+ERROR:HDLParsers:1209 - g:/profibus/ctrl_rs232_tx/CTRL_RS232_TX_VHDL.vhd Line 242. CNTT12: Undefined symbol (last report in this block)
+ERROR:HDLParsers:1209 - g:/profibus/ctrl_rs232_tx/CTRL_RS232_TX_VHDL.vhd Line 243. CNTT13: Undefined symbol (last report in this block)
+--> 
+
+Total memory usage is 47848 kilobytes
+
+
+ERROR: XST failed
+Process "Synthesize" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file g:/profibus/ctrl_rs232_tx/CTRL_RS232_TX_VHDL.vhd in Library work.
+ERROR:HDLParsers:3312 - g:/profibus/ctrl_rs232_tx/CTRL_RS232_TX_VHDL.vhd Line 227. Undefined symbol 'CNTS30'.
+ERROR:HDLParsers:3312 - g:/profibus/ctrl_rs232_tx/CTRL_RS232_TX_VHDL.vhd Line 228. Undefined symbol 'CNTT01'.
+ERROR:HDLParsers:3312 - g:/profibus/ctrl_rs232_tx/CTRL_RS232_TX_VHDL.vhd Line 229. Undefined symbol 'CNTT02'.
+ERROR:HDLParsers:3312 - g:/profibus/ctrl_rs232_tx/CTRL_RS232_TX_VHDL.vhd Line 230. Undefined symbol 'CNTT03'.
+ERROR:HDLParsers:3312 - g:/profibus/ctrl_rs232_tx/CTRL_RS232_TX_VHDL.vhd Line 231. Undefined symbol 'CNTT04'.
+ERROR:HDLParsers:3312 - g:/profibus/ctrl_rs232_tx/CTRL_RS232_TX_VHDL.vhd Line 232. Undefined symbol 'CNTT05'.
+ERROR:HDLParsers:3312 - g:/profibus/ctrl_rs232_tx/CTRL_RS232_TX_VHDL.vhd Line 233. Undefined symbol 'CNTT06'.
+ERROR:HDLParsers:3312 - g:/profibus/ctrl_rs232_tx/CTRL_RS232_TX_VHDL.vhd Line 234. Undefined symbol 'CNTT07'.
+ERROR:HDLParsers:3312 - g:/profibus/ctrl_rs232_tx/CTRL_RS232_TX_VHDL.vhd Line 235. Undefined symbol 'CNTT08'.
+ERROR:HDLParsers:3312 - g:/profibus/ctrl_rs232_tx/CTRL_RS232_TX_VHDL.vhd Line 236. Undefined symbol 'CNTT09'.
+ERROR:HDLParsers:3312 - g:/profibus/ctrl_rs232_tx/CTRL_RS232_TX_VHDL.vhd Line 237. Undefined symbol 'CNTT10'.
+ERROR:HDLParsers:3312 - g:/profibus/ctrl_rs232_tx/CTRL_RS232_TX_VHDL.vhd Line 238. Undefined symbol 'CNTT11'.
+ERROR:HDLParsers:3312 - g:/profibus/ctrl_rs232_tx/CTRL_RS232_TX_VHDL.vhd Line 239. Undefined symbol 'CNTT12'.
+ERROR:HDLParsers:3312 - g:/profibus/ctrl_rs232_tx/CTRL_RS232_TX_VHDL.vhd Line 240. Undefined symbol 'CNTT13'.
+ERROR:HDLParsers:1209 - g:/profibus/ctrl_rs232_tx/CTRL_RS232_TX_VHDL.vhd Line 243. CNTS30: Undefined symbol (last report in this block)
+ERROR:HDLParsers:1209 - g:/profibus/ctrl_rs232_tx/CTRL_RS232_TX_VHDL.vhd Line 244. CNTT01: Undefined symbol (last report in this block)
+ERROR:HDLParsers:1209 - g:/profibus/ctrl_rs232_tx/CTRL_RS232_TX_VHDL.vhd Line 245. CNTT02: Undefined symbol (last report in this block)
+ERROR:HDLParsers:1209 - g:/profibus/ctrl_rs232_tx/CTRL_RS232_TX_VHDL.vhd Line 246. CNTT03: Undefined symbol (last report in this block)
+ERROR:HDLParsers:1209 - g:/profibus/ctrl_rs232_tx/CTRL_RS232_TX_VHDL.vhd Line 247. CNTT04: Undefined symbol (last report in this block)
+ERROR:HDLParsers:1209 - g:/profibus/ctrl_rs232_tx/CTRL_RS232_TX_VHDL.vhd Line 248. CNTT05: Undefined symbol (last report in this block)
+ERROR:HDLParsers:1209 - g:/profibus/ctrl_rs232_tx/CTRL_RS232_TX_VHDL.vhd Line 249. CNTT06: Undefined symbol (last report in this block)
+ERROR:HDLParsers:1209 - g:/profibus/ctrl_rs232_tx/CTRL_RS232_TX_VHDL.vhd Line 250. CNTT07: Undefined symbol (last report in this block)
+ERROR:HDLParsers:1209 - g:/profibus/ctrl_rs232_tx/CTRL_RS232_TX_VHDL.vhd Line 251. CNTT08: Undefined symbol (last report in this block)
+ERROR:HDLParsers:1209 - g:/profibus/ctrl_rs232_tx/CTRL_RS232_TX_VHDL.vhd Line 252. CNTT09: Undefined symbol (last report in this block)
+ERROR:HDLParsers:1209 - g:/profibus/ctrl_rs232_tx/CTRL_RS232_TX_VHDL.vhd Line 253. CNTT10: Undefined symbol (last report in this block)
+ERROR:HDLParsers:1209 - g:/profibus/ctrl_rs232_tx/CTRL_RS232_TX_VHDL.vhd Line 254. CNTT11: Undefined symbol (last report in this block)
+ERROR:HDLParsers:1209 - g:/profibus/ctrl_rs232_tx/CTRL_RS232_TX_VHDL.vhd Line 255. CNTT12: Undefined symbol (last report in this block)
+ERROR:HDLParsers:1209 - g:/profibus/ctrl_rs232_tx/CTRL_RS232_TX_VHDL.vhd Line 256. CNTT13: Undefined symbol (last report in this block)
+--> 
+
+Total memory usage is 47848 kilobytes
+
+
+ERROR: XST failed
+Process "Synthesize" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file g:/profibus/ctrl_rs232_tx/CTRL_RS232_TX_VHDL.vhd in Library work.
+Entity <ctrl_rs232_tx_vhdl> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <ctrl_rs232_tx_vhdl> (Architecture <behavioral>).
+Entity <ctrl_rs232_tx_vhdl> analyzed. Unit <ctrl_rs232_tx_vhdl> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+INFO:Xst:1304 - Contents of register <SV_M> in unit <ctrl_rs232_tx_vhdl> never changes during circuit operation. The register is replaced by logic.
+
+Synthesizing Unit <ctrl_rs232_tx_vhdl>.
+    Related source file is g:/profibus/ctrl_rs232_tx/CTRL_RS232_TX_VHDL.vhd.
+WARNING:Xst:646 - Signal <CNTS30> is assigned but never used.
+WARNING:Xst:646 - Signal <CNTT01> is assigned but never used.
+WARNING:Xst:646 - Signal <CNTT02> is assigned but never used.
+WARNING:Xst:646 - Signal <CNTT03> is assigned but never used.
+WARNING:Xst:646 - Signal <CNTT04> is assigned but never used.
+WARNING:Xst:646 - Signal <CNTT10> is assigned but never used.
+WARNING:Xst:646 - Signal <CNTT05> is assigned but never used.
+WARNING:Xst:646 - Signal <STATE_n_SV> is assigned but never used.
+WARNING:Xst:646 - Signal <CNTT11> is assigned but never used.
+WARNING:Xst:646 - Signal <CNTT06> is assigned but never used.
+WARNING:Xst:646 - Signal <CNTT12> is assigned but never used.
+WARNING:Xst:646 - Signal <CNTT07> is assigned but never used.
+WARNING:Xst:646 - Signal <CNTT13> is assigned but never used.
+WARNING:Xst:646 - Signal <CNTT08> is assigned but never used.
+WARNING:Xst:646 - Signal <CNTT09> is assigned but never used.
+WARNING:Xst:646 - Signal <BYTE_OK_S> is assigned but never used.
+WARNING:Xst:653 - Signal <n_COUNT_L> is used but never assigned. Tied to value 00000000000000000000.
+WARNING:Xst:653 - Signal <n_COUNT_S> is used but never assigned. Tied to value 0000000000000000.
+WARNING:Xst:646 - Signal <BYTE_IN_S> is assigned but never used.
+WARNING:Xst:646 - Signal <COUNT_L<19:8>> is assigned but never used.
+WARNING:Xst:646 - Signal <COUNT_S<15:8>> is assigned but never used.
+    Found 20-bit register for signal <COUNT_L>.
+    Found 20-bit register for signal <COUNT_L_M>.
+    Found 16-bit register for signal <COUNT_S>.
+    Found 16-bit register for signal <COUNT_S_M>.
+    Found 4-bit register for signal <SV>.
+    Summary:
+	inferred  76 D-type flip-flop(s).
+Unit <ctrl_rs232_tx_vhdl> synthesized.
+
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Registers                        : 5
+ 16-bit register                   : 2
+ 20-bit register                   : 2
+ 4-bit register                    : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1710 - FF/Latch  <COUNT_L_M_1> (without init value) is constant in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch  <COUNT_L_M_2> (without init value) is constant in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch  <COUNT_L_M_3> (without init value) is constant in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch  <COUNT_L_M_4> (without init value) is constant in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch  <COUNT_L_M_5> (without init value) is constant in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch  <COUNT_L_M_6> (without init value) is constant in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch  <COUNT_L_M_7> (without init value) is constant in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch  <COUNT_S_M_0> (without init value) is constant in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch  <COUNT_S_M_1> (without init value) is constant in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch  <COUNT_S_M_2> (without init value) is constant in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch  <COUNT_S_M_3> (without init value) is constant in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch  <COUNT_S_M_4> (without init value) is constant in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch  <COUNT_S_M_5> (without init value) is constant in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch  <COUNT_S_M_6> (without init value) is constant in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch  <COUNT_S_M_7> (without init value) is constant in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch  <SV_0> is constant in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch  <SV_1> is constant in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch  <SV_2> is constant in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch  <SV_3> is constant in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch  <COUNT_L_M_0> (without init value) is constant in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch  <COUNT_S_0> (without init value) is constant in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch  <COUNT_S_1> (without init value) is constant in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch  <COUNT_S_2> (without init value) is constant in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch  <COUNT_S_3> (without init value) is constant in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch  <COUNT_S_4> (without init value) is constant in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch  <COUNT_S_5> (without init value) is constant in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch  <COUNT_S_6> (without init value) is constant in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch  <COUNT_S_7> (without init value) is constant in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch  <COUNT_L_0> (without init value) is constant in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch  <COUNT_L_1> (without init value) is constant in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch  <COUNT_L_2> (without init value) is constant in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch  <COUNT_L_3> (without init value) is constant in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch  <COUNT_L_4> (without init value) is constant in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch  <COUNT_L_5> (without init value) is constant in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch  <COUNT_L_6> (without init value) is constant in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch  <COUNT_L_7> (without init value) is constant in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1291 - FF/Latch <COUNT_S_15> is unconnected in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1291 - FF/Latch <COUNT_L_19> is unconnected in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1291 - FF/Latch <COUNT_L_M_19> is unconnected in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1291 - FF/Latch <COUNT_S_M_15> is unconnected in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1291 - FF/Latch <COUNT_S_8> is unconnected in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1291 - FF/Latch <COUNT_S_9> is unconnected in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1291 - FF/Latch <COUNT_S_10> is unconnected in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1291 - FF/Latch <COUNT_S_11> is unconnected in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1291 - FF/Latch <COUNT_S_12> is unconnected in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1291 - FF/Latch <COUNT_S_13> is unconnected in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1291 - FF/Latch <COUNT_S_14> is unconnected in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1291 - FF/Latch <COUNT_L_8> is unconnected in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1291 - FF/Latch <COUNT_L_9> is unconnected in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1291 - FF/Latch <COUNT_L_10> is unconnected in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1291 - FF/Latch <COUNT_L_11> is unconnected in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1291 - FF/Latch <COUNT_L_12> is unconnected in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1291 - FF/Latch <COUNT_L_13> is unconnected in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1291 - FF/Latch <COUNT_L_14> is unconnected in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1291 - FF/Latch <COUNT_L_15> is unconnected in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1291 - FF/Latch <COUNT_L_16> is unconnected in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1291 - FF/Latch <COUNT_L_17> is unconnected in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1291 - FF/Latch <COUNT_L_18> is unconnected in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1291 - FF/Latch <COUNT_L_M_8> is unconnected in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1291 - FF/Latch <COUNT_L_M_9> is unconnected in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1291 - FF/Latch <COUNT_L_M_10> is unconnected in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1291 - FF/Latch <COUNT_L_M_11> is unconnected in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1291 - FF/Latch <COUNT_L_M_12> is unconnected in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1291 - FF/Latch <COUNT_L_M_13> is unconnected in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1291 - FF/Latch <COUNT_L_M_14> is unconnected in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1291 - FF/Latch <COUNT_L_M_15> is unconnected in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1291 - FF/Latch <COUNT_L_M_16> is unconnected in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1291 - FF/Latch <COUNT_L_M_17> is unconnected in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1291 - FF/Latch <COUNT_L_M_18> is unconnected in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1291 - FF/Latch <COUNT_S_M_8> is unconnected in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1291 - FF/Latch <COUNT_S_M_9> is unconnected in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1291 - FF/Latch <COUNT_S_M_10> is unconnected in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1291 - FF/Latch <COUNT_S_M_11> is unconnected in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1291 - FF/Latch <COUNT_S_M_12> is unconnected in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1291 - FF/Latch <COUNT_S_M_13> is unconnected in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1291 - FF/Latch <COUNT_S_M_14> is unconnected in block <ctrl_rs232_tx_vhdl>.
+
+Optimizing unit <ctrl_rs232_tx_vhdl> ...
+Loading device for application Xst from file '3s200.nph' in environment C:/Xilinx.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block ctrl_rs232_tx_vhdl, actual ratio is 0.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s200ft256-5 
+
+ Number of bonded IOBs:                 17  out of    173     9%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+No clock signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: No path found
+   Maximum combinational path delay: No path found
+
+=========================================================================
+Completed process "Synthesize".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file g:/profibus/ctrl_rs232_tx/CTRL_RS232_TX_VHDL.vhd in Library work.
+ERROR:HDLParsers:3313 - g:/profibus/ctrl_rs232_tx/CTRL_RS232_TX_VHDL.vhd Line 230. Undefined symbol 'CNTT01'.  Should it be: CNT01?
+ERROR:HDLParsers:3313 - g:/profibus/ctrl_rs232_tx/CTRL_RS232_TX_VHDL.vhd Line 231. Undefined symbol 'CNTT02'.  Should it be: CNT02?
+ERROR:HDLParsers:3313 - g:/profibus/ctrl_rs232_tx/CTRL_RS232_TX_VHDL.vhd Line 232. Undefined symbol 'CNTT03'.  Should it be: CNT03?
+ERROR:HDLParsers:3313 - g:/profibus/ctrl_rs232_tx/CTRL_RS232_TX_VHDL.vhd Line 233. Undefined symbol 'CNTT04'.  Should it be: CNT04?
+ERROR:HDLParsers:3313 - g:/profibus/ctrl_rs232_tx/CTRL_RS232_TX_VHDL.vhd Line 234. Undefined symbol 'CNTT05'.  Should it be: CNT05?
+ERROR:HDLParsers:3313 - g:/profibus/ctrl_rs232_tx/CTRL_RS232_TX_VHDL.vhd Line 235. Undefined symbol 'CNTT06'.  Should it be: CNT06?
+ERROR:HDLParsers:3313 - g:/profibus/ctrl_rs232_tx/CTRL_RS232_TX_VHDL.vhd Line 236. Undefined symbol 'CNTT07'.  Should it be: CNT07?
+ERROR:HDLParsers:3313 - g:/profibus/ctrl_rs232_tx/CTRL_RS232_TX_VHDL.vhd Line 237. Undefined symbol 'CNTT08'.  Should it be: CNT08?
+ERROR:HDLParsers:3313 - g:/profibus/ctrl_rs232_tx/CTRL_RS232_TX_VHDL.vhd Line 238. Undefined symbol 'CNTT09'.  Should it be: CNT09?
+ERROR:HDLParsers:3313 - g:/profibus/ctrl_rs232_tx/CTRL_RS232_TX_VHDL.vhd Line 239. Undefined symbol 'CNTT10'.  Should it be: CNT10?
+ERROR:HDLParsers:1209 - g:/profibus/ctrl_rs232_tx/CTRL_RS232_TX_VHDL.vhd Line 242. CNTT01: Undefined symbol (last report in this block)
+ERROR:HDLParsers:1209 - g:/profibus/ctrl_rs232_tx/CTRL_RS232_TX_VHDL.vhd Line 243. CNTT02: Undefined symbol (last report in this block)
+ERROR:HDLParsers:1209 - g:/profibus/ctrl_rs232_tx/CTRL_RS232_TX_VHDL.vhd Line 244. CNTT03: Undefined symbol (last report in this block)
+ERROR:HDLParsers:1209 - g:/profibus/ctrl_rs232_tx/CTRL_RS232_TX_VHDL.vhd Line 245. CNTT04: Undefined symbol (last report in this block)
+ERROR:HDLParsers:1209 - g:/profibus/ctrl_rs232_tx/CTRL_RS232_TX_VHDL.vhd Line 246. CNTT05: Undefined symbol (last report in this block)
+ERROR:HDLParsers:1209 - g:/profibus/ctrl_rs232_tx/CTRL_RS232_TX_VHDL.vhd Line 247. CNTT06: Undefined symbol (last report in this block)
+ERROR:HDLParsers:1209 - g:/profibus/ctrl_rs232_tx/CTRL_RS232_TX_VHDL.vhd Line 248. CNTT07: Undefined symbol (last report in this block)
+ERROR:HDLParsers:1209 - g:/profibus/ctrl_rs232_tx/CTRL_RS232_TX_VHDL.vhd Line 249. CNTT08: Undefined symbol (last report in this block)
+ERROR:HDLParsers:1209 - g:/profibus/ctrl_rs232_tx/CTRL_RS232_TX_VHDL.vhd Line 250. CNTT09: Undefined symbol (last report in this block)
+ERROR:HDLParsers:1209 - g:/profibus/ctrl_rs232_tx/CTRL_RS232_TX_VHDL.vhd Line 251. CNTT10: Undefined symbol (last report in this block)
+--> 
+
+Total memory usage is 47848 kilobytes
+
+
+ERROR: XST failed
+Process "Synthesize" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file g:/profibus/ctrl_rs232_tx/CTRL_RS232_TX_VHDL.vhd in Library work.
+Entity <ctrl_rs232_tx_vhdl> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <ctrl_rs232_tx_vhdl> (Architecture <behavioral>).
+Entity <ctrl_rs232_tx_vhdl> analyzed. Unit <ctrl_rs232_tx_vhdl> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+INFO:Xst:1304 - Contents of register <SV_M> in unit <ctrl_rs232_tx_vhdl> never changes during circuit operation. The register is replaced by logic.
+
+Synthesizing Unit <ctrl_rs232_tx_vhdl>.
+    Related source file is g:/profibus/ctrl_rs232_tx/CTRL_RS232_TX_VHDL.vhd.
+WARNING:Xst:646 - Signal <STATE_n_SV> is assigned but never used.
+WARNING:Xst:646 - Signal <BYTE_OK_S> is assigned but never used.
+WARNING:Xst:653 - Signal <n_COUNT_L> is used but never assigned. Tied to value 00000000000000000000.
+WARNING:Xst:653 - Signal <n_COUNT_S> is used but never assigned. Tied to value 0000000000000000.
+WARNING:Xst:646 - Signal <BYTE_IN_S> is assigned but never used.
+WARNING:Xst:646 - Signal <CNT01> is assigned but never used.
+WARNING:Xst:646 - Signal <CNT02> is assigned but never used.
+WARNING:Xst:646 - Signal <CNT03> is assigned but never used.
+WARNING:Xst:646 - Signal <CNT04> is assigned but never used.
+WARNING:Xst:646 - Signal <COUNT_L<19:8>> is assigned but never used.
+WARNING:Xst:646 - Signal <CNT10> is assigned but never used.
+WARNING:Xst:646 - Signal <CNT05> is assigned but never used.
+WARNING:Xst:646 - Signal <CNT06> is assigned but never used.
+WARNING:Xst:646 - Signal <CNT07> is assigned but never used.
+WARNING:Xst:646 - Signal <CNT08> is assigned but never used.
+WARNING:Xst:646 - Signal <CNT09> is assigned but never used.
+WARNING:Xst:646 - Signal <COUNT_S<15:8>> is assigned but never used.
+    Found 20-bit register for signal <COUNT_L>.
+    Found 20-bit register for signal <COUNT_L_M>.
+    Found 16-bit register for signal <COUNT_S>.
+    Found 16-bit register for signal <COUNT_S_M>.
+    Found 4-bit register for signal <SV>.
+    Summary:
+	inferred  76 D-type flip-flop(s).
+Unit <ctrl_rs232_tx_vhdl> synthesized.
+
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Registers                        : 5
+ 16-bit register                   : 2
+ 20-bit register                   : 2
+ 4-bit register                    : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1710 - FF/Latch  <COUNT_L_M_1> (without init value) is constant in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch  <COUNT_L_M_2> (without init value) is constant in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch  <COUNT_L_M_3> (without init value) is constant in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch  <COUNT_L_M_4> (without init value) is constant in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch  <COUNT_L_M_5> (without init value) is constant in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch  <COUNT_L_M_6> (without init value) is constant in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch  <COUNT_L_M_7> (without init value) is constant in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch  <COUNT_S_M_0> (without init value) is constant in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch  <COUNT_S_M_1> (without init value) is constant in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch  <COUNT_S_M_2> (without init value) is constant in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch  <COUNT_S_M_3> (without init value) is constant in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch  <COUNT_S_M_4> (without init value) is constant in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch  <COUNT_S_M_5> (without init value) is constant in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch  <COUNT_S_M_6> (without init value) is constant in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch  <COUNT_S_M_7> (without init value) is constant in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch  <SV_0> is constant in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch  <SV_1> is constant in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch  <SV_2> is constant in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch  <SV_3> is constant in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch  <COUNT_L_M_0> (without init value) is constant in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch  <COUNT_S_0> (without init value) is constant in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch  <COUNT_S_1> (without init value) is constant in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch  <COUNT_S_2> (without init value) is constant in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch  <COUNT_S_3> (without init value) is constant in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch  <COUNT_S_4> (without init value) is constant in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch  <COUNT_S_5> (without init value) is constant in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch  <COUNT_S_6> (without init value) is constant in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch  <COUNT_S_7> (without init value) is constant in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch  <COUNT_L_0> (without init value) is constant in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch  <COUNT_L_1> (without init value) is constant in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch  <COUNT_L_2> (without init value) is constant in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch  <COUNT_L_3> (without init value) is constant in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch  <COUNT_L_4> (without init value) is constant in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch  <COUNT_L_5> (without init value) is constant in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch  <COUNT_L_6> (without init value) is constant in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch  <COUNT_L_7> (without init value) is constant in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1291 - FF/Latch <COUNT_S_15> is unconnected in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1291 - FF/Latch <COUNT_L_19> is unconnected in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1291 - FF/Latch <COUNT_L_M_19> is unconnected in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1291 - FF/Latch <COUNT_S_M_15> is unconnected in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1291 - FF/Latch <COUNT_S_8> is unconnected in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1291 - FF/Latch <COUNT_S_9> is unconnected in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1291 - FF/Latch <COUNT_S_10> is unconnected in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1291 - FF/Latch <COUNT_S_11> is unconnected in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1291 - FF/Latch <COUNT_S_12> is unconnected in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1291 - FF/Latch <COUNT_S_13> is unconnected in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1291 - FF/Latch <COUNT_S_14> is unconnected in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1291 - FF/Latch <COUNT_L_8> is unconnected in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1291 - FF/Latch <COUNT_L_9> is unconnected in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1291 - FF/Latch <COUNT_L_10> is unconnected in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1291 - FF/Latch <COUNT_L_11> is unconnected in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1291 - FF/Latch <COUNT_L_12> is unconnected in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1291 - FF/Latch <COUNT_L_13> is unconnected in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1291 - FF/Latch <COUNT_L_14> is unconnected in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1291 - FF/Latch <COUNT_L_15> is unconnected in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1291 - FF/Latch <COUNT_L_16> is unconnected in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1291 - FF/Latch <COUNT_L_17> is unconnected in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1291 - FF/Latch <COUNT_L_18> is unconnected in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1291 - FF/Latch <COUNT_L_M_8> is unconnected in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1291 - FF/Latch <COUNT_L_M_9> is unconnected in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1291 - FF/Latch <COUNT_L_M_10> is unconnected in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1291 - FF/Latch <COUNT_L_M_11> is unconnected in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1291 - FF/Latch <COUNT_L_M_12> is unconnected in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1291 - FF/Latch <COUNT_L_M_13> is unconnected in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1291 - FF/Latch <COUNT_L_M_14> is unconnected in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1291 - FF/Latch <COUNT_L_M_15> is unconnected in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1291 - FF/Latch <COUNT_L_M_16> is unconnected in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1291 - FF/Latch <COUNT_L_M_17> is unconnected in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1291 - FF/Latch <COUNT_L_M_18> is unconnected in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1291 - FF/Latch <COUNT_S_M_8> is unconnected in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1291 - FF/Latch <COUNT_S_M_9> is unconnected in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1291 - FF/Latch <COUNT_S_M_10> is unconnected in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1291 - FF/Latch <COUNT_S_M_11> is unconnected in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1291 - FF/Latch <COUNT_S_M_12> is unconnected in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1291 - FF/Latch <COUNT_S_M_13> is unconnected in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1291 - FF/Latch <COUNT_S_M_14> is unconnected in block <ctrl_rs232_tx_vhdl>.
+
+Optimizing unit <ctrl_rs232_tx_vhdl> ...
+Loading device for application Xst from file '3s200.nph' in environment C:/Xilinx.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block ctrl_rs232_tx_vhdl, actual ratio is 0.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s200ft256-5 
+
+ Number of bonded IOBs:                 17  out of    173     9%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+No clock signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: No path found
+   Maximum combinational path delay: No path found
+
+=========================================================================
+Completed process "Synthesize".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file G:/Profibus/CTRL_RS232_TX/CTRL_RS232_TX_VHDL.vhd in Library work.
+ERROR:HDLParsers:3312 - G:/Profibus/CTRL_RS232_TX/CTRL_RS232_TX_VHDL.vhd Line 178. Undefined symbol 'DISPL_COUNT_SWITCH'.
+ERROR:HDLParsers:1209 - G:/Profibus/CTRL_RS232_TX/CTRL_RS232_TX_VHDL.vhd Line 178. DISPL_COUNT_SWITCH: Undefined symbol (last report in this block)
+--> 
+
+Total memory usage is 47848 kilobytes
+
+
+ERROR: XST failed
+Process "Synthesize" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file G:/Profibus/CTRL_RS232_TX/CTRL_RS232_TX_VHDL.vhd in Library work.
+Entity <ctrl_rs232_tx_vhdl> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <ctrl_rs232_tx_vhdl> (Architecture <behavioral>).
+WARNING:Xst:819 - G:/Profibus/CTRL_RS232_TX/CTRL_RS232_TX_VHDL.vhd line 153: The following signals are missing in the process sensitivity list:
+   BYTE_OK_S.
+Entity <ctrl_rs232_tx_vhdl> analyzed. Unit <ctrl_rs232_tx_vhdl> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+INFO:Xst:1304 - Contents of register <COUNT_M> in unit <ctrl_rs232_tx_vhdl> never changes during circuit operation. The register is replaced by logic.
+
+Synthesizing Unit <ctrl_rs232_tx_vhdl>.
+    Related source file is G:/Profibus/CTRL_RS232_TX/CTRL_RS232_TX_VHDL.vhd.
+WARNING:Xst:646 - Signal <COUNT<15:8>> is assigned but never used.
+WARNING:Xst:646 - Signal <BYTE_IN_S> is assigned but never used.
+WARNING:Xst:646 - Signal <CNT01> is assigned but never used.
+WARNING:Xst:646 - Signal <CNT02> is assigned but never used.
+WARNING:Xst:646 - Signal <CNT03> is assigned but never used.
+WARNING:Xst:646 - Signal <CNT04> is assigned but never used.
+WARNING:Xst:646 - Signal <CNT10> is assigned but never used.
+WARNING:Xst:646 - Signal <CNT05> is assigned but never used.
+WARNING:Xst:646 - Signal <CNT06> is assigned but never used.
+WARNING:Xst:646 - Signal <CNT07> is assigned but never used.
+WARNING:Xst:646 - Signal <CNT08> is assigned but never used.
+WARNING:Xst:646 - Signal <CNT09> is assigned but never used.
+    Found 1-bit register for signal <BYTE_OK_S>.
+    Found 16-bit register for signal <COUNT>.
+    Found 4-bit register for signal <SV>.
+    Found 4-bit register for signal <SV_M>.
+    Found 8 1-bit 2-to-1 multiplexers.
+    Summary:
+	inferred  25 D-type flip-flop(s).
+	inferred   8 Multiplexer(s).
+Unit <ctrl_rs232_tx_vhdl> synthesized.
+
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Registers                        : 4
+ 16-bit register                   : 1
+ 4-bit register                    : 2
+ 1-bit register                    : 1
+# Multiplexers                     : 8
+ 1-bit 2-to-1 multiplexer          : 8
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1710 - FF/Latch  <COUNT_0> (without init value) is constant in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1710 - FF/Latch  <COUNT_1> (without init value) is constant in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1710 - FF/Latch  <COUNT_2> (without init value) is constant in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1710 - FF/Latch  <COUNT_3> (without init value) is constant in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1710 - FF/Latch  <COUNT_4> (without init value) is constant in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1710 - FF/Latch  <COUNT_5> (without init value) is constant in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1710 - FF/Latch  <COUNT_6> (without init value) is constant in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1710 - FF/Latch  <COUNT_7> (without init value) is constant in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch  <SV_M_3> is constant in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch  <SV_M_1> is constant in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch  <SV_M_2> is constant in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch  <SV_3> is constant in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch  <SV_1> is constant in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch  <SV_2> is constant in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1291 - FF/Latch <COUNT_15> is unconnected in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1291 - FF/Latch <COUNT_8> is unconnected in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1291 - FF/Latch <COUNT_9> is unconnected in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1291 - FF/Latch <COUNT_10> is unconnected in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1291 - FF/Latch <COUNT_11> is unconnected in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1291 - FF/Latch <COUNT_12> is unconnected in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1291 - FF/Latch <COUNT_13> is unconnected in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1291 - FF/Latch <COUNT_14> is unconnected in block <ctrl_rs232_tx_vhdl>.
+
+Optimizing unit <ctrl_rs232_tx_vhdl> ...
+Loading device for application Xst from file '3s200.nph' in environment C:/Xilinx.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block ctrl_rs232_tx_vhdl, actual ratio is 0.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s200ft256-5 
+
+ Number of Slices:                       3  out of   1920     0%  
+ Number of Slice Flip Flops:             3  out of   3840     0%  
+ Number of 4 input LUTs:                 5  out of   3840     0%  
+ Number of bonded IOBs:                 21  out of    173    12%  
+ Number of GCLKs:                        2  out of      8    25%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+CLK_IO                             | BUFGP                  | 1     |
+CLK                                | BUFGP                  | 2     |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 3.820ns (Maximum Frequency: 261.780MHz)
+   Minimum input arrival time before clock: 2.443ns
+   Maximum output required time after clock: 6.214ns
+   Maximum combinational path delay: 6.878ns
+
+=========================================================================
+Completed process "Synthesize".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file G:/Profibus/CTRL_RS232_TX/CTRL_RS232_TX_VHDL.vhd in Library work.
+Entity <ctrl_rs232_tx_vhdl> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <ctrl_rs232_tx_vhdl> (Architecture <behavioral>).
+WARNING:Xst:819 - G:/Profibus/CTRL_RS232_TX/CTRL_RS232_TX_VHDL.vhd line 153: The following signals are missing in the process sensitivity list:
+   BYTE_OK_S, COUNT, CNT01, BYTE_IN_S.
+Entity <ctrl_rs232_tx_vhdl> analyzed. Unit <ctrl_rs232_tx_vhdl> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <ctrl_rs232_tx_vhdl>.
+    Related source file is G:/Profibus/CTRL_RS232_TX/CTRL_RS232_TX_VHDL.vhd.
+WARNING:Xst:646 - Signal <BYTE_IN_S<7:1>> is assigned but never used.
+WARNING:Xst:646 - Signal <CNT02> is assigned but never used.
+WARNING:Xst:646 - Signal <CNT03> is assigned but never used.
+WARNING:Xst:646 - Signal <CNT04> is assigned but never used.
+WARNING:Xst:646 - Signal <CNT10> is assigned but never used.
+WARNING:Xst:646 - Signal <CNT05> is assigned but never used.
+WARNING:Xst:646 - Signal <CNT06> is assigned but never used.
+WARNING:Xst:646 - Signal <CNT07> is assigned but never used.
+WARNING:Xst:646 - Signal <CNT08> is assigned but never used.
+WARNING:Xst:646 - Signal <CNT09> is assigned but never used.
+    Found 16-bit comparator equal for signal <$n0010> created at line 171.
+    Found 16-bit adder for signal <$n0012> created at line 179.
+    Found 8-bit register for signal <BYTE_IN_S>.
+    Found 1-bit register for signal <BYTE_OK_S>.
+    Found 16-bit register for signal <COUNT>.
+    Found 16-bit register for signal <COUNT_M>.
+    Found 4-bit register for signal <SV>.
+    Found 4-bit register for signal <SV_M>.
+    Found 8 1-bit 2-to-1 multiplexers.
+    Summary:
+	inferred  49 D-type flip-flop(s).
+	inferred   1 Adder/Subtracter(s).
+	inferred   1 Comparator(s).
+	inferred   8 Multiplexer(s).
+Unit <ctrl_rs232_tx_vhdl> synthesized.
+
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors               : 1
+ 16-bit adder                      : 1
+# Registers                        : 6
+ 16-bit register                   : 2
+ 4-bit register                    : 2
+ 1-bit register                    : 1
+ 8-bit register                    : 1
+# Comparators                      : 1
+ 16-bit comparator equal           : 1
+# Multiplexers                     : 8
+ 1-bit 2-to-1 multiplexer          : 8
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1293 - FF/Latch  <SV_M_3> is constant in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch  <SV_M_2> is constant in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch  <SV_3> is constant in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch  <SV_2> is constant in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1291 - FF/Latch <BYTE_IN_S_7> is unconnected in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1291 - FF/Latch <BYTE_IN_S_1> is unconnected in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1291 - FF/Latch <BYTE_IN_S_2> is unconnected in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1291 - FF/Latch <BYTE_IN_S_3> is unconnected in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1291 - FF/Latch <BYTE_IN_S_4> is unconnected in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1291 - FF/Latch <BYTE_IN_S_5> is unconnected in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1291 - FF/Latch <BYTE_IN_S_6> is unconnected in block <ctrl_rs232_tx_vhdl>.
+
+Optimizing unit <ctrl_rs232_tx_vhdl> ...
+Loading device for application Xst from file '3s200.nph' in environment C:/Xilinx.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block ctrl_rs232_tx_vhdl, actual ratio is 2.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s200ft256-5 
+
+ Number of Slices:                      35  out of   1920     1%  
+ Number of Slice Flip Flops:            38  out of   3840     0%  
+ Number of 4 input LUTs:                56  out of   3840     1%  
+ Number of bonded IOBs:                 23  out of    173    13%  
+ Number of GCLKs:                        2  out of      8    25%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+CLK                                | BUFGP                  | 36    |
+CLK_IO                             | BUFGP                  | 2     |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 9.254ns (Maximum Frequency: 108.061MHz)
+   Minimum input arrival time before clock: 5.390ns
+   Maximum output required time after clock: 9.474ns
+   Maximum combinational path delay: 10.413ns
+
+=========================================================================
+Completed process "Synthesize".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file G:/Profibus/CTRL_RS232_TX/CTRL_RS232_TX_VHDL.vhd in Library work.
+Entity <ctrl_rs232_tx_vhdl> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <ctrl_rs232_tx_vhdl> (Architecture <behavioral>).
+WARNING:Xst:819 - G:/Profibus/CTRL_RS232_TX/CTRL_RS232_TX_VHDL.vhd line 153: The following signals are missing in the process sensitivity list:
+   BYTE_OK_S, CNT01.
+Entity <ctrl_rs232_tx_vhdl> analyzed. Unit <ctrl_rs232_tx_vhdl> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <ctrl_rs232_tx_vhdl>.
+    Related source file is G:/Profibus/CTRL_RS232_TX/CTRL_RS232_TX_VHDL.vhd.
+WARNING:Xst:646 - Signal <BYTE_IN_S<7:1>> is assigned but never used.
+WARNING:Xst:646 - Signal <CNT02> is assigned but never used.
+WARNING:Xst:646 - Signal <CNT03> is assigned but never used.
+WARNING:Xst:646 - Signal <CNT04> is assigned but never used.
+WARNING:Xst:646 - Signal <CNT10> is assigned but never used.
+WARNING:Xst:646 - Signal <CNT05> is assigned but never used.
+WARNING:Xst:646 - Signal <CNT06> is assigned but never used.
+WARNING:Xst:646 - Signal <CNT07> is assigned but never used.
+WARNING:Xst:646 - Signal <CNT08> is assigned but never used.
+WARNING:Xst:646 - Signal <CNT09> is assigned but never used.
+    Found 16-bit comparator equal for signal <$n0010> created at line 171.
+    Found 16-bit adder for signal <$n0012> created at line 179.
+    Found 8-bit register for signal <BYTE_IN_S>.
+    Found 1-bit register for signal <BYTE_OK_S>.
+    Found 16-bit register for signal <COUNT>.
+    Found 16-bit register for signal <COUNT_M>.
+    Found 4-bit register for signal <SV>.
+    Found 4-bit register for signal <SV_M>.
+    Found 8 1-bit 2-to-1 multiplexers.
+    Summary:
+	inferred  49 D-type flip-flop(s).
+	inferred   1 Adder/Subtracter(s).
+	inferred   1 Comparator(s).
+	inferred   8 Multiplexer(s).
+Unit <ctrl_rs232_tx_vhdl> synthesized.
+
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors               : 1
+ 16-bit adder                      : 1
+# Registers                        : 6
+ 16-bit register                   : 2
+ 4-bit register                    : 2
+ 1-bit register                    : 1
+ 8-bit register                    : 1
+# Comparators                      : 1
+ 16-bit comparator equal           : 1
+# Multiplexers                     : 8
+ 1-bit 2-to-1 multiplexer          : 8
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1293 - FF/Latch  <SV_M_3> is constant in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch  <SV_M_2> is constant in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch  <SV_3> is constant in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch  <SV_2> is constant in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1291 - FF/Latch <BYTE_IN_S_7> is unconnected in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1291 - FF/Latch <BYTE_IN_S_1> is unconnected in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1291 - FF/Latch <BYTE_IN_S_2> is unconnected in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1291 - FF/Latch <BYTE_IN_S_3> is unconnected in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1291 - FF/Latch <BYTE_IN_S_4> is unconnected in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1291 - FF/Latch <BYTE_IN_S_5> is unconnected in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1291 - FF/Latch <BYTE_IN_S_6> is unconnected in block <ctrl_rs232_tx_vhdl>.
+
+Optimizing unit <ctrl_rs232_tx_vhdl> ...
+Loading device for application Xst from file '3s200.nph' in environment C:/Xilinx.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block ctrl_rs232_tx_vhdl, actual ratio is 2.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s200ft256-5 
+
+ Number of Slices:                      35  out of   1920     1%  
+ Number of Slice Flip Flops:            38  out of   3840     0%  
+ Number of 4 input LUTs:                56  out of   3840     1%  
+ Number of bonded IOBs:                 23  out of    173    13%  
+ Number of GCLKs:                        2  out of      8    25%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+CLK                                | BUFGP                  | 36    |
+CLK_IO                             | BUFGP                  | 2     |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 9.254ns (Maximum Frequency: 108.061MHz)
+   Minimum input arrival time before clock: 5.390ns
+   Maximum output required time after clock: 9.474ns
+   Maximum combinational path delay: 10.413ns
+
+=========================================================================
+Completed process "Synthesize".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file G:/Profibus/CTRL_RS232_TX/CTRL_RS232_TX_VHDL.vhd in Library work.
+Entity <ctrl_rs232_tx_vhdl> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <ctrl_rs232_tx_vhdl> (Architecture <behavioral>).
+WARNING:Xst:819 - G:/Profibus/CTRL_RS232_TX/CTRL_RS232_TX_VHDL.vhd line 153: The following signals are missing in the process sensitivity list:
+   BYTE_OK_S.
+Entity <ctrl_rs232_tx_vhdl> analyzed. Unit <ctrl_rs232_tx_vhdl> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <ctrl_rs232_tx_vhdl>.
+    Related source file is G:/Profibus/CTRL_RS232_TX/CTRL_RS232_TX_VHDL.vhd.
+WARNING:Xst:646 - Signal <BYTE_IN_S<7:1>> is assigned but never used.
+WARNING:Xst:646 - Signal <CNT02> is assigned but never used.
+WARNING:Xst:646 - Signal <CNT03> is assigned but never used.
+WARNING:Xst:646 - Signal <CNT04> is assigned but never used.
+WARNING:Xst:646 - Signal <CNT10> is assigned but never used.
+WARNING:Xst:646 - Signal <CNT05> is assigned but never used.
+WARNING:Xst:646 - Signal <CNT06> is assigned but never used.
+WARNING:Xst:646 - Signal <CNT07> is assigned but never used.
+WARNING:Xst:646 - Signal <CNT08> is assigned but never used.
+WARNING:Xst:646 - Signal <CNT09> is assigned but never used.
+    Found 16-bit comparator equal for signal <$n0010> created at line 171.
+    Found 16-bit adder for signal <$n0012> created at line 179.
+    Found 8-bit register for signal <BYTE_IN_S>.
+    Found 1-bit register for signal <BYTE_OK_S>.
+    Found 16-bit register for signal <COUNT>.
+    Found 16-bit register for signal <COUNT_M>.
+    Found 4-bit register for signal <SV>.
+    Found 4-bit register for signal <SV_M>.
+    Found 8 1-bit 2-to-1 multiplexers.
+    Summary:
+	inferred  49 D-type flip-flop(s).
+	inferred   1 Adder/Subtracter(s).
+	inferred   1 Comparator(s).
+	inferred   8 Multiplexer(s).
+Unit <ctrl_rs232_tx_vhdl> synthesized.
+
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors               : 1
+ 16-bit adder                      : 1
+# Registers                        : 6
+ 16-bit register                   : 2
+ 4-bit register                    : 2
+ 1-bit register                    : 1
+ 8-bit register                    : 1
+# Comparators                      : 1
+ 16-bit comparator equal           : 1
+# Multiplexers                     : 8
+ 1-bit 2-to-1 multiplexer          : 8
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1293 - FF/Latch  <SV_M_3> is constant in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch  <SV_M_2> is constant in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch  <SV_3> is constant in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch  <SV_2> is constant in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1291 - FF/Latch <BYTE_IN_S_7> is unconnected in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1291 - FF/Latch <BYTE_IN_S_1> is unconnected in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1291 - FF/Latch <BYTE_IN_S_2> is unconnected in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1291 - FF/Latch <BYTE_IN_S_3> is unconnected in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1291 - FF/Latch <BYTE_IN_S_4> is unconnected in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1291 - FF/Latch <BYTE_IN_S_5> is unconnected in block <ctrl_rs232_tx_vhdl>.
+WARNING:Xst:1291 - FF/Latch <BYTE_IN_S_6> is unconnected in block <ctrl_rs232_tx_vhdl>.
+
+Optimizing unit <ctrl_rs232_tx_vhdl> ...
+Loading device for application Xst from file '3s200.nph' in environment C:/Xilinx.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block ctrl_rs232_tx_vhdl, actual ratio is 2.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s200ft256-5 
+
+ Number of Slices:                      35  out of   1920     1%  
+ Number of Slice Flip Flops:            38  out of   3840     0%  
+ Number of 4 input LUTs:                56  out of   3840     1%  
+ Number of bonded IOBs:                 23  out of    173    13%  
+ Number of GCLKs:                        2  out of      8    25%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+CLK                                | BUFGP                  | 36    |
+CLK_IO                             | BUFGP                  | 2     |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 9.254ns (Maximum Frequency: 108.061MHz)
+   Minimum input arrival time before clock: 5.390ns
+   Maximum output required time after clock: 9.474ns
+   Maximum combinational path delay: 10.413ns
+
+=========================================================================
+Completed process "Synthesize".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file G:/Profibus/CTRL_RS232_TX/CTRL_RS232_TX_VHDL.vhd in Library work.
+Entity <ctrl_rs232_tx_vhdl> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <ctrl_rs232_tx_vhdl> (Architecture <behavioral>).
+WARNING:Xst:819 - G:/Profibus/CTRL_RS232_TX/CTRL_RS232_TX_VHDL.vhd line 153: The following signals are missing in the process sensitivity list:
+   BYTE_OK_S, BYTE_IN, CNT02, CNT03, CNT04, CNT05, CNT06, CNT07, CNT08, CNT09, CNT10.
+Entity <ctrl_rs232_tx_vhdl> analyzed. Unit <ctrl_rs232_tx_vhdl> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <ctrl_rs232_tx_vhdl>.
+    Related source file is G:/Profibus/CTRL_RS232_TX/CTRL_RS232_TX_VHDL.vhd.
+WARNING:Xst:646 - Signal <BYTE_IN_S> is assigned but never used.
+    Found 16-bit adder for signal <$n0023> created at line 155.
+    Found 16-bit comparator equal for signal <$n0028> created at line 171.
+    Found 16-bit comparator equal for signal <$n0030> created at line 185.
+    Found 16-bit comparator equal for signal <$n0032> created at line 199.
+    Found 16-bit comparator equal for signal <$n0034> created at line 213.
+    Found 16-bit comparator equal for signal <$n0036> created at line 227.
+    Found 16-bit comparator equal for signal <$n0038> created at line 241.
+    Found 16-bit comparator equal for signal <$n0040> created at line 255.
+    Found 16-bit comparator equal for signal <$n0042> created at line 269.
+    Found 16-bit comparator equal for signal <$n0044> created at line 283.
+    Found 16-bit comparator equal for signal <$n0046> created at line 297.
+    Found 1-bit register for signal <BYTE_OK_S>.
+    Found 16-bit register for signal <COUNT>.
+    Found 16-bit register for signal <COUNT_M>.
+    Found 4-bit register for signal <SV>.
+    Found 4-bit register for signal <SV_M>.
+    Found 8 1-bit 2-to-1 multiplexers.
+    Summary:
+	inferred  41 D-type flip-flop(s).
+	inferred   1 Adder/Subtracter(s).
+	inferred  10 Comparator(s).
+	inferred   8 Multiplexer(s).
+Unit <ctrl_rs232_tx_vhdl> synthesized.
+
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors               : 1
+ 16-bit adder                      : 1
+# Registers                        : 5
+ 16-bit register                   : 2
+ 4-bit register                    : 2
+ 1-bit register                    : 1
+# Comparators                      : 10
+ 16-bit comparator equal           : 10
+# Multiplexers                     : 8
+ 1-bit 2-to-1 multiplexer          : 8
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <ctrl_rs232_tx_vhdl> ...
+Loading device for application Xst from file '3s200.nph' in environment C:/Xilinx.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block ctrl_rs232_tx_vhdl, actual ratio is 5.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s200ft256-5 
+
+ Number of Slices:                      86  out of   1920     4%  
+ Number of Slice Flip Flops:            41  out of   3840     1%  
+ Number of 4 input LUTs:               156  out of   3840     4%  
+ Number of bonded IOBs:                 30  out of    173    17%  
+ Number of GCLKs:                        2  out of      8    25%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+CLK                                | BUFGP                  | 40    |
+CLK_IO                             | BUFGP                  | 1     |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 11.508ns (Maximum Frequency: 86.896MHz)
+   Minimum input arrival time before clock: 7.165ns
+   Maximum output required time after clock: 11.359ns
+   Maximum combinational path delay: 12.715ns
+
+=========================================================================
+Completed process "Synthesize".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file G:/Profibus/CTRL_RS232_TX/CTRL_RS232_TX_VHDL.vhd in Library work.
+Entity <ctrl_rs232_tx_vhdl> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <ctrl_rs232_tx_vhdl> (Architecture <behavioral>).
+WARNING:Xst:819 - G:/Profibus/CTRL_RS232_TX/CTRL_RS232_TX_VHDL.vhd line 153: The following signals are missing in the process sensitivity list:
+   BYTE_OK_S, CNT02, CNT03, CNT04, CNT05, CNT06, CNT07, CNT08, CNT09, CNT10.
+Entity <ctrl_rs232_tx_vhdl> analyzed. Unit <ctrl_rs232_tx_vhdl> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <ctrl_rs232_tx_vhdl>.
+    Related source file is G:/Profibus/CTRL_RS232_TX/CTRL_RS232_TX_VHDL.vhd.
+    Found 16-bit adder for signal <$n0023> created at line 155.
+    Found 16-bit comparator equal for signal <$n0028> created at line 171.
+    Found 16-bit comparator equal for signal <$n0030> created at line 185.
+    Found 16-bit comparator equal for signal <$n0032> created at line 199.
+    Found 16-bit comparator equal for signal <$n0034> created at line 213.
+    Found 16-bit comparator equal for signal <$n0036> created at line 227.
+    Found 16-bit comparator equal for signal <$n0038> created at line 241.
+    Found 16-bit comparator equal for signal <$n0040> created at line 255.
+    Found 16-bit comparator equal for signal <$n0042> created at line 269.
+    Found 16-bit comparator equal for signal <$n0044> created at line 283.
+    Found 16-bit comparator equal for signal <$n0046> created at line 297.
+    Found 8-bit register for signal <BYTE_IN_S>.
+    Found 1-bit register for signal <BYTE_OK_S>.
+    Found 16-bit register for signal <COUNT>.
+    Found 16-bit register for signal <COUNT_M>.
+    Found 4-bit register for signal <SV>.
+    Found 4-bit register for signal <SV_M>.
+    Found 8 1-bit 2-to-1 multiplexers.
+    Summary:
+	inferred  49 D-type flip-flop(s).
+	inferred   1 Adder/Subtracter(s).
+	inferred  10 Comparator(s).
+	inferred   8 Multiplexer(s).
+Unit <ctrl_rs232_tx_vhdl> synthesized.
+
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors               : 1
+ 16-bit adder                      : 1
+# Registers                        : 6
+ 16-bit register                   : 2
+ 4-bit register                    : 2
+ 1-bit register                    : 1
+ 8-bit register                    : 1
+# Comparators                      : 10
+ 16-bit comparator equal           : 10
+# Multiplexers                     : 8
+ 1-bit 2-to-1 multiplexer          : 8
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <ctrl_rs232_tx_vhdl> ...
+Loading device for application Xst from file '3s200.nph' in environment C:/Xilinx.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block ctrl_rs232_tx_vhdl, actual ratio is 5.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s200ft256-5 
+
+ Number of Slices:                      86  out of   1920     4%  
+ Number of Slice Flip Flops:            49  out of   3840     1%  
+ Number of 4 input LUTs:               156  out of   3840     4%  
+ Number of bonded IOBs:                 30  out of    173    17%  
+ Number of GCLKs:                        2  out of      8    25%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+CLK_IO                             | BUFGP                  | 9     |
+CLK                                | BUFGP                  | 40    |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 11.508ns (Maximum Frequency: 86.896MHz)
+   Minimum input arrival time before clock: 7.165ns
+   Maximum output required time after clock: 11.359ns
+   Maximum combinational path delay: 12.715ns
+
+=========================================================================
+Completed process "Synthesize".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file G:/Profibus/CTRL_RS232_TX/CTRL_RS232_TX_VHDL.vhd in Library work.
+ERROR:HDLParsers:3313 - G:/Profibus/CTRL_RS232_TX/CTRL_RS232_TX_VHDL.vhd Line 153. Undefined symbol 'CTN02'.  Should it be: CNT02?
+ERROR:HDLParsers:1209 - G:/Profibus/CTRL_RS232_TX/CTRL_RS232_TX_VHDL.vhd Line 153. CTN02: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3313 - G:/Profibus/CTRL_RS232_TX/CTRL_RS232_TX_VHDL.vhd Line 153. Undefined symbol 'CTN03'.  Should it be: CNT03?
+ERROR:HDLParsers:1209 - G:/Profibus/CTRL_RS232_TX/CTRL_RS232_TX_VHDL.vhd Line 153. CTN03: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3313 - G:/Profibus/CTRL_RS232_TX/CTRL_RS232_TX_VHDL.vhd Line 153. Undefined symbol 'CTN04'.  Should it be: CNT04?
+ERROR:HDLParsers:1209 - G:/Profibus/CTRL_RS232_TX/CTRL_RS232_TX_VHDL.vhd Line 153. CTN04: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3313 - G:/Profibus/CTRL_RS232_TX/CTRL_RS232_TX_VHDL.vhd Line 153. Undefined symbol 'CTN05'.  Should it be: CNT05?
+ERROR:HDLParsers:1209 - G:/Profibus/CTRL_RS232_TX/CTRL_RS232_TX_VHDL.vhd Line 153. CTN05: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3313 - G:/Profibus/CTRL_RS232_TX/CTRL_RS232_TX_VHDL.vhd Line 153. Undefined symbol 'CTN06'.  Should it be: CNT06?
+ERROR:HDLParsers:1209 - G:/Profibus/CTRL_RS232_TX/CTRL_RS232_TX_VHDL.vhd Line 153. CTN06: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3313 - G:/Profibus/CTRL_RS232_TX/CTRL_RS232_TX_VHDL.vhd Line 153. Undefined symbol 'CTN07'.  Should it be: CNT07?
+ERROR:HDLParsers:1209 - G:/Profibus/CTRL_RS232_TX/CTRL_RS232_TX_VHDL.vhd Line 153. CTN07: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3313 - G:/Profibus/CTRL_RS232_TX/CTRL_RS232_TX_VHDL.vhd Line 153. Undefined symbol 'CTN08'.  Should it be: CNT08?
+ERROR:HDLParsers:1209 - G:/Profibus/CTRL_RS232_TX/CTRL_RS232_TX_VHDL.vhd Line 153. CTN08: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3313 - G:/Profibus/CTRL_RS232_TX/CTRL_RS232_TX_VHDL.vhd Line 153. Undefined symbol 'CTN09'.  Should it be: CNT09?
+ERROR:HDLParsers:1209 - G:/Profibus/CTRL_RS232_TX/CTRL_RS232_TX_VHDL.vhd Line 153. CTN09: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3313 - G:/Profibus/CTRL_RS232_TX/CTRL_RS232_TX_VHDL.vhd Line 153. Undefined symbol 'CTN10'.  Should it be: CNT10?
+ERROR:HDLParsers:1209 - G:/Profibus/CTRL_RS232_TX/CTRL_RS232_TX_VHDL.vhd Line 153. CTN10: Undefined symbol (last report in this block)
+--> 
+
+Total memory usage is 47848 kilobytes
+
+
+ERROR: XST failed
+Process "Synthesize" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file G:/Profibus/CTRL_RS232_TX/CTRL_RS232_TX_VHDL.vhd in Library work.
+Entity <ctrl_rs232_tx_vhdl> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <ctrl_rs232_tx_vhdl> (Architecture <behavioral>).
+WARNING:Xst:819 - G:/Profibus/CTRL_RS232_TX/CTRL_RS232_TX_VHDL.vhd line 153: The following signals are missing in the process sensitivity list:
+   BYTE_OK_S.
+Entity <ctrl_rs232_tx_vhdl> analyzed. Unit <ctrl_rs232_tx_vhdl> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <ctrl_rs232_tx_vhdl>.
+    Related source file is G:/Profibus/CTRL_RS232_TX/CTRL_RS232_TX_VHDL.vhd.
+    Found 16-bit adder for signal <$n0023> created at line 155.
+    Found 16-bit comparator equal for signal <$n0028> created at line 171.
+    Found 16-bit comparator equal for signal <$n0030> created at line 185.
+    Found 16-bit comparator equal for signal <$n0032> created at line 199.
+    Found 16-bit comparator equal for signal <$n0034> created at line 213.
+    Found 16-bit comparator equal for signal <$n0036> created at line 227.
+    Found 16-bit comparator equal for signal <$n0038> created at line 241.
+    Found 16-bit comparator equal for signal <$n0040> created at line 255.
+    Found 16-bit comparator equal for signal <$n0042> created at line 269.
+    Found 16-bit comparator equal for signal <$n0044> created at line 283.
+    Found 16-bit comparator equal for signal <$n0046> created at line 297.
+    Found 8-bit register for signal <BYTE_IN_S>.
+    Found 1-bit register for signal <BYTE_OK_S>.
+    Found 16-bit register for signal <COUNT>.
+    Found 16-bit register for signal <COUNT_M>.
+    Found 4-bit register for signal <SV>.
+    Found 4-bit register for signal <SV_M>.
+    Found 8 1-bit 2-to-1 multiplexers.
+    Summary:
+	inferred  49 D-type flip-flop(s).
+	inferred   1 Adder/Subtracter(s).
+	inferred  10 Comparator(s).
+	inferred   8 Multiplexer(s).
+Unit <ctrl_rs232_tx_vhdl> synthesized.
+
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors               : 1
+ 16-bit adder                      : 1
+# Registers                        : 6
+ 16-bit register                   : 2
+ 4-bit register                    : 2
+ 1-bit register                    : 1
+ 8-bit register                    : 1
+# Comparators                      : 10
+ 16-bit comparator equal           : 10
+# Multiplexers                     : 8
+ 1-bit 2-to-1 multiplexer          : 8
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <ctrl_rs232_tx_vhdl> ...
+Loading device for application Xst from file '3s200.nph' in environment C:/Xilinx.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block ctrl_rs232_tx_vhdl, actual ratio is 5.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s200ft256-5 
+
+ Number of Slices:                      86  out of   1920     4%  
+ Number of Slice Flip Flops:            49  out of   3840     1%  
+ Number of 4 input LUTs:               156  out of   3840     4%  
+ Number of bonded IOBs:                 30  out of    173    17%  
+ Number of GCLKs:                        2  out of      8    25%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+CLK_IO                             | BUFGP                  | 9     |
+CLK                                | BUFGP                  | 40    |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 11.508ns (Maximum Frequency: 86.896MHz)
+   Minimum input arrival time before clock: 7.165ns
+   Maximum output required time after clock: 11.359ns
+   Maximum combinational path delay: 12.715ns
+
+=========================================================================
+Completed process "Synthesize".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file G:/Profibus/CTRL_RS232_TX/CTRL_RS232_TX_VHDL.vhd in Library work.
+Entity <ctrl_rs232_tx_vhdl> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <ctrl_rs232_tx_vhdl> (Architecture <behavioral>).
+WARNING:Xst:819 - G:/Profibus/CTRL_RS232_TX/CTRL_RS232_TX_VHDL.vhd line 153: The following signals are missing in the process sensitivity list:
+   BYTE_IN_S.
+Entity <ctrl_rs232_tx_vhdl> analyzed. Unit <ctrl_rs232_tx_vhdl> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <ctrl_rs232_tx_vhdl>.
+    Related source file is G:/Profibus/CTRL_RS232_TX/CTRL_RS232_TX_VHDL.vhd.
+    Found 16-bit adder for signal <$n0023> created at line 155.
+    Found 16-bit comparator equal for signal <$n0028> created at line 171.
+    Found 16-bit comparator equal for signal <$n0030> created at line 185.
+    Found 16-bit comparator equal for signal <$n0032> created at line 199.
+    Found 16-bit comparator equal for signal <$n0034> created at line 213.
+    Found 16-bit comparator equal for signal <$n0036> created at line 227.
+    Found 16-bit comparator equal for signal <$n0038> created at line 241.
+    Found 16-bit comparator equal for signal <$n0040> created at line 255.
+    Found 16-bit comparator equal for signal <$n0042> created at line 269.
+    Found 16-bit comparator equal for signal <$n0044> created at line 283.
+    Found 16-bit comparator equal for signal <$n0046> created at line 297.
+    Found 8-bit register for signal <BYTE_IN_S>.
+    Found 1-bit register for signal <BYTE_OK_S>.
+    Found 16-bit register for signal <COUNT>.
+    Found 16-bit register for signal <COUNT_M>.
+    Found 4-bit register for signal <SV>.
+    Found 4-bit register for signal <SV_M>.
+    Found 8 1-bit 2-to-1 multiplexers.
+    Summary:
+	inferred  49 D-type flip-flop(s).
+	inferred   1 Adder/Subtracter(s).
+	inferred  10 Comparator(s).
+	inferred   8 Multiplexer(s).
+Unit <ctrl_rs232_tx_vhdl> synthesized.
+
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors               : 1
+ 16-bit adder                      : 1
+# Registers                        : 6
+ 16-bit register                   : 2
+ 4-bit register                    : 2
+ 1-bit register                    : 1
+ 8-bit register                    : 1
+# Comparators                      : 10
+ 16-bit comparator equal           : 10
+# Multiplexers                     : 8
+ 1-bit 2-to-1 multiplexer          : 8
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <ctrl_rs232_tx_vhdl> ...
+Loading device for application Xst from file '3s200.nph' in environment C:/Xilinx.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block ctrl_rs232_tx_vhdl, actual ratio is 5.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s200ft256-5 
+
+ Number of Slices:                      86  out of   1920     4%  
+ Number of Slice Flip Flops:            49  out of   3840     1%  
+ Number of 4 input LUTs:               156  out of   3840     4%  
+ Number of bonded IOBs:                 30  out of    173    17%  
+ Number of GCLKs:                        2  out of      8    25%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+CLK_IO                             | BUFGP                  | 9     |
+CLK                                | BUFGP                  | 40    |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 11.508ns (Maximum Frequency: 86.896MHz)
+   Minimum input arrival time before clock: 7.165ns
+   Maximum output required time after clock: 11.359ns
+   Maximum combinational path delay: 12.715ns
+
+=========================================================================
+Completed process "Synthesize".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file G:/Profibus/CTRL_RS232_TX/CTRL_RS232_TX_VHDL.vhd in Library work.
+Entity <ctrl_rs232_tx_vhdl> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <ctrl_rs232_tx_vhdl> (Architecture <behavioral>).
+Entity <ctrl_rs232_tx_vhdl> analyzed. Unit <ctrl_rs232_tx_vhdl> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <ctrl_rs232_tx_vhdl>.
+    Related source file is G:/Profibus/CTRL_RS232_TX/CTRL_RS232_TX_VHDL.vhd.
+    Found 16-bit adder for signal <$n0023> created at line 155.
+    Found 16-bit comparator equal for signal <$n0028> created at line 171.
+    Found 16-bit comparator equal for signal <$n0030> created at line 185.
+    Found 16-bit comparator equal for signal <$n0032> created at line 199.
+    Found 16-bit comparator equal for signal <$n0034> created at line 213.
+    Found 16-bit comparator equal for signal <$n0036> created at line 227.
+    Found 16-bit comparator equal for signal <$n0038> created at line 241.
+    Found 16-bit comparator equal for signal <$n0040> created at line 255.
+    Found 16-bit comparator equal for signal <$n0042> created at line 269.
+    Found 16-bit comparator equal for signal <$n0044> created at line 283.
+    Found 16-bit comparator equal for signal <$n0046> created at line 297.
+    Found 8-bit register for signal <BYTE_IN_S>.
+    Found 1-bit register for signal <BYTE_OK_S>.
+    Found 16-bit register for signal <COUNT>.
+    Found 16-bit register for signal <COUNT_M>.
+    Found 4-bit register for signal <SV>.
+    Found 4-bit register for signal <SV_M>.
+    Found 8 1-bit 2-to-1 multiplexers.
+    Summary:
+	inferred  49 D-type flip-flop(s).
+	inferred   1 Adder/Subtracter(s).
+	inferred  10 Comparator(s).
+	inferred   8 Multiplexer(s).
+Unit <ctrl_rs232_tx_vhdl> synthesized.
+
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors               : 1
+ 16-bit adder                      : 1
+# Registers                        : 6
+ 16-bit register                   : 2
+ 4-bit register                    : 2
+ 1-bit register                    : 1
+ 8-bit register                    : 1
+# Comparators                      : 10
+ 16-bit comparator equal           : 10
+# Multiplexers                     : 8
+ 1-bit 2-to-1 multiplexer          : 8
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <ctrl_rs232_tx_vhdl> ...
+Loading device for application Xst from file '3s200.nph' in environment C:/Xilinx.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block ctrl_rs232_tx_vhdl, actual ratio is 5.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s200ft256-5 
+
+ Number of Slices:                      86  out of   1920     4%  
+ Number of Slice Flip Flops:            49  out of   3840     1%  
+ Number of 4 input LUTs:               156  out of   3840     4%  
+ Number of bonded IOBs:                 30  out of    173    17%  
+ Number of GCLKs:                        2  out of      8    25%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+CLK_IO                             | BUFGP                  | 9     |
+CLK                                | BUFGP                  | 40    |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 11.508ns (Maximum Frequency: 86.896MHz)
+   Minimum input arrival time before clock: 7.165ns
+   Maximum output required time after clock: 11.359ns
+   Maximum combinational path delay: 12.715ns
+
+=========================================================================
+Completed process "Synthesize".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+deleting ctrl_rs232_tx_vhdl.lso
+deleting ctrl_rs232_tx_vhdl.syr
+deleting ctrl_rs232_tx_vhdl.prj
+deleting ctrl_rs232_tx_vhdl.sprj
+deleting ctrl_rs232_tx_vhdl.ana
+deleting ctrl_rs232_tx_vhdl.stx
+deleting ctrl_rs232_tx_vhdl.cmd_log
+deleting ctrl_rs232_tx_vhdl.ngc
+deleting ctrl_rs232_tx_vhdl.ngr
+deleting ctrl_rs232_tx_vhdl.lso
+deleting ctrl_rs232_tx_vhdl.syr
+deleting ctrl_rs232_tx_vhdl.prj
+deleting ctrl_rs232_tx_vhdl.sprj
+deleting ctrl_rs232_tx_vhdl.ana
+deleting ctrl_rs232_tx_vhdl.stx
+deleting ctrl_rs232_tx_vhdl.cmd_log
+deleting ctrl_rs232_tx_vhdl.ngc
+deleting ctrl_rs232_tx_vhdl.ngr
+deleting ctrl_rs232_tx_vhdl.lso
+deleting ctrl_rs232_tx_vhdl.syr
+deleting ctrl_rs232_tx_vhdl.prj
+deleting ctrl_rs232_tx_vhdl.sprj
+deleting ctrl_rs232_tx_vhdl.ana
+deleting ctrl_rs232_tx_vhdl.stx
+deleting ctrl_rs232_tx_vhdl.cmd_log
+deleting ctrl_rs232_tx_vhdl.ngc
+deleting ctrl_rs232_tx_vhdl.ngr
+deleting ctrl_rs232_tx_vhdl.lso
+deleting ctrl_rs232_tx_vhdl.syr
+deleting ctrl_rs232_tx_vhdl.prj
+deleting ctrl_rs232_tx_vhdl.sprj
+deleting ctrl_rs232_tx_vhdl.ana
+deleting ctrl_rs232_tx_vhdl.stx
+deleting ctrl_rs232_tx_vhdl.cmd_log
+deleting ctrl_rs232_tx_vhdl.ngc
+deleting ctrl_rs232_tx_vhdl.ngr
+deleting ctrl_rs232_tx_vhdl.lso
+deleting ctrl_rs232_tx_vhdl.syr
+deleting ctrl_rs232_tx_vhdl.prj
+deleting ctrl_rs232_tx_vhdl.sprj
+deleting ctrl_rs232_tx_vhdl.ana
+deleting ctrl_rs232_tx_vhdl.stx
+deleting ctrl_rs232_tx_vhdl.cmd_log
+deleting ctrl_rs232_tx_vhdl.ngc
+deleting ctrl_rs232_tx_vhdl.ngr
+deleting ctrl_rs232_tx_vhdl.lso
+deleting ctrl_rs232_tx_vhdl.syr
+deleting ctrl_rs232_tx_vhdl.prj
+deleting ctrl_rs232_tx_vhdl.sprj
+deleting ctrl_rs232_tx_vhdl.ana
+deleting ctrl_rs232_tx_vhdl.stx
+deleting ctrl_rs232_tx_vhdl.cmd_log
+deleting ctrl_rs232_tx_vhdl.ngc
+deleting ctrl_rs232_tx_vhdl.ngr
+deleting ctrl_rs232_tx_vhdl.lso
+deleting ctrl_rs232_tx_vhdl.syr
+deleting ctrl_rs232_tx_vhdl.prj
+deleting ctrl_rs232_tx_vhdl.sprj
+deleting ctrl_rs232_tx_vhdl.ana
+deleting ctrl_rs232_tx_vhdl.stx
+deleting ctrl_rs232_tx_vhdl.cmd_log
+deleting ctrl_rs232_tx_vhdl.ngc
+deleting ctrl_rs232_tx_vhdl.ngr
+deleting ctrl_rs232_tx_vhdl.lso
+deleting ctrl_rs232_tx_vhdl.syr
+deleting ctrl_rs232_tx_vhdl.prj
+deleting ctrl_rs232_tx_vhdl.sprj
+deleting ctrl_rs232_tx_vhdl.ana
+deleting ctrl_rs232_tx_vhdl.stx
+deleting ctrl_rs232_tx_vhdl.cmd_log
+deleting ctrl_rs232_tx_vhdl.ngc
+deleting ctrl_rs232_tx_vhdl.ngr
+deleting ctrl_rs232_tx_vhdl.lso
+deleting ctrl_rs232_tx_vhdl.syr
+deleting ctrl_rs232_tx_vhdl.prj
+deleting ctrl_rs232_tx_vhdl.sprj
+deleting ctrl_rs232_tx_vhdl.ana
+deleting ctrl_rs232_tx_vhdl.stx
+deleting ctrl_rs232_tx_vhdl.cmd_log
+deleting ctrl_rs232_tx_vhdl.ngc
+deleting ctrl_rs232_tx_vhdl.ngr
+deleting ctrl_rs232_tx_vhdl.lso
+deleting ctrl_rs232_tx_vhdl.syr
+deleting ctrl_rs232_tx_vhdl.prj
+deleting ctrl_rs232_tx_vhdl.sprj
+deleting ctrl_rs232_tx_vhdl.ana
+deleting ctrl_rs232_tx_vhdl.stx
+deleting ctrl_rs232_tx_vhdl.cmd_log
+deleting ctrl_rs232_tx_vhdl.ngc
+deleting ctrl_rs232_tx_vhdl.ngr
+deleting ctrl_rs232_tx_vhdl.lso
+deleting ctrl_rs232_tx_vhdl.syr
+deleting ctrl_rs232_tx_vhdl.prj
+deleting ctrl_rs232_tx_vhdl.sprj
+deleting ctrl_rs232_tx_vhdl.ana
+deleting ctrl_rs232_tx_vhdl.stx
+deleting ctrl_rs232_tx_vhdl.cmd_log
+deleting ctrl_rs232_tx_vhdl.ngc
+deleting ctrl_rs232_tx_vhdl.ngr
+deleting ctrl_rs232_tx_vhdl.lso
+deleting ctrl_rs232_tx_vhdl.syr
+deleting ctrl_rs232_tx_vhdl.prj
+deleting ctrl_rs232_tx_vhdl.sprj
+deleting ctrl_rs232_tx_vhdl.ana
+deleting ctrl_rs232_tx_vhdl.stx
+deleting ctrl_rs232_tx_vhdl.cmd_log
+deleting ctrl_rs232_tx_vhdl.ngc
+deleting ctrl_rs232_tx_vhdl.ngr
+deleting ctrl_rs232_tx_vhdl.lso
+deleting ctrl_rs232_tx_vhdl.syr
+deleting ctrl_rs232_tx_vhdl.prj
+deleting ctrl_rs232_tx_vhdl.sprj
+deleting ctrl_rs232_tx_vhdl.ana
+deleting ctrl_rs232_tx_vhdl.stx
+deleting ctrl_rs232_tx_vhdl.cmd_log
+deleting ctrl_rs232_tx_vhdl.ngc
+deleting ctrl_rs232_tx_vhdl.ngr
+deleting ctrl_rs232_tx_vhdl.lso
+deleting ctrl_rs232_tx_vhdl.syr
+deleting ctrl_rs232_tx_vhdl.prj
+deleting ctrl_rs232_tx_vhdl.sprj
+deleting ctrl_rs232_tx_vhdl.ana
+deleting ctrl_rs232_tx_vhdl.stx
+deleting ctrl_rs232_tx_vhdl.cmd_log
+deleting ctrl_rs232_tx_vhdl.ngc
+deleting ctrl_rs232_tx_vhdl.ngr
+deleting ctrl_rs232_tx_vhdl.lso
+deleting ctrl_rs232_tx_vhdl.syr
+deleting ctrl_rs232_tx_vhdl.prj
+deleting ctrl_rs232_tx_vhdl.sprj
+deleting ctrl_rs232_tx_vhdl.ana
+deleting ctrl_rs232_tx_vhdl.stx
+deleting ctrl_rs232_tx_vhdl.cmd_log
+deleting ctrl_rs232_tx_vhdl.ngc
+deleting ctrl_rs232_tx_vhdl.ngr
+deleting ctrl_rs232_tx_vhdl.lso
+deleting ctrl_rs232_tx_vhdl.syr
+deleting ctrl_rs232_tx_vhdl.prj
+deleting ctrl_rs232_tx_vhdl.sprj
+deleting ctrl_rs232_tx_vhdl.ana
+deleting ctrl_rs232_tx_vhdl.stx
+deleting ctrl_rs232_tx_vhdl.cmd_log
+deleting ctrl_rs232_tx_vhdl.ngc
+deleting ctrl_rs232_tx_vhdl.ngr
+deleting ctrl_rs232_tx_vhdl.lso
+deleting ctrl_rs232_tx_vhdl.syr
+deleting ctrl_rs232_tx_vhdl.prj
+deleting ctrl_rs232_tx_vhdl.sprj
+deleting ctrl_rs232_tx_vhdl.ana
+deleting ctrl_rs232_tx_vhdl.stx
+deleting ctrl_rs232_tx_vhdl.cmd_log
+deleting ctrl_rs232_tx_vhdl.ngc
+deleting ctrl_rs232_tx_vhdl.ngr
+deleting ctrl_rs232_tx_vhdl.prj
+deleting ctrl_rs232_tx_vhdl.prj
+deleting __projnav/ctrl_rs232_tx_vhdl.xst
+deleting ./xst
+deleting ctrl_rs232_tx_vhdl.prj
+deleting ctrl_rs232_tx_vhdl.prj
+deleting __projnav/ctrl_rs232_tx_vhdl.xst
+deleting ./xst
+deleting ctrl_rs232_tx_vhdl.prj
+deleting ctrl_rs232_tx_vhdl.prj
+deleting __projnav/ctrl_rs232_tx_vhdl.xst
+deleting ./xst
+deleting ctrl_rs232_tx_vhdl.prj
+deleting ctrl_rs232_tx_vhdl.prj
+deleting __projnav/ctrl_rs232_tx_vhdl.xst
+deleting ./xst
+deleting ctrl_rs232_tx_vhdl.prj
+deleting ctrl_rs232_tx_vhdl.prj
+deleting __projnav/ctrl_rs232_tx_vhdl.xst
+deleting ./xst
+deleting ctrl_rs232_tx_vhdl.prj
+deleting ctrl_rs232_tx_vhdl.prj
+deleting __projnav/ctrl_rs232_tx_vhdl.xst
+deleting ./xst
+deleting ctrl_rs232_tx_vhdl.prj
+deleting ctrl_rs232_tx_vhdl.prj
+deleting __projnav/ctrl_rs232_tx_vhdl.xst
+deleting ./xst
+deleting ctrl_rs232_tx_vhdl.prj
+deleting ctrl_rs232_tx_vhdl.prj
+deleting __projnav/ctrl_rs232_tx_vhdl.xst
+deleting ./xst
+deleting ctrl_rs232_tx_vhdl.prj
+deleting ctrl_rs232_tx_vhdl.prj
+deleting __projnav/ctrl_rs232_tx_vhdl.xst
+deleting ./xst
+deleting ctrl_rs232_tx_vhdl.prj
+deleting ctrl_rs232_tx_vhdl.prj
+deleting __projnav/ctrl_rs232_tx_vhdl.xst
+deleting ./xst
+deleting ctrl_rs232_tx_vhdl.prj
+deleting ctrl_rs232_tx_vhdl.prj
+deleting __projnav/ctrl_rs232_tx_vhdl.xst
+deleting ./xst
+deleting ctrl_rs232_tx_vhdl.prj
+deleting ctrl_rs232_tx_vhdl.prj
+deleting __projnav/ctrl_rs232_tx_vhdl.xst
+deleting ./xst
+deleting ctrl_rs232_tx_vhdl.prj
+deleting ctrl_rs232_tx_vhdl.prj
+deleting __projnav/ctrl_rs232_tx_vhdl.xst
+deleting ./xst
+deleting ctrl_rs232_tx_vhdl.prj
+deleting ctrl_rs232_tx_vhdl.prj
+deleting __projnav/ctrl_rs232_tx_vhdl.xst
+deleting ./xst
+deleting ctrl_rs232_tx_vhdl.prj
+deleting ctrl_rs232_tx_vhdl.prj
+deleting __projnav/ctrl_rs232_tx_vhdl.xst
+deleting ./xst
+deleting ctrl_rs232_tx_vhdl.prj
+deleting ctrl_rs232_tx_vhdl.prj
+deleting __projnav/ctrl_rs232_tx_vhdl.xst
+deleting ./xst
+deleting ctrl_rs232_tx_vhdl.prj
+deleting ctrl_rs232_tx_vhdl.prj
+deleting __projnav/ctrl_rs232_tx_vhdl.xst
+deleting ./xst
+deleting __projnav/CTRL_RS232_TX.gfl
+deleting __projnav/CTRL_RS232_TX_flowplus.gfl
+Finished cleaning up project
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file C:/STUDY/UEBUNG/Studium/Profibus/CTRL_RS232_TX/CTRL_RS232_TX_VHDL.vhd in Library work.
+ERROR:HDLParsers:3312 - C:/STUDY/UEBUNG/Studium/Profibus/CTRL_RS232_TX/CTRL_RS232_TX_VHDL.vhd Line 195. Undefined symbol 'BYTE_IN_S'.
+ERROR:HDLParsers:1209 - C:/STUDY/UEBUNG/Studium/Profibus/CTRL_RS232_TX/CTRL_RS232_TX_VHDL.vhd Line 195. BYTE_IN_S: Undefined symbol (last report in this block)
+--> 
+
+Total memory usage is 48104 kilobytes
+
+
+ERROR: XST failed
+Process "Synthesize" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file C:/STUDY/UEBUNG/Studium/Profibus/CTRL_RS232_TX/CTRL_RS232_TX_VHDL.vhd in Library work.
+Entity <CTRL_RS232_TX_VHDL> (Architecture <Behavioral>) compiled.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <ctrl_rs232_tx_vhdl> (Architecture <Behavioral>).
+WARNING:Xst:819 - C:/STUDY/UEBUNG/Studium/Profibus/CTRL_RS232_TX/CTRL_RS232_TX_VHDL.vhd line 154: The following signals are missing in the process sensitivity list:
+   SEND.
+Entity <ctrl_rs232_tx_vhdl> analyzed. Unit <ctrl_rs232_tx_vhdl> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <ctrl_rs232_tx_vhdl>.
+    Related source file is C:/STUDY/UEBUNG/Studium/Profibus/CTRL_RS232_TX/CTRL_RS232_TX_VHDL.vhd.
+    Found 16-bit adder for signal <$n0024> created at line 156.
+    Found 16-bit comparator equal for signal <$n0029> created at line 172.
+    Found 16-bit comparator equal for signal <$n0031> created at line 186.
+    Found 16-bit comparator equal for signal <$n0033> created at line 200.
+    Found 16-bit comparator equal for signal <$n0035> created at line 214.
+    Found 16-bit comparator equal for signal <$n0037> created at line 228.
+    Found 16-bit comparator equal for signal <$n0039> created at line 242.
+    Found 16-bit comparator equal for signal <$n0041> created at line 256.
+    Found 16-bit comparator equal for signal <$n0043> created at line 270.
+    Found 16-bit comparator equal for signal <$n0045> created at line 284.
+    Found 16-bit comparator equal for signal <$n0047> created at line 298.
+    Found 16-bit register for signal <COUNT>.
+    Found 16-bit register for signal <COUNT_M>.
+    Found 8-bit register for signal <SEND_BYTE_S>.
+    Found 1-bit register for signal <SEND_S>.
+    Found 4-bit register for signal <SV>.
+    Found 4-bit register for signal <SV_M>.
+    Found 8 1-bit 2-to-1 multiplexers.
+    Summary:
+	inferred  49 D-type flip-flop(s).
+	inferred   1 Adder/Subtracter(s).
+	inferred  10 Comparator(s).
+	inferred   8 Multiplexer(s).
+Unit <ctrl_rs232_tx_vhdl> synthesized.
+
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors               : 1
+ 16-bit adder                      : 1
+# Registers                        : 6
+ 16-bit register                   : 2
+ 4-bit register                    : 2
+ 1-bit register                    : 1
+ 8-bit register                    : 1
+# Comparators                      : 10
+ 16-bit comparator equal           : 10
+# Multiplexers                     : 8
+ 1-bit 2-to-1 multiplexer          : 8
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <ctrl_rs232_tx_vhdl> ...
+Loading device for application Xst from file '3s200.nph' in environment C:/Programme/XILINX/WEBPACK_6P3.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block ctrl_rs232_tx_vhdl, actual ratio is 5.
+FlipFlop SV_3 has been replicated 1 time(s)
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s200ft256-5 
+
+ Number of Slices:                      87  out of   1920     4%  
+ Number of Slice Flip Flops:            50  out of   3840     1%  
+ Number of 4 input LUTs:               158  out of   3840     4%  
+ Number of bonded IOBs:                 30  out of    173    17%  
+ Number of GCLKs:                        2  out of      8    25%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+CLK_IO                             | BUFGP                  | 9     |
+CLK                                | BUFGP                  | 41    |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 11.183ns (Maximum Frequency: 89.421MHz)
+   Minimum input arrival time before clock: 6.973ns
+   Maximum output required time after clock: 11.359ns
+   Maximum combinational path delay: 12.715ns
+
+=========================================================================
+Completed process "Synthesize".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file C:/STUDY/UEBUNG/Studium/Profibus/CTRL_RS232_TX/CTRL_RS232_TX_VHDL.vhd in Library work.
+Entity <ctrl_rs232_tx_vhdl> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <ctrl_rs232_tx_vhdl> (Architecture <behavioral>).
+Entity <ctrl_rs232_tx_vhdl> analyzed. Unit <ctrl_rs232_tx_vhdl> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <ctrl_rs232_tx_vhdl>.
+    Related source file is C:/STUDY/UEBUNG/Studium/Profibus/CTRL_RS232_TX/CTRL_RS232_TX_VHDL.vhd.
+    Found 16-bit adder for signal <$n0024> created at line 156.
+    Found 16-bit comparator equal for signal <$n0029> created at line 172.
+    Found 16-bit comparator equal for signal <$n0031> created at line 186.
+    Found 16-bit comparator equal for signal <$n0033> created at line 200.
+    Found 16-bit comparator equal for signal <$n0035> created at line 214.
+    Found 16-bit comparator equal for signal <$n0037> created at line 228.
+    Found 16-bit comparator equal for signal <$n0039> created at line 242.
+    Found 16-bit comparator equal for signal <$n0041> created at line 256.
+    Found 16-bit comparator equal for signal <$n0043> created at line 270.
+    Found 16-bit comparator equal for signal <$n0045> created at line 284.
+    Found 16-bit comparator equal for signal <$n0047> created at line 298.
+    Found 16-bit register for signal <COUNT>.
+    Found 16-bit register for signal <COUNT_M>.
+    Found 8-bit register for signal <SEND_BYTE_S>.
+    Found 1-bit register for signal <SEND_S>.
+    Found 4-bit register for signal <SV>.
+    Found 4-bit register for signal <SV_M>.
+    Found 8 1-bit 2-to-1 multiplexers.
+    Summary:
+	inferred  49 D-type flip-flop(s).
+	inferred   1 Adder/Subtracter(s).
+	inferred  10 Comparator(s).
+	inferred   8 Multiplexer(s).
+Unit <ctrl_rs232_tx_vhdl> synthesized.
+
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors               : 1
+ 16-bit adder                      : 1
+# Registers                        : 6
+ 16-bit register                   : 2
+ 4-bit register                    : 2
+ 1-bit register                    : 1
+ 8-bit register                    : 1
+# Comparators                      : 10
+ 16-bit comparator equal           : 10
+# Multiplexers                     : 8
+ 1-bit 2-to-1 multiplexer          : 8
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <ctrl_rs232_tx_vhdl> ...
+Loading device for application Xst from file '3s200.nph' in environment C:/Programme/XILINX/WEBPACK_6P3.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block ctrl_rs232_tx_vhdl, actual ratio is 4.
+FlipFlop SV_2 has been replicated 1 time(s)
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s200ft256-5 
+
+ Number of Slices:                      85  out of   1920     4%  
+ Number of Slice Flip Flops:            50  out of   3840     1%  
+ Number of 4 input LUTs:               154  out of   3840     4%  
+ Number of bonded IOBs:                 30  out of    173    17%  
+ Number of GCLKs:                        2  out of      8    25%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+CLK_IO                             | BUFGP                  | 9     |
+CLK                                | BUFGP                  | 41    |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 11.183ns (Maximum Frequency: 89.421MHz)
+   Minimum input arrival time before clock: 6.973ns
+   Maximum output required time after clock: 11.389ns
+   Maximum combinational path delay: 12.715ns
+
+=========================================================================
+Completed process "Synthesize".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file C:/STUDY/UEBUNG/Studium/Profibus/CTRL_RS232_TX/CTRL_RS232_TX_VHDL.vhd in Library work.
+Entity <ctrl_rs232_tx_vhdl> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <ctrl_rs232_tx_vhdl> (Architecture <behavioral>).
+Entity <ctrl_rs232_tx_vhdl> analyzed. Unit <ctrl_rs232_tx_vhdl> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <ctrl_rs232_tx_vhdl>.
+    Related source file is C:/STUDY/UEBUNG/Studium/Profibus/CTRL_RS232_TX/CTRL_RS232_TX_VHDL.vhd.
+    Found 16-bit adder for signal <$n0025> created at line 157.
+    Found 16-bit comparator equal for signal <$n0031> created at line 175.
+    Found 16-bit comparator equal for signal <$n0033> created at line 191.
+    Found 16-bit comparator equal for signal <$n0035> created at line 207.
+    Found 16-bit comparator equal for signal <$n0037> created at line 223.
+    Found 16-bit comparator equal for signal <$n0039> created at line 239.
+    Found 16-bit comparator equal for signal <$n0041> created at line 255.
+    Found 16-bit comparator equal for signal <$n0043> created at line 271.
+    Found 16-bit comparator equal for signal <$n0045> created at line 287.
+    Found 16-bit comparator equal for signal <$n0047> created at line 303.
+    Found 16-bit comparator equal for signal <$n0051> created at line 319.
+    Found 16-bit register for signal <COUNT>.
+    Found 16-bit register for signal <COUNT_M>.
+    Found 8-bit register for signal <SEND_BYTE_S>.
+    Found 1-bit register for signal <SEND_S>.
+    Found 4-bit register for signal <SV>.
+    Found 4-bit register for signal <SV_M>.
+    Found 8 1-bit 2-to-1 multiplexers.
+    Summary:
+	inferred  49 D-type flip-flop(s).
+	inferred   1 Adder/Subtracter(s).
+	inferred  10 Comparator(s).
+	inferred   8 Multiplexer(s).
+Unit <ctrl_rs232_tx_vhdl> synthesized.
+
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors               : 1
+ 16-bit adder                      : 1
+# Registers                        : 6
+ 16-bit register                   : 2
+ 4-bit register                    : 2
+ 1-bit register                    : 1
+ 8-bit register                    : 1
+# Comparators                      : 10
+ 16-bit comparator equal           : 10
+# Multiplexers                     : 8
+ 1-bit 2-to-1 multiplexer          : 8
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <ctrl_rs232_tx_vhdl> ...
+Loading device for application Xst from file '3s200.nph' in environment C:/Programme/XILINX/WEBPACK_6P3.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block ctrl_rs232_tx_vhdl, actual ratio is 5.
+FlipFlop SV_2 has been replicated 1 time(s)
+FlipFlop SV_1 has been replicated 1 time(s)
+FlipFlop SV_3 has been replicated 1 time(s)
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s200ft256-5 
+
+ Number of Slices:                      86  out of   1920     4%  
+ Number of Slice Flip Flops:            52  out of   3840     1%  
+ Number of 4 input LUTs:               156  out of   3840     4%  
+ Number of bonded IOBs:                 31  out of    173    17%  
+ Number of GCLKs:                        2  out of      8    25%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+CLK                                | BUFGP                  | 43    |
+CLK_IO                             | BUFGP                  | 9     |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 11.183ns (Maximum Frequency: 89.421MHz)
+   Minimum input arrival time before clock: 6.973ns
+   Maximum output required time after clock: 11.389ns
+   Maximum combinational path delay: 12.715ns
+
+=========================================================================
+Completed process "Synthesize".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+deleting ctrl_rs232_tx_vhdl.lso
+deleting ctrl_rs232_tx_vhdl.syr
+deleting ctrl_rs232_tx_vhdl.prj
+deleting ctrl_rs232_tx_vhdl.sprj
+deleting ctrl_rs232_tx_vhdl.ana
+deleting ctrl_rs232_tx_vhdl.stx
+deleting ctrl_rs232_tx_vhdl.cmd_log
+deleting ctrl_rs232_tx_vhdl.lso
+deleting ctrl_rs232_tx_vhdl.syr
+deleting ctrl_rs232_tx_vhdl.prj
+deleting ctrl_rs232_tx_vhdl.sprj
+deleting ctrl_rs232_tx_vhdl.ana
+deleting ctrl_rs232_tx_vhdl.stx
+deleting ctrl_rs232_tx_vhdl.cmd_log
+deleting ctrl_rs232_tx_vhdl.ngc
+deleting ctrl_rs232_tx_vhdl.ngr
+deleting ctrl_rs232_tx_vhdl.lso
+deleting ctrl_rs232_tx_vhdl.syr
+deleting ctrl_rs232_tx_vhdl.prj
+deleting ctrl_rs232_tx_vhdl.sprj
+deleting ctrl_rs232_tx_vhdl.ana
+deleting ctrl_rs232_tx_vhdl.stx
+deleting ctrl_rs232_tx_vhdl.cmd_log
+deleting ctrl_rs232_tx_vhdl.ngc
+deleting ctrl_rs232_tx_vhdl.ngr
+deleting ctrl_rs232_tx_vhdl.lso
+deleting ctrl_rs232_tx_vhdl.syr
+deleting ctrl_rs232_tx_vhdl.prj
+deleting ctrl_rs232_tx_vhdl.sprj
+deleting ctrl_rs232_tx_vhdl.ana
+deleting ctrl_rs232_tx_vhdl.stx
+deleting ctrl_rs232_tx_vhdl.cmd_log
+deleting ctrl_rs232_tx_vhdl.ngc
+deleting ctrl_rs232_tx_vhdl.ngr
+deleting ctrl_rs232_tx_vhdl.prj
+deleting ctrl_rs232_tx_vhdl.prj
+deleting __projnav/ctrl_rs232_tx_vhdl.xst
+deleting ./xst
+deleting ctrl_rs232_tx_vhdl.prj
+deleting ctrl_rs232_tx_vhdl.prj
+deleting __projnav/ctrl_rs232_tx_vhdl.xst
+deleting ./xst
+deleting ctrl_rs232_tx_vhdl.prj
+deleting ctrl_rs232_tx_vhdl.prj
+deleting __projnav/ctrl_rs232_tx_vhdl.xst
+deleting ./xst
+deleting ctrl_rs232_tx_vhdl.prj
+deleting ctrl_rs232_tx_vhdl.prj
+deleting __projnav/ctrl_rs232_tx_vhdl.xst
+deleting ./xst
+deleting __projnav/CTRL_RS232_TX.gfl
+deleting __projnav/CTRL_RS232_TX_flowplus.gfl
+Finished cleaning up project
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file C:/STUDY/UEBUNG/Studium/Profibus/CTRL_RS232_TX/CTRL_RS232_TX_VHDL.vhd in Library work.
+Entity <CTRL_RS232_TX_VHDL> (Architecture <Behavioral>) compiled.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <ctrl_rs232_tx_vhdl> (Architecture <Behavioral>).
+Entity <ctrl_rs232_tx_vhdl> analyzed. Unit <ctrl_rs232_tx_vhdl> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <ctrl_rs232_tx_vhdl>.
+    Related source file is C:/STUDY/UEBUNG/Studium/Profibus/CTRL_RS232_TX/CTRL_RS232_TX_VHDL.vhd.
+WARNING:Xst:1780 - Signal <STATE_n_SV> is never used or assigned.
+WARNING:Xst:1780 - Signal <STATE_SV> is never used or assigned.
+    Using one-hot encoding for signal <SV>.
+    Found 16-bit adder for signal <$n0025> created at line 127.
+    Found 16-bit register for signal <COUNT>.
+    Found 16-bit register for signal <COUNT_M>.
+    Found 8-bit register for signal <SEND_BYTE_S>.
+    Found 1-bit register for signal <SEND_S>.
+    Found 12-bit register for signal <SV>.
+    Found 12-bit register for signal <SV_M>.
+    Summary:
+	inferred  41 D-type flip-flop(s).
+	inferred   1 Adder/Subtracter(s).
+Unit <ctrl_rs232_tx_vhdl> synthesized.
+
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors               : 1
+ 16-bit adder                      : 1
+# Registers                        : 6
+ 16-bit register                   : 2
+ 1-bit register                    : 1
+ 8-bit register                    : 1
+ 12-bit register                   : 2
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <ctrl_rs232_tx_vhdl> ...
+Loading device for application Xst from file '3s200.nph' in environment C:/Programme/XILINX/WEBPACK_6P3.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block ctrl_rs232_tx_vhdl, actual ratio is 3.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s200ft256-5 
+
+ Number of Slices:                      58  out of   1920     3%  
+ Number of Slice Flip Flops:            65  out of   3840     1%  
+ Number of 4 input LUTs:                96  out of   3840     2%  
+ Number of bonded IOBs:                 13  out of    173     7%  
+ Number of GCLKs:                        2  out of      8    25%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+CLK                                | BUFGP                  | 56    |
+CLK_IO                             | BUFGP                  | 9     |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 11.478ns (Maximum Frequency: 87.123MHz)
+   Minimum input arrival time before clock: 4.992ns
+   Maximum output required time after clock: 11.669ns
+   Maximum combinational path delay: No path found
+
+=========================================================================
+Completed process "Synthesize".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file C:/STUDY/UEBUNG/Studium/Profibus/CTRL_RS232_TX/CTRL_RS232_TX_VHDL.vhd in Library work.
+Entity <ctrl_rs232_tx_vhdl> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <ctrl_rs232_tx_vhdl> (Architecture <behavioral>).
+Entity <ctrl_rs232_tx_vhdl> analyzed. Unit <ctrl_rs232_tx_vhdl> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <ctrl_rs232_tx_vhdl>.
+    Related source file is C:/STUDY/UEBUNG/Studium/Profibus/CTRL_RS232_TX/CTRL_RS232_TX_VHDL.vhd.
+    Using one-hot encoding for signal <SV>.
+    Found 16-bit adder for signal <$n0025> created at line 124.
+    Found 16-bit register for signal <COUNT>.
+    Found 16-bit register for signal <COUNT_M>.
+    Found 8-bit register for signal <SEND_BYTE_S>.
+    Found 1-bit register for signal <SEND_S>.
+    Found 12-bit register for signal <SV>.
+    Found 12-bit register for signal <SV_M>.
+    Summary:
+	inferred  41 D-type flip-flop(s).
+	inferred   1 Adder/Subtracter(s).
+Unit <ctrl_rs232_tx_vhdl> synthesized.
+
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors               : 1
+ 16-bit adder                      : 1
+# Registers                        : 6
+ 16-bit register                   : 2
+ 1-bit register                    : 1
+ 8-bit register                    : 1
+ 12-bit register                   : 2
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <ctrl_rs232_tx_vhdl> ...
+Loading device for application Xst from file '3s200.nph' in environment C:/Programme/XILINX/WEBPACK_6P3.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block ctrl_rs232_tx_vhdl, actual ratio is 3.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s200ft256-5 
+
+ Number of Slices:                      59  out of   1920     3%  
+ Number of Slice Flip Flops:            65  out of   3840     1%  
+ Number of 4 input LUTs:                96  out of   3840     2%  
+ Number of bonded IOBs:                 13  out of    173     7%  
+ Number of GCLKs:                        2  out of      8    25%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+CLK                                | BUFGP                  | 56    |
+CLK_IO                             | BUFGP                  | 9     |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 11.196ns (Maximum Frequency: 89.318MHz)
+   Minimum input arrival time before clock: 4.992ns
+   Maximum output required time after clock: 11.532ns
+   Maximum combinational path delay: No path found
+
+=========================================================================
+Completed process "Synthesize".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file C:/STUDY/UEBUNG/Studium/Profibus/CTRL_RS232_TX/CTRL_RS232_TX_VHDL.vhd in Library work.
+Entity <ctrl_rs232_tx_vhdl> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <ctrl_rs232_tx_vhdl> (Architecture <behavioral>).
+Entity <ctrl_rs232_tx_vhdl> analyzed. Unit <ctrl_rs232_tx_vhdl> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <ctrl_rs232_tx_vhdl>.
+    Related source file is C:/STUDY/UEBUNG/Studium/Profibus/CTRL_RS232_TX/CTRL_RS232_TX_VHDL.vhd.
+    Using one-hot encoding for signal <SV>.
+    Found 16-bit adder for signal <$n0025> created at line 123.
+    Found 16-bit register for signal <COUNT>.
+    Found 16-bit register for signal <COUNT_M>.
+    Found 1-bit register for signal <SEND_S>.
+    Found 12-bit register for signal <SV>.
+    Found 12-bit register for signal <SV_M>.
+    Summary:
+	inferred  33 D-type flip-flop(s).
+	inferred   1 Adder/Subtracter(s).
+Unit <ctrl_rs232_tx_vhdl> synthesized.
+
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors               : 1
+ 16-bit adder                      : 1
+# Registers                        : 5
+ 16-bit register                   : 2
+ 1-bit register                    : 1
+ 12-bit register                   : 2
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <ctrl_rs232_tx_vhdl> ...
+Loading device for application Xst from file '3s200.nph' in environment C:/Programme/XILINX/WEBPACK_6P3.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block ctrl_rs232_tx_vhdl, actual ratio is 3.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s200ft256-5 
+
+ Number of Slices:                      57  out of   1920     2%  
+ Number of Slice Flip Flops:            57  out of   3840     1%  
+ Number of 4 input LUTs:                97  out of   3840     2%  
+ Number of bonded IOBs:                 13  out of    173     7%  
+ Number of GCLKs:                        2  out of      8    25%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+CLK                                | BUFGP                  | 56    |
+CLK_IO                             | BUFGP                  | 1     |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 11.702ns (Maximum Frequency: 85.455MHz)
+   Minimum input arrival time before clock: 4.992ns
+   Maximum output required time after clock: 11.365ns
+   Maximum combinational path delay: 8.316ns
+
+=========================================================================
+Completed process "Synthesize".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file C:/STUDY/UEBUNG/Studium/Profibus/CTRL_RS232_TX/CTRL_RS232_TX_VHDL.vhd in Library work.
+Entity <ctrl_rs232_tx_vhdl> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <ctrl_rs232_tx_vhdl> (Architecture <behavioral>).
+Entity <ctrl_rs232_tx_vhdl> analyzed. Unit <ctrl_rs232_tx_vhdl> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <ctrl_rs232_tx_vhdl>.
+    Related source file is C:/STUDY/UEBUNG/Studium/Profibus/CTRL_RS232_TX/CTRL_RS232_TX_VHDL.vhd.
+    Using one-hot encoding for signal <SV>.
+    Found 16-bit adder for signal <$n0025> created at line 109.
+    Found 16-bit register for signal <COUNT>.
+    Found 16-bit register for signal <COUNT_M>.
+    Found 12-bit register for signal <SV>.
+    Found 12-bit register for signal <SV_M>.
+    Summary:
+	inferred  32 D-type flip-flop(s).
+	inferred   1 Adder/Subtracter(s).
+Unit <ctrl_rs232_tx_vhdl> synthesized.
+
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors               : 1
+ 16-bit adder                      : 1
+# Registers                        : 4
+ 16-bit register                   : 2
+ 12-bit register                   : 2
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <ctrl_rs232_tx_vhdl> ...
+Loading device for application Xst from file '3s200.nph' in environment C:/Programme/XILINX/WEBPACK_6P3.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block ctrl_rs232_tx_vhdl, actual ratio is 3.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s200ft256-5 
+
+ Number of Slices:                      55  out of   1920     2%  
+ Number of Slice Flip Flops:            56  out of   3840     1%  
+ Number of 4 input LUTs:                96  out of   3840     2%  
+ Number of bonded IOBs:                 13  out of    173     7%  
+ Number of GCLKs:                        1  out of      8    12%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+CLK                                | BUFGP                  | 56    |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 11.198ns (Maximum Frequency: 89.302MHz)
+   Minimum input arrival time before clock: 4.992ns
+   Maximum output required time after clock: 11.529ns
+   Maximum combinational path delay: 8.316ns
+
+=========================================================================
+Completed process "Synthesize".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+deleting ctrl_rs232_tx_vhdl.lso
+deleting ctrl_rs232_tx_vhdl.syr
+deleting ctrl_rs232_tx_vhdl.prj
+deleting ctrl_rs232_tx_vhdl.sprj
+deleting ctrl_rs232_tx_vhdl.ana
+deleting ctrl_rs232_tx_vhdl.stx
+deleting ctrl_rs232_tx_vhdl.cmd_log
+deleting ctrl_rs232_tx_vhdl.ngc
+deleting ctrl_rs232_tx_vhdl.ngr
+deleting ctrl_rs232_tx_vhdl.lso
+deleting ctrl_rs232_tx_vhdl.syr
+deleting ctrl_rs232_tx_vhdl.prj
+deleting ctrl_rs232_tx_vhdl.sprj
+deleting ctrl_rs232_tx_vhdl.ana
+deleting ctrl_rs232_tx_vhdl.stx
+deleting ctrl_rs232_tx_vhdl.cmd_log
+deleting ctrl_rs232_tx_vhdl.ngc
+deleting ctrl_rs232_tx_vhdl.ngr
+deleting ctrl_rs232_tx_vhdl.lso
+deleting ctrl_rs232_tx_vhdl.syr
+deleting ctrl_rs232_tx_vhdl.prj
+deleting ctrl_rs232_tx_vhdl.sprj
+deleting ctrl_rs232_tx_vhdl.ana
+deleting ctrl_rs232_tx_vhdl.stx
+deleting ctrl_rs232_tx_vhdl.cmd_log
+deleting ctrl_rs232_tx_vhdl.ngc
+deleting ctrl_rs232_tx_vhdl.ngr
+deleting ctrl_rs232_tx_vhdl.lso
+deleting ctrl_rs232_tx_vhdl.syr
+deleting ctrl_rs232_tx_vhdl.prj
+deleting ctrl_rs232_tx_vhdl.sprj
+deleting ctrl_rs232_tx_vhdl.ana
+deleting ctrl_rs232_tx_vhdl.stx
+deleting ctrl_rs232_tx_vhdl.cmd_log
+deleting ctrl_rs232_tx_vhdl.ngc
+deleting ctrl_rs232_tx_vhdl.ngr
+deleting ctrl_rs232_tx_vhdl.prj
+deleting ctrl_rs232_tx_vhdl.prj
+deleting __projnav/ctrl_rs232_tx_vhdl.xst
+deleting ./xst
+deleting ctrl_rs232_tx_vhdl.prj
+deleting ctrl_rs232_tx_vhdl.prj
+deleting __projnav/ctrl_rs232_tx_vhdl.xst
+deleting ./xst
+deleting ctrl_rs232_tx_vhdl.prj
+deleting ctrl_rs232_tx_vhdl.prj
+deleting __projnav/ctrl_rs232_tx_vhdl.xst
+deleting ./xst
+deleting ctrl_rs232_tx_vhdl.prj
+deleting ctrl_rs232_tx_vhdl.prj
+deleting __projnav/ctrl_rs232_tx_vhdl.xst
+deleting ./xst
+deleting __projnav/CTRL_RS232_TX.gfl
+deleting __projnav/CTRL_RS232_TX_flowplus.gfl
+Finished cleaning up project
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+deleting ctrl_rs232_tx_vhdl.lso
+deleting ctrl_rs232_tx_vhdl.syr
+deleting ctrl_rs232_tx_vhdl.prj
+deleting ctrl_rs232_tx_vhdl.sprj
+deleting ctrl_rs232_tx_vhdl.ana
+deleting ctrl_rs232_tx_vhdl.stx
+deleting ctrl_rs232_tx_vhdl.cmd_log
+deleting ctrl_rs232_tx_vhdl.ngc
+deleting ctrl_rs232_tx_vhdl.ngr
+deleting ctrl_rs232_tx_vhdl.lso
+deleting ctrl_rs232_tx_vhdl.syr
+deleting ctrl_rs232_tx_vhdl.prj
+deleting ctrl_rs232_tx_vhdl.sprj
+deleting ctrl_rs232_tx_vhdl.ana
+deleting ctrl_rs232_tx_vhdl.stx
+deleting ctrl_rs232_tx_vhdl.cmd_log
+deleting ctrl_rs232_tx_vhdl.ngc
+deleting ctrl_rs232_tx_vhdl.ngr
+deleting ctrl_rs232_tx_vhdl.prj
+deleting ctrl_rs232_tx_vhdl.prj
+deleting __projnav/ctrl_rs232_tx_vhdl.xst
+deleting ./xst
+deleting ctrl_rs232_tx_vhdl.prj
+deleting ctrl_rs232_tx_vhdl.prj
+deleting __projnav/ctrl_rs232_tx_vhdl.xst
+deleting ./xst
+deleting __projnav/CTRL_RS232_TX.gfl
+deleting __projnav/CTRL_RS232_TX_flowplus.gfl
+Finished cleaning up project
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file G:/Profibus/CTRL_RS232_TX/CTRL_RS232_TX_VHDL.vhd in Library work.
+Entity <CTRL_RS232_TX_VHDL> (Architecture <Behavioral>) compiled.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <ctrl_rs232_tx_vhdl> (Architecture <Behavioral>).
+Entity <ctrl_rs232_tx_vhdl> analyzed. Unit <ctrl_rs232_tx_vhdl> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <ctrl_rs232_tx_vhdl>.
+    Related source file is G:/Profibus/CTRL_RS232_TX/CTRL_RS232_TX_VHDL.vhd.
+    Using one-hot encoding for signal <SV>.
+    Found 16-bit adder for signal <$n0025> created at line 110.
+    Found 16-bit register for signal <COUNT>.
+    Found 16-bit register for signal <COUNT_M>.
+    Found 12-bit register for signal <SV>.
+    Found 12-bit register for signal <SV_M>.
+    Summary:
+	inferred  32 D-type flip-flop(s).
+	inferred   1 Adder/Subtracter(s).
+Unit <ctrl_rs232_tx_vhdl> synthesized.
+
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors               : 1
+ 16-bit adder                      : 1
+# Registers                        : 4
+ 16-bit register                   : 2
+ 12-bit register                   : 2
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <ctrl_rs232_tx_vhdl> ...
+Loading device for application Xst from file '3s200.nph' in environment C:/Xilinx.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block ctrl_rs232_tx_vhdl, actual ratio is 3.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s200ft256-5 
+
+ Number of Slices:                      53  out of   1920     2%  
+ Number of Slice Flip Flops:            56  out of   3840     1%  
+ Number of 4 input LUTs:                95  out of   3840     2%  
+ Number of bonded IOBs:                 13  out of    173     7%  
+ Number of GCLKs:                        1  out of      8    12%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+CLK                                | BUFGP                  | 56    |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 11.478ns (Maximum Frequency: 87.123MHz)
+   Minimum input arrival time before clock: 4.992ns
+   Maximum output required time after clock: 11.894ns
+   Maximum combinational path delay: 8.316ns
+
+=========================================================================
+Completed process "Synthesize".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Check Syntax".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file G:/Profibus/CTRL_RS232_TX/CTRL_RS232_TX_VHDL.vhd in Library work.
+Architecture behavioral of Entity ctrl_rs232_tx_vhdl is up to date.
+Completed process "Check Syntax".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+deleting ctrl_rs232_tx_vhdl.lso
+deleting ctrl_rs232_tx_vhdl.syr
+deleting ctrl_rs232_tx_vhdl.prj
+deleting ctrl_rs232_tx_vhdl.sprj
+deleting ctrl_rs232_tx_vhdl.ana
+deleting ctrl_rs232_tx_vhdl.stx
+deleting ctrl_rs232_tx_vhdl.cmd_log
+deleting ctrl_rs232_tx_vhdl.ngc
+deleting ctrl_rs232_tx_vhdl.ngr
+deleting ctrl_rs232_tx_vhdl.lso
+deleting ctrl_rs232_tx_vhdl.stx
+deleting ctrl_rs232_tx_vhdl.ngc
+deleting ctrl_rs232_tx_vhdl.prj
+deleting ctrl_rs232_tx_vhdl.prj
+deleting __projnav/ctrl_rs232_tx_vhdl.xst
+deleting ./xst
+deleting ctrl_rs232_tx_vhdl.prj
+deleting ctrl_rs232_tx_vhdl.sprj
+deleting __projnav/xst_sprjTOstx_tcl.rsp
+deleting __projnav/ctrl_rs232_tx_vhdl.xst
+deleting xst
+deleting __projnav/CTRL_RS232_TX.gfl
+deleting __projnav/CTRL_RS232_TX_flowplus.gfl
+Finished cleaning up project
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file G:/Profibus/CTRL_RS232_TX/CTRL_RS232_TX_VHDL.vhd in Library work.
+Entity <CTRL_RS232_TX_VHDL> (Architecture <Behavioral>) compiled.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <ctrl_rs232_tx_vhdl> (Architecture <Behavioral>).
+Entity <ctrl_rs232_tx_vhdl> analyzed. Unit <ctrl_rs232_tx_vhdl> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <ctrl_rs232_tx_vhdl>.
+    Related source file is G:/Profibus/CTRL_RS232_TX/CTRL_RS232_TX_VHDL.vhd.
+    Using one-hot encoding for signal <SV>.
+    Found 16-bit adder for signal <$n0025> created at line 110.
+    Found 16-bit register for signal <COUNT>.
+    Found 16-bit register for signal <COUNT_M>.
+    Found 12-bit register for signal <SV>.
+    Found 12-bit register for signal <SV_M>.
+    Summary:
+	inferred  32 D-type flip-flop(s).
+	inferred   1 Adder/Subtracter(s).
+Unit <ctrl_rs232_tx_vhdl> synthesized.
+
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors               : 1
+ 16-bit adder                      : 1
+# Registers                        : 4
+ 16-bit register                   : 2
+ 12-bit register                   : 2
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <ctrl_rs232_tx_vhdl> ...
+Loading device for application Xst from file '3s200.nph' in environment C:/Xilinx.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block ctrl_rs232_tx_vhdl, actual ratio is 3.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s200ft256-5 
+
+ Number of Slices:                      53  out of   1920     2%  
+ Number of Slice Flip Flops:            56  out of   3840     1%  
+ Number of 4 input LUTs:                95  out of   3840     2%  
+ Number of bonded IOBs:                 13  out of    173     7%  
+ Number of GCLKs:                        1  out of      8    12%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+CLK                                | BUFGP                  | 56    |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 11.478ns (Maximum Frequency: 87.123MHz)
+   Minimum input arrival time before clock: 4.992ns
+   Maximum output required time after clock: 11.894ns
+   Maximum combinational path delay: 8.316ns
+
+=========================================================================
+Completed process "Synthesize".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+deleting ctrl_rs232_tx_vhdl.lso
+deleting ctrl_rs232_tx_vhdl.syr
+deleting ctrl_rs232_tx_vhdl.prj
+deleting ctrl_rs232_tx_vhdl.sprj
+deleting ctrl_rs232_tx_vhdl.ana
+deleting ctrl_rs232_tx_vhdl.stx
+deleting ctrl_rs232_tx_vhdl.cmd_log
+deleting ctrl_rs232_tx_vhdl.ngc
+deleting ctrl_rs232_tx_vhdl.ngr
+deleting ctrl_rs232_tx_vhdl.prj
+deleting ctrl_rs232_tx_vhdl.prj
+deleting __projnav/ctrl_rs232_tx_vhdl.xst
+deleting ./xst
+deleting __projnav/CTRL_RS232_TX.gfl
+deleting __projnav/CTRL_RS232_TX_flowplus.gfl
+Finished cleaning up project
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file G:/Profibus/CTRL_RS232_TX/CTRL_RS232_TX_VHDL.vhd in Library work.
+Entity <CTRL_RS232_TX_VHDL> (Architecture <Behavioral>) compiled.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <ctrl_rs232_tx_vhdl> (Architecture <Behavioral>).
+Entity <ctrl_rs232_tx_vhdl> analyzed. Unit <ctrl_rs232_tx_vhdl> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <ctrl_rs232_tx_vhdl>.
+    Related source file is G:/Profibus/CTRL_RS232_TX/CTRL_RS232_TX_VHDL.vhd.
+    Using one-hot encoding for signal <SV>.
+    Found 16-bit adder for signal <$n0025> created at line 110.
+    Found 16-bit register for signal <COUNT>.
+    Found 16-bit register for signal <COUNT_M>.
+    Found 12-bit register for signal <SV>.
+    Found 12-bit register for signal <SV_M>.
+    Summary:
+	inferred  32 D-type flip-flop(s).
+	inferred   1 Adder/Subtracter(s).
+Unit <ctrl_rs232_tx_vhdl> synthesized.
+
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors               : 1
+ 16-bit adder                      : 1
+# Registers                        : 4
+ 16-bit register                   : 2
+ 12-bit register                   : 2
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <ctrl_rs232_tx_vhdl> ...
+Loading device for application Xst from file '3s200.nph' in environment C:/Xilinx.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block ctrl_rs232_tx_vhdl, actual ratio is 3.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s200ft256-5 
+
+ Number of Slices:                      53  out of   1920     2%  
+ Number of Slice Flip Flops:            56  out of   3840     1%  
+ Number of 4 input LUTs:                95  out of   3840     2%  
+ Number of bonded IOBs:                 13  out of    173     7%  
+ Number of GCLKs:                        1  out of      8    12%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+CLK                                | BUFGP                  | 56    |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 11.478ns (Maximum Frequency: 87.123MHz)
+   Minimum input arrival time before clock: 4.992ns
+   Maximum output required time after clock: 11.894ns
+   Maximum combinational path delay: 8.316ns
+
+=========================================================================
+Completed process "Synthesize".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+deleting ctrl_rs232_tx_vhdl.lso
+deleting ctrl_rs232_tx_vhdl.syr
+deleting ctrl_rs232_tx_vhdl.prj
+deleting ctrl_rs232_tx_vhdl.sprj
+deleting ctrl_rs232_tx_vhdl.ana
+deleting ctrl_rs232_tx_vhdl.stx
+deleting ctrl_rs232_tx_vhdl.cmd_log
+deleting ctrl_rs232_tx_vhdl.ngc
+deleting ctrl_rs232_tx_vhdl.ngr
+deleting ctrl_rs232_tx_vhdl.prj
+deleting ctrl_rs232_tx_vhdl.prj
+deleting __projnav/ctrl_rs232_tx_vhdl.xst
+deleting ./xst
+deleting __projnav/CTRL_RS232_TX.gfl
+deleting __projnav/CTRL_RS232_TX_flowplus.gfl
+Finished cleaning up project
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+deleting ctrl_rs232_tx_vhdl.lso
+deleting ctrl_rs232_tx_vhdl.syr
+deleting ctrl_rs232_tx_vhdl.prj
+deleting ctrl_rs232_tx_vhdl.sprj
+deleting ctrl_rs232_tx_vhdl.ana
+deleting ctrl_rs232_tx_vhdl.stx
+deleting ctrl_rs232_tx_vhdl.cmd_log
+deleting ctrl_rs232_tx_vhdl.ngc
+deleting ctrl_rs232_tx_vhdl.ngr
+deleting ctrl_rs232_tx_vhdl.lso
+deleting ctrl_rs232_tx_vhdl.syr
+deleting ctrl_rs232_tx_vhdl.prj
+deleting ctrl_rs232_tx_vhdl.sprj
+deleting ctrl_rs232_tx_vhdl.ana
+deleting ctrl_rs232_tx_vhdl.stx
+deleting ctrl_rs232_tx_vhdl.cmd_log
+deleting ctrl_rs232_tx_vhdl.ngc
+deleting ctrl_rs232_tx_vhdl.ngr
+deleting ctrl_rs232_tx_vhdl.prj
+deleting ctrl_rs232_tx_vhdl.prj
+deleting __projnav/ctrl_rs232_tx_vhdl.xst
+deleting ./xst
+deleting ctrl_rs232_tx_vhdl.prj
+deleting ctrl_rs232_tx_vhdl.prj
+deleting __projnav/ctrl_rs232_tx_vhdl.xst
+deleting ./xst
+deleting __projnav/CTRL_RS232_TX.gfl
+deleting __projnav/CTRL_RS232_TX_flowplus.gfl
+Finished cleaning up project
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file C:/STUDY/UEBUNG/Studium/Profibus/VHDL_Bausteine/CTRL_RS232_TX/CTRL_RS232_TX_VHDL.vhd in Library work.
+Entity <CTRL_RS232_TX_VHDL> (Architecture <Behavioral>) compiled.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <ctrl_rs232_tx_vhdl> (Architecture <Behavioral>).
+Entity <ctrl_rs232_tx_vhdl> analyzed. Unit <ctrl_rs232_tx_vhdl> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <ctrl_rs232_tx_vhdl>.
+    Related source file is C:/STUDY/UEBUNG/Studium/Profibus/VHDL_Bausteine/CTRL_RS232_TX/CTRL_RS232_TX_VHDL.vhd.
+    Using one-hot encoding for signal <SV>.
+    Found 16-bit adder for signal <$n0025> created at line 122.
+    Found 16-bit register for signal <COUNT>.
+    Found 16-bit register for signal <COUNT_M>.
+    Found 12-bit register for signal <SV>.
+    Found 12-bit register for signal <SV_M>.
+    Summary:
+	inferred  32 D-type flip-flop(s).
+	inferred   1 Adder/Subtracter(s).
+Unit <ctrl_rs232_tx_vhdl> synthesized.
+
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors               : 1
+ 16-bit adder                      : 1
+# Registers                        : 4
+ 16-bit register                   : 2
+ 12-bit register                   : 2
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <ctrl_rs232_tx_vhdl> ...
+Loading device for application Xst from file '3s200.nph' in environment C:/Programme/XILINX/WEBPACK_6P3.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block ctrl_rs232_tx_vhdl, actual ratio is 3.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s200ft256-5 
+
+ Number of Slices:                      54  out of   1920     2%  
+ Number of Slice Flip Flops:            56  out of   3840     1%  
+ Number of 4 input LUTs:                92  out of   3840     2%  
+ Number of bonded IOBs:                 13  out of    173     7%  
+ Number of GCLKs:                        1  out of      8    12%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+CLK                                | BUFGP                  | 56    |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 11.208ns (Maximum Frequency: 89.222MHz)
+   Minimum input arrival time before clock: 4.992ns
+   Maximum output required time after clock: 11.586ns
+   Maximum combinational path delay: 8.316ns
+
+=========================================================================
+Completed process "Synthesize".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+deleting ctrl_rs232_tx_vhdl.lso
+deleting ctrl_rs232_tx_vhdl.syr
+deleting ctrl_rs232_tx_vhdl.prj
+deleting ctrl_rs232_tx_vhdl.sprj
+deleting ctrl_rs232_tx_vhdl.ana
+deleting ctrl_rs232_tx_vhdl.stx
+deleting ctrl_rs232_tx_vhdl.cmd_log
+deleting ctrl_rs232_tx_vhdl.ngc
+deleting ctrl_rs232_tx_vhdl.ngr
+deleting ctrl_rs232_tx_vhdl.prj
+deleting ctrl_rs232_tx_vhdl.prj
+deleting __projnav/ctrl_rs232_tx_vhdl.xst
+deleting ./xst
+deleting __projnav/CTRL_RS232_TX.gfl
+deleting __projnav/CTRL_RS232_TX_flowplus.gfl
+Finished cleaning up project
+

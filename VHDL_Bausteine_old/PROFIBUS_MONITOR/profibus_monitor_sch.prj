@@ -1,0 +1,9 @@
+vhdl work F_DIV50000_SRC.vhd
+vhdl work NIB4_7SEG_SRC.vhd
+vhdl work CLOCK_SINGLE_RUN_SRC.vhd
+vhdl work DEB_50MZ_100MS_SRC.vhd
+vhdl work CTRL_BIT_REGISTER.vhd
+vhdl work CTRL_RS232_TX_VHDL.vhd
+vhdl work CTRL_InAB_INPUT_VHDL.vhd
+vhdl work CTRL_TELEGRAM_CHECK.vhd
+vhdl work PROFIBUS_MONITOR_SCH.vhf

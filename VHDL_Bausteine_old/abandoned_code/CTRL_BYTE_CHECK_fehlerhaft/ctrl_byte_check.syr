@@ -1,0 +1,375 @@
+Release 6.3.03i - xst G.38
+Copyright (c) 1995-2004 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to __projnav
+CPU : 0.00 / 0.41 s | Elapsed : 0.00 / 1.00 s
+ 
+--> Parameter xsthdpdir set to ./xst
+CPU : 0.00 / 0.41 s | Elapsed : 0.00 / 1.00 s
+ 
+--> Reading design: ctrl_byte_check.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) HDL Analysis
+  4) HDL Synthesis
+  5) Advanced HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Final Report
+     7.1) Device utilization summary
+     7.2) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : ctrl_byte_check.prj
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+Verilog Include Directory          : 
+
+---- Target Parameters
+Output File Name                   : ctrl_byte_check
+Output Format                      : NGC
+Target Device                      : xc3s200-5-ft256
+
+---- Source Options
+Top Module Name                    : ctrl_byte_check
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+FSM Style                          : lut
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+ROM Style                          : Auto
+Mux Extraction                     : YES
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : YES
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+Resource Sharing                   : YES
+Multiplier Style                   : auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 500
+Add Generic Clock Buffer(BUFG)     : 8
+Register Duplication               : YES
+Equivalent register Removal        : YES
+Slice Packing                      : YES
+Pack IO Registers into IOBs        : auto
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : NO
+Global Optimization                : AllClockNets
+RTL Output                         : Yes
+Write Timing Constraints           : NO
+Hierarchy Separator                : _
+Bus Delimiter                      : <>
+Case Specifier                     : maintain
+Slice Utilization Ratio            : 100
+Slice Utilization Ratio Delta      : 5
+
+---- Other Options
+lso                                : ctrl_byte_check.lso
+Read Cores                         : YES
+cross_clock_analysis               : NO
+verilog2001                        : YES
+Optimize Instantiated Primitives   : NO
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd in Library work.
+Entity <ctrl_byte_check> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <ctrl_byte_check> (Architecture <behavioral>).
+Entity <ctrl_byte_check> analyzed. Unit <ctrl_byte_check> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <ctrl_byte_check>.
+    Related source file is c:/study/uebung/studium/profibus/ctrl_byte_check/CTRL_BYTE_CHECK.vhd.
+    Found 8-bit adder for signal <$n0011> created at line 149.
+    Found 1-bit register for signal <BYTE_CMPLT_S>.
+    Found 8-bit register for signal <BYTE_COUNT>.
+    Found 8-bit register for signal <BYTE_COUNT_M>.
+    Found 1-bit register for signal <NEXT_BYTE_S>.
+    Found 1-bit register for signal <PARITY_OK_S>.
+    Found 2-bit register for signal <SV>.
+    Found 2-bit register for signal <SV_M>.
+    Found 8 1-bit 2-to-1 multiplexers.
+    Summary:
+	inferred  23 D-type flip-flop(s).
+	inferred   1 Adder/Subtracter(s).
+	inferred   8 Multiplexer(s).
+Unit <ctrl_byte_check> synthesized.
+
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors               : 1
+ 8-bit adder                       : 1
+# Registers                        : 7
+ 8-bit register                    : 2
+ 2-bit register                    : 2
+ 1-bit register                    : 3
+# Multiplexers                     : 8
+ 1-bit 2-to-1 multiplexer          : 8
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <ctrl_byte_check> ...
+Loading device for application Xst from file '3s200.nph' in environment C:/Programme/XILINX/WEBPACK_6P3.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block ctrl_byte_check, actual ratio is 0.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : ctrl_byte_check.ngr
+Top Level Output File Name         : ctrl_byte_check
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : NO
+
+Design Statistics
+# IOs                              : 33
+
+Macro Statistics :
+# Registers                        : 7
+#      1-bit register              : 3
+#      2-bit register              : 2
+#      8-bit register              : 2
+# Multiplexers                     : 8
+#      2-to-1 multiplexer          : 8
+# Adders/Subtractors               : 1
+#      8-bit adder                 : 1
+
+Cell Usage :
+# BELS                             : 48
+#      GND                         : 1
+#      LUT1                        : 3
+#      LUT1_L                      : 8
+#      LUT2                        : 7
+#      LUT3                        : 3
+#      LUT3_D                      : 2
+#      LUT3_L                      : 1
+#      LUT4                        : 1
+#      LUT4_L                      : 7
+#      MUXCY                       : 7
+#      VCC                         : 1
+#      XORCY                       : 7
+# FlipFlops/Latches                : 23
+#      FD                          : 3
+#      FDC                         : 2
+#      FDCE                        : 2
+#      FDE                         : 16
+# Clock Buffers                    : 2
+#      BUFGP                       : 2
+# IO Buffers                       : 31
+#      IBUF                        : 6
+#      OBUF                        : 25
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s200ft256-5 
+
+ Number of Slices:                      19  out of   1920     0%  
+ Number of Slice Flip Flops:            23  out of   3840     0%  
+ Number of 4 input LUTs:                32  out of   3840     0%  
+ Number of bonded IOBs:                 31  out of    173    17%  
+ Number of GCLKs:                        2  out of      8    25%  
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+CLK                                | BUFGP                  | 20    |
+CLK_IO                             | BUFGP                  | 3     |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 8.366ns (Maximum Frequency: 119.531MHz)
+   Minimum input arrival time before clock: 4.117ns
+   Maximum output required time after clock: 7.187ns
+   Maximum combinational path delay: 7.385ns
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+-------------------------------------------------------------------------
+Timing constraint: Default period analysis for Clock 'CLK'
+Delay:               4.183ns (Levels of Logic = 10)
+  Source:            BYTE_COUNT_0 (FF)
+  Destination:       BYTE_COUNT_M_7 (FF)
+  Source Clock:      CLK falling
+  Destination Clock: CLK rising
+
+  Data Path: BYTE_COUNT_0 to BYTE_COUNT_M_7
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q              4   0.626   0.629  BYTE_COUNT_0 (BYTE_COUNT_0)
+     LUT1_L:I0->LO         1   0.479   0.000  ctrl_byte_check__n0011<0>lut (N448)
+     MUXCY:S->O            1   0.435   0.000  ctrl_byte_check__n0011<0>cy (ctrl_byte_check__n0011<0>_cyo)
+     MUXCY:CI->O           1   0.056   0.000  ctrl_byte_check__n0011<1>cy (ctrl_byte_check__n0011<1>_cyo)
+     MUXCY:CI->O           1   0.056   0.000  ctrl_byte_check__n0011<2>cy (ctrl_byte_check__n0011<2>_cyo)
+     MUXCY:CI->O           1   0.056   0.000  ctrl_byte_check__n0011<3>cy (ctrl_byte_check__n0011<3>_cyo)
+     MUXCY:CI->O           1   0.056   0.000  ctrl_byte_check__n0011<4>cy (ctrl_byte_check__n0011<4>_cyo)
+     MUXCY:CI->O           1   0.056   0.000  ctrl_byte_check__n0011<5>cy (ctrl_byte_check__n0011<5>_cyo)
+     MUXCY:CI->O           0   0.056   0.000  ctrl_byte_check__n0011<6>cy (ctrl_byte_check__n0011<6>_cyo)
+     XORCY:CI->O           1   0.786   0.240  ctrl_byte_check__n0011<7>_xor (_n0011<7>)
+     LUT4_L:I0->LO         1   0.479   0.000  n_BYTE_COUNT<7>1 (n_BYTE_COUNT<7>)
+     FDE:D                     0.176          BYTE_COUNT_M_7
+    ----------------------------------------
+    Total                      4.183ns (3.314ns logic, 0.869ns route)
+                                       (79.2% logic, 20.8% route)
+
+-------------------------------------------------------------------------
+Timing constraint: Default OFFSET IN BEFORE for Clock 'CLK'
+Offset:              4.117ns (Levels of Logic = 2)
+  Source:            RESET (PAD)
+  Destination:       BYTE_COUNT_7 (FF)
+  Destination Clock: CLK falling
+
+  Data Path: RESET to BYTE_COUNT_7
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             6   1.679   0.688  RESET_IBUF (RESET_IBUF)
+     LUT1:I0->O            8   0.479   0.747  BYTE_COUNT_ClkEn_INV1 (BYTE_COUNT_N76)
+     FDE:CE                    0.524          BYTE_COUNT_0
+    ----------------------------------------
+    Total                      4.117ns (2.682ns logic, 1.435ns route)
+                                       (65.1% logic, 34.9% route)
+
+-------------------------------------------------------------------------
+Timing constraint: Default OFFSET IN BEFORE for Clock 'CLK_IO'
+Offset:              2.095ns (Levels of Logic = 1)
+  Source:            NEXT_BYTE (PAD)
+  Destination:       NEXT_BYTE_S (FF)
+  Destination Clock: CLK_IO falling
+
+  Data Path: NEXT_BYTE to NEXT_BYTE_S
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   1.679   0.240  NEXT_BYTE_IBUF (NEXT_BYTE_IBUF)
+     FD:D                      0.176          NEXT_BYTE_S
+    ----------------------------------------
+    Total                      2.095ns (1.855ns logic, 0.240ns route)
+                                       (88.5% logic, 11.5% route)
+
+-------------------------------------------------------------------------
+Timing constraint: Default OFFSET OUT AFTER for Clock 'CLK_IO'
+Offset:              6.994ns (Levels of Logic = 3)
+  Source:            BYTE_CMPLT_S (FF)
+  Destination:       DISPL1_n_SV<1> (PAD)
+  Source Clock:      CLK_IO falling
+
+  Data Path: BYTE_CMPLT_S to DISPL1_n_SV<1>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               2   0.626   0.465  BYTE_CMPLT_S (BYTE_CMPLT_S)
+     LUT4:I1->O            2   0.479   0.465  n_SV<0>1 (LONG_STATE_n_SV<0>)
+     LUT3:I2->O            1   0.479   0.240  Mmux_DISPL1_n_SV<0>_Result1 (DISPL1_n_SV_0_OBUF)
+     OBUF:I->O                 4.240          DISPL1_n_SV_0_OBUF (DISPL1_n_SV<0>)
+    ----------------------------------------
+    Total                      6.994ns (5.824ns logic, 1.170ns route)
+                                       (83.3% logic, 16.7% route)
+
+-------------------------------------------------------------------------
+Timing constraint: Default OFFSET OUT AFTER for Clock 'CLK'
+Offset:              7.187ns (Levels of Logic = 3)
+  Source:            SV_1 (FF)
+  Destination:       DISPL1_n_SV<1> (PAD)
+  Source Clock:      CLK falling
+
+  Data Path: SV_1 to DISPL1_n_SV<1>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              5   0.626   0.658  SV_1 (SV_1)
+     LUT4:I0->O            2   0.479   0.465  n_SV<0>1 (LONG_STATE_n_SV<0>)
+     LUT3:I2->O            1   0.479   0.240  Mmux_DISPL1_n_SV<0>_Result1 (DISPL1_n_SV_0_OBUF)
+     OBUF:I->O                 4.240          DISPL1_n_SV_0_OBUF (DISPL1_n_SV<0>)
+    ----------------------------------------
+    Total                      7.187ns (5.824ns logic, 1.363ns route)
+                                       (81.0% logic, 19.0% route)
+
+-------------------------------------------------------------------------
+Timing constraint: Default path analysis
+Delay:               7.385ns (Levels of Logic = 3)
+  Source:            DISPL_COUNT (PAD)
+  Destination:       DISPL2_n_SV<3> (PAD)
+
+  Data Path: DISPL_COUNT to DISPL2_n_SV<3>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             8   1.679   0.747  DISPL_COUNT_IBUF (DISPL_COUNT_IBUF)
+     LUT2:I0->O            1   0.479   0.240  Mmux_DISPL2_n_SV<2>_Result1 (DISPL2_n_SV_2_OBUF)
+     OBUF:I->O                 4.240          DISPL2_n_SV_2_OBUF (DISPL2_n_SV<2>)
+    ----------------------------------------
+    Total                      7.385ns (6.398ns logic, 0.987ns route)
+                                       (86.6% logic, 13.4% route)
+
+=========================================================================
+CPU : 2.70 / 3.52 s | Elapsed : 3.00 / 4.00 s
+ 
+--> 
+
+Total memory usage is 67188 kilobytes
+
+

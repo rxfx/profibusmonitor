@@ -1,0 +1,4 @@
+Mapping Module test_ctrl_9p6_50mhz_sch . . .
+MAP command line:
+map -intstyle ise -p xc3s200-ft256-5 -cm area -pr b -k 4 -c 100 -tx off -o test_ctrl_9p6_50mhz_sch_map.ncd test_ctrl_9p6_50mhz_sch.ngd test_ctrl_9p6_50mhz_sch.pcf
+Mapping Module test_ctrl_9p6_50mhz_sch: DONE

@@ -1,0 +1,25 @@
+# Schematic : PDCL (jhdparse)
+__projnav/PROFIBUS_MONITOR_SCH_jhdparse_tcl.rsp
+# Schematic : View VHDL Functional Model
+profibus_monitor_sch.vhf
+profibus_monitor_sch.cmd_log
+# XST (Creating Lso File) : 
+profibus_monitor_sch.lso
+# xst flow : RunXST
+profibus_monitor_sch.syr
+profibus_monitor_sch.prj
+profibus_monitor_sch.sprj
+profibus_monitor_sch.ana
+profibus_monitor_sch.stx
+profibus_monitor_sch.cmd_log
+profibus_monitor_sch.ngc
+profibus_monitor_sch.ngr
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+g:\profibus\vhdl_bausteine\profibus_monitor/_ngo
+profibus_monitor_sch.ngd
+profibus_monitor_sch_ngdbuild.nav
+profibus_monitor_sch.bld
+profibus_monitor_sch.ucf.untf
+profibus_monitor_sch.cmd_log

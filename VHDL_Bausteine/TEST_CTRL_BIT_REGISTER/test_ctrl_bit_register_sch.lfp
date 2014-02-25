@@ -1,0 +1,20 @@
+# begin LFP file g:\profibus\martins_profibus_doku\vhdl_bausteine\test_ctrl_bit_register\test_ctrl_bit_register_sch.lfp
+designfile test_ctrl_bit_register_sch.ngd
+IO_GROUP "EN_BIT_i"  ;
+IO_GROUP "BYTE_OUT"  ;
+NET "EN_BIT_i<7>" IO_GROUP="EN_BIT_i"  ;
+NET "EN_BIT_i<6>" IO_GROUP="EN_BIT_i"  ;
+NET "EN_BIT_i<5>" IO_GROUP="EN_BIT_i"  ;
+NET "EN_BIT_i<4>" IO_GROUP="EN_BIT_i"  ;
+NET "EN_BIT_i<3>" IO_GROUP="EN_BIT_i"  ;
+NET "EN_BIT_i<2>" IO_GROUP="EN_BIT_i"  ;
+NET "EN_BIT_i<1>" IO_GROUP="EN_BIT_i"  ;
+NET "EN_BIT_i<0>" IO_GROUP="EN_BIT_i"  ;
+NET "BYTE_OUT<7>" IO_GROUP="BYTE_OUT"  ;
+NET "BYTE_OUT<6>" IO_GROUP="BYTE_OUT"  ;
+NET "BYTE_OUT<5>" IO_GROUP="BYTE_OUT"  ;
+NET "BYTE_OUT<4>" IO_GROUP="BYTE_OUT"  ;
+NET "BYTE_OUT<3>" IO_GROUP="BYTE_OUT"  ;
+NET "BYTE_OUT<2>" IO_GROUP="BYTE_OUT"  ;
+NET "BYTE_OUT<1>" IO_GROUP="BYTE_OUT"  ;
+NET "BYTE_OUT<0>" IO_GROUP="BYTE_OUT"  ;

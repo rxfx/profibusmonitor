@@ -1,0 +1,6 @@
+[Inputs]
+IN_DEB
+F_50MHZ
+[Outputs]
+OUT_DEB
+[BiDir]

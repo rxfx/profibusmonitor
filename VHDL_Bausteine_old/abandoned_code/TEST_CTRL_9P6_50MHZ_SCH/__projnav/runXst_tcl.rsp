@@ -1,0 +1,1 @@
+set allSynthModules {ctrl_9p6_50mhz_vhdl.MOD clock_single_run_src.MOD deb_50mz_100ms_src.MOD f_div50000.MOD nib4_7seg_src.MOD ctrl_rs232_tx_vhdl.MOD test_ctrl_9p6_50mhz_sch.MOD}

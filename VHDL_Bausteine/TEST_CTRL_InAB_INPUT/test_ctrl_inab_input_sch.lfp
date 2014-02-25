@@ -1,0 +1,13 @@
+# begin LFP file g:\profibus\martins_profibus_doku\vhdl_bausteine\test_ctrl_inab_input\test_ctrl_inab_input_sch.lfp
+designfile test_ctrl_inab_input_sch.ngd
+IO_GROUP "EN_BIT_i" IO_GROUP="test_ctrl_inab_input_sch" ;
+INST "test_ctrl_inab_input_sch" COLOR=15  ;
+NET "EN_BIT_i<8>" IO_GROUP="EN_BIT_i"  ;
+NET "EN_BIT_i<7>" IO_GROUP="EN_BIT_i"  ;
+NET "EN_BIT_i<6>" IO_GROUP="EN_BIT_i"  ;
+NET "EN_BIT_i<5>" IO_GROUP="EN_BIT_i"  ;
+NET "EN_BIT_i<4>" IO_GROUP="EN_BIT_i"  ;
+NET "EN_BIT_i<3>" IO_GROUP="EN_BIT_i"  ;
+NET "EN_BIT_i<2>" IO_GROUP="EN_BIT_i"  ;
+NET "EN_BIT_i<1>" IO_GROUP="EN_BIT_i"  ;
+NET "EN_BIT_i<0>" IO_GROUP="EN_BIT_i"  ;

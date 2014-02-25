@@ -1,0 +1,4082 @@
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file G:/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd in Library work.
+ERROR:HDLParsers:1202 - G:/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd Line 118. Redeclaration of symbol PARITY_OK.
+ERROR:HDLParsers:3312 - G:/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd Line 125. Undefined symbol 'not_CLK'.
+ERROR:HDLParsers:3312 - G:/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd Line 130. Undefined symbol 'not_CLK_IO'.
+ERROR:HDLParsers:3312 - G:/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd Line 133. Undefined symbol 'not_CLK_IO'.
+ERROR:HDLParsers:1209 - G:/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd Line 133. not_CLK_IO: Undefined symbol (last report in this block)
+ERROR:HDLParsers:808 - G:/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd Line 135. = can not have such operands in this context.
+--> 
+
+Total memory usage is 47848 kilobytes
+
+
+ERROR: XST failed
+Process "Synthesize" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file G:/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd in Library work.
+ERROR:HDLParsers:3312 - G:/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd Line 124. Undefined symbol 'not_CLK'.
+ERROR:HDLParsers:3312 - G:/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd Line 129. Undefined symbol 'not_CLK_IO'.
+ERROR:HDLParsers:3312 - G:/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd Line 132. Undefined symbol 'not_CLK_IO'.
+ERROR:HDLParsers:1209 - G:/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd Line 132. not_CLK_IO: Undefined symbol (last report in this block)
+ERROR:HDLParsers:808 - G:/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd Line 134. = can not have such operands in this context.
+--> 
+
+Total memory usage is 47848 kilobytes
+
+
+ERROR: XST failed
+Process "Synthesize" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file G:/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd in Library work.
+Entity <CTRL_BIT_REGISTER> (Architecture <Behavioral>) compiled.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <ctrl_bit_register> (Architecture <Behavioral>).
+Entity <ctrl_bit_register> analyzed. Unit <ctrl_bit_register> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <ctrl_bit_register>.
+    Related source file is G:/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd.
+WARNING:Xst:1306 - Output <DISPL2_n_SV> is never assigned.
+WARNING:Xst:1306 - Output <DISPL1_SV> is never assigned.
+WARNING:Xst:647 - Input <RESET> is never used.
+WARNING:Xst:647 - Input <BIT_VALUE> is never used.
+WARNING:Xst:1306 - Output <BYTE_OUT> is never assigned.
+WARNING:Xst:647 - Input <IN_NEXT_STATE> is never used.
+WARNING:Xst:1306 - Output <PARITY_OK> is never assigned.
+WARNING:Xst:1306 - Output <DISPL2_SV> is never assigned.
+WARNING:Xst:647 - Input <NEXT_BYTE> is never used.
+WARNING:Xst:1306 - Output <DISPL1_n_SV> is never assigned.
+WARNING:Xst:1780 - Signal <n_SV_BYTE_CHECK> is never used or assigned.
+WARNING:Xst:1780 - Signal <SV_BR_BIT7_M> is never used or assigned.
+WARNING:Xst:1780 - Signal <n_SV_BR_BIT0> is never used or assigned.
+WARNING:Xst:1780 - Signal <n_SV_BR_BIT1> is never used or assigned.
+WARNING:Xst:1780 - Signal <n_SV_BR_BIT2> is never used or assigned.
+WARNING:Xst:1780 - Signal <n_SV_BR_BIT3> is never used or assigned.
+WARNING:Xst:1780 - Signal <n_SV_BR_BIT4> is never used or assigned.
+WARNING:Xst:1780 - Signal <n_SV_BR_BIT5> is never used or assigned.
+WARNING:Xst:1780 - Signal <SV_BYTE_CHECK> is never used or assigned.
+WARNING:Xst:1780 - Signal <n_SV_BR_BIT6> is never used or assigned.
+WARNING:Xst:1780 - Signal <n_SV_BR_BIT7> is never used or assigned.
+WARNING:Xst:1780 - Signal <n_SV_BR_BIT8> is never used or assigned.
+WARNING:Xst:646 - Signal <EN_BIT_i_S> is assigned but never used.
+WARNING:Xst:1780 - Signal <SV_BR_BIT0_M> is never used or assigned.
+WARNING:Xst:1780 - Signal <SV_BR_BIT8_M> is never used or assigned.
+WARNING:Xst:1780 - Signal <SV_BR_BIT1_M> is never used or assigned.
+WARNING:Xst:1780 - Signal <SV_BR_BIT0> is never used or assigned.
+WARNING:Xst:1780 - Signal <SV_BR_BIT1> is never used or assigned.
+WARNING:Xst:1780 - Signal <SV_BR_BIT2_M> is never used or assigned.
+WARNING:Xst:1780 - Signal <SV_BR_BIT2> is never used or assigned.
+WARNING:Xst:1780 - Signal <SV_BR_BIT3> is never used or assigned.
+WARNING:Xst:1780 - Signal <SV_BR_BIT4> is never used or assigned.
+WARNING:Xst:1780 - Signal <SV_BR_BIT5> is never used or assigned.
+WARNING:Xst:1780 - Signal <SV_BR_BIT6> is never used or assigned.
+WARNING:Xst:1780 - Signal <SV_BR_BIT7> is never used or assigned.
+WARNING:Xst:1780 - Signal <SV_BR_BIT8> is never used or assigned.
+WARNING:Xst:1780 - Signal <SV_BYTE_CHECK_M> is never used or assigned.
+WARNING:Xst:646 - Signal <not_CLK> is assigned but never used.
+WARNING:Xst:1780 - Signal <SV_BR_BIT3_M> is never used or assigned.
+WARNING:Xst:1780 - Signal <SV_BR_BIT4_M> is never used or assigned.
+WARNING:Xst:1780 - Signal <SV_BR_BIT5_M> is never used or assigned.
+WARNING:Xst:1780 - Signal <SV_BR_BIT6_M> is never used or assigned.
+Unit <ctrl_bit_register> synthesized.
+
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <ctrl_bit_register> ...
+Loading device for application Xst from file '3s200.nph' in environment C:/Xilinx.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block ctrl_bit_register, actual ratio is 0.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s200ft256-5 
+
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+No clock signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: No path found
+   Maximum combinational path delay: No path found
+
+=========================================================================
+Completed process "Synthesize".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file G:/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd in Library work.
+ERROR:HDLParsers:3312 - G:/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd Line 163. Undefined symbol 'EN_BIT_i'.
+ERROR:HDLParsers:1209 - G:/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd Line 163. EN_BIT_i: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3313 - G:/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd Line 163. Undefined symbol 'EN_BIT_i_S'.  Should it be: EN_BIT_8_S, EN_BIT_7_S, EN_BIT_6_S, EN_BIT_5_S, EN_BIT_4_S, EN_BIT_3_S, EN_BIT_2_S, EN_BIT_1_S or EN_BIT_0_S?
+ERROR:HDLParsers:1209 - G:/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd Line 163. EN_BIT_i_S: Undefined symbol (last report in this block)
+ERROR:HDLParsers:163 - G:/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd Line 267. Unexpected symbol read: _.
+--> 
+
+Total memory usage is 47848 kilobytes
+
+
+ERROR: XST failed
+Process "Synthesize" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file G:/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd in Library work.
+ERROR:HDLParsers:163 - G:/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd Line 267. Unexpected symbol read: _.
+--> 
+
+Total memory usage is 47848 kilobytes
+
+
+ERROR: XST failed
+Process "Synthesize" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file G:/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd in Library work.
+Entity <ctrl_bit_register> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <ctrl_bit_register> (Architecture <behavioral>).
+Entity <ctrl_bit_register> analyzed. Unit <ctrl_bit_register> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <ctrl_bit_register>.
+    Related source file is G:/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd.
+WARNING:Xst:1306 - Output <DISPL2_n_SV> is never assigned.
+WARNING:Xst:1306 - Output <DISPL1_SV> is never assigned.
+WARNING:Xst:1306 - Output <DISPL2_SV> is never assigned.
+WARNING:Xst:647 - Input <NEXT_BYTE> is never used.
+WARNING:Xst:1306 - Output <DISPL1_n_SV> is never assigned.
+WARNING:Xst:1780 - Signal <n_SV_BYTE_CHECK> is never used or assigned.
+WARNING:Xst:1780 - Signal <SV_BYTE_CHECK> is never used or assigned.
+WARNING:Xst:1780 - Signal <SV_BYTE_CHECK_M> is never used or assigned.
+    Found 1-bit xor9 for signal <$n0074> created at line 539.
+    Found 1-bit register for signal <BIT_VALUE_S>.
+    Found 1-bit register for signal <EN_BIT_0_S>.
+    Found 1-bit register for signal <EN_BIT_1_S>.
+    Found 1-bit register for signal <EN_BIT_2_S>.
+    Found 1-bit register for signal <EN_BIT_3_S>.
+    Found 1-bit register for signal <EN_BIT_4_S>.
+    Found 1-bit register for signal <EN_BIT_5_S>.
+    Found 1-bit register for signal <EN_BIT_6_S>.
+    Found 1-bit register for signal <EN_BIT_7_S>.
+    Found 1-bit register for signal <EN_BIT_8_S>.
+    Found 1-bit register for signal <SV_BR_BIT0<0>>.
+    Found 1-bit register for signal <SV_BR_BIT0_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT1<0>>.
+    Found 1-bit register for signal <SV_BR_BIT1_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT2<0>>.
+    Found 1-bit register for signal <SV_BR_BIT2_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT3<0>>.
+    Found 1-bit register for signal <SV_BR_BIT3_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT4<0>>.
+    Found 1-bit register for signal <SV_BR_BIT4_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT5<0>>.
+    Found 1-bit register for signal <SV_BR_BIT5_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT6<0>>.
+    Found 1-bit register for signal <SV_BR_BIT6_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT7<0>>.
+    Found 1-bit register for signal <SV_BR_BIT7_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT8<0>>.
+    Found 1-bit register for signal <SV_BR_BIT8_M<0>>.
+    Summary:
+	inferred  28 D-type flip-flop(s).
+	inferred   1 Xor(s).
+Unit <ctrl_bit_register> synthesized.
+
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Registers                        : 28
+ 1-bit register                    : 28
+# Xors                             : 1
+ 1-bit xor9                        : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <ctrl_bit_register> ...
+Loading device for application Xst from file '3s200.nph' in environment C:/Xilinx.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block ctrl_bit_register, actual ratio is 0.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s200ft256-5 
+
+ Number of Slices:                      16  out of   1920     0%  
+ Number of Slice Flip Flops:            28  out of   3840     0%  
+ Number of 4 input LUTs:                14  out of   3840     0%  
+ Number of bonded IOBs:                 21  out of    173    12%  
+ Number of GCLKs:                        2  out of      8    25%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+CLK                                | BUFGP                  | 18    |
+CLK_IO                             | BUFGP                  | 10    |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 3.716ns (Maximum Frequency: 269.107MHz)
+   Minimum input arrival time before clock: 2.980ns
+   Maximum output required time after clock: 6.881ns
+   Maximum combinational path delay: No path found
+
+=========================================================================
+Completed process "Synthesize".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file G:/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd in Library work.
+Entity <ctrl_bit_register> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <ctrl_bit_register> (Architecture <behavioral>).
+Entity <ctrl_bit_register> analyzed. Unit <ctrl_bit_register> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <ctrl_bit_register>.
+    Related source file is G:/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd.
+WARNING:Xst:1306 - Output <DISPL2_n_SV> is never assigned.
+WARNING:Xst:1306 - Output <DISPL1_SV> is never assigned.
+WARNING:Xst:1306 - Output <DISPL2_SV> is never assigned.
+WARNING:Xst:1306 - Output <DISPL1_n_SV> is never assigned.
+    Found 1-bit xor9 for signal <$n0074> created at line 532.
+    Found 1-bit register for signal <BIT_VALUE_S>.
+    Found 1-bit register for signal <EN_BIT_0_S>.
+    Found 1-bit register for signal <EN_BIT_1_S>.
+    Found 1-bit register for signal <EN_BIT_2_S>.
+    Found 1-bit register for signal <EN_BIT_3_S>.
+    Found 1-bit register for signal <EN_BIT_4_S>.
+    Found 1-bit register for signal <EN_BIT_5_S>.
+    Found 1-bit register for signal <EN_BIT_6_S>.
+    Found 1-bit register for signal <EN_BIT_7_S>.
+    Found 1-bit register for signal <EN_BIT_8_S>.
+    Found 1-bit register for signal <SV_BR_BIT0<0>>.
+    Found 1-bit register for signal <SV_BR_BIT0_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT1<0>>.
+    Found 1-bit register for signal <SV_BR_BIT1_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT2<0>>.
+    Found 1-bit register for signal <SV_BR_BIT2_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT3<0>>.
+    Found 1-bit register for signal <SV_BR_BIT3_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT4<0>>.
+    Found 1-bit register for signal <SV_BR_BIT4_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT5<0>>.
+    Found 1-bit register for signal <SV_BR_BIT5_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT6<0>>.
+    Found 1-bit register for signal <SV_BR_BIT6_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT7<0>>.
+    Found 1-bit register for signal <SV_BR_BIT7_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT8<0>>.
+    Found 1-bit register for signal <SV_BR_BIT8_M<0>>.
+    Summary:
+	inferred  28 D-type flip-flop(s).
+	inferred   1 Xor(s).
+Unit <ctrl_bit_register> synthesized.
+
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Registers                        : 28
+ 1-bit register                    : 28
+# Xors                             : 1
+ 1-bit xor9                        : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <ctrl_bit_register> ...
+Loading device for application Xst from file '3s200.nph' in environment C:/Xilinx.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block ctrl_bit_register, actual ratio is 0.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s200ft256-5 
+
+ Number of Slices:                      16  out of   1920     0%  
+ Number of Slice Flip Flops:            28  out of   3840     0%  
+ Number of 4 input LUTs:                14  out of   3840     0%  
+ Number of bonded IOBs:                 21  out of    173    12%  
+ Number of GCLKs:                        2  out of      8    25%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+CLK                                | BUFGP                  | 18    |
+CLK_IO                             | BUFGP                  | 10    |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 3.716ns (Maximum Frequency: 269.107MHz)
+   Minimum input arrival time before clock: 2.980ns
+   Maximum output required time after clock: 6.881ns
+   Maximum combinational path delay: No path found
+
+=========================================================================
+Completed process "Synthesize".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file G:/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd in Library work.
+ERROR:HDLParsers:164 - G:/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd Line 34. parse error, unexpected END, expecting IDENTIFIER
+--> 
+
+Total memory usage is 47848 kilobytes
+
+
+ERROR: XST failed
+Process "Synthesize" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file G:/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd in Library work.
+Entity <ctrl_bit_register> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <ctrl_bit_register> (Architecture <behavioral>).
+Entity <ctrl_bit_register> analyzed. Unit <ctrl_bit_register> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <ctrl_bit_register>.
+    Related source file is G:/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd.
+    Found 1-bit xor9 for signal <$n0074> created at line 527.
+    Found 1-bit register for signal <BIT_VALUE_S>.
+    Found 1-bit register for signal <EN_BIT_0_S>.
+    Found 1-bit register for signal <EN_BIT_1_S>.
+    Found 1-bit register for signal <EN_BIT_2_S>.
+    Found 1-bit register for signal <EN_BIT_3_S>.
+    Found 1-bit register for signal <EN_BIT_4_S>.
+    Found 1-bit register for signal <EN_BIT_5_S>.
+    Found 1-bit register for signal <EN_BIT_6_S>.
+    Found 1-bit register for signal <EN_BIT_7_S>.
+    Found 1-bit register for signal <EN_BIT_8_S>.
+    Found 1-bit register for signal <SV_BR_BIT0<0>>.
+    Found 1-bit register for signal <SV_BR_BIT0_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT1<0>>.
+    Found 1-bit register for signal <SV_BR_BIT1_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT2<0>>.
+    Found 1-bit register for signal <SV_BR_BIT2_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT3<0>>.
+    Found 1-bit register for signal <SV_BR_BIT3_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT4<0>>.
+    Found 1-bit register for signal <SV_BR_BIT4_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT5<0>>.
+    Found 1-bit register for signal <SV_BR_BIT5_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT6<0>>.
+    Found 1-bit register for signal <SV_BR_BIT6_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT7<0>>.
+    Found 1-bit register for signal <SV_BR_BIT7_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT8<0>>.
+    Found 1-bit register for signal <SV_BR_BIT8_M<0>>.
+    Summary:
+	inferred  28 D-type flip-flop(s).
+	inferred   1 Xor(s).
+Unit <ctrl_bit_register> synthesized.
+
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Registers                        : 28
+ 1-bit register                    : 28
+# Xors                             : 1
+ 1-bit xor9                        : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <ctrl_bit_register> ...
+Loading device for application Xst from file '3s200.nph' in environment C:/Xilinx.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block ctrl_bit_register, actual ratio is 0.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s200ft256-5 
+
+ Number of Slices:                      16  out of   1920     0%  
+ Number of Slice Flip Flops:            28  out of   3840     0%  
+ Number of 4 input LUTs:                14  out of   3840     0%  
+ Number of bonded IOBs:                 21  out of    173    12%  
+ Number of GCLKs:                        2  out of      8    25%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+CLK                                | BUFGP                  | 18    |
+CLK_IO                             | BUFGP                  | 10    |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 3.716ns (Maximum Frequency: 269.107MHz)
+   Minimum input arrival time before clock: 2.980ns
+   Maximum output required time after clock: 6.881ns
+   Maximum combinational path delay: No path found
+
+=========================================================================
+Completed process "Synthesize".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "View RTL Schematic".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file G:/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd in Library work.
+Entity <ctrl_bit_register> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <ctrl_bit_register> (Architecture <behavioral>).
+Entity <ctrl_bit_register> analyzed. Unit <ctrl_bit_register> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <ctrl_bit_register>.
+    Related source file is G:/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd.
+    Found 1-bit xor9 for signal <$n0074> created at line 527.
+    Found 1-bit register for signal <BIT_VALUE_S>.
+    Found 1-bit register for signal <EN_BIT_0_S>.
+    Found 1-bit register for signal <EN_BIT_1_S>.
+    Found 1-bit register for signal <EN_BIT_2_S>.
+    Found 1-bit register for signal <EN_BIT_3_S>.
+    Found 1-bit register for signal <EN_BIT_4_S>.
+    Found 1-bit register for signal <EN_BIT_5_S>.
+    Found 1-bit register for signal <EN_BIT_6_S>.
+    Found 1-bit register for signal <EN_BIT_7_S>.
+    Found 1-bit register for signal <EN_BIT_8_S>.
+    Found 1-bit register for signal <SV_BR_BIT0<0>>.
+    Found 1-bit register for signal <SV_BR_BIT0_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT1<0>>.
+    Found 1-bit register for signal <SV_BR_BIT1_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT2<0>>.
+    Found 1-bit register for signal <SV_BR_BIT2_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT3<0>>.
+    Found 1-bit register for signal <SV_BR_BIT3_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT4<0>>.
+    Found 1-bit register for signal <SV_BR_BIT4_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT5<0>>.
+    Found 1-bit register for signal <SV_BR_BIT5_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT6<0>>.
+    Found 1-bit register for signal <SV_BR_BIT6_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT7<0>>.
+    Found 1-bit register for signal <SV_BR_BIT7_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT8<0>>.
+    Found 1-bit register for signal <SV_BR_BIT8_M<0>>.
+    Summary:
+	inferred  28 D-type flip-flop(s).
+	inferred   1 Xor(s).
+Unit <ctrl_bit_register> synthesized.
+
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Registers                        : 28
+ 1-bit register                    : 28
+# Xors                             : 1
+ 1-bit xor9                        : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Completed process "View RTL Schematic".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file G:/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd in Library work.
+ERROR:HDLParsers:3312 - G:/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd Line 25. Undefined symbol 'BIT_VALUE'.
+ERROR:HDLParsers:1209 - G:/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd Line 25. BIT_VALUE: Undefined symbol (last report in this block)
+ERROR:HDLParsers:507 - G:/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd Line 14. ) is not a correct resolution function name
+ERROR:HDLParsers:164 - G:/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd Line 25. parse error, unexpected COLON, expecting SEMICOLON or CLOSEPAR
+--> 
+
+Total memory usage is 47848 kilobytes
+
+
+ERROR: XST failed
+Process "Synthesize" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file G:/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd in Library work.
+Entity <ctrl_bit_register> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <ctrl_bit_register> (Architecture <behavioral>).
+Entity <ctrl_bit_register> analyzed. Unit <ctrl_bit_register> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <ctrl_bit_register>.
+    Related source file is G:/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd.
+    Found 1-bit xor9 for signal <$n0074> created at line 528.
+    Found 1-bit register for signal <BIT_VALUE_S>.
+    Found 1-bit register for signal <SV_BR_BIT0<0>>.
+    Found 1-bit register for signal <SV_BR_BIT0_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT1<0>>.
+    Found 1-bit register for signal <SV_BR_BIT1_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT2<0>>.
+    Found 1-bit register for signal <SV_BR_BIT2_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT3<0>>.
+    Found 1-bit register for signal <SV_BR_BIT3_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT4<0>>.
+    Found 1-bit register for signal <SV_BR_BIT4_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT5<0>>.
+    Found 1-bit register for signal <SV_BR_BIT5_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT6<0>>.
+    Found 1-bit register for signal <SV_BR_BIT6_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT7<0>>.
+    Found 1-bit register for signal <SV_BR_BIT7_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT8<0>>.
+    Found 1-bit register for signal <SV_BR_BIT8_M<0>>.
+    Summary:
+	inferred  19 D-type flip-flop(s).
+	inferred   1 Xor(s).
+Unit <ctrl_bit_register> synthesized.
+
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Registers                        : 19
+ 1-bit register                    : 19
+# Xors                             : 1
+ 1-bit xor9                        : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <ctrl_bit_register> ...
+Loading device for application Xst from file '3s200.nph' in environment C:/Xilinx.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block ctrl_bit_register, actual ratio is 0.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s200ft256-5 
+
+ Number of Slices:                      10  out of   1920     0%  
+ Number of Slice Flip Flops:            19  out of   3840     0%  
+ Number of 4 input LUTs:                14  out of   3840     0%  
+ Number of bonded IOBs:                 21  out of    173    12%  
+ Number of GCLKs:                        2  out of      8    25%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+CLK                                | BUFGP                  | 18    |
+CLK_IO                             | BUFGP                  | 1     |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 3.716ns (Maximum Frequency: 269.107MHz)
+   Minimum input arrival time before clock: 2.980ns
+   Maximum output required time after clock: 6.881ns
+   Maximum combinational path delay: No path found
+
+=========================================================================
+Completed process "Synthesize".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "View RTL Schematic".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file G:/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd in Library work.
+Entity <ctrl_bit_register> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <ctrl_bit_register> (Architecture <behavioral>).
+Entity <ctrl_bit_register> analyzed. Unit <ctrl_bit_register> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <ctrl_bit_register>.
+    Related source file is G:/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd.
+    Found 1-bit xor9 for signal <$n0074> created at line 528.
+    Found 1-bit register for signal <BIT_VALUE_S>.
+    Found 1-bit register for signal <SV_BR_BIT0<0>>.
+    Found 1-bit register for signal <SV_BR_BIT0_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT1<0>>.
+    Found 1-bit register for signal <SV_BR_BIT1_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT2<0>>.
+    Found 1-bit register for signal <SV_BR_BIT2_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT3<0>>.
+    Found 1-bit register for signal <SV_BR_BIT3_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT4<0>>.
+    Found 1-bit register for signal <SV_BR_BIT4_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT5<0>>.
+    Found 1-bit register for signal <SV_BR_BIT5_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT6<0>>.
+    Found 1-bit register for signal <SV_BR_BIT6_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT7<0>>.
+    Found 1-bit register for signal <SV_BR_BIT7_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT8<0>>.
+    Found 1-bit register for signal <SV_BR_BIT8_M<0>>.
+    Summary:
+	inferred  19 D-type flip-flop(s).
+	inferred   1 Xor(s).
+Unit <ctrl_bit_register> synthesized.
+
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Registers                        : 19
+ 1-bit register                    : 19
+# Xors                             : 1
+ 1-bit xor9                        : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Completed process "View RTL Schematic".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file G:/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd in Library work.
+Entity <ctrl_bit_register> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <ctrl_bit_register> (Architecture <behavioral>).
+Entity <ctrl_bit_register> analyzed. Unit <ctrl_bit_register> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <ctrl_bit_register>.
+    Related source file is G:/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd.
+    Found 1-bit xor9 for signal <$n0074> created at line 529.
+    Found 1-bit register for signal <BIT_VALUE_S>.
+    Found 1-bit register for signal <SV_BR_BIT0<0>>.
+    Found 1-bit register for signal <SV_BR_BIT0_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT1<0>>.
+    Found 1-bit register for signal <SV_BR_BIT1_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT2<0>>.
+    Found 1-bit register for signal <SV_BR_BIT2_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT3<0>>.
+    Found 1-bit register for signal <SV_BR_BIT3_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT4<0>>.
+    Found 1-bit register for signal <SV_BR_BIT4_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT5<0>>.
+    Found 1-bit register for signal <SV_BR_BIT5_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT6<0>>.
+    Found 1-bit register for signal <SV_BR_BIT6_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT7<0>>.
+    Found 1-bit register for signal <SV_BR_BIT7_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT8<0>>.
+    Found 1-bit register for signal <SV_BR_BIT8_M<0>>.
+    Summary:
+	inferred  19 D-type flip-flop(s).
+	inferred   1 Xor(s).
+Unit <ctrl_bit_register> synthesized.
+
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Registers                        : 19
+ 1-bit register                    : 19
+# Xors                             : 1
+ 1-bit xor9                        : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <ctrl_bit_register> ...
+Loading device for application Xst from file '3s200.nph' in environment C:/Xilinx.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block ctrl_bit_register, actual ratio is 0.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s200ft256-5 
+
+ Number of Slices:                      10  out of   1920     0%  
+ Number of Slice Flip Flops:            19  out of   3840     0%  
+ Number of 4 input LUTs:                14  out of   3840     0%  
+ Number of bonded IOBs:                 21  out of    173    12%  
+ Number of GCLKs:                        2  out of      8    25%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+CLK                                | BUFGP                  | 18    |
+CLK_IO                             | BUFGP                  | 1     |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 3.716ns (Maximum Frequency: 269.107MHz)
+   Minimum input arrival time before clock: 2.980ns
+   Maximum output required time after clock: 6.881ns
+   Maximum combinational path delay: No path found
+
+=========================================================================
+Completed process "Synthesize".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+deleting ctrl_bit_register.lso
+deleting ctrl_bit_register.syr
+deleting ctrl_bit_register.prj
+deleting ctrl_bit_register.sprj
+deleting ctrl_bit_register.ana
+deleting ctrl_bit_register.stx
+deleting ctrl_bit_register.cmd_log
+deleting ctrl_bit_register.lso
+deleting ctrl_bit_register.syr
+deleting ctrl_bit_register.prj
+deleting ctrl_bit_register.sprj
+deleting ctrl_bit_register.ana
+deleting ctrl_bit_register.stx
+deleting ctrl_bit_register.cmd_log
+deleting ctrl_bit_register.lso
+deleting ctrl_bit_register.syr
+deleting ctrl_bit_register.prj
+deleting ctrl_bit_register.sprj
+deleting ctrl_bit_register.ana
+deleting ctrl_bit_register.stx
+deleting ctrl_bit_register.cmd_log
+deleting ctrl_bit_register.ngc
+deleting ctrl_bit_register.ngr
+deleting ctrl_bit_register.lso
+deleting ctrl_bit_register.syr
+deleting ctrl_bit_register.prj
+deleting ctrl_bit_register.sprj
+deleting ctrl_bit_register.ana
+deleting ctrl_bit_register.stx
+deleting ctrl_bit_register.cmd_log
+deleting ctrl_bit_register.ngc
+deleting ctrl_bit_register.ngr
+deleting ctrl_bit_register.lso
+deleting ctrl_bit_register.syr
+deleting ctrl_bit_register.prj
+deleting ctrl_bit_register.sprj
+deleting ctrl_bit_register.ana
+deleting ctrl_bit_register.stx
+deleting ctrl_bit_register.cmd_log
+deleting ctrl_bit_register.ngc
+deleting ctrl_bit_register.ngr
+deleting ctrl_bit_register.lso
+deleting ctrl_bit_register.syr
+deleting ctrl_bit_register.prj
+deleting ctrl_bit_register.sprj
+deleting ctrl_bit_register.ana
+deleting ctrl_bit_register.stx
+deleting ctrl_bit_register.cmd_log
+deleting ctrl_bit_register.ngc
+deleting ctrl_bit_register.ngr
+deleting ctrl_bit_register.lso
+deleting ctrl_bit_register.syr
+deleting ctrl_bit_register.prj
+deleting ctrl_bit_register.sprj
+deleting ctrl_bit_register.ana
+deleting ctrl_bit_register.stx
+deleting ctrl_bit_register.cmd_log
+deleting ctrl_bit_register.ngc
+deleting ctrl_bit_register.ngr
+deleting ctrl_bit_register.lso
+deleting ctrl_bit_register.syr
+deleting ctrl_bit_register.prj
+deleting ctrl_bit_register.sprj
+deleting ctrl_bit_register.ana
+deleting ctrl_bit_register.stx
+deleting ctrl_bit_register.cmd_log
+deleting ctrl_bit_register.ngc
+deleting ctrl_bit_register.ngr
+deleting ctrl_bit_register.lso
+deleting ctrl_bit_register.syr
+deleting ctrl_bit_register.prj
+deleting ctrl_bit_register.sprj
+deleting ctrl_bit_register.ana
+deleting ctrl_bit_register.stx
+deleting ctrl_bit_register.cmd_log
+deleting ctrl_bit_register.ngc
+deleting ctrl_bit_register.ngr
+deleting ctrl_bit_register.lso
+deleting ctrl_bit_register.syr
+deleting ctrl_bit_register.prj
+deleting ctrl_bit_register.sprj
+deleting ctrl_bit_register.ana
+deleting ctrl_bit_register.stx
+deleting ctrl_bit_register.cmd_log
+deleting ctrl_bit_register.ngc
+deleting ctrl_bit_register.ngr
+deleting ctrl_bit_register.ngr
+deleting ctrl_bit_register.lso
+deleting ctrl_bit_register.syr
+deleting ctrl_bit_register.prj
+deleting ctrl_bit_register.sprj
+deleting ctrl_bit_register.ana
+deleting ctrl_bit_register.stx
+deleting ctrl_bit_register.cmd_log
+deleting ctrl_bit_register.ngc
+deleting ctrl_bit_register.ngr
+deleting ctrl_bit_register.lso
+deleting ctrl_bit_register.syr
+deleting ctrl_bit_register.prj
+deleting ctrl_bit_register.sprj
+deleting ctrl_bit_register.ana
+deleting ctrl_bit_register.stx
+deleting ctrl_bit_register.cmd_log
+deleting ctrl_bit_register.ngc
+deleting ctrl_bit_register.ngr
+deleting ctrl_bit_register.lso
+deleting ctrl_bit_register.syr
+deleting ctrl_bit_register.prj
+deleting ctrl_bit_register.sprj
+deleting ctrl_bit_register.ana
+deleting ctrl_bit_register.stx
+deleting ctrl_bit_register.cmd_log
+deleting ctrl_bit_register.ngc
+deleting ctrl_bit_register.ngr
+deleting ctrl_bit_register.ngr
+deleting ctrl_bit_register.lso
+deleting ctrl_bit_register.syr
+deleting ctrl_bit_register.prj
+deleting ctrl_bit_register.sprj
+deleting ctrl_bit_register.ana
+deleting ctrl_bit_register.stx
+deleting ctrl_bit_register.cmd_log
+deleting ctrl_bit_register.ngc
+deleting ctrl_bit_register.ngr
+deleting ctrl_bit_register.prj
+deleting ctrl_bit_register.prj
+deleting __projnav/ctrl_bit_register.xst
+deleting ./xst
+deleting ctrl_bit_register.prj
+deleting ctrl_bit_register.prj
+deleting __projnav/ctrl_bit_register.xst
+deleting ./xst
+deleting ctrl_bit_register.prj
+deleting ctrl_bit_register.prj
+deleting __projnav/ctrl_bit_register.xst
+deleting ./xst
+deleting ctrl_bit_register.prj
+deleting ctrl_bit_register.prj
+deleting __projnav/ctrl_bit_register.xst
+deleting ./xst
+deleting ctrl_bit_register.prj
+deleting ctrl_bit_register.prj
+deleting __projnav/ctrl_bit_register.xst
+deleting ./xst
+deleting ctrl_bit_register.prj
+deleting ctrl_bit_register.prj
+deleting __projnav/ctrl_bit_register.xst
+deleting ./xst
+deleting ctrl_bit_register.prj
+deleting ctrl_bit_register.prj
+deleting __projnav/ctrl_bit_register.xst
+deleting ./xst
+deleting ctrl_bit_register.prj
+deleting ctrl_bit_register.prj
+deleting __projnav/ctrl_bit_register.xst
+deleting ./xst
+deleting ctrl_bit_register.prj
+deleting ctrl_bit_register.prj
+deleting __projnav/ctrl_bit_register.xst
+deleting ./xst
+deleting ctrl_bit_register.prj
+deleting ctrl_bit_register.prj
+deleting __projnav/ctrl_bit_register.xst
+deleting ./xst
+deleting ctrl_bit_register.prj
+deleting ctrl_bit_register.prj
+deleting __projnav/ctrl_bit_register.xst
+deleting ./xst
+deleting ctrl_bit_register.prj
+deleting ctrl_bit_register.prj
+deleting __projnav/ctrl_bit_register.xst
+deleting ./xst
+deleting ctrl_bit_register.prj
+deleting ctrl_bit_register.prj
+deleting __projnav/ctrl_bit_register.xst
+deleting ./xst
+deleting ctrl_bit_register.prj
+deleting ctrl_bit_register.prj
+deleting __projnav/ctrl_bit_register.xst
+deleting ./xst
+deleting __projnav/CTRL_BIT_REGISTER.gfl
+deleting __projnav/CTRL_BIT_REGISTER_flowplus.gfl
+Finished cleaning up project
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file C:/STUDY/UEBUNG/Studium/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd in Library work.
+ERROR:HDLParsers:3312 - C:/STUDY/UEBUNG/Studium/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd Line 197. Undefined symbol 'EN_BIT_0_S'.
+ERROR:HDLParsers:1209 - C:/STUDY/UEBUNG/Studium/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd Line 197. EN_BIT_0_S: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - C:/STUDY/UEBUNG/Studium/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd Line 228. Undefined symbol 'EN_BIT_1_S'.
+ERROR:HDLParsers:1209 - C:/STUDY/UEBUNG/Studium/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd Line 228. EN_BIT_1_S: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - C:/STUDY/UEBUNG/Studium/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd Line 259. Undefined symbol 'EN_BIT_2_S'.
+ERROR:HDLParsers:1209 - C:/STUDY/UEBUNG/Studium/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd Line 259. EN_BIT_2_S: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - C:/STUDY/UEBUNG/Studium/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd Line 290. Undefined symbol 'EN_BIT_3_S'.
+ERROR:HDLParsers:1209 - C:/STUDY/UEBUNG/Studium/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd Line 290. EN_BIT_3_S: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - C:/STUDY/UEBUNG/Studium/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd Line 321. Undefined symbol 'EN_BIT_4_S'.
+ERROR:HDLParsers:1209 - C:/STUDY/UEBUNG/Studium/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd Line 321. EN_BIT_4_S: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - C:/STUDY/UEBUNG/Studium/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd Line 352. Undefined symbol 'EN_BIT_5_S'.
+ERROR:HDLParsers:1209 - C:/STUDY/UEBUNG/Studium/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd Line 352. EN_BIT_5_S: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - C:/STUDY/UEBUNG/Studium/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd Line 383. Undefined symbol 'EN_BIT_6_S'.
+ERROR:HDLParsers:1209 - C:/STUDY/UEBUNG/Studium/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd Line 383. EN_BIT_6_S: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - C:/STUDY/UEBUNG/Studium/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd Line 414. Undefined symbol 'EN_BIT_7_S'.
+ERROR:HDLParsers:1209 - C:/STUDY/UEBUNG/Studium/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd Line 414. EN_BIT_7_S: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - C:/STUDY/UEBUNG/Studium/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd Line 445. Undefined symbol 'EN_BIT_8_S'.
+ERROR:HDLParsers:1209 - C:/STUDY/UEBUNG/Studium/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd Line 445. EN_BIT_8_S: Undefined symbol (last report in this block)
+ERROR:HDLParsers:808 - C:/STUDY/UEBUNG/Studium/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd Line 450. = can not have such operands in this context.
+--> 
+
+Total memory usage is 48104 kilobytes
+
+
+ERROR: XST failed
+Process "Synthesize" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file C:/STUDY/UEBUNG/Studium/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd in Library work.
+ERROR:HDLParsers:808 - C:/STUDY/UEBUNG/Studium/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd Line 450. = can not have such operands in this context.
+--> 
+
+Total memory usage is 48104 kilobytes
+
+
+ERROR: XST failed
+Process "Synthesize" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file C:/STUDY/UEBUNG/Studium/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd in Library work.
+Entity <CTRL_BIT_REGISTER> (Architecture <Behavioral>) compiled.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <ctrl_bit_register> (Architecture <Behavioral>).
+WARNING:Xst:819 - C:/STUDY/UEBUNG/Studium/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd line 197: The following signals are missing in the process sensitivity list:
+   EN_BIT_i.
+WARNING:Xst:819 - C:/STUDY/UEBUNG/Studium/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd line 228: The following signals are missing in the process sensitivity list:
+   EN_BIT_i.
+WARNING:Xst:819 - C:/STUDY/UEBUNG/Studium/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd line 259: The following signals are missing in the process sensitivity list:
+   EN_BIT_i.
+WARNING:Xst:819 - C:/STUDY/UEBUNG/Studium/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd line 290: The following signals are missing in the process sensitivity list:
+   EN_BIT_i.
+WARNING:Xst:819 - C:/STUDY/UEBUNG/Studium/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd line 321: The following signals are missing in the process sensitivity list:
+   EN_BIT_i.
+WARNING:Xst:819 - C:/STUDY/UEBUNG/Studium/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd line 352: The following signals are missing in the process sensitivity list:
+   EN_BIT_i.
+WARNING:Xst:819 - C:/STUDY/UEBUNG/Studium/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd line 383: The following signals are missing in the process sensitivity list:
+   EN_BIT_i.
+WARNING:Xst:819 - C:/STUDY/UEBUNG/Studium/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd line 414: The following signals are missing in the process sensitivity list:
+   EN_BIT_i.
+WARNING:Xst:819 - C:/STUDY/UEBUNG/Studium/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd line 445: The following signals are missing in the process sensitivity list:
+   EN_BIT_i.
+Entity <ctrl_bit_register> analyzed. Unit <ctrl_bit_register> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <ctrl_bit_register>.
+    Related source file is C:/STUDY/UEBUNG/Studium/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd.
+WARNING:Xst:647 - Input <CLK_IO> is never used.
+    Found 1-bit xor9 for signal <$n0074> created at line 488.
+    Found 1-bit register for signal <SV_BR_BIT0<0>>.
+    Found 1-bit register for signal <SV_BR_BIT0_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT1<0>>.
+    Found 1-bit register for signal <SV_BR_BIT1_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT2<0>>.
+    Found 1-bit register for signal <SV_BR_BIT2_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT3<0>>.
+    Found 1-bit register for signal <SV_BR_BIT3_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT4<0>>.
+    Found 1-bit register for signal <SV_BR_BIT4_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT5<0>>.
+    Found 1-bit register for signal <SV_BR_BIT5_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT6<0>>.
+    Found 1-bit register for signal <SV_BR_BIT6_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT7<0>>.
+    Found 1-bit register for signal <SV_BR_BIT7_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT8<0>>.
+    Found 1-bit register for signal <SV_BR_BIT8_M<0>>.
+    Summary:
+	inferred  18 D-type flip-flop(s).
+	inferred   1 Xor(s).
+Unit <ctrl_bit_register> synthesized.
+
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Registers                        : 18
+ 1-bit register                    : 18
+# Xors                             : 1
+ 1-bit xor9                        : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <ctrl_bit_register> ...
+Loading device for application Xst from file '3s200.nph' in environment C:/Programme/XILINX/WEBPACK_6P3.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block ctrl_bit_register, actual ratio is 0.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s200ft256-5 
+
+ Number of Slices:                      10  out of   1920     0%  
+ Number of Slice Flip Flops:            18  out of   3840     0%  
+ Number of 4 input LUTs:                13  out of   3840     0%  
+ Number of bonded IOBs:                 21  out of    173    12%  
+ Number of GCLKs:                        1  out of      8    12%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+CLK                                | BUFGP                  | 18    |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 3.716ns (Maximum Frequency: 269.107MHz)
+   Minimum input arrival time before clock: 3.111ns
+   Maximum output required time after clock: 6.881ns
+   Maximum combinational path delay: No path found
+
+=========================================================================
+Completed process "Synthesize".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file C:/STUDY/UEBUNG/Studium/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd in Library work.
+Entity <ctrl_bit_register> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <ctrl_bit_register> (Architecture <behavioral>).
+WARNING:Xst:819 - C:/STUDY/UEBUNG/Studium/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd line 228: The following signals are missing in the process sensitivity list:
+   EN_BIT_i.
+WARNING:Xst:819 - C:/STUDY/UEBUNG/Studium/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd line 259: The following signals are missing in the process sensitivity list:
+   EN_BIT_i.
+WARNING:Xst:819 - C:/STUDY/UEBUNG/Studium/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd line 290: The following signals are missing in the process sensitivity list:
+   EN_BIT_i.
+WARNING:Xst:819 - C:/STUDY/UEBUNG/Studium/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd line 321: The following signals are missing in the process sensitivity list:
+   EN_BIT_i.
+WARNING:Xst:819 - C:/STUDY/UEBUNG/Studium/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd line 352: The following signals are missing in the process sensitivity list:
+   EN_BIT_i.
+WARNING:Xst:819 - C:/STUDY/UEBUNG/Studium/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd line 383: The following signals are missing in the process sensitivity list:
+   EN_BIT_i.
+WARNING:Xst:819 - C:/STUDY/UEBUNG/Studium/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd line 414: The following signals are missing in the process sensitivity list:
+   EN_BIT_i.
+WARNING:Xst:819 - C:/STUDY/UEBUNG/Studium/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd line 445: The following signals are missing in the process sensitivity list:
+   EN_BIT_i.
+Entity <ctrl_bit_register> analyzed. Unit <ctrl_bit_register> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <ctrl_bit_register>.
+    Related source file is C:/STUDY/UEBUNG/Studium/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd.
+WARNING:Xst:647 - Input <CLK_IO> is never used.
+    Found 1-bit xor9 for signal <$n0074> created at line 488.
+    Found 1-bit register for signal <SV_BR_BIT0<0>>.
+    Found 1-bit register for signal <SV_BR_BIT0_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT1<0>>.
+    Found 1-bit register for signal <SV_BR_BIT1_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT2<0>>.
+    Found 1-bit register for signal <SV_BR_BIT2_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT3<0>>.
+    Found 1-bit register for signal <SV_BR_BIT3_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT4<0>>.
+    Found 1-bit register for signal <SV_BR_BIT4_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT5<0>>.
+    Found 1-bit register for signal <SV_BR_BIT5_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT6<0>>.
+    Found 1-bit register for signal <SV_BR_BIT6_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT7<0>>.
+    Found 1-bit register for signal <SV_BR_BIT7_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT8<0>>.
+    Found 1-bit register for signal <SV_BR_BIT8_M<0>>.
+    Summary:
+	inferred  18 D-type flip-flop(s).
+	inferred   1 Xor(s).
+Unit <ctrl_bit_register> synthesized.
+
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Registers                        : 18
+ 1-bit register                    : 18
+# Xors                             : 1
+ 1-bit xor9                        : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <ctrl_bit_register> ...
+Loading device for application Xst from file '3s200.nph' in environment C:/Programme/XILINX/WEBPACK_6P3.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block ctrl_bit_register, actual ratio is 0.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s200ft256-5 
+
+ Number of Slices:                      10  out of   1920     0%  
+ Number of Slice Flip Flops:            18  out of   3840     0%  
+ Number of 4 input LUTs:                13  out of   3840     0%  
+ Number of bonded IOBs:                 21  out of    173    12%  
+ Number of GCLKs:                        1  out of      8    12%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+CLK                                | BUFGP                  | 18    |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 3.716ns (Maximum Frequency: 269.107MHz)
+   Minimum input arrival time before clock: 3.111ns
+   Maximum output required time after clock: 6.881ns
+   Maximum combinational path delay: No path found
+
+=========================================================================
+Completed process "Synthesize".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file C:/STUDY/UEBUNG/Studium/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd in Library work.
+Entity <ctrl_bit_register> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <ctrl_bit_register> (Architecture <behavioral>).
+Entity <ctrl_bit_register> analyzed. Unit <ctrl_bit_register> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <ctrl_bit_register>.
+    Related source file is C:/STUDY/UEBUNG/Studium/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd.
+WARNING:Xst:647 - Input <CLK_IO> is never used.
+    Found 1-bit xor9 for signal <$n0074> created at line 488.
+    Found 1-bit register for signal <SV_BR_BIT0<0>>.
+    Found 1-bit register for signal <SV_BR_BIT0_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT1<0>>.
+    Found 1-bit register for signal <SV_BR_BIT1_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT2<0>>.
+    Found 1-bit register for signal <SV_BR_BIT2_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT3<0>>.
+    Found 1-bit register for signal <SV_BR_BIT3_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT4<0>>.
+    Found 1-bit register for signal <SV_BR_BIT4_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT5<0>>.
+    Found 1-bit register for signal <SV_BR_BIT5_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT6<0>>.
+    Found 1-bit register for signal <SV_BR_BIT6_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT7<0>>.
+    Found 1-bit register for signal <SV_BR_BIT7_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT8<0>>.
+    Found 1-bit register for signal <SV_BR_BIT8_M<0>>.
+    Summary:
+	inferred  18 D-type flip-flop(s).
+	inferred   1 Xor(s).
+Unit <ctrl_bit_register> synthesized.
+
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Registers                        : 18
+ 1-bit register                    : 18
+# Xors                             : 1
+ 1-bit xor9                        : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <ctrl_bit_register> ...
+Loading device for application Xst from file '3s200.nph' in environment C:/Programme/XILINX/WEBPACK_6P3.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block ctrl_bit_register, actual ratio is 0.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s200ft256-5 
+
+ Number of Slices:                      10  out of   1920     0%  
+ Number of Slice Flip Flops:            18  out of   3840     0%  
+ Number of 4 input LUTs:                13  out of   3840     0%  
+ Number of bonded IOBs:                 21  out of    173    12%  
+ Number of GCLKs:                        1  out of      8    12%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+CLK                                | BUFGP                  | 18    |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 3.716ns (Maximum Frequency: 269.107MHz)
+   Minimum input arrival time before clock: 3.111ns
+   Maximum output required time after clock: 6.881ns
+   Maximum combinational path delay: No path found
+
+=========================================================================
+Completed process "Synthesize".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file C:/STUDY/UEBUNG/Studium/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd in Library work.
+Entity <ctrl_bit_register> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <ctrl_bit_register> (Architecture <behavioral>).
+Entity <ctrl_bit_register> analyzed. Unit <ctrl_bit_register> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <ctrl_bit_register>.
+    Related source file is C:/STUDY/UEBUNG/Studium/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd.
+    Found 1-bit xor9 for signal <$n0074> created at line 486.
+    Found 1-bit register for signal <SV_BR_BIT0<0>>.
+    Found 1-bit register for signal <SV_BR_BIT0_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT1<0>>.
+    Found 1-bit register for signal <SV_BR_BIT1_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT2<0>>.
+    Found 1-bit register for signal <SV_BR_BIT2_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT3<0>>.
+    Found 1-bit register for signal <SV_BR_BIT3_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT4<0>>.
+    Found 1-bit register for signal <SV_BR_BIT4_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT5<0>>.
+    Found 1-bit register for signal <SV_BR_BIT5_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT6<0>>.
+    Found 1-bit register for signal <SV_BR_BIT6_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT7<0>>.
+    Found 1-bit register for signal <SV_BR_BIT7_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT8<0>>.
+    Found 1-bit register for signal <SV_BR_BIT8_M<0>>.
+    Summary:
+	inferred  18 D-type flip-flop(s).
+	inferred   1 Xor(s).
+Unit <ctrl_bit_register> synthesized.
+
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Registers                        : 18
+ 1-bit register                    : 18
+# Xors                             : 1
+ 1-bit xor9                        : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <ctrl_bit_register> ...
+Loading device for application Xst from file '3s200.nph' in environment C:/Programme/XILINX/WEBPACK_6P3.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block ctrl_bit_register, actual ratio is 0.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s200ft256-5 
+
+ Number of Slices:                      10  out of   1920     0%  
+ Number of Slice Flip Flops:            18  out of   3840     0%  
+ Number of 4 input LUTs:                13  out of   3840     0%  
+ Number of bonded IOBs:                 21  out of    173    12%  
+ Number of GCLKs:                        1  out of      8    12%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+CLK                                | BUFGP                  | 18    |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 3.716ns (Maximum Frequency: 269.107MHz)
+   Minimum input arrival time before clock: 3.111ns
+   Maximum output required time after clock: 6.881ns
+   Maximum combinational path delay: No path found
+
+=========================================================================
+Completed process "Synthesize".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file C:/STUDY/UEBUNG/Studium/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd in Library work.
+Entity <ctrl_bit_register> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <ctrl_bit_register> (Architecture <behavioral>).
+Entity <ctrl_bit_register> analyzed. Unit <ctrl_bit_register> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <ctrl_bit_register>.
+    Related source file is C:/STUDY/UEBUNG/Studium/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd.
+    Found 1-bit xor9 for signal <$n0074> created at line 486.
+    Found 1-bit register for signal <SV_BR_BIT0<0>>.
+    Found 1-bit register for signal <SV_BR_BIT0_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT1<0>>.
+    Found 1-bit register for signal <SV_BR_BIT1_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT2<0>>.
+    Found 1-bit register for signal <SV_BR_BIT2_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT3<0>>.
+    Found 1-bit register for signal <SV_BR_BIT3_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT4<0>>.
+    Found 1-bit register for signal <SV_BR_BIT4_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT5<0>>.
+    Found 1-bit register for signal <SV_BR_BIT5_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT6<0>>.
+    Found 1-bit register for signal <SV_BR_BIT6_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT7<0>>.
+    Found 1-bit register for signal <SV_BR_BIT7_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT8<0>>.
+    Found 1-bit register for signal <SV_BR_BIT8_M<0>>.
+    Summary:
+	inferred  18 D-type flip-flop(s).
+	inferred   1 Xor(s).
+Unit <ctrl_bit_register> synthesized.
+
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Registers                        : 18
+ 1-bit register                    : 18
+# Xors                             : 1
+ 1-bit xor9                        : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <ctrl_bit_register> ...
+Loading device for application Xst from file '3s200.nph' in environment C:/Programme/XILINX/WEBPACK_6P3.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block ctrl_bit_register, actual ratio is 0.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s200ft256-5 
+
+ Number of Slices:                      10  out of   1920     0%  
+ Number of Slice Flip Flops:            18  out of   3840     0%  
+ Number of 4 input LUTs:                13  out of   3840     0%  
+ Number of bonded IOBs:                 21  out of    173    12%  
+ Number of GCLKs:                        1  out of      8    12%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+CLK                                | BUFGP                  | 18    |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 3.716ns (Maximum Frequency: 269.107MHz)
+   Minimum input arrival time before clock: 3.111ns
+   Maximum output required time after clock: 6.881ns
+   Maximum combinational path delay: No path found
+
+=========================================================================
+Completed process "Synthesize".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+deleting ctrl_bit_register.lso
+deleting ctrl_bit_register.syr
+deleting ctrl_bit_register.prj
+deleting ctrl_bit_register.sprj
+deleting ctrl_bit_register.ana
+deleting ctrl_bit_register.stx
+deleting ctrl_bit_register.cmd_log
+deleting ctrl_bit_register.lso
+deleting ctrl_bit_register.syr
+deleting ctrl_bit_register.prj
+deleting ctrl_bit_register.sprj
+deleting ctrl_bit_register.ana
+deleting ctrl_bit_register.stx
+deleting ctrl_bit_register.cmd_log
+deleting ctrl_bit_register.lso
+deleting ctrl_bit_register.syr
+deleting ctrl_bit_register.prj
+deleting ctrl_bit_register.sprj
+deleting ctrl_bit_register.ana
+deleting ctrl_bit_register.stx
+deleting ctrl_bit_register.cmd_log
+deleting ctrl_bit_register.ngc
+deleting ctrl_bit_register.ngr
+deleting ctrl_bit_register.lso
+deleting ctrl_bit_register.syr
+deleting ctrl_bit_register.prj
+deleting ctrl_bit_register.sprj
+deleting ctrl_bit_register.ana
+deleting ctrl_bit_register.stx
+deleting ctrl_bit_register.cmd_log
+deleting ctrl_bit_register.ngc
+deleting ctrl_bit_register.ngr
+deleting ctrl_bit_register.lso
+deleting ctrl_bit_register.syr
+deleting ctrl_bit_register.prj
+deleting ctrl_bit_register.sprj
+deleting ctrl_bit_register.ana
+deleting ctrl_bit_register.stx
+deleting ctrl_bit_register.cmd_log
+deleting ctrl_bit_register.ngc
+deleting ctrl_bit_register.ngr
+deleting ctrl_bit_register.lso
+deleting ctrl_bit_register.syr
+deleting ctrl_bit_register.prj
+deleting ctrl_bit_register.sprj
+deleting ctrl_bit_register.ana
+deleting ctrl_bit_register.stx
+deleting ctrl_bit_register.cmd_log
+deleting ctrl_bit_register.ngc
+deleting ctrl_bit_register.ngr
+deleting ctrl_bit_register.lso
+deleting ctrl_bit_register.syr
+deleting ctrl_bit_register.prj
+deleting ctrl_bit_register.sprj
+deleting ctrl_bit_register.ana
+deleting ctrl_bit_register.stx
+deleting ctrl_bit_register.cmd_log
+deleting ctrl_bit_register.ngc
+deleting ctrl_bit_register.ngr
+deleting ctrl_bit_register.prj
+deleting ctrl_bit_register.prj
+deleting __projnav/ctrl_bit_register.xst
+deleting ./xst
+deleting ctrl_bit_register.prj
+deleting ctrl_bit_register.prj
+deleting __projnav/ctrl_bit_register.xst
+deleting ./xst
+deleting ctrl_bit_register.prj
+deleting ctrl_bit_register.prj
+deleting __projnav/ctrl_bit_register.xst
+deleting ./xst
+deleting ctrl_bit_register.prj
+deleting ctrl_bit_register.prj
+deleting __projnav/ctrl_bit_register.xst
+deleting ./xst
+deleting ctrl_bit_register.prj
+deleting ctrl_bit_register.prj
+deleting __projnav/ctrl_bit_register.xst
+deleting ./xst
+deleting ctrl_bit_register.prj
+deleting ctrl_bit_register.prj
+deleting __projnav/ctrl_bit_register.xst
+deleting ./xst
+deleting ctrl_bit_register.prj
+deleting ctrl_bit_register.prj
+deleting __projnav/ctrl_bit_register.xst
+deleting ./xst
+deleting __projnav/CTRL_BIT_REGISTER.gfl
+deleting __projnav/CTRL_BIT_REGISTER_flowplus.gfl
+Finished cleaning up project
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file G:/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd in Library work.
+Entity <CTRL_BIT_REGISTER> (Architecture <Behavioral>) compiled.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <ctrl_bit_register> (Architecture <Behavioral>).
+Entity <ctrl_bit_register> analyzed. Unit <ctrl_bit_register> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <ctrl_bit_register>.
+    Related source file is G:/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd.
+    Found 1-bit xor9 for signal <$n0074> created at line 487.
+    Found 1-bit register for signal <SV_BR_BIT0<0>>.
+    Found 1-bit register for signal <SV_BR_BIT0_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT1<0>>.
+    Found 1-bit register for signal <SV_BR_BIT1_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT2<0>>.
+    Found 1-bit register for signal <SV_BR_BIT2_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT3<0>>.
+    Found 1-bit register for signal <SV_BR_BIT3_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT4<0>>.
+    Found 1-bit register for signal <SV_BR_BIT4_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT5<0>>.
+    Found 1-bit register for signal <SV_BR_BIT5_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT6<0>>.
+    Found 1-bit register for signal <SV_BR_BIT6_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT7<0>>.
+    Found 1-bit register for signal <SV_BR_BIT7_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT8<0>>.
+    Found 1-bit register for signal <SV_BR_BIT8_M<0>>.
+    Summary:
+	inferred  18 D-type flip-flop(s).
+	inferred   1 Xor(s).
+Unit <ctrl_bit_register> synthesized.
+
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Registers                        : 18
+ 1-bit register                    : 18
+# Xors                             : 1
+ 1-bit xor9                        : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <ctrl_bit_register> ...
+Loading device for application Xst from file '3s200.nph' in environment C:/Xilinx.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block ctrl_bit_register, actual ratio is 0.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s200ft256-5 
+
+ Number of Slices:                      10  out of   1920     0%  
+ Number of Slice Flip Flops:            18  out of   3840     0%  
+ Number of 4 input LUTs:                12  out of   3840     0%  
+ Number of bonded IOBs:                 21  out of    173    12%  
+ Number of GCLKs:                        1  out of      8    12%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+CLK                                | BUFGP                  | 18    |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 3.716ns (Maximum Frequency: 269.107MHz)
+   Minimum input arrival time before clock: 3.111ns
+   Maximum output required time after clock: 6.881ns
+   Maximum combinational path delay: No path found
+
+=========================================================================
+Completed process "Synthesize".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+deleting ctrl_bit_register.lso
+deleting ctrl_bit_register.syr
+deleting ctrl_bit_register.prj
+deleting ctrl_bit_register.sprj
+deleting ctrl_bit_register.ana
+deleting ctrl_bit_register.stx
+deleting ctrl_bit_register.cmd_log
+deleting ctrl_bit_register.ngc
+deleting ctrl_bit_register.ngr
+deleting ctrl_bit_register.prj
+deleting ctrl_bit_register.prj
+deleting __projnav/ctrl_bit_register.xst
+deleting ./xst
+deleting __projnav/CTRL_BIT_REGISTER.gfl
+deleting __projnav/CTRL_BIT_REGISTER_flowplus.gfl
+Finished cleaning up project
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file G:/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd in Library work.
+ERROR:HDLParsers:409 - G:/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd Line 477. Signal 'TMP00' TMP00 is at left hand side of variable assignment statement.
+ERROR:HDLParsers:409 - G:/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd Line 478. Signal 'TMP01' TMP01 is at left hand side of variable assignment statement.
+ERROR:HDLParsers:409 - G:/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd Line 479. Signal 'TMP02' TMP02 is at left hand side of variable assignment statement.
+ERROR:HDLParsers:409 - G:/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd Line 480. Signal 'TMP03' TMP03 is at left hand side of variable assignment statement.
+ERROR:HDLParsers:409 - G:/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd Line 482. Signal 'TMP10' TMP10 is at left hand side of variable assignment statement.
+ERROR:HDLParsers:409 - G:/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd Line 483. Signal 'TMP11' TMP11 is at left hand side of variable assignment statement.
+ERROR:HDLParsers:409 - G:/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd Line 485. Signal 'TMP20' TMP20 is at left hand side of variable assignment statement.
+--> 
+
+Total memory usage is 47848 kilobytes
+
+
+ERROR: XST failed
+Process "Synthesize" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file G:/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd in Library work.
+ERROR:HDLParsers:3312 - G:/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd Line 477. Undefined symbol 'TMP00'.
+ERROR:HDLParsers:3312 - G:/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd Line 478. Undefined symbol 'TMP01'.
+ERROR:HDLParsers:3312 - G:/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd Line 479. Undefined symbol 'TMP02'.
+ERROR:HDLParsers:3312 - G:/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd Line 480. Undefined symbol 'TMP03'.
+ERROR:HDLParsers:3312 - G:/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd Line 482. Undefined symbol 'TMP10'.
+ERROR:HDLParsers:1209 - G:/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd Line 482. TMP00: Undefined symbol (last report in this block)
+ERROR:HDLParsers:1209 - G:/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd Line 482. TMP01: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - G:/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd Line 483. Undefined symbol 'TMP11'.
+ERROR:HDLParsers:1209 - G:/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd Line 483. TMP02: Undefined symbol (last report in this block)
+ERROR:HDLParsers:1209 - G:/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd Line 483. TMP03: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - G:/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd Line 485. Undefined symbol 'TMP20'.
+ERROR:HDLParsers:1209 - G:/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd Line 485. TMP10: Undefined symbol (last report in this block)
+ERROR:HDLParsers:1209 - G:/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd Line 485. TMP11: Undefined symbol (last report in this block)
+ERROR:HDLParsers:808 - G:/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd Line 487. = can not have such operands in this context.
+--> 
+
+Total memory usage is 47848 kilobytes
+
+
+ERROR: XST failed
+Process "Synthesize" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file G:/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd in Library work.
+ERROR:HDLParsers:800 - G:/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd Line 476. Type of TMP0 is incompatible with type of 0.
+ERROR:HDLParsers:3313 - G:/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd Line 478. Undefined symbol 'TMP00'.  Should it be: TMP0?
+ERROR:HDLParsers:3312 - G:/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd Line 479. Undefined symbol 'TMP01'.
+ERROR:HDLParsers:3312 - G:/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd Line 480. Undefined symbol 'TMP02'.
+ERROR:HDLParsers:3312 - G:/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd Line 481. Undefined symbol 'TMP03'.
+ERROR:HDLParsers:3313 - G:/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd Line 483. Undefined symbol 'TMP10'.  Should it be: TMP0?
+ERROR:HDLParsers:1209 - G:/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd Line 483. TMP00: Undefined symbol (last report in this block)
+ERROR:HDLParsers:1209 - G:/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd Line 483. TMP01: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - G:/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd Line 484. Undefined symbol 'TMP11'.
+ERROR:HDLParsers:1209 - G:/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd Line 484. TMP02: Undefined symbol (last report in this block)
+ERROR:HDLParsers:1209 - G:/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd Line 484. TMP03: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3313 - G:/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd Line 486. Undefined symbol 'TMP20'.  Should it be: TMP0?
+ERROR:HDLParsers:1209 - G:/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd Line 486. TMP10: Undefined symbol (last report in this block)
+ERROR:HDLParsers:1209 - G:/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd Line 486. TMP11: Undefined symbol (last report in this block)
+ERROR:HDLParsers:808 - G:/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd Line 488. = can not have such operands in this context.
+--> 
+
+Total memory usage is 47848 kilobytes
+
+
+ERROR: XST failed
+Process "Synthesize" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file G:/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd in Library work.
+ERROR:HDLParsers:800 - G:/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd Line 476. Type of TMP0 is incompatible with type of 0.
+ERROR:HDLParsers:3313 - G:/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd Line 478. Undefined symbol 'TMP00'.  Should it be: TMP0?
+ERROR:HDLParsers:3312 - G:/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd Line 479. Undefined symbol 'TMP01'.
+ERROR:HDLParsers:3312 - G:/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd Line 480. Undefined symbol 'TMP02'.
+ERROR:HDLParsers:3312 - G:/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd Line 481. Undefined symbol 'TMP03'.
+ERROR:HDLParsers:3313 - G:/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd Line 483. Undefined symbol 'TMP10'.  Should it be: TMP0?
+ERROR:HDLParsers:1209 - G:/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd Line 483. TMP00: Undefined symbol (last report in this block)
+ERROR:HDLParsers:1209 - G:/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd Line 483. TMP01: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - G:/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd Line 484. Undefined symbol 'TMP11'.
+ERROR:HDLParsers:1209 - G:/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd Line 484. TMP02: Undefined symbol (last report in this block)
+ERROR:HDLParsers:1209 - G:/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd Line 484. TMP03: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3313 - G:/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd Line 486. Undefined symbol 'TMP20'.  Should it be: TMP0?
+ERROR:HDLParsers:1209 - G:/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd Line 486. TMP10: Undefined symbol (last report in this block)
+ERROR:HDLParsers:1209 - G:/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd Line 486. TMP11: Undefined symbol (last report in this block)
+ERROR:HDLParsers:808 - G:/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd Line 488. = can not have such operands in this context.
+--> 
+
+Total memory usage is 47848 kilobytes
+
+
+ERROR: XST failed
+Process "Synthesize" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file G:/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd in Library work.
+ERROR:HDLParsers:164 - G:/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd Line 477. parse error, unexpected TOKBEGIN, expecting AFFECT or SEMICOLON
+ERROR:HDLParsers:3312 - G:/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd Line 480. Undefined symbol 'TMP02'.
+ERROR:HDLParsers:1209 - G:/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd Line 480. TMP02: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - G:/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd Line 481. Undefined symbol 'TMP03'.
+ERROR:HDLParsers:1209 - G:/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd Line 481. TMP03: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - G:/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd Line 483. Undefined symbol 'TMP10'.
+ERROR:HDLParsers:1209 - G:/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd Line 483. TMP10: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - G:/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd Line 484. Undefined symbol 'TMP11'.
+ERROR:HDLParsers:1209 - G:/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd Line 484. TMP11: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - G:/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd Line 486. Undefined symbol 'TMP20'.
+ERROR:HDLParsers:1209 - G:/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd Line 486. TMP20: Undefined symbol (last report in this block)
+--> 
+
+Total memory usage is 47848 kilobytes
+
+
+ERROR: XST failed
+Process "Synthesize" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file G:/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd in Library work.
+ERROR:HDLParsers:3313 - G:/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd Line 478. Undefined symbol 'TMP00'.  Should it be: TMP0?
+ERROR:HDLParsers:3312 - G:/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd Line 479. Undefined symbol 'TMP01'.
+ERROR:HDLParsers:3312 - G:/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd Line 480. Undefined symbol 'TMP02'.
+ERROR:HDLParsers:3312 - G:/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd Line 481. Undefined symbol 'TMP03'.
+ERROR:HDLParsers:3313 - G:/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd Line 483. Undefined symbol 'TMP10'.  Should it be: TMP0?
+ERROR:HDLParsers:1209 - G:/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd Line 483. TMP00: Undefined symbol (last report in this block)
+ERROR:HDLParsers:1209 - G:/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd Line 483. TMP01: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - G:/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd Line 484. Undefined symbol 'TMP11'.
+ERROR:HDLParsers:1209 - G:/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd Line 484. TMP02: Undefined symbol (last report in this block)
+ERROR:HDLParsers:1209 - G:/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd Line 484. TMP03: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3313 - G:/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd Line 486. Undefined symbol 'TMP20'.  Should it be: TMP0?
+ERROR:HDLParsers:1209 - G:/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd Line 486. TMP10: Undefined symbol (last report in this block)
+ERROR:HDLParsers:1209 - G:/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd Line 486. TMP11: Undefined symbol (last report in this block)
+ERROR:HDLParsers:808 - G:/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd Line 488. = can not have such operands in this context.
+--> 
+
+Total memory usage is 47848 kilobytes
+
+
+ERROR: XST failed
+Process "Synthesize" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file G:/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd in Library work.
+ERROR:HDLParsers:3312 - G:/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd Line 479. Undefined symbol 'TMP01'.
+ERROR:HDLParsers:3312 - G:/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd Line 480. Undefined symbol 'TMP02'.
+ERROR:HDLParsers:3312 - G:/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd Line 481. Undefined symbol 'TMP03'.
+ERROR:HDLParsers:3313 - G:/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd Line 483. Undefined symbol 'TMP10'.  Should it be: TMP00?
+ERROR:HDLParsers:1209 - G:/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd Line 483. TMP01: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - G:/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd Line 484. Undefined symbol 'TMP11'.
+ERROR:HDLParsers:1209 - G:/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd Line 484. TMP02: Undefined symbol (last report in this block)
+ERROR:HDLParsers:1209 - G:/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd Line 484. TMP03: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3313 - G:/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd Line 486. Undefined symbol 'TMP20'.  Should it be: TMP00?
+ERROR:HDLParsers:1209 - G:/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd Line 486. TMP10: Undefined symbol (last report in this block)
+ERROR:HDLParsers:1209 - G:/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd Line 486. TMP11: Undefined symbol (last report in this block)
+ERROR:HDLParsers:808 - G:/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd Line 488. = can not have such operands in this context.
+--> 
+
+Total memory usage is 47848 kilobytes
+
+
+ERROR: XST failed
+Process "Synthesize" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file G:/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd in Library work.
+ERROR:HDLParsers:3312 - G:/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd Line 480. Undefined symbol 'TMP02'.
+ERROR:HDLParsers:3312 - G:/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd Line 481. Undefined symbol 'TMP03'.
+ERROR:HDLParsers:3313 - G:/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd Line 483. Undefined symbol 'TMP10'.  Should it be: TMP01 or TMP00?
+ERROR:HDLParsers:3313 - G:/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd Line 484. Undefined symbol 'TMP11'.  Should it be: TMP01?
+ERROR:HDLParsers:1209 - G:/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd Line 484. TMP02: Undefined symbol (last report in this block)
+ERROR:HDLParsers:1209 - G:/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd Line 484. TMP03: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3313 - G:/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd Line 486. Undefined symbol 'TMP20'.  Should it be: TMP00?
+ERROR:HDLParsers:1209 - G:/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd Line 486. TMP10: Undefined symbol (last report in this block)
+ERROR:HDLParsers:1209 - G:/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd Line 486. TMP11: Undefined symbol (last report in this block)
+ERROR:HDLParsers:808 - G:/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd Line 488. = can not have such operands in this context.
+--> 
+
+Total memory usage is 47848 kilobytes
+
+
+ERROR: XST failed
+Process "Synthesize" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file G:/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd in Library work.
+Entity <CTRL_BIT_REGISTER> (Architecture <Behavioral>) compiled.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <ctrl_bit_register> (Architecture <Behavioral>).
+Entity <ctrl_bit_register> analyzed. Unit <ctrl_bit_register> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <ctrl_bit_register>.
+    Related source file is G:/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd.
+    Found 1-bit xor9 for signal <$n0074>.
+    Found 1-bit register for signal <SV_BR_BIT0<0>>.
+    Found 1-bit register for signal <SV_BR_BIT0_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT1<0>>.
+    Found 1-bit register for signal <SV_BR_BIT1_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT2<0>>.
+    Found 1-bit register for signal <SV_BR_BIT2_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT3<0>>.
+    Found 1-bit register for signal <SV_BR_BIT3_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT4<0>>.
+    Found 1-bit register for signal <SV_BR_BIT4_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT5<0>>.
+    Found 1-bit register for signal <SV_BR_BIT5_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT6<0>>.
+    Found 1-bit register for signal <SV_BR_BIT6_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT7<0>>.
+    Found 1-bit register for signal <SV_BR_BIT7_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT8<0>>.
+    Found 1-bit register for signal <SV_BR_BIT8_M<0>>.
+    Summary:
+	inferred  18 D-type flip-flop(s).
+	inferred   1 Xor(s).
+Unit <ctrl_bit_register> synthesized.
+
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Registers                        : 18
+ 1-bit register                    : 18
+# Xors                             : 1
+ 1-bit xor9                        : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <ctrl_bit_register> ...
+Loading device for application Xst from file '3s200.nph' in environment C:/Xilinx.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block ctrl_bit_register, actual ratio is 0.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s200ft256-5 
+
+ Number of Slices:                      10  out of   1920     0%  
+ Number of Slice Flip Flops:            18  out of   3840     0%  
+ Number of 4 input LUTs:                12  out of   3840     0%  
+ Number of bonded IOBs:                 21  out of    173    12%  
+ Number of GCLKs:                        1  out of      8    12%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+CLK                                | BUFGP                  | 18    |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 3.716ns (Maximum Frequency: 269.107MHz)
+   Minimum input arrival time before clock: 3.111ns
+   Maximum output required time after clock: 6.881ns
+   Maximum combinational path delay: No path found
+
+=========================================================================
+Completed process "Synthesize".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+deleting ctrl_bit_register.lso
+deleting ctrl_bit_register.syr
+deleting ctrl_bit_register.prj
+deleting ctrl_bit_register.sprj
+deleting ctrl_bit_register.ana
+deleting ctrl_bit_register.stx
+deleting ctrl_bit_register.cmd_log
+deleting ctrl_bit_register.lso
+deleting ctrl_bit_register.syr
+deleting ctrl_bit_register.prj
+deleting ctrl_bit_register.sprj
+deleting ctrl_bit_register.ana
+deleting ctrl_bit_register.stx
+deleting ctrl_bit_register.cmd_log
+deleting ctrl_bit_register.lso
+deleting ctrl_bit_register.syr
+deleting ctrl_bit_register.prj
+deleting ctrl_bit_register.sprj
+deleting ctrl_bit_register.ana
+deleting ctrl_bit_register.stx
+deleting ctrl_bit_register.cmd_log
+deleting ctrl_bit_register.lso
+deleting ctrl_bit_register.syr
+deleting ctrl_bit_register.prj
+deleting ctrl_bit_register.sprj
+deleting ctrl_bit_register.ana
+deleting ctrl_bit_register.stx
+deleting ctrl_bit_register.cmd_log
+deleting ctrl_bit_register.lso
+deleting ctrl_bit_register.syr
+deleting ctrl_bit_register.prj
+deleting ctrl_bit_register.sprj
+deleting ctrl_bit_register.ana
+deleting ctrl_bit_register.stx
+deleting ctrl_bit_register.cmd_log
+deleting ctrl_bit_register.lso
+deleting ctrl_bit_register.syr
+deleting ctrl_bit_register.prj
+deleting ctrl_bit_register.sprj
+deleting ctrl_bit_register.ana
+deleting ctrl_bit_register.stx
+deleting ctrl_bit_register.cmd_log
+deleting ctrl_bit_register.lso
+deleting ctrl_bit_register.syr
+deleting ctrl_bit_register.prj
+deleting ctrl_bit_register.sprj
+deleting ctrl_bit_register.ana
+deleting ctrl_bit_register.stx
+deleting ctrl_bit_register.cmd_log
+deleting ctrl_bit_register.lso
+deleting ctrl_bit_register.syr
+deleting ctrl_bit_register.prj
+deleting ctrl_bit_register.sprj
+deleting ctrl_bit_register.ana
+deleting ctrl_bit_register.stx
+deleting ctrl_bit_register.cmd_log
+deleting ctrl_bit_register.lso
+deleting ctrl_bit_register.syr
+deleting ctrl_bit_register.prj
+deleting ctrl_bit_register.sprj
+deleting ctrl_bit_register.ana
+deleting ctrl_bit_register.stx
+deleting ctrl_bit_register.cmd_log
+deleting ctrl_bit_register.ngc
+deleting ctrl_bit_register.ngr
+deleting ctrl_bit_register.prj
+deleting ctrl_bit_register.prj
+deleting __projnav/ctrl_bit_register.xst
+deleting ./xst
+deleting ctrl_bit_register.prj
+deleting ctrl_bit_register.prj
+deleting __projnav/ctrl_bit_register.xst
+deleting ./xst
+deleting ctrl_bit_register.prj
+deleting ctrl_bit_register.prj
+deleting __projnav/ctrl_bit_register.xst
+deleting ./xst
+deleting ctrl_bit_register.prj
+deleting ctrl_bit_register.prj
+deleting __projnav/ctrl_bit_register.xst
+deleting ./xst
+deleting ctrl_bit_register.prj
+deleting ctrl_bit_register.prj
+deleting __projnav/ctrl_bit_register.xst
+deleting ./xst
+deleting ctrl_bit_register.prj
+deleting ctrl_bit_register.prj
+deleting __projnav/ctrl_bit_register.xst
+deleting ./xst
+deleting ctrl_bit_register.prj
+deleting ctrl_bit_register.prj
+deleting __projnav/ctrl_bit_register.xst
+deleting ./xst
+deleting ctrl_bit_register.prj
+deleting ctrl_bit_register.prj
+deleting __projnav/ctrl_bit_register.xst
+deleting ./xst
+deleting ctrl_bit_register.prj
+deleting ctrl_bit_register.prj
+deleting __projnav/ctrl_bit_register.xst
+deleting ./xst
+deleting __projnav/CTRL_BIT_REGISTER.gfl
+deleting __projnav/CTRL_BIT_REGISTER_flowplus.gfl
+Finished cleaning up project
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file G:/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd in Library work.
+Entity <CTRL_BIT_REGISTER> (Architecture <Behavioral>) compiled.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <ctrl_bit_register> (Architecture <Behavioral>).
+Entity <ctrl_bit_register> analyzed. Unit <ctrl_bit_register> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <ctrl_bit_register>.
+    Related source file is G:/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd.
+    Found 1-bit xor9 for signal <$n0074>.
+    Found 1-bit register for signal <SV_BR_BIT0<0>>.
+    Found 1-bit register for signal <SV_BR_BIT0_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT1<0>>.
+    Found 1-bit register for signal <SV_BR_BIT1_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT2<0>>.
+    Found 1-bit register for signal <SV_BR_BIT2_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT3<0>>.
+    Found 1-bit register for signal <SV_BR_BIT3_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT4<0>>.
+    Found 1-bit register for signal <SV_BR_BIT4_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT5<0>>.
+    Found 1-bit register for signal <SV_BR_BIT5_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT6<0>>.
+    Found 1-bit register for signal <SV_BR_BIT6_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT7<0>>.
+    Found 1-bit register for signal <SV_BR_BIT7_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT8<0>>.
+    Found 1-bit register for signal <SV_BR_BIT8_M<0>>.
+    Summary:
+	inferred  18 D-type flip-flop(s).
+	inferred   1 Xor(s).
+Unit <ctrl_bit_register> synthesized.
+
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Registers                        : 18
+ 1-bit register                    : 18
+# Xors                             : 1
+ 1-bit xor9                        : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <ctrl_bit_register> ...
+Loading device for application Xst from file '3s200.nph' in environment C:/Xilinx.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block ctrl_bit_register, actual ratio is 0.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s200ft256-5 
+
+ Number of Slices:                      10  out of   1920     0%  
+ Number of Slice Flip Flops:            18  out of   3840     0%  
+ Number of 4 input LUTs:                12  out of   3840     0%  
+ Number of bonded IOBs:                 21  out of    173    12%  
+ Number of GCLKs:                        1  out of      8    12%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+CLK                                | BUFGP                  | 18    |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 3.716ns (Maximum Frequency: 269.107MHz)
+   Minimum input arrival time before clock: 3.111ns
+   Maximum output required time after clock: 6.881ns
+   Maximum combinational path delay: No path found
+
+=========================================================================
+Completed process "Synthesize".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+deleting ctrl_bit_register.lso
+deleting ctrl_bit_register.syr
+deleting ctrl_bit_register.prj
+deleting ctrl_bit_register.sprj
+deleting ctrl_bit_register.ana
+deleting ctrl_bit_register.stx
+deleting ctrl_bit_register.cmd_log
+deleting ctrl_bit_register.ngc
+deleting ctrl_bit_register.ngr
+deleting ctrl_bit_register.prj
+deleting ctrl_bit_register.prj
+deleting __projnav/ctrl_bit_register.xst
+deleting ./xst
+deleting __projnav/CTRL_BIT_REGISTER.gfl
+deleting __projnav/CTRL_BIT_REGISTER_flowplus.gfl
+Finished cleaning up project
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+deleting __projnav/CTRL_BIT_REGISTER.gfl
+deleting __projnav/CTRL_BIT_REGISTER_flowplus.gfl
+Finished cleaning up project
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file G:/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd in Library work.
+Entity <CTRL_BIT_REGISTER> (Architecture <Behavioral>) compiled.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <ctrl_bit_register> (Architecture <Behavioral>).
+Entity <ctrl_bit_register> analyzed. Unit <ctrl_bit_register> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <ctrl_bit_register>.
+    Related source file is G:/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd.
+    Found 1-bit xor9 for signal <$n0074>.
+    Found 1-bit register for signal <SV_BR_BIT0<0>>.
+    Found 1-bit register for signal <SV_BR_BIT0_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT1<0>>.
+    Found 1-bit register for signal <SV_BR_BIT1_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT2<0>>.
+    Found 1-bit register for signal <SV_BR_BIT2_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT3<0>>.
+    Found 1-bit register for signal <SV_BR_BIT3_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT4<0>>.
+    Found 1-bit register for signal <SV_BR_BIT4_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT5<0>>.
+    Found 1-bit register for signal <SV_BR_BIT5_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT6<0>>.
+    Found 1-bit register for signal <SV_BR_BIT6_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT7<0>>.
+    Found 1-bit register for signal <SV_BR_BIT7_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT8<0>>.
+    Found 1-bit register for signal <SV_BR_BIT8_M<0>>.
+    Summary:
+	inferred  18 D-type flip-flop(s).
+	inferred   1 Xor(s).
+Unit <ctrl_bit_register> synthesized.
+
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Registers                        : 18
+ 1-bit register                    : 18
+# Xors                             : 1
+ 1-bit xor9                        : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <ctrl_bit_register> ...
+Loading device for application Xst from file '3s200.nph' in environment C:/Xilinx.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block ctrl_bit_register, actual ratio is 0.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s200ft256-5 
+
+ Number of Slices:                      10  out of   1920     0%  
+ Number of Slice Flip Flops:            18  out of   3840     0%  
+ Number of 4 input LUTs:                12  out of   3840     0%  
+ Number of bonded IOBs:                 21  out of    173    12%  
+ Number of GCLKs:                        1  out of      8    12%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+CLK                                | BUFGP                  | 18    |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 3.716ns (Maximum Frequency: 269.107MHz)
+   Minimum input arrival time before clock: 3.111ns
+   Maximum output required time after clock: 6.881ns
+   Maximum combinational path delay: No path found
+
+=========================================================================
+Completed process "Synthesize".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+deleting ctrl_bit_register.lso
+deleting ctrl_bit_register.syr
+deleting ctrl_bit_register.prj
+deleting ctrl_bit_register.sprj
+deleting ctrl_bit_register.ana
+deleting ctrl_bit_register.stx
+deleting ctrl_bit_register.cmd_log
+deleting ctrl_bit_register.ngc
+deleting ctrl_bit_register.ngr
+deleting ctrl_bit_register.prj
+deleting ctrl_bit_register.prj
+deleting __projnav/ctrl_bit_register.xst
+deleting ./xst
+deleting __projnav/CTRL_BIT_REGISTER.gfl
+deleting __projnav/CTRL_BIT_REGISTER_flowplus.gfl
+Finished cleaning up project
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file G:/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd in Library work.
+Entity <CTRL_BIT_REGISTER> (Architecture <Behavioral>) compiled.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <ctrl_bit_register> (Architecture <Behavioral>).
+Entity <ctrl_bit_register> analyzed. Unit <ctrl_bit_register> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <ctrl_bit_register>.
+    Related source file is G:/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd.
+    Found 1-bit xor9 for signal <$n0074>.
+    Found 1-bit register for signal <SV_BR_BIT0<0>>.
+    Found 1-bit register for signal <SV_BR_BIT0_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT1<0>>.
+    Found 1-bit register for signal <SV_BR_BIT1_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT2<0>>.
+    Found 1-bit register for signal <SV_BR_BIT2_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT3<0>>.
+    Found 1-bit register for signal <SV_BR_BIT3_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT4<0>>.
+    Found 1-bit register for signal <SV_BR_BIT4_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT5<0>>.
+    Found 1-bit register for signal <SV_BR_BIT5_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT6<0>>.
+    Found 1-bit register for signal <SV_BR_BIT6_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT7<0>>.
+    Found 1-bit register for signal <SV_BR_BIT7_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT8<0>>.
+    Found 1-bit register for signal <SV_BR_BIT8_M<0>>.
+    Summary:
+	inferred  18 D-type flip-flop(s).
+	inferred   1 Xor(s).
+Unit <ctrl_bit_register> synthesized.
+
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Registers                        : 18
+ 1-bit register                    : 18
+# Xors                             : 1
+ 1-bit xor9                        : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <ctrl_bit_register> ...
+Loading device for application Xst from file '3s200.nph' in environment C:/Xilinx.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block ctrl_bit_register, actual ratio is 0.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s200ft256-5 
+
+ Number of Slices:                      10  out of   1920     0%  
+ Number of Slice Flip Flops:            18  out of   3840     0%  
+ Number of 4 input LUTs:                12  out of   3840     0%  
+ Number of bonded IOBs:                 21  out of    173    12%  
+ Number of GCLKs:                        1  out of      8    12%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+CLK                                | BUFGP                  | 18    |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 3.716ns (Maximum Frequency: 269.107MHz)
+   Minimum input arrival time before clock: 3.111ns
+   Maximum output required time after clock: 6.881ns
+   Maximum combinational path delay: No path found
+
+=========================================================================
+Completed process "Synthesize".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+deleting ctrl_bit_register.lso
+deleting ctrl_bit_register.syr
+deleting ctrl_bit_register.prj
+deleting ctrl_bit_register.sprj
+deleting ctrl_bit_register.ana
+deleting ctrl_bit_register.stx
+deleting ctrl_bit_register.cmd_log
+deleting ctrl_bit_register.ngc
+deleting ctrl_bit_register.ngr
+deleting ctrl_bit_register.prj
+deleting ctrl_bit_register.prj
+deleting __projnav/ctrl_bit_register.xst
+deleting ./xst
+deleting __projnav/CTRL_BIT_REGISTER.gfl
+deleting __projnav/CTRL_BIT_REGISTER_flowplus.gfl
+Finished cleaning up project
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file G:/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd in Library work.
+Entity <CTRL_BIT_REGISTER> (Architecture <Behavioral>) compiled.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <ctrl_bit_register> (Architecture <Behavioral>).
+Entity <ctrl_bit_register> analyzed. Unit <ctrl_bit_register> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <ctrl_bit_register>.
+    Related source file is G:/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd.
+    Found 1-bit xor9 for signal <$n0074>.
+    Found 1-bit register for signal <SV_BR_BIT0<0>>.
+    Found 1-bit register for signal <SV_BR_BIT0_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT1<0>>.
+    Found 1-bit register for signal <SV_BR_BIT1_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT2<0>>.
+    Found 1-bit register for signal <SV_BR_BIT2_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT3<0>>.
+    Found 1-bit register for signal <SV_BR_BIT3_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT4<0>>.
+    Found 1-bit register for signal <SV_BR_BIT4_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT5<0>>.
+    Found 1-bit register for signal <SV_BR_BIT5_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT6<0>>.
+    Found 1-bit register for signal <SV_BR_BIT6_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT7<0>>.
+    Found 1-bit register for signal <SV_BR_BIT7_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT8<0>>.
+    Found 1-bit register for signal <SV_BR_BIT8_M<0>>.
+    Summary:
+	inferred  18 D-type flip-flop(s).
+	inferred   1 Xor(s).
+Unit <ctrl_bit_register> synthesized.
+
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Registers                        : 18
+ 1-bit register                    : 18
+# Xors                             : 1
+ 1-bit xor9                        : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <ctrl_bit_register> ...
+Loading device for application Xst from file '3s200.nph' in environment C:/Xilinx.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block ctrl_bit_register, actual ratio is 0.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s200ft256-5 
+
+ Number of Slices:                      10  out of   1920     0%  
+ Number of Slice Flip Flops:            18  out of   3840     0%  
+ Number of 4 input LUTs:                12  out of   3840     0%  
+ Number of bonded IOBs:                 21  out of    173    12%  
+ Number of GCLKs:                        1  out of      8    12%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+CLK                                | BUFGP                  | 18    |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 3.716ns (Maximum Frequency: 269.107MHz)
+   Minimum input arrival time before clock: 3.111ns
+   Maximum output required time after clock: 6.881ns
+   Maximum combinational path delay: No path found
+
+=========================================================================
+Completed process "Synthesize".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+deleting ctrl_bit_register.lso
+deleting ctrl_bit_register.syr
+deleting ctrl_bit_register.prj
+deleting ctrl_bit_register.sprj
+deleting ctrl_bit_register.ana
+deleting ctrl_bit_register.stx
+deleting ctrl_bit_register.cmd_log
+deleting ctrl_bit_register.ngc
+deleting ctrl_bit_register.ngr
+deleting ctrl_bit_register.prj
+deleting ctrl_bit_register.prj
+deleting __projnav/ctrl_bit_register.xst
+deleting ./xst
+deleting __projnav/CTRL_BIT_REGISTER.gfl
+deleting __projnav/CTRL_BIT_REGISTER_flowplus.gfl
+Finished cleaning up project
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file G:/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd in Library work.
+Entity <CTRL_BIT_REGISTER> (Architecture <Behavioral>) compiled.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <ctrl_bit_register> (Architecture <Behavioral>).
+Entity <ctrl_bit_register> analyzed. Unit <ctrl_bit_register> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <ctrl_bit_register>.
+    Related source file is G:/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd.
+    Found 1-bit xor9 for signal <$n0074>.
+    Found 1-bit register for signal <SV_BR_BIT0<0>>.
+    Found 1-bit register for signal <SV_BR_BIT0_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT1<0>>.
+    Found 1-bit register for signal <SV_BR_BIT1_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT2<0>>.
+    Found 1-bit register for signal <SV_BR_BIT2_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT3<0>>.
+    Found 1-bit register for signal <SV_BR_BIT3_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT4<0>>.
+    Found 1-bit register for signal <SV_BR_BIT4_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT5<0>>.
+    Found 1-bit register for signal <SV_BR_BIT5_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT6<0>>.
+    Found 1-bit register for signal <SV_BR_BIT6_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT7<0>>.
+    Found 1-bit register for signal <SV_BR_BIT7_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT8<0>>.
+    Found 1-bit register for signal <SV_BR_BIT8_M<0>>.
+    Summary:
+	inferred  18 D-type flip-flop(s).
+	inferred   1 Xor(s).
+Unit <ctrl_bit_register> synthesized.
+
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Registers                        : 18
+ 1-bit register                    : 18
+# Xors                             : 1
+ 1-bit xor9                        : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <ctrl_bit_register> ...
+Loading device for application Xst from file '3s200.nph' in environment C:/Xilinx.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block ctrl_bit_register, actual ratio is 0.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s200ft256-5 
+
+ Number of Slices:                      10  out of   1920     0%  
+ Number of Slice Flip Flops:            18  out of   3840     0%  
+ Number of 4 input LUTs:                12  out of   3840     0%  
+ Number of bonded IOBs:                 21  out of    173    12%  
+ Number of GCLKs:                        1  out of      8    12%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+CLK                                | BUFGP                  | 18    |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 3.716ns (Maximum Frequency: 269.107MHz)
+   Minimum input arrival time before clock: 3.111ns
+   Maximum output required time after clock: 6.881ns
+   Maximum combinational path delay: No path found
+
+=========================================================================
+Completed process "Synthesize".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+deleting ctrl_bit_register.lso
+deleting ctrl_bit_register.syr
+deleting ctrl_bit_register.prj
+deleting ctrl_bit_register.sprj
+deleting ctrl_bit_register.ana
+deleting ctrl_bit_register.stx
+deleting ctrl_bit_register.cmd_log
+deleting ctrl_bit_register.ngc
+deleting ctrl_bit_register.ngr
+deleting ctrl_bit_register.prj
+deleting ctrl_bit_register.prj
+deleting __projnav/ctrl_bit_register.xst
+deleting ./xst
+deleting __projnav/CTRL_BIT_REGISTER.gfl
+deleting __projnav/CTRL_BIT_REGISTER_flowplus.gfl
+Finished cleaning up project
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+deleting __projnav/CTRL_BIT_REGISTER.gfl
+deleting __projnav/CTRL_BIT_REGISTER_flowplus.gfl
+Finished cleaning up project
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file G:/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd in Library work.
+Entity <CTRL_BIT_REGISTER> (Architecture <Behavioral>) compiled.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <ctrl_bit_register> (Architecture <Behavioral>).
+Entity <ctrl_bit_register> analyzed. Unit <ctrl_bit_register> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <ctrl_bit_register>.
+    Related source file is G:/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd.
+    Found 1-bit xor9 for signal <$n0074>.
+    Found 1-bit register for signal <SV_BR_BIT0<0>>.
+    Found 1-bit register for signal <SV_BR_BIT0_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT1<0>>.
+    Found 1-bit register for signal <SV_BR_BIT1_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT2<0>>.
+    Found 1-bit register for signal <SV_BR_BIT2_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT3<0>>.
+    Found 1-bit register for signal <SV_BR_BIT3_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT4<0>>.
+    Found 1-bit register for signal <SV_BR_BIT4_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT5<0>>.
+    Found 1-bit register for signal <SV_BR_BIT5_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT6<0>>.
+    Found 1-bit register for signal <SV_BR_BIT6_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT7<0>>.
+    Found 1-bit register for signal <SV_BR_BIT7_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT8<0>>.
+    Found 1-bit register for signal <SV_BR_BIT8_M<0>>.
+    Summary:
+	inferred  18 D-type flip-flop(s).
+	inferred   1 Xor(s).
+Unit <ctrl_bit_register> synthesized.
+
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Registers                        : 18
+ 1-bit register                    : 18
+# Xors                             : 1
+ 1-bit xor9                        : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <ctrl_bit_register> ...
+Loading device for application Xst from file '3s200.nph' in environment C:/Xilinx.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block ctrl_bit_register, actual ratio is 0.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s200ft256-5 
+
+ Number of Slices:                      10  out of   1920     0%  
+ Number of Slice Flip Flops:            18  out of   3840     0%  
+ Number of 4 input LUTs:                12  out of   3840     0%  
+ Number of bonded IOBs:                 21  out of    173    12%  
+ Number of GCLKs:                        1  out of      8    12%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+CLK                                | BUFGP                  | 18    |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 3.716ns (Maximum Frequency: 269.107MHz)
+   Minimum input arrival time before clock: 3.111ns
+   Maximum output required time after clock: 6.881ns
+   Maximum combinational path delay: No path found
+
+=========================================================================
+Completed process "Synthesize".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+deleting ctrl_bit_register.lso
+deleting ctrl_bit_register.syr
+deleting ctrl_bit_register.prj
+deleting ctrl_bit_register.sprj
+deleting ctrl_bit_register.ana
+deleting ctrl_bit_register.stx
+deleting ctrl_bit_register.cmd_log
+deleting ctrl_bit_register.ngc
+deleting ctrl_bit_register.ngr
+deleting ctrl_bit_register.prj
+deleting ctrl_bit_register.prj
+deleting __projnav/ctrl_bit_register.xst
+deleting ./xst
+deleting __projnav/CTRL_BIT_REGISTER.gfl
+deleting __projnav/CTRL_BIT_REGISTER_flowplus.gfl
+Finished cleaning up project
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file C:/STUDY/UEBUNG/Studium/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd in Library work.
+ERROR:HDLParsers:3312 - C:/STUDY/UEBUNG/Studium/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd Line 198. Undefined symbol 'BYTE_VEC'.
+ERROR:HDLParsers:1209 - C:/STUDY/UEBUNG/Studium/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd Line 198. BYTE_VEC: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - C:/STUDY/UEBUNG/Studium/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd Line 415. Undefined symbol 'BYTE_OUT7'.
+ERROR:HDLParsers:1209 - C:/STUDY/UEBUNG/Studium/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd Line 415. BYTE_OUT7: Undefined symbol (last report in this block)
+ERROR:HDLParsers:164 - C:/STUDY/UEBUNG/Studium/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd Line 415. parse error, unexpected CLOSEPAR, expecting OPENPAR or TICK or LSQBRACK
+ERROR:HDLParsers:3312 - C:/STUDY/UEBUNG/Studium/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd Line 473. Undefined symbol 'BYTE_VEC'.
+ERROR:HDLParsers:1209 - C:/STUDY/UEBUNG/Studium/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd Line 473. BYTE_VEC: Undefined symbol (last report in this block)
+WARNING:HDLParsers:1406 - C:/STUDY/UEBUNG/Studium/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd Line 473. No sensitivity list and no wait in the process
+--> 
+
+Total memory usage is 48104 kilobytes
+
+
+ERROR: XST failed
+Process "Synthesize" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file C:/STUDY/UEBUNG/Studium/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd in Library work.
+ERROR:HDLParsers:3312 - C:/STUDY/UEBUNG/Studium/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd Line 415. Undefined symbol 'BYTE_OUT7'.
+ERROR:HDLParsers:1209 - C:/STUDY/UEBUNG/Studium/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd Line 415. BYTE_OUT7: Undefined symbol (last report in this block)
+ERROR:HDLParsers:164 - C:/STUDY/UEBUNG/Studium/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd Line 415. parse error, unexpected CLOSEPAR, expecting OPENPAR or TICK or LSQBRACK
+ERROR:HDLParsers:3312 - C:/STUDY/UEBUNG/Studium/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd Line 473. Undefined symbol 'BYTE_VEC'.
+ERROR:HDLParsers:1209 - C:/STUDY/UEBUNG/Studium/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd Line 473. BYTE_VEC: Undefined symbol (last report in this block)
+WARNING:HDLParsers:1406 - C:/STUDY/UEBUNG/Studium/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd Line 473. No sensitivity list and no wait in the process
+--> 
+
+Total memory usage is 48104 kilobytes
+
+
+ERROR: XST failed
+Process "Synthesize" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file C:/STUDY/UEBUNG/Studium/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd in Library work.
+ERROR:HDLParsers:3312 - C:/STUDY/UEBUNG/Studium/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd Line 473. Undefined symbol 'BYTE_VEC'.
+ERROR:HDLParsers:1209 - C:/STUDY/UEBUNG/Studium/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd Line 473. BYTE_VEC: Undefined symbol (last report in this block)
+WARNING:HDLParsers:1406 - C:/STUDY/UEBUNG/Studium/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd Line 473. No sensitivity list and no wait in the process
+--> 
+
+Total memory usage is 48104 kilobytes
+
+
+ERROR: XST failed
+Process "Synthesize" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file C:/STUDY/UEBUNG/Studium/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd in Library work.
+ERROR:HDLParsers:3312 - C:/STUDY/UEBUNG/Studium/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd Line 476. Undefined symbol 'BYTE_VEC'.
+ERROR:HDLParsers:1209 - C:/STUDY/UEBUNG/Studium/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd Line 476. BYTE_VEC: Undefined symbol (last report in this block)
+--> 
+
+Total memory usage is 48104 kilobytes
+
+
+ERROR: XST failed
+Process "Synthesize" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file C:/STUDY/UEBUNG/Studium/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd in Library work.
+ERROR:HDLParsers:1411 - C:/STUDY/UEBUNG/Studium/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd Line 476. Parameter BYTE_OUT of mode out can not be associated with a formal parameter of mode in.
+ERROR:HDLParsers:1411 - C:/STUDY/UEBUNG/Studium/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd Line 476. Parameter BYTE_OUT of mode out can not be associated with a formal parameter of mode in.
+ERROR:HDLParsers:3312 - C:/STUDY/UEBUNG/Studium/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd Line 477. Undefined symbol 'BYTE_VEC'.
+ERROR:HDLParsers:1209 - C:/STUDY/UEBUNG/Studium/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd Line 477. BYTE_VEC: Undefined symbol (last report in this block)
+--> 
+
+Total memory usage is 48104 kilobytes
+
+
+ERROR: XST failed
+Process "Synthesize" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file C:/STUDY/UEBUNG/Studium/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd in Library work.
+ERROR:HDLParsers:3312 - C:/STUDY/UEBUNG/Studium/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd Line 488. Undefined symbol 'PARITY_BIT'.
+ERROR:HDLParsers:1209 - C:/STUDY/UEBUNG/Studium/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd Line 488. PARITY_BIT: Undefined symbol (last report in this block)
+WARNING:HDLParsers:1406 - C:/STUDY/UEBUNG/Studium/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd Line 488. No sensitivity list and no wait in the process
+--> 
+
+Total memory usage is 48104 kilobytes
+
+
+ERROR: XST failed
+Process "Synthesize" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file C:/STUDY/UEBUNG/Studium/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd in Library work.
+Entity <CTRL_BIT_REGISTER> (Architecture <Behavioral>) compiled.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <ctrl_bit_register> (Architecture <Behavioral>).
+Entity <ctrl_bit_register> analyzed. Unit <ctrl_bit_register> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <ctrl_bit_register>.
+    Related source file is C:/STUDY/UEBUNG/Studium/Profibus/CTRL_BIT_REGISTER/CTRL_BIT_REGISTER.vhd.
+    Found 1-bit xor9 for signal <$n0074>.
+    Found 1-bit register for signal <SV_BR_BIT0<0>>.
+    Found 1-bit register for signal <SV_BR_BIT0_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT1<0>>.
+    Found 1-bit register for signal <SV_BR_BIT1_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT2<0>>.
+    Found 1-bit register for signal <SV_BR_BIT2_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT3<0>>.
+    Found 1-bit register for signal <SV_BR_BIT3_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT4<0>>.
+    Found 1-bit register for signal <SV_BR_BIT4_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT5<0>>.
+    Found 1-bit register for signal <SV_BR_BIT5_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT6<0>>.
+    Found 1-bit register for signal <SV_BR_BIT6_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT7<0>>.
+    Found 1-bit register for signal <SV_BR_BIT7_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT8<0>>.
+    Found 1-bit register for signal <SV_BR_BIT8_M<0>>.
+    Summary:
+	inferred  18 D-type flip-flop(s).
+	inferred   1 Xor(s).
+Unit <ctrl_bit_register> synthesized.
+
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Registers                        : 18
+ 1-bit register                    : 18
+# Xors                             : 1
+ 1-bit xor9                        : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <ctrl_bit_register> ...
+Loading device for application Xst from file '3s200.nph' in environment C:/Programme/XILINX/WEBPACK_6P3.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block ctrl_bit_register, actual ratio is 0.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s200ft256-5 
+
+ Number of Slices:                      10  out of   1920     0%  
+ Number of Slice Flip Flops:            18  out of   3840     0%  
+ Number of 4 input LUTs:                12  out of   3840     0%  
+ Number of bonded IOBs:                 21  out of    173    12%  
+ Number of GCLKs:                        1  out of      8    12%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+CLK                                | BUFGP                  | 18    |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 3.716ns (Maximum Frequency: 269.107MHz)
+   Minimum input arrival time before clock: 3.111ns
+   Maximum output required time after clock: 6.881ns
+   Maximum combinational path delay: No path found
+
+=========================================================================
+Completed process "Synthesize".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+deleting ctrl_bit_register.lso
+deleting ctrl_bit_register.syr
+deleting ctrl_bit_register.prj
+deleting ctrl_bit_register.sprj
+deleting ctrl_bit_register.ana
+deleting ctrl_bit_register.stx
+deleting ctrl_bit_register.cmd_log
+deleting ctrl_bit_register.lso
+deleting ctrl_bit_register.syr
+deleting ctrl_bit_register.prj
+deleting ctrl_bit_register.sprj
+deleting ctrl_bit_register.ana
+deleting ctrl_bit_register.stx
+deleting ctrl_bit_register.cmd_log
+deleting ctrl_bit_register.lso
+deleting ctrl_bit_register.syr
+deleting ctrl_bit_register.prj
+deleting ctrl_bit_register.sprj
+deleting ctrl_bit_register.ana
+deleting ctrl_bit_register.stx
+deleting ctrl_bit_register.cmd_log
+deleting ctrl_bit_register.lso
+deleting ctrl_bit_register.syr
+deleting ctrl_bit_register.prj
+deleting ctrl_bit_register.sprj
+deleting ctrl_bit_register.ana
+deleting ctrl_bit_register.stx
+deleting ctrl_bit_register.cmd_log
+deleting ctrl_bit_register.lso
+deleting ctrl_bit_register.syr
+deleting ctrl_bit_register.prj
+deleting ctrl_bit_register.sprj
+deleting ctrl_bit_register.ana
+deleting ctrl_bit_register.stx
+deleting ctrl_bit_register.cmd_log
+deleting ctrl_bit_register.lso
+deleting ctrl_bit_register.syr
+deleting ctrl_bit_register.prj
+deleting ctrl_bit_register.sprj
+deleting ctrl_bit_register.ana
+deleting ctrl_bit_register.stx
+deleting ctrl_bit_register.cmd_log
+deleting ctrl_bit_register.lso
+deleting ctrl_bit_register.syr
+deleting ctrl_bit_register.prj
+deleting ctrl_bit_register.sprj
+deleting ctrl_bit_register.ana
+deleting ctrl_bit_register.stx
+deleting ctrl_bit_register.cmd_log
+deleting ctrl_bit_register.ngc
+deleting ctrl_bit_register.ngr
+deleting ctrl_bit_register.prj
+deleting ctrl_bit_register.prj
+deleting __projnav/ctrl_bit_register.xst
+deleting ./xst
+deleting ctrl_bit_register.prj
+deleting ctrl_bit_register.prj
+deleting __projnav/ctrl_bit_register.xst
+deleting ./xst
+deleting ctrl_bit_register.prj
+deleting ctrl_bit_register.prj
+deleting __projnav/ctrl_bit_register.xst
+deleting ./xst
+deleting ctrl_bit_register.prj
+deleting ctrl_bit_register.prj
+deleting __projnav/ctrl_bit_register.xst
+deleting ./xst
+deleting ctrl_bit_register.prj
+deleting ctrl_bit_register.prj
+deleting __projnav/ctrl_bit_register.xst
+deleting ./xst
+deleting ctrl_bit_register.prj
+deleting ctrl_bit_register.prj
+deleting __projnav/ctrl_bit_register.xst
+deleting ./xst
+deleting ctrl_bit_register.prj
+deleting ctrl_bit_register.prj
+deleting __projnav/ctrl_bit_register.xst
+deleting ./xst
+deleting __projnav/CTRL_BIT_REGISTER.gfl
+deleting __projnav/CTRL_BIT_REGISTER_flowplus.gfl
+Finished cleaning up project
+

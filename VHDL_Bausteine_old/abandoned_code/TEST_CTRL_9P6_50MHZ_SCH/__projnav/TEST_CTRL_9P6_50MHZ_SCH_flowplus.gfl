@@ -1,0 +1,6 @@
+# XST flow : Creating project file
+test_ctrl_9p6_50mhz_sch.prj
+# xst flow : RunXST
+test_ctrl_9p6_50mhz_sch.prj
+__projnav/test_ctrl_9p6_50mhz_sch.xst
+./xst

@@ -1,0 +1,1 @@
+set allSynthModules {clock_single_run_src.MOD ctrl_rs232_tx_vhdl.MOD deb_50mz_100ms_src.MOD f_div50000.MOD nib4_7seg_src.MOD test_ctrl_rs232_tx_schematic.MOD}

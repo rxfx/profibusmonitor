@@ -1,0 +1,25 @@
+Release 6.3.03i - ngdbuild G.38
+Copyright (c) 1995-2004 Xilinx, Inc.  All rights reserved.
+
+Command Line: ngdbuild -intstyle ise -dd
+g:\profibus\vhdl_bausteine\profibus_monitor/_ngo -uc profibus_monitor_sch.ucf -p
+xc3s200-ft256-5 profibus_monitor_sch.ngc profibus_monitor_sch.ngd 
+
+Reading NGO file
+"G:/Profibus/VHDL_Bausteine/PROFIBUS_MONITOR/profibus_monitor_sch.ngc" ...
+Reading component libraries for design expansion...
+
+Annotating constraints to design from file "profibus_monitor_sch.ucf" ...
+
+Checking timing specifications ...
+Checking expanded design ...
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Total memory usage is 41700 kilobytes
+
+Writing NGD file "profibus_monitor_sch.ngd" ...
+
+Writing NGDBUILD log file "profibus_monitor_sch.bld"...

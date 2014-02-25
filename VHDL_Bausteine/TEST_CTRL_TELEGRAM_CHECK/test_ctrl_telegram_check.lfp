@@ -1,0 +1,14 @@
+# begin LFP file C:\STUDY\UEBUNG\Studium\Profibus\TEST_CTRL_TELEGRAM_CHECK\test_ctrl_telegram_check.lfp
+designfile test_ctrl_telegram_check.ngd
+IO_GROUP "TTYPE"  ;
+IO_GROUP "TLENGTH"  ;
+IO_GROUP "BYTE_NUM"  ;
+IO_GROUP "BYTE_IN"  ;
+NET "BYTE_IN<7>" IO_GROUP="BYTE_IN"  ;
+NET "BYTE_IN<6>" IO_GROUP="BYTE_IN"  ;
+NET "BYTE_IN<5>" IO_GROUP="BYTE_IN"  ;
+NET "BYTE_IN<4>" IO_GROUP="BYTE_IN"  ;
+NET "BYTE_IN<3>" IO_GROUP="BYTE_IN"  ;
+NET "BYTE_IN<2>" IO_GROUP="BYTE_IN"  ;
+NET "BYTE_IN<1>" IO_GROUP="BYTE_IN"  ;
+NET "BYTE_IN<0>" IO_GROUP="BYTE_IN"  ;

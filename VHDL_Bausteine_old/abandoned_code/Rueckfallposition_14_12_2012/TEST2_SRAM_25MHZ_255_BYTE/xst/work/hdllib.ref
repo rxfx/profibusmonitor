@@ -1,0 +1,12 @@
+EN f_div50000 NULL C:/STUDY/UEBUNG/Studium/Profibus/TEST2_SRAM_25MHZ_255_BYTE/F_DIV50000_SRC.vhd sub00/vhpl08
+AR test2_sram_25mhz_255_byte behavioral C:/STUDY/UEBUNG/Studium/Profibus/TEST2_SRAM_25MHZ_255_BYTE/TEST2_SRAM_25MHZ_255_BYTE.vhf sub00/vhpl11
+AR f_div50000 behavioral C:/STUDY/UEBUNG/Studium/Profibus/TEST2_SRAM_25MHZ_255_BYTE/F_DIV50000_SRC.vhd sub00/vhpl09
+AR sram_25mhz_255_byte behavioral C:/STUDY/UEBUNG/Studium/Profibus/TEST2_SRAM_25MHZ_255_BYTE/SRAM_25MHZ_255_BYTE.vhd sub00/vhpl01
+EN nib4_7seg_src NULL C:/STUDY/UEBUNG/Studium/Profibus/TEST2_SRAM_25MHZ_255_BYTE/NIB4_7SEG_SRC.vhd sub00/vhpl06
+EN sram_25mhz_255_byte NULL C:/STUDY/UEBUNG/Studium/Profibus/TEST2_SRAM_25MHZ_255_BYTE/SRAM_25MHZ_255_BYTE.vhd sub00/vhpl00
+EN clock_single_run_src NULL C:/STUDY/UEBUNG/Studium/Profibus/TEST2_SRAM_25MHZ_255_BYTE/CLOCK_SINGLE_RUN_SRC.vhd sub00/vhpl04
+AR deb_50mz_100ms_src behavioral C:/STUDY/UEBUNG/Studium/Profibus/TEST2_SRAM_25MHZ_255_BYTE/DEB_50MZ_100MS_SRC.vhd sub00/vhpl03
+AR nib4_7seg_src behavioral C:/STUDY/UEBUNG/Studium/Profibus/TEST2_SRAM_25MHZ_255_BYTE/NIB4_7SEG_SRC.vhd sub00/vhpl07
+EN deb_50mz_100ms_src NULL C:/STUDY/UEBUNG/Studium/Profibus/TEST2_SRAM_25MHZ_255_BYTE/DEB_50MZ_100MS_SRC.vhd sub00/vhpl02
+AR clock_single_run_src behavioral C:/STUDY/UEBUNG/Studium/Profibus/TEST2_SRAM_25MHZ_255_BYTE/CLOCK_SINGLE_RUN_SRC.vhd sub00/vhpl05
+EN test2_sram_25mhz_255_byte NULL C:/STUDY/UEBUNG/Studium/Profibus/TEST2_SRAM_25MHZ_255_BYTE/TEST2_SRAM_25MHZ_255_BYTE.vhf sub00/vhpl10

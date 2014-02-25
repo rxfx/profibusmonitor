@@ -1,0 +1,3466 @@
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+Started process "Create Schematic Symbol".
+
+Compiling vhdl file
+c:/study/uebung/studium/profibus/test_ctrl_byte_check/CTRL_BYTE_CHECK.vhd in
+Library work.
+Entity <CTRL_BYTE_CHECK> (Architecture <Behavioral>) compiled.
+tdtfi(vhdl) completed successfully.
+
+
+Release 6.3.03i - spl2sym G.35
+Copyright (c) 1995-2004 Xilinx, Inc.  All rights reserved.
+Completed process "Create Schematic Symbol".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+Started process "Create Schematic Symbol".
+
+Compiling vhdl file
+c:/study/uebung/studium/profibus/test_ctrl_byte_check/NIB4_7SEG_SRC.vhd in
+Library work.
+Entity <NIB4_7SEG_SRC> (Architecture <Behavioral>) compiled.
+tdtfi(vhdl) completed successfully.
+
+
+Release 6.3.03i - spl2sym G.35
+Copyright (c) 1995-2004 Xilinx, Inc.  All rights reserved.
+Completed process "Create Schematic Symbol".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+Started process "Create Schematic Symbol".
+
+Compiling vhdl file
+c:/study/uebung/studium/profibus/test_ctrl_byte_check/F_DIV_50000000_SRC.vhd in
+Library work.
+Entity <F_DIV50000000> (Architecture <Behavioral>) compiled.
+tdtfi(vhdl) completed successfully.
+
+
+Release 6.3.03i - spl2sym G.35
+Copyright (c) 1995-2004 Xilinx, Inc.  All rights reserved.
+Completed process "Create Schematic Symbol".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+Started process "Create Schematic Symbol".
+
+Compiling vhdl file
+c:/study/uebung/studium/profibus/test_ctrl_byte_check/DEB_50MZ_100MS_SRC.vhd in
+Library work.
+Entity <DEB_50MZ_100MS_SRC> (Architecture <Behavioral>) compiled.
+tdtfi(vhdl) completed successfully.
+
+
+Release 6.3.03i - spl2sym G.35
+Copyright (c) 1995-2004 Xilinx, Inc.  All rights reserved.
+Completed process "Create Schematic Symbol".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+Started process "Create Schematic Symbol".
+
+Compiling vhdl file
+c:/study/uebung/studium/profibus/test_ctrl_byte_check/CLOCK_SINGLE_RUN_SRC.vhd
+in Library work.
+Entity <CLOCK_SINGLE_RUN_SRC> (Architecture <Behavioral>) compiled.
+tdtfi(vhdl) completed successfully.
+
+
+Release 6.3.03i - spl2sym G.35
+Copyright (c) 1995-2004 Xilinx, Inc.  All rights reserved.
+Completed process "Create Schematic Symbol".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+Started process "View VHDL Functional Model".
+
+Release 6.3.03i - sch2vhdl G.35
+Copyright (c) 1995-2004 Xilinx, Inc.  All rights reserved.
+DRC Check completed: No Error found.
+Vhdl netlist file generated.
+Completed process "View VHDL Functional Model".
+
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file c:/study/uebung/studium/profibus/test_ctrl_byte_check/CTRL_BYTE_CHECK.vhd in Library work.
+Architecture behavioral of Entity ctrl_byte_check is up to date.
+Compiling vhdl file c:/study/uebung/studium/profibus/test_ctrl_byte_check/NIB4_7SEG_SRC.vhd in Library work.
+Architecture behavioral of Entity nib4_7seg_src is up to date.
+Compiling vhdl file c:/study/uebung/studium/profibus/test_ctrl_byte_check/F_DIV_50000000_SRC.vhd in Library work.
+Architecture behavioral of Entity f_div50000000 is up to date.
+Compiling vhdl file c:/study/uebung/studium/profibus/test_ctrl_byte_check/CLOCK_SINGLE_RUN_SRC.vhd in Library work.
+Architecture behavioral of Entity clock_single_run_src is up to date.
+Compiling vhdl file c:/study/uebung/studium/profibus/test_ctrl_byte_check/DEB_50MZ_100MS_SRC.vhd in Library work.
+Architecture behavioral of Entity deb_50mz_100ms_src is up to date.
+Compiling vhdl file c:/study/uebung/studium/profibus/test_ctrl_byte_check/test_ctrl_byte_check.vhf in Library work.
+Entity <test_ctrl_byte_check> (Architecture <BEHAVIORAL>) compiled.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <test_ctrl_byte_check> (Architecture <BEHAVIORAL>).
+Entity <test_ctrl_byte_check> analyzed. Unit <test_ctrl_byte_check> generated.
+
+Analyzing Entity <ctrl_byte_check> (Architecture <behavioral>).
+Entity <ctrl_byte_check> analyzed. Unit <ctrl_byte_check> generated.
+
+Analyzing Entity <nib4_7seg_src> (Architecture <behavioral>).
+INFO:Xst:1561 - c:/study/uebung/studium/profibus/test_ctrl_byte_check/NIB4_7SEG_SRC.vhd line 74: Mux is complete : default of case is discarded
+INFO:Xst:1561 - c:/study/uebung/studium/profibus/test_ctrl_byte_check/NIB4_7SEG_SRC.vhd line 100: Mux is complete : default of case is discarded
+Entity <nib4_7seg_src> analyzed. Unit <nib4_7seg_src> generated.
+
+Analyzing Entity <f_div50000000> (Architecture <behavioral>).
+Entity <f_div50000000> analyzed. Unit <f_div50000000> generated.
+
+Analyzing Entity <clock_single_run_src> (Architecture <behavioral>).
+Entity <clock_single_run_src> analyzed. Unit <clock_single_run_src> generated.
+
+Analyzing Entity <deb_50mz_100ms_src> (Architecture <behavioral>).
+Entity <deb_50mz_100ms_src> analyzed. Unit <deb_50mz_100ms_src> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <deb_50mz_100ms_src>.
+    Related source file is c:/study/uebung/studium/profibus/test_ctrl_byte_check/DEB_50MZ_100MS_SRC.vhd.
+    Found 24-bit adder for signal <$n0009> created at line 61.
+    Found 24-bit comparator greatequal for signal <$n0014> created at line 65.
+    Found 24-bit subtractor for signal <$n0016> created at line 83.
+    Found 24-bit register for signal <COUNT_DEB>.
+    Found 24-bit register for signal <COUNT_DEB_M>.
+    Found 1-bit register for signal <IN_DEB_S>.
+    Found 1-bit register for signal <SV<0>>.
+    Found 1-bit register for signal <SV_M<0>>.
+    Found 1 1-bit 2-to-1 multiplexers.
+    Summary:
+	inferred  51 D-type flip-flop(s).
+	inferred   2 Adder/Subtracter(s).
+	inferred   1 Comparator(s).
+	inferred   1 Multiplexer(s).
+Unit <deb_50mz_100ms_src> synthesized.
+
+
+Synthesizing Unit <clock_single_run_src>.
+    Related source file is c:/study/uebung/studium/profibus/test_ctrl_byte_check/CLOCK_SINGLE_RUN_SRC.vhd.
+    Using one-hot encoding for signal <SV>.
+    Found 1-bit register for signal <RUN_S>.
+    Found 3-bit register for signal <SV>.
+    Found 3-bit register for signal <SV_M>.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+Unit <clock_single_run_src> synthesized.
+
+
+Synthesizing Unit <f_div50000000>.
+    Related source file is c:/study/uebung/studium/profibus/test_ctrl_byte_check/F_DIV_50000000_SRC.vhd.
+    Found 32-bit comparator less for signal <$n0002> created at line 28.
+    Found 32-bit down counter for signal <COUNTER>.
+    Summary:
+	inferred   1 Counter(s).
+	inferred   1 Comparator(s).
+Unit <f_div50000000> synthesized.
+
+
+Synthesizing Unit <nib4_7seg_src>.
+    Related source file is c:/study/uebung/studium/profibus/test_ctrl_byte_check/NIB4_7SEG_SRC.vhd.
+    Found 16x7-bit ROM for signal <$n0004>.
+    Found 2-bit up counter for signal <COUNTER>.
+    Found 4-bit 4-to-1 multiplexer for signal <NIB_ANZ>.
+    Summary:
+	inferred   1 ROM(s).
+	inferred   1 Counter(s).
+	inferred   4 Multiplexer(s).
+Unit <nib4_7seg_src> synthesized.
+
+
+Synthesizing Unit <ctrl_byte_check>.
+    Related source file is c:/study/uebung/studium/profibus/test_ctrl_byte_check/CTRL_BYTE_CHECK.vhd.
+    Found 8-bit adder for signal <$n0011> created at line 149.
+    Found 1-bit register for signal <BYTE_CMPLT_S>.
+    Found 8-bit register for signal <BYTE_COUNT>.
+    Found 8-bit register for signal <BYTE_COUNT_M>.
+    Found 1-bit register for signal <NEXT_BYTE_S>.
+    Found 1-bit register for signal <PARITY_OK_S>.
+    Found 2-bit register for signal <SV>.
+    Found 2-bit register for signal <SV_M>.
+    Found 8 1-bit 2-to-1 multiplexers.
+    Summary:
+	inferred  23 D-type flip-flop(s).
+	inferred   1 Adder/Subtracter(s).
+	inferred   8 Multiplexer(s).
+Unit <ctrl_byte_check> synthesized.
+
+
+Synthesizing Unit <test_ctrl_byte_check>.
+    Related source file is c:/study/uebung/studium/profibus/test_ctrl_byte_check/test_ctrl_byte_check.vhf.
+Unit <test_ctrl_byte_check> synthesized.
+
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# ROMs                             : 1
+ 16x7-bit ROM                      : 1
+# Adders/Subtractors               : 3
+ 8-bit adder                       : 1
+ 24-bit subtractor                 : 1
+ 24-bit adder                      : 1
+# Counters                         : 2
+ 2-bit up counter                  : 1
+ 32-bit down counter               : 1
+# Registers                        : 15
+ 8-bit register                    : 2
+ 2-bit register                    : 2
+ 1-bit register                    : 7
+ 24-bit register                   : 2
+ 3-bit register                    : 2
+# Comparators                      : 2
+ 32-bit comparator less            : 1
+ 24-bit comparator greatequal      : 1
+# Multiplexers                     : 10
+ 1-bit 2-to-1 multiplexer          : 9
+ 4-bit 4-to-1 multiplexer          : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <test_ctrl_byte_check> ...
+
+Optimizing unit <ctrl_byte_check> ...
+
+Optimizing unit <deb_50mz_100ms_src> ...
+
+Optimizing unit <clock_single_run_src> ...
+
+Optimizing unit <f_div50000000> ...
+Loading device for application Xst from file '3s200.nph' in environment C:/Programme/XILINX/WEBPACK_6P3.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block test_ctrl_byte_check, actual ratio is 8.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s200ft256-5 
+
+ Number of Slices:                     136  out of   1920     7%  
+ Number of Slice Flip Flops:           115  out of   3840     2%  
+ Number of 4 input LUTs:               226  out of   3840     5%  
+ Number of bonded IOBs:                 27  out of    173    15%  
+ Number of GCLKs:                        1  out of      8    12%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+F_59MHZ_T9                         | BUFGP                  | 113   |
+XLXI_3_GE_stage_cyo(XLXI_3_GE_stagecy:O)| NONE(*)(XLXI_2_COUNTER_1)| 2     |
+-----------------------------------+------------------------+-------+
+(*) This 1 clock signal(s) are generated by combinatorial logic,
+and XST is not able to identify which are the primary clock signals.
+Please use the CLOCK_SIGNAL constraint to specify the clock signal(s) generated by combinatorial logic.
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 14.911ns (Maximum Frequency: 67.065MHz)
+   Minimum input arrival time before clock: 4.294ns
+   Maximum output required time after clock: 9.821ns
+   Maximum combinational path delay: 9.930ns
+
+=========================================================================
+Completed process "Synthesize".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+Started process "View VHDL Functional Model".
+
+Release 6.3.03i - sch2vhdl G.35
+Copyright (c) 1995-2004 Xilinx, Inc.  All rights reserved.
+DRC Check completed: No Error found.
+Vhdl netlist file generated.
+Completed process "View VHDL Functional Model".
+
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file c:/study/uebung/studium/profibus/test_ctrl_byte_check/CTRL_BYTE_CHECK.vhd in Library work.
+Architecture behavioral of Entity ctrl_byte_check is up to date.
+Compiling vhdl file c:/study/uebung/studium/profibus/test_ctrl_byte_check/NIB4_7SEG_SRC.vhd in Library work.
+Architecture behavioral of Entity nib4_7seg_src is up to date.
+Compiling vhdl file c:/study/uebung/studium/profibus/test_ctrl_byte_check/F_DIV_50000000_SRC.vhd in Library work.
+Architecture behavioral of Entity f_div50000000 is up to date.
+Compiling vhdl file c:/study/uebung/studium/profibus/test_ctrl_byte_check/CLOCK_SINGLE_RUN_SRC.vhd in Library work.
+Architecture behavioral of Entity clock_single_run_src is up to date.
+Compiling vhdl file c:/study/uebung/studium/profibus/test_ctrl_byte_check/DEB_50MZ_100MS_SRC.vhd in Library work.
+Architecture behavioral of Entity deb_50mz_100ms_src is up to date.
+Compiling vhdl file c:/study/uebung/studium/profibus/test_ctrl_byte_check/test_ctrl_byte_check.vhf in Library work.
+Entity <test_ctrl_byte_check> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <test_ctrl_byte_check> (Architecture <behavioral>).
+Entity <test_ctrl_byte_check> analyzed. Unit <test_ctrl_byte_check> generated.
+
+Analyzing Entity <ctrl_byte_check> (Architecture <behavioral>).
+Entity <ctrl_byte_check> analyzed. Unit <ctrl_byte_check> generated.
+
+Analyzing Entity <nib4_7seg_src> (Architecture <behavioral>).
+INFO:Xst:1561 - c:/study/uebung/studium/profibus/test_ctrl_byte_check/NIB4_7SEG_SRC.vhd line 74: Mux is complete : default of case is discarded
+INFO:Xst:1561 - c:/study/uebung/studium/profibus/test_ctrl_byte_check/NIB4_7SEG_SRC.vhd line 100: Mux is complete : default of case is discarded
+Entity <nib4_7seg_src> analyzed. Unit <nib4_7seg_src> generated.
+
+Analyzing Entity <f_div50000000> (Architecture <behavioral>).
+Entity <f_div50000000> analyzed. Unit <f_div50000000> generated.
+
+Analyzing Entity <clock_single_run_src> (Architecture <behavioral>).
+Entity <clock_single_run_src> analyzed. Unit <clock_single_run_src> generated.
+
+Analyzing Entity <deb_50mz_100ms_src> (Architecture <behavioral>).
+Entity <deb_50mz_100ms_src> analyzed. Unit <deb_50mz_100ms_src> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <deb_50mz_100ms_src>.
+    Related source file is c:/study/uebung/studium/profibus/test_ctrl_byte_check/DEB_50MZ_100MS_SRC.vhd.
+    Found 24-bit adder for signal <$n0009> created at line 61.
+    Found 24-bit comparator greatequal for signal <$n0014> created at line 65.
+    Found 24-bit subtractor for signal <$n0016> created at line 83.
+    Found 24-bit register for signal <COUNT_DEB>.
+    Found 24-bit register for signal <COUNT_DEB_M>.
+    Found 1-bit register for signal <IN_DEB_S>.
+    Found 1-bit register for signal <SV<0>>.
+    Found 1-bit register for signal <SV_M<0>>.
+    Found 1 1-bit 2-to-1 multiplexers.
+    Summary:
+	inferred  51 D-type flip-flop(s).
+	inferred   2 Adder/Subtracter(s).
+	inferred   1 Comparator(s).
+	inferred   1 Multiplexer(s).
+Unit <deb_50mz_100ms_src> synthesized.
+
+
+Synthesizing Unit <clock_single_run_src>.
+    Related source file is c:/study/uebung/studium/profibus/test_ctrl_byte_check/CLOCK_SINGLE_RUN_SRC.vhd.
+    Using one-hot encoding for signal <SV>.
+    Found 1-bit register for signal <RUN_S>.
+    Found 3-bit register for signal <SV>.
+    Found 3-bit register for signal <SV_M>.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+Unit <clock_single_run_src> synthesized.
+
+
+Synthesizing Unit <f_div50000000>.
+    Related source file is c:/study/uebung/studium/profibus/test_ctrl_byte_check/F_DIV_50000000_SRC.vhd.
+    Found 32-bit comparator less for signal <$n0002> created at line 28.
+    Found 32-bit down counter for signal <COUNTER>.
+    Summary:
+	inferred   1 Counter(s).
+	inferred   1 Comparator(s).
+Unit <f_div50000000> synthesized.
+
+
+Synthesizing Unit <nib4_7seg_src>.
+    Related source file is c:/study/uebung/studium/profibus/test_ctrl_byte_check/NIB4_7SEG_SRC.vhd.
+    Found 16x7-bit ROM for signal <$n0004>.
+    Found 2-bit up counter for signal <COUNTER>.
+    Found 4-bit 4-to-1 multiplexer for signal <NIB_ANZ>.
+    Summary:
+	inferred   1 ROM(s).
+	inferred   1 Counter(s).
+	inferred   4 Multiplexer(s).
+Unit <nib4_7seg_src> synthesized.
+
+
+Synthesizing Unit <ctrl_byte_check>.
+    Related source file is c:/study/uebung/studium/profibus/test_ctrl_byte_check/CTRL_BYTE_CHECK.vhd.
+    Found 8-bit adder for signal <$n0011> created at line 149.
+    Found 1-bit register for signal <BYTE_CMPLT_S>.
+    Found 8-bit register for signal <BYTE_COUNT>.
+    Found 8-bit register for signal <BYTE_COUNT_M>.
+    Found 1-bit register for signal <NEXT_BYTE_S>.
+    Found 1-bit register for signal <PARITY_OK_S>.
+    Found 2-bit register for signal <SV>.
+    Found 2-bit register for signal <SV_M>.
+    Found 8 1-bit 2-to-1 multiplexers.
+    Summary:
+	inferred  23 D-type flip-flop(s).
+	inferred   1 Adder/Subtracter(s).
+	inferred   8 Multiplexer(s).
+Unit <ctrl_byte_check> synthesized.
+
+
+Synthesizing Unit <test_ctrl_byte_check>.
+    Related source file is c:/study/uebung/studium/profibus/test_ctrl_byte_check/test_ctrl_byte_check.vhf.
+Unit <test_ctrl_byte_check> synthesized.
+
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# ROMs                             : 1
+ 16x7-bit ROM                      : 1
+# Adders/Subtractors               : 3
+ 8-bit adder                       : 1
+ 24-bit subtractor                 : 1
+ 24-bit adder                      : 1
+# Counters                         : 2
+ 2-bit up counter                  : 1
+ 32-bit down counter               : 1
+# Registers                        : 15
+ 8-bit register                    : 2
+ 2-bit register                    : 2
+ 1-bit register                    : 7
+ 24-bit register                   : 2
+ 3-bit register                    : 2
+# Comparators                      : 2
+ 32-bit comparator less            : 1
+ 24-bit comparator greatequal      : 1
+# Multiplexers                     : 10
+ 1-bit 2-to-1 multiplexer          : 9
+ 4-bit 4-to-1 multiplexer          : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <test_ctrl_byte_check> ...
+
+Optimizing unit <ctrl_byte_check> ...
+
+Optimizing unit <deb_50mz_100ms_src> ...
+
+Optimizing unit <clock_single_run_src> ...
+
+Optimizing unit <f_div50000000> ...
+Loading device for application Xst from file '3s200.nph' in environment C:/Programme/XILINX/WEBPACK_6P3.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block test_ctrl_byte_check, actual ratio is 8.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s200ft256-5 
+
+ Number of Slices:                     136  out of   1920     7%  
+ Number of Slice Flip Flops:           115  out of   3840     2%  
+ Number of 4 input LUTs:               226  out of   3840     5%  
+ Number of bonded IOBs:                 27  out of    173    15%  
+ Number of GCLKs:                        1  out of      8    12%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+F_59MHZ_T9                         | BUFGP                  | 113   |
+XLXI_3_GE_stage_cyo(XLXI_3_GE_stagecy:O)| NONE(*)(XLXI_2_COUNTER_1)| 2     |
+-----------------------------------+------------------------+-------+
+(*) This 1 clock signal(s) are generated by combinatorial logic,
+and XST is not able to identify which are the primary clock signals.
+Please use the CLOCK_SIGNAL constraint to specify the clock signal(s) generated by combinatorial logic.
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 14.911ns (Maximum Frequency: 67.065MHz)
+   Minimum input arrival time before clock: 4.294ns
+   Maximum output required time after clock: 9.821ns
+   Maximum combinational path delay: 9.930ns
+
+=========================================================================
+Completed process "Synthesize".
+
+
+
+Started process "Translate".
+
+
+Command Line: ngdbuild -intstyle ise -dd
+c:\study\uebung\studium\profibus\test_ctrl_byte_check/_ngo -i -p xc3s200-ft256-5
+test_ctrl_byte_check.ngc test_ctrl_byte_check.ngd 
+
+Reading NGO file
+"c:/study/uebung/studium/profibus/test_ctrl_byte_check/test_ctrl_byte_check.ngc"
+...
+Reading component libraries for design expansion...
+
+Checking timing specifications ...
+Checking expanded design ...
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Total memory usage is 38884 kilobytes
+
+Writing NGD file "test_ctrl_byte_check.ngd" ...
+
+Writing NGDBUILD log file "test_ctrl_byte_check.bld"...
+
+NGDBUILD done.
+Completed process "Translate".
+
+
+
+Started process "Map".
+
+Using target part "3s200ft256-5".
+Removing unused or disabled logic...
+Running cover...
+Running directed packing...
+Running delay-based LUT packing...
+Running related packing...
+
+Design Summary:
+Number of errors:      0
+Number of warnings:    1
+Logic Utilization:
+  Number of Slice Flip Flops:         110 out of   3,840    2%
+  Number of 4 input LUTs:             184 out of   3,840    4%
+Logic Distribution:
+  Number of occupied Slices:                          150 out of   1,920    7%
+    Number of Slices containing only related logic:     150 out of     150  100%
+    Number of Slices containing unrelated logic:          0 out of     150    0%
+      *See NOTES below for an explanation of the effects of unrelated logic
+Total Number 4 input LUTs:            225 out of   3,840    5%
+  Number used as logic:                184
+  Number used as a route-thru:          41
+  Number of bonded IOBs:               28 out of     173   16%
+    IOB Flip Flops:                     5
+  Number of GCLKs:                     1 out of       8   12%
+
+Total equivalent gate count for design:  2,615
+Additional JTAG gate count for IOBs:  1,344
+Peak Memory Usage:  70 MB
+
+NOTES:
+
+   Related logic is defined as being logic that shares connectivity -
+   e.g. two LUTs are "related" if they share common inputs.
+   When assembling slices, Map gives priority to combine logic that
+   is related.  Doing so results in the best timing performance.
+
+   Unrelated logic shares no connectivity.  Map will only begin
+   packing unrelated logic into a slice once 99% of the slices are
+   occupied through related logic packing.
+
+   Note that once logic distribution reaches the 99% level through
+   related logic packing, this does not mean the device is completely
+   utilized.  Unrelated logic packing will then begin, continuing until
+   all usable LUTs and FFs are occupied.  Depending on your timing
+   budget, increased levels of unrelated logic packing may adversely
+   affect the overall timing performance of your design.
+
+
+Mapping completed.
+See MAP report file "test_ctrl_byte_check_map.mrp" for details.
+Completed process "Map".
+
+Mapping Module test_ctrl_byte_check . . .
+MAP command line:
+map -intstyle ise -p xc3s200-ft256-5 -cm area -pr b -k 4 -c 100 -tx off -o test_ctrl_byte_check_map.ncd test_ctrl_byte_check.ngd test_ctrl_byte_check.pcf
+Mapping Module test_ctrl_byte_check: DONE
+
+
+
+Started process "Place & Route".
+
+
+
+
+
+Constraints file: test_ctrl_byte_check.pcf
+
+Loading device database for application Par from file
+"test_ctrl_byte_check_map.ncd".
+   "test_ctrl_byte_check" is an NCD, version 2.38, device xc3s200, package
+ft256, speed -5
+Loading device for application Par from file '3s200.nph' in environment
+C:/Programme/XILINX/WEBPACK_6P3.
+Device speed data version:  ADVANCED 1.35 2004-11-11.
+
+
+Resolving physical constraints.
+Finished resolving physical constraints.
+
+Device utilization summary:
+
+   Number of External IOBs            28 out of 173    16%
+      Number of LOCed External IOBs    0 out of 28      0%
+
+   Number of Slices                  150 out of 1920    7%
+
+   Number of BUFGMUXs                  1 out of 8      12%
+
+
+
+Overall effort level (-ol):   Standard (set by user)
+Placer effort level (-pl):    Standard (set by user)
+Placer cost table entry (-t): 1
+Router effort level (-rl):    Standard (set by user)
+
+
+Phase 1.1
+Phase 1.1 (Checksum:989a7f) REAL time: 0 secs 
+
+.
+Phase 3.3
+Phase 3.3 (Checksum:1c9c37d) REAL time: 0 secs 
+
+Phase 4.5
+Phase 4.5 (Checksum:26259fc) REAL time: 0 secs 
+
+Phase 5.8
+................
+Phase 5.8 (Checksum:9a98a8) REAL time: 0 secs 
+
+Phase 6.5
+Phase 6.5 (Checksum:39386fa) REAL time: 0 secs 
+
+Phase 7.18
+Phase 7.18 (Checksum:42c1d79) REAL time: 0 secs 
+
+Writing design to file test_ctrl_byte_check.ncd.
+
+Total REAL time to Placer completion: 0 secs 
+Total CPU time to Placer completion: 1 secs 
+
+
+Phase 1: 778 unrouted;       REAL time: 0 secs 
+
+Phase 2: 692 unrouted;       REAL time: 0 secs 
+
+Phase 3: 214 unrouted;       REAL time: 0 secs 
+
+Phase 4: 0 unrouted;       REAL time: 0 secs 
+
+Total REAL time to Router completion: 2 secs 
+Total CPU time to Router completion: 1 secs 
+
+Generating "par" statistics.
+
+**************************
+Generating Clock Report
+**************************
+
++-------------------------+----------+------+------+------------+-------------+
+|        Clock Net        | Resource |Locked|Fanout|Net Skew(ns)|Max Delay(ns)|
++-------------------------+----------+------+------+------------+-------------+
+|  F_59MHZ_T9_BUFGP       |  BUFGMUX0| No   |   75 |  0.036     |  0.916      |
++-------------------------+----------+------+------+------------+-------------+
+|     XLXI_3_GE_stage_cyo |   Local  |      |    2 |  0.004     |  1.232      |
++-------------------------+----------+------+------+------------+-------------+
+
+Generating Pad Report.
+
+All signals are completely routed.
+
+Total REAL time to PAR completion: 2 secs 
+Total CPU time to PAR completion: 1 secs 
+
+Peak Memory Usage:  60 MB
+
+Placement: Completed - No errors found.
+Routing: Completed - No errors found.
+
+Writing design to file test_ctrl_byte_check.ncd.
+
+
+PAR done.
+Completed process "Place & Route".
+
+
+Started process "Generate Post-Place & Route Static Timing".
+
+
+Analysis completed Wed Dec 19 17:37:20 2012
+--------------------------------------------------------------------------------
+
+Generating Report ...
+
+Completed process "Generate Post-Place & Route Static Timing".
+
+Place & Route Module test_ctrl_byte_check . . .
+PAR command line: par -w -intstyle ise -ol std -t 1 test_ctrl_byte_check_map.ncd test_ctrl_byte_check.ncd test_ctrl_byte_check.pcf
+PAR completed successfully
+
+
+
+
+Started process "Generate Programming File".
+
+WARNING:DesignRules:372 - Netcheck: Gated clock. Clock net XLXI_3_GE_stage_cyo
+   is sourced by a combinatorial pin. This is not good design practice. Use the
+   CE pin to control the loading of data into the flip-flop.
+Completed process "Generate Programming File".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+deleting __projnav/test_ctrl_byte_check_jhdparse_tcl.rsp
+deleting __projnav/tb.rsp
+deleting ctrl_byte_check.spl
+deleting __projnav/vhd2spl.err
+deleting __projnav/test_ctrl_byte_check_jhdparse_tcl.rsp
+deleting __projnav/tb.rsp
+deleting nib4_7seg_src.spl
+deleting __projnav/vhd2spl.err
+deleting __projnav/tb.rsp
+deleting f_div50000000.spl
+deleting __projnav/vhd2spl.err
+deleting __projnav/tb.rsp
+deleting deb_50mz_100ms_src.spl
+deleting __projnav/vhd2spl.err
+deleting __projnav/tb.rsp
+deleting clock_single_run_src.spl
+deleting __projnav/vhd2spl.err
+deleting __projnav/test_ctrl_byte_check_jhdparse_tcl.rsp
+deleting __projnav/test_ctrl_byte_check_jhdparse_tcl.rsp
+deleting test_ctrl_byte_check.vhf
+deleting test_ctrl_byte_check.cmd_log
+deleting test_ctrl_byte_check.lso
+deleting test_ctrl_byte_check.syr
+deleting test_ctrl_byte_check.prj
+deleting test_ctrl_byte_check.sprj
+deleting test_ctrl_byte_check.ana
+deleting test_ctrl_byte_check.stx
+deleting test_ctrl_byte_check.cmd_log
+deleting test_ctrl_byte_check.ngc
+deleting test_ctrl_byte_check.ngr
+deleting test_ctrl_byte_check.vhf
+deleting test_ctrl_byte_check.cmd_log
+deleting test_ctrl_byte_check.lso
+deleting test_ctrl_byte_check.syr
+deleting test_ctrl_byte_check.prj
+deleting test_ctrl_byte_check.sprj
+deleting test_ctrl_byte_check.ana
+deleting test_ctrl_byte_check.stx
+deleting test_ctrl_byte_check.cmd_log
+deleting test_ctrl_byte_check.ngc
+deleting test_ctrl_byte_check.ngr
+deleting __projnav/ngdbuild.err
+deleting __projnav/ednTOngd_tcl.rsp
+deleting c:\study\uebung\studium\profibus\test_ctrl_byte_check/_ngo
+deleting test_ctrl_byte_check.ngd
+deleting test_ctrl_byte_check_ngdbuild.nav
+deleting test_ctrl_byte_check.bld
+deleting .untf
+deleting test_ctrl_byte_check.cmd_log
+deleting test_ctrl_byte_check_map.ncd
+deleting test_ctrl_byte_check.ngm
+deleting test_ctrl_byte_check.pcf
+deleting test_ctrl_byte_check.nc1
+deleting test_ctrl_byte_check.mrp
+deleting test_ctrl_byte_check_map.mrp
+deleting test_ctrl_byte_check.mdf
+deleting __projnav/map.log
+deleting test_ctrl_byte_check.cmd_log
+deleting __projnav/ncdTOtwr_tcl.rsp
+deleting __projnav/posttrc.log
+deleting test_ctrl_byte_check.twr
+deleting test_ctrl_byte_check.twx
+deleting test_ctrl_byte_check.tsi
+deleting test_ctrl_byte_check.cmd_log
+deleting __projnav/nc1TOncd_tcl.rsp
+deleting test_ctrl_byte_check.ncd
+deleting test_ctrl_byte_check.par
+deleting test_ctrl_byte_check.pad
+deleting test_ctrl_byte_check_pad.txt
+deleting test_ctrl_byte_check_pad.csv
+deleting test_ctrl_byte_check.pad_txt
+deleting test_ctrl_byte_check.dly
+deleting reportgen.log
+deleting test_ctrl_byte_check.xpi
+deleting test_ctrl_byte_check.grf
+deleting test_ctrl_byte_check.itr
+deleting test_ctrl_byte_check_last_par.ncd
+deleting __projnav/par.log
+deleting test_ctrl_byte_check.placed_ncd_tracker
+deleting test_ctrl_byte_check.routed_ncd_tracker
+deleting test_ctrl_byte_check.cmd_log
+deleting __projnav/test_ctrl_byte_check_ncdTOut_tcl.rsp
+deleting __projnav/bitgen.rsp
+deleting bitgen.ut
+deleting test_ctrl_byte_check.ut
+deleting test_ctrl_byte_check.bgn
+deleting test_ctrl_byte_check.rbt
+deleting test_ctrl_byte_check.ll
+deleting test_ctrl_byte_check.msk
+deleting test_ctrl_byte_check.drc
+deleting test_ctrl_byte_check.nky
+deleting test_ctrl_byte_check.bit
+deleting test_ctrl_byte_check.bin
+deleting test_ctrl_byte_check.isc
+deleting test_ctrl_byte_check.cmd_log
+deleting test_ctrl_byte_check.prm
+deleting test_ctrl_byte_check.isc
+deleting test_ctrl_byte_check.svf
+deleting xilinx.sys
+deleting test_ctrl_byte_check.mcs
+deleting test_ctrl_byte_check.exo
+deleting test_ctrl_byte_check.hex
+deleting test_ctrl_byte_check.tek
+deleting test_ctrl_byte_check.dst
+deleting test_ctrl_byte_check.dst_compressed
+deleting test_ctrl_byte_check.mpm
+deleting _impact.cmd
+deleting _impact.log
+deleting test_ctrl_byte_check.prj
+deleting test_ctrl_byte_check.prj
+deleting __projnav/test_ctrl_byte_check.xst
+deleting ./xst
+deleting test_ctrl_byte_check.prj
+deleting test_ctrl_byte_check.prj
+deleting __projnav/test_ctrl_byte_check.xst
+deleting ./xst
+deleting __projnav/TEST_CTRL_BYTE_CHECK.gfl
+deleting __projnav/TEST_CTRL_BYTE_CHECK_flowplus.gfl
+Finished cleaning up project
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+Started process "View VHDL Functional Model".
+
+Release 6.3.03i - sch2vhdl G.35
+Copyright (c) 1995-2004 Xilinx, Inc.  All rights reserved.
+DRC Check completed: No Error found.
+Vhdl netlist file generated.
+Completed process "View VHDL Functional Model".
+
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file c:/study/uebung/studium/profibus/test_ctrl_byte_check/CTRL_BYTE_CHECK.vhd in Library work.
+Entity <CTRL_BYTE_CHECK> (Architecture <Behavioral>) compiled.
+Compiling vhdl file c:/study/uebung/studium/profibus/test_ctrl_byte_check/NIB4_7SEG_SRC.vhd in Library work.
+Entity <NIB4_7SEG_SRC> (Architecture <Behavioral>) compiled.
+Compiling vhdl file c:/study/uebung/studium/profibus/test_ctrl_byte_check/F_DIV_50000000_SRC.vhd in Library work.
+Entity <F_DIV50000000> (Architecture <Behavioral>) compiled.
+Compiling vhdl file c:/study/uebung/studium/profibus/test_ctrl_byte_check/CLOCK_SINGLE_RUN_SRC.vhd in Library work.
+Entity <CLOCK_SINGLE_RUN_SRC> (Architecture <Behavioral>) compiled.
+Compiling vhdl file c:/study/uebung/studium/profibus/test_ctrl_byte_check/DEB_50MZ_100MS_SRC.vhd in Library work.
+Entity <DEB_50MZ_100MS_SRC> (Architecture <Behavioral>) compiled.
+Compiling vhdl file c:/study/uebung/studium/profibus/test_ctrl_byte_check/test_ctrl_byte_check.vhf in Library work.
+Entity <test_ctrl_byte_check> (Architecture <BEHAVIORAL>) compiled.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <test_ctrl_byte_check> (Architecture <BEHAVIORAL>).
+Entity <test_ctrl_byte_check> analyzed. Unit <test_ctrl_byte_check> generated.
+
+Analyzing Entity <ctrl_byte_check> (Architecture <behavioral>).
+Entity <ctrl_byte_check> analyzed. Unit <ctrl_byte_check> generated.
+
+Analyzing Entity <nib4_7seg_src> (Architecture <behavioral>).
+INFO:Xst:1561 - c:/study/uebung/studium/profibus/test_ctrl_byte_check/NIB4_7SEG_SRC.vhd line 74: Mux is complete : default of case is discarded
+INFO:Xst:1561 - c:/study/uebung/studium/profibus/test_ctrl_byte_check/NIB4_7SEG_SRC.vhd line 100: Mux is complete : default of case is discarded
+Entity <nib4_7seg_src> analyzed. Unit <nib4_7seg_src> generated.
+
+Analyzing Entity <f_div50000000> (Architecture <behavioral>).
+Entity <f_div50000000> analyzed. Unit <f_div50000000> generated.
+
+Analyzing Entity <clock_single_run_src> (Architecture <behavioral>).
+Entity <clock_single_run_src> analyzed. Unit <clock_single_run_src> generated.
+
+Analyzing Entity <deb_50mz_100ms_src> (Architecture <behavioral>).
+Entity <deb_50mz_100ms_src> analyzed. Unit <deb_50mz_100ms_src> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <deb_50mz_100ms_src>.
+    Related source file is c:/study/uebung/studium/profibus/test_ctrl_byte_check/DEB_50MZ_100MS_SRC.vhd.
+    Found 24-bit adder for signal <$n0009> created at line 61.
+    Found 24-bit comparator greatequal for signal <$n0014> created at line 65.
+    Found 24-bit subtractor for signal <$n0016> created at line 83.
+    Found 24-bit register for signal <COUNT_DEB>.
+    Found 24-bit register for signal <COUNT_DEB_M>.
+    Found 1-bit register for signal <IN_DEB_S>.
+    Found 1-bit register for signal <SV<0>>.
+    Found 1-bit register for signal <SV_M<0>>.
+    Found 1 1-bit 2-to-1 multiplexers.
+    Summary:
+	inferred  51 D-type flip-flop(s).
+	inferred   2 Adder/Subtracter(s).
+	inferred   1 Comparator(s).
+	inferred   1 Multiplexer(s).
+Unit <deb_50mz_100ms_src> synthesized.
+
+
+Synthesizing Unit <clock_single_run_src>.
+    Related source file is c:/study/uebung/studium/profibus/test_ctrl_byte_check/CLOCK_SINGLE_RUN_SRC.vhd.
+    Using one-hot encoding for signal <SV>.
+    Found 1-bit register for signal <RUN_S>.
+    Found 3-bit register for signal <SV>.
+    Found 3-bit register for signal <SV_M>.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+Unit <clock_single_run_src> synthesized.
+
+
+Synthesizing Unit <f_div50000000>.
+    Related source file is c:/study/uebung/studium/profibus/test_ctrl_byte_check/F_DIV_50000000_SRC.vhd.
+    Found 32-bit comparator less for signal <$n0002> created at line 28.
+    Found 32-bit down counter for signal <COUNTER>.
+    Summary:
+	inferred   1 Counter(s).
+	inferred   1 Comparator(s).
+Unit <f_div50000000> synthesized.
+
+
+Synthesizing Unit <nib4_7seg_src>.
+    Related source file is c:/study/uebung/studium/profibus/test_ctrl_byte_check/NIB4_7SEG_SRC.vhd.
+    Found 16x7-bit ROM for signal <$n0004>.
+    Found 2-bit up counter for signal <COUNTER>.
+    Found 4-bit 4-to-1 multiplexer for signal <NIB_ANZ>.
+    Summary:
+	inferred   1 ROM(s).
+	inferred   1 Counter(s).
+	inferred   4 Multiplexer(s).
+Unit <nib4_7seg_src> synthesized.
+
+
+Synthesizing Unit <ctrl_byte_check>.
+    Related source file is c:/study/uebung/studium/profibus/test_ctrl_byte_check/CTRL_BYTE_CHECK.vhd.
+    Found 8-bit adder for signal <$n0011> created at line 149.
+    Found 1-bit register for signal <BYTE_CMPLT_S>.
+    Found 8-bit register for signal <BYTE_COUNT>.
+    Found 8-bit register for signal <BYTE_COUNT_M>.
+    Found 1-bit register for signal <NEXT_BYTE_S>.
+    Found 1-bit register for signal <PARITY_OK_S>.
+    Found 2-bit register for signal <SV>.
+    Found 2-bit register for signal <SV_M>.
+    Found 8 1-bit 2-to-1 multiplexers.
+    Summary:
+	inferred  23 D-type flip-flop(s).
+	inferred   1 Adder/Subtracter(s).
+	inferred   8 Multiplexer(s).
+Unit <ctrl_byte_check> synthesized.
+
+
+Synthesizing Unit <test_ctrl_byte_check>.
+    Related source file is c:/study/uebung/studium/profibus/test_ctrl_byte_check/test_ctrl_byte_check.vhf.
+Unit <test_ctrl_byte_check> synthesized.
+
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# ROMs                             : 1
+ 16x7-bit ROM                      : 1
+# Adders/Subtractors               : 3
+ 8-bit adder                       : 1
+ 24-bit subtractor                 : 1
+ 24-bit adder                      : 1
+# Counters                         : 2
+ 2-bit up counter                  : 1
+ 32-bit down counter               : 1
+# Registers                        : 15
+ 8-bit register                    : 2
+ 2-bit register                    : 2
+ 1-bit register                    : 7
+ 24-bit register                   : 2
+ 3-bit register                    : 2
+# Comparators                      : 2
+ 32-bit comparator less            : 1
+ 24-bit comparator greatequal      : 1
+# Multiplexers                     : 10
+ 1-bit 2-to-1 multiplexer          : 9
+ 4-bit 4-to-1 multiplexer          : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <test_ctrl_byte_check> ...
+
+Optimizing unit <ctrl_byte_check> ...
+
+Optimizing unit <deb_50mz_100ms_src> ...
+
+Optimizing unit <clock_single_run_src> ...
+
+Optimizing unit <f_div50000000> ...
+Loading device for application Xst from file '3s200.nph' in environment C:/Programme/XILINX/WEBPACK_6P3.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block test_ctrl_byte_check, actual ratio is 8.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s200ft256-5 
+
+ Number of Slices:                     136  out of   1920     7%  
+ Number of Slice Flip Flops:           115  out of   3840     2%  
+ Number of 4 input LUTs:               226  out of   3840     5%  
+ Number of bonded IOBs:                 27  out of    173    15%  
+ Number of GCLKs:                        1  out of      8    12%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+F_59MHZ_T9                         | BUFGP                  | 113   |
+XLXI_3_GE_stage_cyo(XLXI_3_GE_stagecy:O)| NONE(*)(XLXI_2_COUNTER_1)| 2     |
+-----------------------------------+------------------------+-------+
+(*) This 1 clock signal(s) are generated by combinatorial logic,
+and XST is not able to identify which are the primary clock signals.
+Please use the CLOCK_SIGNAL constraint to specify the clock signal(s) generated by combinatorial logic.
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 14.911ns (Maximum Frequency: 67.065MHz)
+   Minimum input arrival time before clock: 4.294ns
+   Maximum output required time after clock: 9.821ns
+   Maximum combinational path delay: 9.930ns
+
+=========================================================================
+Completed process "Synthesize".
+
+
+
+Started process "Translate".
+
+
+Command Line: ngdbuild -intstyle ise -dd
+c:\study\uebung\studium\profibus\test_ctrl_byte_check/_ngo -i -p xc3s200-ft256-5
+test_ctrl_byte_check.ngc test_ctrl_byte_check.ngd 
+
+Reading NGO file
+"c:/study/uebung/studium/profibus/test_ctrl_byte_check/test_ctrl_byte_check.ngc"
+...
+Reading component libraries for design expansion...
+
+Checking timing specifications ...
+Checking expanded design ...
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Total memory usage is 38884 kilobytes
+
+Writing NGD file "test_ctrl_byte_check.ngd" ...
+
+Writing NGDBUILD log file "test_ctrl_byte_check.bld"...
+
+NGDBUILD done.
+Completed process "Translate".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+Started process "View VHDL Functional Model".
+
+Release 6.3.03i - sch2vhdl G.35
+Copyright (c) 1995-2004 Xilinx, Inc.  All rights reserved.
+DRC Check completed: No Error found.
+Vhdl netlist file generated.
+Completed process "View VHDL Functional Model".
+
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file c:/study/uebung/studium/profibus/test_ctrl_byte_check/CTRL_BYTE_CHECK.vhd in Library work.
+Architecture behavioral of Entity ctrl_byte_check is up to date.
+Compiling vhdl file c:/study/uebung/studium/profibus/test_ctrl_byte_check/NIB4_7SEG_SRC.vhd in Library work.
+Architecture behavioral of Entity nib4_7seg_src is up to date.
+Compiling vhdl file c:/study/uebung/studium/profibus/test_ctrl_byte_check/F_DIV_50000000_SRC.vhd in Library work.
+Architecture behavioral of Entity f_div50000000 is up to date.
+Compiling vhdl file c:/study/uebung/studium/profibus/test_ctrl_byte_check/CLOCK_SINGLE_RUN_SRC.vhd in Library work.
+Architecture behavioral of Entity clock_single_run_src is up to date.
+Compiling vhdl file c:/study/uebung/studium/profibus/test_ctrl_byte_check/DEB_50MZ_100MS_SRC.vhd in Library work.
+Architecture behavioral of Entity deb_50mz_100ms_src is up to date.
+Compiling vhdl file c:/study/uebung/studium/profibus/test_ctrl_byte_check/test_ctrl_byte_check.vhf in Library work.
+Entity <test_ctrl_byte_check> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <test_ctrl_byte_check> (Architecture <behavioral>).
+Entity <test_ctrl_byte_check> analyzed. Unit <test_ctrl_byte_check> generated.
+
+Analyzing Entity <ctrl_byte_check> (Architecture <behavioral>).
+Entity <ctrl_byte_check> analyzed. Unit <ctrl_byte_check> generated.
+
+Analyzing Entity <nib4_7seg_src> (Architecture <behavioral>).
+INFO:Xst:1561 - c:/study/uebung/studium/profibus/test_ctrl_byte_check/NIB4_7SEG_SRC.vhd line 74: Mux is complete : default of case is discarded
+INFO:Xst:1561 - c:/study/uebung/studium/profibus/test_ctrl_byte_check/NIB4_7SEG_SRC.vhd line 100: Mux is complete : default of case is discarded
+Entity <nib4_7seg_src> analyzed. Unit <nib4_7seg_src> generated.
+
+Analyzing Entity <f_div50000000> (Architecture <behavioral>).
+Entity <f_div50000000> analyzed. Unit <f_div50000000> generated.
+
+Analyzing Entity <clock_single_run_src> (Architecture <behavioral>).
+Entity <clock_single_run_src> analyzed. Unit <clock_single_run_src> generated.
+
+Analyzing Entity <deb_50mz_100ms_src> (Architecture <behavioral>).
+Entity <deb_50mz_100ms_src> analyzed. Unit <deb_50mz_100ms_src> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <deb_50mz_100ms_src>.
+    Related source file is c:/study/uebung/studium/profibus/test_ctrl_byte_check/DEB_50MZ_100MS_SRC.vhd.
+    Found 24-bit adder for signal <$n0009> created at line 61.
+    Found 24-bit comparator greatequal for signal <$n0014> created at line 65.
+    Found 24-bit subtractor for signal <$n0016> created at line 83.
+    Found 24-bit register for signal <COUNT_DEB>.
+    Found 24-bit register for signal <COUNT_DEB_M>.
+    Found 1-bit register for signal <IN_DEB_S>.
+    Found 1-bit register for signal <SV<0>>.
+    Found 1-bit register for signal <SV_M<0>>.
+    Found 1 1-bit 2-to-1 multiplexers.
+    Summary:
+	inferred  51 D-type flip-flop(s).
+	inferred   2 Adder/Subtracter(s).
+	inferred   1 Comparator(s).
+	inferred   1 Multiplexer(s).
+Unit <deb_50mz_100ms_src> synthesized.
+
+
+Synthesizing Unit <clock_single_run_src>.
+    Related source file is c:/study/uebung/studium/profibus/test_ctrl_byte_check/CLOCK_SINGLE_RUN_SRC.vhd.
+    Using one-hot encoding for signal <SV>.
+    Found 1-bit register for signal <RUN_S>.
+    Found 3-bit register for signal <SV>.
+    Found 3-bit register for signal <SV_M>.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+Unit <clock_single_run_src> synthesized.
+
+
+Synthesizing Unit <f_div50000000>.
+    Related source file is c:/study/uebung/studium/profibus/test_ctrl_byte_check/F_DIV_50000000_SRC.vhd.
+    Found 32-bit comparator less for signal <$n0002> created at line 28.
+    Found 32-bit down counter for signal <COUNTER>.
+    Summary:
+	inferred   1 Counter(s).
+	inferred   1 Comparator(s).
+Unit <f_div50000000> synthesized.
+
+
+Synthesizing Unit <nib4_7seg_src>.
+    Related source file is c:/study/uebung/studium/profibus/test_ctrl_byte_check/NIB4_7SEG_SRC.vhd.
+    Found 16x7-bit ROM for signal <$n0004>.
+    Found 2-bit up counter for signal <COUNTER>.
+    Found 4-bit 4-to-1 multiplexer for signal <NIB_ANZ>.
+    Summary:
+	inferred   1 ROM(s).
+	inferred   1 Counter(s).
+	inferred   4 Multiplexer(s).
+Unit <nib4_7seg_src> synthesized.
+
+
+Synthesizing Unit <ctrl_byte_check>.
+    Related source file is c:/study/uebung/studium/profibus/test_ctrl_byte_check/CTRL_BYTE_CHECK.vhd.
+    Found 8-bit adder for signal <$n0011> created at line 149.
+    Found 1-bit register for signal <BYTE_CMPLT_S>.
+    Found 8-bit register for signal <BYTE_COUNT>.
+    Found 8-bit register for signal <BYTE_COUNT_M>.
+    Found 1-bit register for signal <NEXT_BYTE_S>.
+    Found 1-bit register for signal <PARITY_OK_S>.
+    Found 2-bit register for signal <SV>.
+    Found 2-bit register for signal <SV_M>.
+    Found 8 1-bit 2-to-1 multiplexers.
+    Summary:
+	inferred  23 D-type flip-flop(s).
+	inferred   1 Adder/Subtracter(s).
+	inferred   8 Multiplexer(s).
+Unit <ctrl_byte_check> synthesized.
+
+
+Synthesizing Unit <test_ctrl_byte_check>.
+    Related source file is c:/study/uebung/studium/profibus/test_ctrl_byte_check/test_ctrl_byte_check.vhf.
+Unit <test_ctrl_byte_check> synthesized.
+
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# ROMs                             : 1
+ 16x7-bit ROM                      : 1
+# Adders/Subtractors               : 3
+ 8-bit adder                       : 1
+ 24-bit subtractor                 : 1
+ 24-bit adder                      : 1
+# Counters                         : 2
+ 2-bit up counter                  : 1
+ 32-bit down counter               : 1
+# Registers                        : 15
+ 8-bit register                    : 2
+ 2-bit register                    : 2
+ 1-bit register                    : 7
+ 24-bit register                   : 2
+ 3-bit register                    : 2
+# Comparators                      : 2
+ 32-bit comparator less            : 1
+ 24-bit comparator greatequal      : 1
+# Multiplexers                     : 10
+ 1-bit 2-to-1 multiplexer          : 9
+ 4-bit 4-to-1 multiplexer          : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <test_ctrl_byte_check> ...
+
+Optimizing unit <ctrl_byte_check> ...
+
+Optimizing unit <deb_50mz_100ms_src> ...
+
+Optimizing unit <clock_single_run_src> ...
+
+Optimizing unit <f_div50000000> ...
+Loading device for application Xst from file '3s200.nph' in environment C:/Programme/XILINX/WEBPACK_6P3.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block test_ctrl_byte_check, actual ratio is 8.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s200ft256-5 
+
+ Number of Slices:                     136  out of   1920     7%  
+ Number of Slice Flip Flops:           115  out of   3840     2%  
+ Number of 4 input LUTs:               226  out of   3840     5%  
+ Number of bonded IOBs:                 27  out of    173    15%  
+ Number of GCLKs:                        1  out of      8    12%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+F_59MHZ_T9                         | BUFGP                  | 113   |
+XLXI_3_GE_stage_cyo(XLXI_3_GE_stagecy:O)| NONE(*)(XLXI_2_COUNTER_1)| 2     |
+-----------------------------------+------------------------+-------+
+(*) This 1 clock signal(s) are generated by combinatorial logic,
+and XST is not able to identify which are the primary clock signals.
+Please use the CLOCK_SIGNAL constraint to specify the clock signal(s) generated by combinatorial logic.
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 14.911ns (Maximum Frequency: 67.065MHz)
+   Minimum input arrival time before clock: 4.294ns
+   Maximum output required time after clock: 9.821ns
+   Maximum combinational path delay: 9.930ns
+
+=========================================================================
+Completed process "Synthesize".
+
+
+
+Started process "Translate".
+
+
+Command Line: ngdbuild -intstyle ise -dd
+c:\study\uebung\studium\profibus\test_ctrl_byte_check/_ngo -uc
+test_ctrl_byte_check.ucf -p xc3s200-ft256-5 test_ctrl_byte_check.ngc
+test_ctrl_byte_check.ngd 
+
+Reading NGO file
+"c:/study/uebung/studium/profibus/test_ctrl_byte_check/test_ctrl_byte_check.ngc"
+...
+Reading component libraries for design expansion...
+
+Annotating constraints to design from file "test_ctrl_byte_check.ucf" ...
+
+Checking timing specifications ...
+Checking expanded design ...
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Total memory usage is 40932 kilobytes
+
+Writing NGD file "test_ctrl_byte_check.ngd" ...
+
+Writing NGDBUILD log file "test_ctrl_byte_check.bld"...
+
+NGDBUILD done.
+Completed process "Translate".
+
+
+
+Started process "Map".
+
+Using target part "3s200ft256-5".
+Removing unused or disabled logic...
+Running cover...
+Running directed packing...
+Running delay-based LUT packing...
+Running related packing...
+
+Design Summary:
+Number of errors:      0
+Number of warnings:    1
+Logic Utilization:
+  Number of Slice Flip Flops:         110 out of   3,840    2%
+  Number of 4 input LUTs:             184 out of   3,840    4%
+Logic Distribution:
+  Number of occupied Slices:                          150 out of   1,920    7%
+    Number of Slices containing only related logic:     150 out of     150  100%
+    Number of Slices containing unrelated logic:          0 out of     150    0%
+      *See NOTES below for an explanation of the effects of unrelated logic
+Total Number 4 input LUTs:            225 out of   3,840    5%
+  Number used as logic:                184
+  Number used as a route-thru:          41
+  Number of bonded IOBs:               28 out of     173   16%
+    IOB Flip Flops:                     5
+  Number of GCLKs:                     1 out of       8   12%
+
+Total equivalent gate count for design:  2,615
+Additional JTAG gate count for IOBs:  1,344
+Peak Memory Usage:  70 MB
+
+NOTES:
+
+   Related logic is defined as being logic that shares connectivity -
+   e.g. two LUTs are "related" if they share common inputs.
+   When assembling slices, Map gives priority to combine logic that
+   is related.  Doing so results in the best timing performance.
+
+   Unrelated logic shares no connectivity.  Map will only begin
+   packing unrelated logic into a slice once 99% of the slices are
+   occupied through related logic packing.
+
+   Note that once logic distribution reaches the 99% level through
+   related logic packing, this does not mean the device is completely
+   utilized.  Unrelated logic packing will then begin, continuing until
+   all usable LUTs and FFs are occupied.  Depending on your timing
+   budget, increased levels of unrelated logic packing may adversely
+   affect the overall timing performance of your design.
+
+
+Mapping completed.
+See MAP report file "test_ctrl_byte_check_map.mrp" for details.
+Completed process "Map".
+
+Mapping Module test_ctrl_byte_check . . .
+MAP command line:
+map -intstyle ise -p xc3s200-ft256-5 -cm area -pr b -k 4 -c 100 -tx off -o test_ctrl_byte_check_map.ncd test_ctrl_byte_check.ngd test_ctrl_byte_check.pcf
+Mapping Module test_ctrl_byte_check: DONE
+
+
+
+Started process "Place & Route".
+
+
+
+
+
+Constraints file: test_ctrl_byte_check.pcf
+
+Loading device database for application Par from file
+"test_ctrl_byte_check_map.ncd".
+   "test_ctrl_byte_check" is an NCD, version 2.38, device xc3s200, package
+ft256, speed -5
+Loading device for application Par from file '3s200.nph' in environment
+C:/Programme/XILINX/WEBPACK_6P3.
+Device speed data version:  ADVANCED 1.35 2004-11-11.
+
+
+Resolving physical constraints.
+Finished resolving physical constraints.
+
+Device utilization summary:
+
+   Number of External IOBs            28 out of 173    16%
+      Number of LOCed External IOBs   20 out of 28     71%
+
+   Number of Slices                  150 out of 1920    7%
+
+   Number of BUFGMUXs                  1 out of 8      12%
+
+
+
+Overall effort level (-ol):   Standard (set by user)
+Placer effort level (-pl):    Standard (set by user)
+Placer cost table entry (-t): 1
+Router effort level (-rl):    Standard (set by user)
+
+
+Phase 1.1
+Phase 1.1 (Checksum:989a7f) REAL time: 0 secs 
+
+
+Phase 3.3
+Phase 3.3 (Checksum:1c9c37d) REAL time: 0 secs 
+
+Phase 4.5
+Phase 4.5 (Checksum:26259fc) REAL time: 0 secs 
+
+Phase 5.8
+............
+Phase 5.8 (Checksum:9a5ad7) REAL time: 0 secs 
+
+Phase 6.5
+Phase 6.5 (Checksum:39386fa) REAL time: 0 secs 
+
+Phase 7.18
+Phase 7.18 (Checksum:42c1d79) REAL time: 0 secs 
+
+Writing design to file test_ctrl_byte_check.ncd.
+
+Total REAL time to Placer completion: 0 secs 
+Total CPU time to Placer completion: 1 secs 
+
+
+Phase 1: 778 unrouted;       REAL time: 0 secs 
+
+Phase 2: 694 unrouted;       REAL time: 0 secs 
+
+Phase 3: 221 unrouted;       REAL time: 0 secs 
+
+Phase 4: 0 unrouted;       REAL time: 0 secs 
+
+Total REAL time to Router completion: 0 secs 
+Total CPU time to Router completion: 1 secs 
+
+Generating "par" statistics.
+
+**************************
+Generating Clock Report
+**************************
+
++-------------------------+----------+------+------+------------+-------------+
+|        Clock Net        | Resource |Locked|Fanout|Net Skew(ns)|Max Delay(ns)|
++-------------------------+----------+------+------+------------+-------------+
+|  F_59MHZ_T9_BUFGP       |  BUFGMUX0| No   |   75 |  0.035     |  0.916      |
++-------------------------+----------+------+------+------------+-------------+
+|     XLXI_3_GE_stage_cyo |   Local  |      |    2 |  1.056     |  3.703      |
++-------------------------+----------+------+------+------------+-------------+
+
+Generating Pad Report.
+
+All signals are completely routed.
+
+Total REAL time to PAR completion: 2 secs 
+Total CPU time to PAR completion: 1 secs 
+
+Peak Memory Usage:  60 MB
+
+Placement: Completed - No errors found.
+Routing: Completed - No errors found.
+
+Writing design to file test_ctrl_byte_check.ncd.
+
+
+PAR done.
+Completed process "Place & Route".
+
+
+Started process "Generate Post-Place & Route Static Timing".
+
+
+Analysis completed Wed Dec 19 17:41:29 2012
+--------------------------------------------------------------------------------
+
+Generating Report ...
+
+Completed process "Generate Post-Place & Route Static Timing".
+
+Place & Route Module test_ctrl_byte_check . . .
+PAR command line: par -w -intstyle ise -ol std -t 1 test_ctrl_byte_check_map.ncd test_ctrl_byte_check.ncd test_ctrl_byte_check.pcf
+PAR completed successfully
+
+
+
+
+Started process "Generate Programming File".
+
+WARNING:DesignRules:372 - Netcheck: Gated clock. Clock net XLXI_3_GE_stage_cyo
+   is sourced by a combinatorial pin. This is not good design practice. Use the
+   CE pin to control the loading of data into the flip-flop.
+Completed process "Generate Programming File".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+Started process "Create Schematic Symbol".
+
+Compiling vhdl file
+c:/study/uebung/studium/profibus/test_ctrl_byte_check/F_DIV50000_SRC.vhd in
+Library work.
+Entity <F_DIV50000> (Architecture <Behavioral>) compiled.
+tdtfi(vhdl) completed successfully.
+
+
+Release 6.3.03i - spl2sym G.35
+Copyright (c) 1995-2004 Xilinx, Inc.  All rights reserved.
+Completed process "Create Schematic Symbol".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+deleting test_ctrl_byte_check.vhf
+deleting test_ctrl_byte_check.cmd_log
+deleting test_ctrl_byte_check.lso
+deleting test_ctrl_byte_check.syr
+deleting test_ctrl_byte_check.prj
+deleting test_ctrl_byte_check.sprj
+deleting test_ctrl_byte_check.ana
+deleting test_ctrl_byte_check.stx
+deleting test_ctrl_byte_check.cmd_log
+deleting test_ctrl_byte_check.ngc
+deleting test_ctrl_byte_check.ngr
+deleting __projnav/ngdbuild.err
+deleting __projnav/ednTOngd_tcl.rsp
+deleting c:\study\uebung\studium\profibus\test_ctrl_byte_check/_ngo
+deleting test_ctrl_byte_check.ngd
+deleting test_ctrl_byte_check_ngdbuild.nav
+deleting test_ctrl_byte_check.bld
+deleting .untf
+deleting test_ctrl_byte_check.cmd_log
+deleting __projnav/parentAssignPackagePinsApp_tcl.rsp
+deleting test_ctrl_byte_check.vhf
+deleting test_ctrl_byte_check.cmd_log
+deleting test_ctrl_byte_check.lso
+deleting test_ctrl_byte_check.syr
+deleting test_ctrl_byte_check.prj
+deleting test_ctrl_byte_check.sprj
+deleting test_ctrl_byte_check.ana
+deleting test_ctrl_byte_check.stx
+deleting test_ctrl_byte_check.cmd_log
+deleting test_ctrl_byte_check.ngc
+deleting test_ctrl_byte_check.ngr
+deleting __projnav/ngdbuild.err
+deleting __projnav/ednTOngd_tcl.rsp
+deleting c:\study\uebung\studium\profibus\test_ctrl_byte_check/_ngo
+deleting test_ctrl_byte_check.ngd
+deleting test_ctrl_byte_check_ngdbuild.nav
+deleting test_ctrl_byte_check.bld
+deleting test_ctrl_byte_check.ucf.untf
+deleting test_ctrl_byte_check.cmd_log
+deleting test_ctrl_byte_check_map.ncd
+deleting test_ctrl_byte_check.ngm
+deleting test_ctrl_byte_check.pcf
+deleting test_ctrl_byte_check.nc1
+deleting test_ctrl_byte_check.mrp
+deleting test_ctrl_byte_check_map.mrp
+deleting test_ctrl_byte_check.mdf
+deleting __projnav/map.log
+deleting test_ctrl_byte_check.cmd_log
+deleting __projnav/ncdTOtwr_tcl.rsp
+deleting __projnav/posttrc.log
+deleting test_ctrl_byte_check.twr
+deleting test_ctrl_byte_check.twx
+deleting test_ctrl_byte_check.tsi
+deleting test_ctrl_byte_check.cmd_log
+deleting __projnav/nc1TOncd_tcl.rsp
+deleting test_ctrl_byte_check.ncd
+deleting test_ctrl_byte_check.par
+deleting test_ctrl_byte_check.pad
+deleting test_ctrl_byte_check_pad.txt
+deleting test_ctrl_byte_check_pad.csv
+deleting test_ctrl_byte_check.pad_txt
+deleting test_ctrl_byte_check.dly
+deleting reportgen.log
+deleting test_ctrl_byte_check.xpi
+deleting test_ctrl_byte_check.grf
+deleting test_ctrl_byte_check.itr
+deleting test_ctrl_byte_check_last_par.ncd
+deleting __projnav/par.log
+deleting test_ctrl_byte_check.placed_ncd_tracker
+deleting test_ctrl_byte_check.routed_ncd_tracker
+deleting test_ctrl_byte_check.cmd_log
+deleting __projnav/test_ctrl_byte_check_ncdTOut_tcl.rsp
+deleting __projnav/bitgen.rsp
+deleting bitgen.ut
+deleting test_ctrl_byte_check.ut
+deleting test_ctrl_byte_check.bgn
+deleting test_ctrl_byte_check.rbt
+deleting test_ctrl_byte_check.ll
+deleting test_ctrl_byte_check.msk
+deleting test_ctrl_byte_check.drc
+deleting test_ctrl_byte_check.nky
+deleting test_ctrl_byte_check.bit
+deleting test_ctrl_byte_check.bin
+deleting test_ctrl_byte_check.isc
+deleting test_ctrl_byte_check.cmd_log
+deleting test_ctrl_byte_check.prm
+deleting test_ctrl_byte_check.isc
+deleting test_ctrl_byte_check.svf
+deleting xilinx.sys
+deleting test_ctrl_byte_check.mcs
+deleting test_ctrl_byte_check.exo
+deleting test_ctrl_byte_check.hex
+deleting test_ctrl_byte_check.tek
+deleting test_ctrl_byte_check.dst
+deleting test_ctrl_byte_check.dst_compressed
+deleting test_ctrl_byte_check.mpm
+deleting _impact.cmd
+deleting _impact.log
+deleting __projnav/test_ctrl_byte_check_jhdparse_tcl.rsp
+deleting __projnav/tb.rsp
+deleting f_div50000.spl
+deleting __projnav/vhd2spl.err
+deleting __projnav/test_ctrl_byte_check_jhdparse_tcl.rsp
+deleting test_ctrl_byte_check.prj
+deleting test_ctrl_byte_check.prj
+deleting __projnav/test_ctrl_byte_check.xst
+deleting ./xst
+deleting test_ctrl_byte_check.prj
+deleting test_ctrl_byte_check.prj
+deleting __projnav/test_ctrl_byte_check.xst
+deleting ./xst
+deleting __projnav/TEST_CTRL_BYTE_CHECK.gfl
+deleting __projnav/TEST_CTRL_BYTE_CHECK_flowplus.gfl
+Finished cleaning up project
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+Started process "View VHDL Functional Model".
+
+Release 6.3.03i - sch2vhdl G.35
+Copyright (c) 1995-2004 Xilinx, Inc.  All rights reserved.
+DRC Check completed: No Error found.
+Vhdl netlist file generated.
+Completed process "View VHDL Functional Model".
+
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file c:/study/uebung/studium/profibus/test_ctrl_byte_check/CTRL_BYTE_CHECK.vhd in Library work.
+Entity <CTRL_BYTE_CHECK> (Architecture <Behavioral>) compiled.
+Compiling vhdl file c:/study/uebung/studium/profibus/test_ctrl_byte_check/NIB4_7SEG_SRC.vhd in Library work.
+Entity <NIB4_7SEG_SRC> (Architecture <Behavioral>) compiled.
+Compiling vhdl file c:/study/uebung/studium/profibus/test_ctrl_byte_check/CLOCK_SINGLE_RUN_SRC.vhd in Library work.
+Entity <CLOCK_SINGLE_RUN_SRC> (Architecture <Behavioral>) compiled.
+Compiling vhdl file c:/study/uebung/studium/profibus/test_ctrl_byte_check/DEB_50MZ_100MS_SRC.vhd in Library work.
+Entity <DEB_50MZ_100MS_SRC> (Architecture <Behavioral>) compiled.
+Compiling vhdl file c:/study/uebung/studium/profibus/test_ctrl_byte_check/F_DIV50000_SRC.vhd in Library work.
+Entity <F_DIV50000> (Architecture <Behavioral>) compiled.
+Compiling vhdl file c:/study/uebung/studium/profibus/test_ctrl_byte_check/test_ctrl_byte_check.vhf in Library work.
+Entity <test_ctrl_byte_check> (Architecture <BEHAVIORAL>) compiled.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <test_ctrl_byte_check> (Architecture <BEHAVIORAL>).
+Entity <test_ctrl_byte_check> analyzed. Unit <test_ctrl_byte_check> generated.
+
+Analyzing Entity <ctrl_byte_check> (Architecture <behavioral>).
+Entity <ctrl_byte_check> analyzed. Unit <ctrl_byte_check> generated.
+
+Analyzing Entity <nib4_7seg_src> (Architecture <behavioral>).
+INFO:Xst:1561 - c:/study/uebung/studium/profibus/test_ctrl_byte_check/NIB4_7SEG_SRC.vhd line 74: Mux is complete : default of case is discarded
+INFO:Xst:1561 - c:/study/uebung/studium/profibus/test_ctrl_byte_check/NIB4_7SEG_SRC.vhd line 100: Mux is complete : default of case is discarded
+Entity <nib4_7seg_src> analyzed. Unit <nib4_7seg_src> generated.
+
+Analyzing Entity <clock_single_run_src> (Architecture <behavioral>).
+Entity <clock_single_run_src> analyzed. Unit <clock_single_run_src> generated.
+
+Analyzing Entity <deb_50mz_100ms_src> (Architecture <behavioral>).
+Entity <deb_50mz_100ms_src> analyzed. Unit <deb_50mz_100ms_src> generated.
+
+Analyzing Entity <f_div50000> (Architecture <behavioral>).
+Entity <f_div50000> analyzed. Unit <f_div50000> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <f_div50000>.
+    Related source file is c:/study/uebung/studium/profibus/test_ctrl_byte_check/F_DIV50000_SRC.vhd.
+    Found 32-bit comparator less for signal <$n0002> created at line 28.
+    Found 32-bit down counter for signal <COUNTER>.
+    Summary:
+	inferred   1 Counter(s).
+	inferred   1 Comparator(s).
+Unit <f_div50000> synthesized.
+
+
+Synthesizing Unit <deb_50mz_100ms_src>.
+    Related source file is c:/study/uebung/studium/profibus/test_ctrl_byte_check/DEB_50MZ_100MS_SRC.vhd.
+    Found 24-bit adder for signal <$n0009> created at line 61.
+    Found 24-bit comparator greatequal for signal <$n0014> created at line 65.
+    Found 24-bit subtractor for signal <$n0016> created at line 83.
+    Found 24-bit register for signal <COUNT_DEB>.
+    Found 24-bit register for signal <COUNT_DEB_M>.
+    Found 1-bit register for signal <IN_DEB_S>.
+    Found 1-bit register for signal <SV<0>>.
+    Found 1-bit register for signal <SV_M<0>>.
+    Found 1 1-bit 2-to-1 multiplexers.
+    Summary:
+	inferred  51 D-type flip-flop(s).
+	inferred   2 Adder/Subtracter(s).
+	inferred   1 Comparator(s).
+	inferred   1 Multiplexer(s).
+Unit <deb_50mz_100ms_src> synthesized.
+
+
+Synthesizing Unit <clock_single_run_src>.
+    Related source file is c:/study/uebung/studium/profibus/test_ctrl_byte_check/CLOCK_SINGLE_RUN_SRC.vhd.
+    Using one-hot encoding for signal <SV>.
+    Found 1-bit register for signal <RUN_S>.
+    Found 3-bit register for signal <SV>.
+    Found 3-bit register for signal <SV_M>.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+Unit <clock_single_run_src> synthesized.
+
+
+Synthesizing Unit <nib4_7seg_src>.
+    Related source file is c:/study/uebung/studium/profibus/test_ctrl_byte_check/NIB4_7SEG_SRC.vhd.
+    Found 16x7-bit ROM for signal <$n0004>.
+    Found 2-bit up counter for signal <COUNTER>.
+    Found 4-bit 4-to-1 multiplexer for signal <NIB_ANZ>.
+    Summary:
+	inferred   1 ROM(s).
+	inferred   1 Counter(s).
+	inferred   4 Multiplexer(s).
+Unit <nib4_7seg_src> synthesized.
+
+
+Synthesizing Unit <ctrl_byte_check>.
+    Related source file is c:/study/uebung/studium/profibus/test_ctrl_byte_check/CTRL_BYTE_CHECK.vhd.
+    Found 8-bit adder for signal <$n0011> created at line 149.
+    Found 1-bit register for signal <BYTE_CMPLT_S>.
+    Found 8-bit register for signal <BYTE_COUNT>.
+    Found 8-bit register for signal <BYTE_COUNT_M>.
+    Found 1-bit register for signal <NEXT_BYTE_S>.
+    Found 1-bit register for signal <PARITY_OK_S>.
+    Found 2-bit register for signal <SV>.
+    Found 2-bit register for signal <SV_M>.
+    Found 8 1-bit 2-to-1 multiplexers.
+    Summary:
+	inferred  23 D-type flip-flop(s).
+	inferred   1 Adder/Subtracter(s).
+	inferred   8 Multiplexer(s).
+Unit <ctrl_byte_check> synthesized.
+
+
+Synthesizing Unit <test_ctrl_byte_check>.
+    Related source file is c:/study/uebung/studium/profibus/test_ctrl_byte_check/test_ctrl_byte_check.vhf.
+Unit <test_ctrl_byte_check> synthesized.
+
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# ROMs                             : 1
+ 16x7-bit ROM                      : 1
+# Adders/Subtractors               : 3
+ 8-bit adder                       : 1
+ 24-bit subtractor                 : 1
+ 24-bit adder                      : 1
+# Counters                         : 2
+ 2-bit up counter                  : 1
+ 32-bit down counter               : 1
+# Registers                        : 15
+ 8-bit register                    : 2
+ 2-bit register                    : 2
+ 1-bit register                    : 7
+ 24-bit register                   : 2
+ 3-bit register                    : 2
+# Comparators                      : 2
+ 24-bit comparator greatequal      : 1
+ 32-bit comparator less            : 1
+# Multiplexers                     : 10
+ 1-bit 2-to-1 multiplexer          : 9
+ 4-bit 4-to-1 multiplexer          : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <test_ctrl_byte_check> ...
+
+Optimizing unit <ctrl_byte_check> ...
+
+Optimizing unit <deb_50mz_100ms_src> ...
+
+Optimizing unit <clock_single_run_src> ...
+
+Optimizing unit <f_div50000> ...
+Loading device for application Xst from file '3s200.nph' in environment C:/Programme/XILINX/WEBPACK_6P3.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block test_ctrl_byte_check, actual ratio is 8.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s200ft256-5 
+
+ Number of Slices:                     135  out of   1920     7%  
+ Number of Slice Flip Flops:           115  out of   3840     2%  
+ Number of 4 input LUTs:               225  out of   3840     5%  
+ Number of bonded IOBs:                 27  out of    173    15%  
+ Number of GCLKs:                        1  out of      8    12%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+F_59MHZ_T9                         | BUFGP                  | 113   |
+XLXI_10_GE_stage_cyo(XLXI_10_GE_stagecy:O)| NONE(*)(XLXI_2_COUNTER_1)| 2     |
+-----------------------------------+------------------------+-------+
+(*) This 1 clock signal(s) are generated by combinatorial logic,
+and XST is not able to identify which are the primary clock signals.
+Please use the CLOCK_SIGNAL constraint to specify the clock signal(s) generated by combinatorial logic.
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 14.911ns (Maximum Frequency: 67.065MHz)
+   Minimum input arrival time before clock: 4.294ns
+   Maximum output required time after clock: 9.821ns
+   Maximum combinational path delay: 9.930ns
+
+=========================================================================
+Completed process "Synthesize".
+
+
+
+Started process "Translate".
+
+
+Command Line: ngdbuild -intstyle ise -dd
+c:\study\uebung\studium\profibus\test_ctrl_byte_check/_ngo -uc
+test_ctrl_byte_check.ucf -p xc3s200-ft256-5 test_ctrl_byte_check.ngc
+test_ctrl_byte_check.ngd 
+
+Reading NGO file
+"c:/study/uebung/studium/profibus/test_ctrl_byte_check/test_ctrl_byte_check.ngc"
+...
+Reading component libraries for design expansion...
+
+Annotating constraints to design from file "test_ctrl_byte_check.ucf" ...
+
+Checking timing specifications ...
+Checking expanded design ...
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Total memory usage is 40932 kilobytes
+
+Writing NGD file "test_ctrl_byte_check.ngd" ...
+
+Writing NGDBUILD log file "test_ctrl_byte_check.bld"...
+
+NGDBUILD done.
+Completed process "Translate".
+
+
+
+Started process "Map".
+
+Using target part "3s200ft256-5".
+Removing unused or disabled logic...
+Running cover...
+Running directed packing...
+Running delay-based LUT packing...
+Running related packing...
+
+Design Summary:
+Number of errors:      0
+Number of warnings:    0
+Logic Utilization:
+  Number of Slice Flip Flops:         110 out of   3,840    2%
+  Number of 4 input LUTs:             185 out of   3,840    4%
+Logic Distribution:
+  Number of occupied Slices:                          150 out of   1,920    7%
+    Number of Slices containing only related logic:     150 out of     150  100%
+    Number of Slices containing unrelated logic:          0 out of     150    0%
+      *See NOTES below for an explanation of the effects of unrelated logic
+Total Number 4 input LUTs:            224 out of   3,840    5%
+  Number used as logic:                185
+  Number used as a route-thru:          39
+  Number of bonded IOBs:               28 out of     173   16%
+    IOB Flip Flops:                     5
+  Number of GCLKs:                     1 out of       8   12%
+
+Total equivalent gate count for design:  2,618
+Additional JTAG gate count for IOBs:  1,344
+Peak Memory Usage:  70 MB
+
+NOTES:
+
+   Related logic is defined as being logic that shares connectivity -
+   e.g. two LUTs are "related" if they share common inputs.
+   When assembling slices, Map gives priority to combine logic that
+   is related.  Doing so results in the best timing performance.
+
+   Unrelated logic shares no connectivity.  Map will only begin
+   packing unrelated logic into a slice once 99% of the slices are
+   occupied through related logic packing.
+
+   Note that once logic distribution reaches the 99% level through
+   related logic packing, this does not mean the device is completely
+   utilized.  Unrelated logic packing will then begin, continuing until
+   all usable LUTs and FFs are occupied.  Depending on your timing
+   budget, increased levels of unrelated logic packing may adversely
+   affect the overall timing performance of your design.
+
+
+Mapping completed.
+See MAP report file "test_ctrl_byte_check_map.mrp" for details.
+Completed process "Map".
+
+Mapping Module test_ctrl_byte_check . . .
+MAP command line:
+map -intstyle ise -p xc3s200-ft256-5 -cm area -pr b -k 4 -c 100 -tx off -o test_ctrl_byte_check_map.ncd test_ctrl_byte_check.ngd test_ctrl_byte_check.pcf
+Mapping Module test_ctrl_byte_check: DONE
+
+
+
+Started process "Place & Route".
+
+
+
+
+
+Constraints file: test_ctrl_byte_check.pcf
+
+Loading device database for application Par from file
+"test_ctrl_byte_check_map.ncd".
+   "test_ctrl_byte_check" is an NCD, version 2.38, device xc3s200, package
+ft256, speed -5
+Loading device for application Par from file '3s200.nph' in environment
+C:/Programme/XILINX/WEBPACK_6P3.
+Device speed data version:  ADVANCED 1.35 2004-11-11.
+
+
+Resolving physical constraints.
+Finished resolving physical constraints.
+
+Device utilization summary:
+
+   Number of External IOBs            28 out of 173    16%
+      Number of LOCed External IOBs   20 out of 28     71%
+
+   Number of Slices                  150 out of 1920    7%
+
+   Number of BUFGMUXs                  1 out of 8      12%
+
+
+
+Overall effort level (-ol):   Standard (set by user)
+Placer effort level (-pl):    Standard (set by user)
+Placer cost table entry (-t): 1
+Router effort level (-rl):    Standard (set by user)
+
+
+Phase 1.1
+Phase 1.1 (Checksum:989a06) REAL time: 0 secs 
+
+
+Phase 3.3
+Phase 3.3 (Checksum:1c9c37d) REAL time: 0 secs 
+
+Phase 4.5
+Phase 4.5 (Checksum:26259fc) REAL time: 0 secs 
+
+Phase 5.8
+......................
+Phase 5.8 (Checksum:9a6c6b) REAL time: 0 secs 
+
+Phase 6.5
+Phase 6.5 (Checksum:39386fa) REAL time: 0 secs 
+
+Phase 7.18
+Phase 7.18 (Checksum:42c1d79) REAL time: 0 secs 
+
+Writing design to file test_ctrl_byte_check.ncd.
+
+Total REAL time to Placer completion: 0 secs 
+Total CPU time to Placer completion: 1 secs 
+
+
+Phase 1: 780 unrouted;       REAL time: 0 secs 
+
+Phase 2: 696 unrouted;       REAL time: 0 secs 
+
+Phase 3: 210 unrouted;       REAL time: 0 secs 
+
+Phase 4: 0 unrouted;       REAL time: 0 secs 
+
+Total REAL time to Router completion: 0 secs 
+Total CPU time to Router completion: 1 secs 
+
+Generating "par" statistics.
+
+**************************
+Generating Clock Report
+**************************
+
++-------------------------+----------+------+------+------------+-------------+
+|        Clock Net        | Resource |Locked|Fanout|Net Skew(ns)|Max Delay(ns)|
++-------------------------+----------+------+------+------------+-------------+
+|  F_59MHZ_T9_BUFGP       |  BUFGMUX0| No   |   75 |  0.036     |  0.916      |
++-------------------------+----------+------+------+------------+-------------+
+|    XLXI_10_GE_stage_cyo |   Local  |      |    2 |  0.897     |  3.206      |
++-------------------------+----------+------+------+------------+-------------+
+
+Generating Pad Report.
+
+All signals are completely routed.
+
+Total REAL time to PAR completion: 0 secs 
+Total CPU time to PAR completion: 1 secs 
+
+Peak Memory Usage:  60 MB
+
+Placement: Completed - No errors found.
+Routing: Completed - No errors found.
+
+Writing design to file test_ctrl_byte_check.ncd.
+
+
+PAR done.
+Completed process "Place & Route".
+
+
+Started process "Generate Post-Place & Route Static Timing".
+
+
+Analysis completed Wed Dec 19 17:47:50 2012
+--------------------------------------------------------------------------------
+
+Generating Report ...
+
+Completed process "Generate Post-Place & Route Static Timing".
+
+Place & Route Module test_ctrl_byte_check . . .
+PAR command line: par -w -intstyle ise -ol std -t 1 test_ctrl_byte_check_map.ncd test_ctrl_byte_check.ncd test_ctrl_byte_check.pcf
+PAR completed successfully
+
+
+
+
+Started process "Generate Programming File".
+
+Completed process "Generate Programming File".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+deleting test_ctrl_byte_check.vhf
+deleting test_ctrl_byte_check.cmd_log
+deleting test_ctrl_byte_check.lso
+deleting test_ctrl_byte_check.syr
+deleting test_ctrl_byte_check.prj
+deleting test_ctrl_byte_check.sprj
+deleting test_ctrl_byte_check.ana
+deleting test_ctrl_byte_check.stx
+deleting test_ctrl_byte_check.cmd_log
+deleting test_ctrl_byte_check.ngc
+deleting test_ctrl_byte_check.ngr
+deleting __projnav/ngdbuild.err
+deleting __projnav/ednTOngd_tcl.rsp
+deleting c:\study\uebung\studium\profibus\test_ctrl_byte_check/_ngo
+deleting test_ctrl_byte_check.ngd
+deleting test_ctrl_byte_check_ngdbuild.nav
+deleting test_ctrl_byte_check.bld
+deleting test_ctrl_byte_check.ucf.untf
+deleting test_ctrl_byte_check.cmd_log
+deleting test_ctrl_byte_check_map.ncd
+deleting test_ctrl_byte_check.ngm
+deleting test_ctrl_byte_check.pcf
+deleting test_ctrl_byte_check.nc1
+deleting test_ctrl_byte_check.mrp
+deleting test_ctrl_byte_check_map.mrp
+deleting test_ctrl_byte_check.mdf
+deleting __projnav/map.log
+deleting test_ctrl_byte_check.cmd_log
+deleting __projnav/ncdTOtwr_tcl.rsp
+deleting __projnav/posttrc.log
+deleting test_ctrl_byte_check.twr
+deleting test_ctrl_byte_check.twx
+deleting test_ctrl_byte_check.tsi
+deleting test_ctrl_byte_check.cmd_log
+deleting __projnav/nc1TOncd_tcl.rsp
+deleting test_ctrl_byte_check.ncd
+deleting test_ctrl_byte_check.par
+deleting test_ctrl_byte_check.pad
+deleting test_ctrl_byte_check_pad.txt
+deleting test_ctrl_byte_check_pad.csv
+deleting test_ctrl_byte_check.pad_txt
+deleting test_ctrl_byte_check.dly
+deleting reportgen.log
+deleting test_ctrl_byte_check.xpi
+deleting test_ctrl_byte_check.grf
+deleting test_ctrl_byte_check.itr
+deleting test_ctrl_byte_check_last_par.ncd
+deleting __projnav/par.log
+deleting test_ctrl_byte_check.placed_ncd_tracker
+deleting test_ctrl_byte_check.routed_ncd_tracker
+deleting test_ctrl_byte_check.cmd_log
+deleting __projnav/test_ctrl_byte_check_ncdTOut_tcl.rsp
+deleting __projnav/bitgen.rsp
+deleting bitgen.ut
+deleting test_ctrl_byte_check.ut
+deleting test_ctrl_byte_check.bgn
+deleting test_ctrl_byte_check.rbt
+deleting test_ctrl_byte_check.ll
+deleting test_ctrl_byte_check.msk
+deleting test_ctrl_byte_check.drc
+deleting test_ctrl_byte_check.nky
+deleting test_ctrl_byte_check.bit
+deleting test_ctrl_byte_check.bin
+deleting test_ctrl_byte_check.isc
+deleting test_ctrl_byte_check.cmd_log
+deleting test_ctrl_byte_check.prm
+deleting test_ctrl_byte_check.isc
+deleting test_ctrl_byte_check.svf
+deleting xilinx.sys
+deleting test_ctrl_byte_check.mcs
+deleting test_ctrl_byte_check.exo
+deleting test_ctrl_byte_check.hex
+deleting test_ctrl_byte_check.tek
+deleting test_ctrl_byte_check.dst
+deleting test_ctrl_byte_check.dst_compressed
+deleting test_ctrl_byte_check.mpm
+deleting _impact.cmd
+deleting _impact.log
+deleting test_ctrl_byte_check.prj
+deleting test_ctrl_byte_check.prj
+deleting __projnav/test_ctrl_byte_check.xst
+deleting ./xst
+deleting __projnav/TEST_CTRL_BYTE_CHECK.gfl
+deleting __projnav/TEST_CTRL_BYTE_CHECK_flowplus.gfl
+Finished cleaning up project
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+Started process "View VHDL Functional Model".
+
+Release 6.3.03i - sch2vhdl G.35
+Copyright (c) 1995-2004 Xilinx, Inc.  All rights reserved.
+DRC Check completed: No Error found.
+Vhdl netlist file generated.
+Completed process "View VHDL Functional Model".
+
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file c:/study/uebung/studium/profibus/test_ctrl_byte_check/CTRL_BYTE_CHECK.vhd in Library work.
+Entity <CTRL_BYTE_CHECK> (Architecture <Behavioral>) compiled.
+Compiling vhdl file c:/study/uebung/studium/profibus/test_ctrl_byte_check/NIB4_7SEG_SRC.vhd in Library work.
+Entity <NIB4_7SEG_SRC> (Architecture <Behavioral>) compiled.
+Compiling vhdl file c:/study/uebung/studium/profibus/test_ctrl_byte_check/CLOCK_SINGLE_RUN_SRC.vhd in Library work.
+Entity <CLOCK_SINGLE_RUN_SRC> (Architecture <Behavioral>) compiled.
+Compiling vhdl file c:/study/uebung/studium/profibus/test_ctrl_byte_check/DEB_50MZ_100MS_SRC.vhd in Library work.
+Entity <DEB_50MZ_100MS_SRC> (Architecture <Behavioral>) compiled.
+Compiling vhdl file c:/study/uebung/studium/profibus/test_ctrl_byte_check/F_DIV50000_SRC.vhd in Library work.
+Entity <F_DIV50000> (Architecture <Behavioral>) compiled.
+Compiling vhdl file c:/study/uebung/studium/profibus/test_ctrl_byte_check/test_ctrl_byte_check.vhf in Library work.
+Entity <test_ctrl_byte_check> (Architecture <BEHAVIORAL>) compiled.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <test_ctrl_byte_check> (Architecture <BEHAVIORAL>).
+Entity <test_ctrl_byte_check> analyzed. Unit <test_ctrl_byte_check> generated.
+
+Analyzing Entity <ctrl_byte_check> (Architecture <behavioral>).
+Entity <ctrl_byte_check> analyzed. Unit <ctrl_byte_check> generated.
+
+Analyzing Entity <nib4_7seg_src> (Architecture <behavioral>).
+INFO:Xst:1561 - c:/study/uebung/studium/profibus/test_ctrl_byte_check/NIB4_7SEG_SRC.vhd line 74: Mux is complete : default of case is discarded
+INFO:Xst:1561 - c:/study/uebung/studium/profibus/test_ctrl_byte_check/NIB4_7SEG_SRC.vhd line 100: Mux is complete : default of case is discarded
+Entity <nib4_7seg_src> analyzed. Unit <nib4_7seg_src> generated.
+
+Analyzing Entity <clock_single_run_src> (Architecture <behavioral>).
+Entity <clock_single_run_src> analyzed. Unit <clock_single_run_src> generated.
+
+Analyzing Entity <deb_50mz_100ms_src> (Architecture <behavioral>).
+Entity <deb_50mz_100ms_src> analyzed. Unit <deb_50mz_100ms_src> generated.
+
+Analyzing Entity <f_div50000> (Architecture <behavioral>).
+Entity <f_div50000> analyzed. Unit <f_div50000> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <f_div50000>.
+    Related source file is c:/study/uebung/studium/profibus/test_ctrl_byte_check/F_DIV50000_SRC.vhd.
+    Found 32-bit comparator less for signal <$n0002> created at line 28.
+    Found 32-bit down counter for signal <COUNTER>.
+    Summary:
+	inferred   1 Counter(s).
+	inferred   1 Comparator(s).
+Unit <f_div50000> synthesized.
+
+
+Synthesizing Unit <deb_50mz_100ms_src>.
+    Related source file is c:/study/uebung/studium/profibus/test_ctrl_byte_check/DEB_50MZ_100MS_SRC.vhd.
+    Found 24-bit adder for signal <$n0009> created at line 61.
+    Found 24-bit comparator greatequal for signal <$n0014> created at line 65.
+    Found 24-bit subtractor for signal <$n0016> created at line 83.
+    Found 24-bit register for signal <COUNT_DEB>.
+    Found 24-bit register for signal <COUNT_DEB_M>.
+    Found 1-bit register for signal <IN_DEB_S>.
+    Found 1-bit register for signal <SV<0>>.
+    Found 1-bit register for signal <SV_M<0>>.
+    Found 1 1-bit 2-to-1 multiplexers.
+    Summary:
+	inferred  51 D-type flip-flop(s).
+	inferred   2 Adder/Subtracter(s).
+	inferred   1 Comparator(s).
+	inferred   1 Multiplexer(s).
+Unit <deb_50mz_100ms_src> synthesized.
+
+
+Synthesizing Unit <clock_single_run_src>.
+    Related source file is c:/study/uebung/studium/profibus/test_ctrl_byte_check/CLOCK_SINGLE_RUN_SRC.vhd.
+    Using one-hot encoding for signal <SV>.
+    Found 1-bit register for signal <RUN_S>.
+    Found 3-bit register for signal <SV>.
+    Found 3-bit register for signal <SV_M>.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+Unit <clock_single_run_src> synthesized.
+
+
+Synthesizing Unit <nib4_7seg_src>.
+    Related source file is c:/study/uebung/studium/profibus/test_ctrl_byte_check/NIB4_7SEG_SRC.vhd.
+    Found 16x7-bit ROM for signal <$n0004>.
+    Found 2-bit up counter for signal <COUNTER>.
+    Found 4-bit 4-to-1 multiplexer for signal <NIB_ANZ>.
+    Summary:
+	inferred   1 ROM(s).
+	inferred   1 Counter(s).
+	inferred   4 Multiplexer(s).
+Unit <nib4_7seg_src> synthesized.
+
+
+Synthesizing Unit <ctrl_byte_check>.
+    Related source file is c:/study/uebung/studium/profibus/test_ctrl_byte_check/CTRL_BYTE_CHECK.vhd.
+    Found 8-bit adder for signal <$n0011> created at line 149.
+    Found 1-bit register for signal <BYTE_CMPLT_S>.
+    Found 8-bit register for signal <BYTE_COUNT>.
+    Found 8-bit register for signal <BYTE_COUNT_M>.
+    Found 1-bit register for signal <NEXT_BYTE_S>.
+    Found 1-bit register for signal <PARITY_OK_S>.
+    Found 2-bit register for signal <SV>.
+    Found 2-bit register for signal <SV_M>.
+    Found 8 1-bit 2-to-1 multiplexers.
+    Summary:
+	inferred  23 D-type flip-flop(s).
+	inferred   1 Adder/Subtracter(s).
+	inferred   8 Multiplexer(s).
+Unit <ctrl_byte_check> synthesized.
+
+
+Synthesizing Unit <test_ctrl_byte_check>.
+    Related source file is c:/study/uebung/studium/profibus/test_ctrl_byte_check/test_ctrl_byte_check.vhf.
+Unit <test_ctrl_byte_check> synthesized.
+
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# ROMs                             : 1
+ 16x7-bit ROM                      : 1
+# Adders/Subtractors               : 3
+ 8-bit adder                       : 1
+ 24-bit subtractor                 : 1
+ 24-bit adder                      : 1
+# Counters                         : 2
+ 2-bit up counter                  : 1
+ 32-bit down counter               : 1
+# Registers                        : 15
+ 8-bit register                    : 2
+ 2-bit register                    : 2
+ 1-bit register                    : 7
+ 24-bit register                   : 2
+ 3-bit register                    : 2
+# Comparators                      : 2
+ 24-bit comparator greatequal      : 1
+ 32-bit comparator less            : 1
+# Multiplexers                     : 10
+ 1-bit 2-to-1 multiplexer          : 9
+ 4-bit 4-to-1 multiplexer          : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <test_ctrl_byte_check> ...
+
+Optimizing unit <ctrl_byte_check> ...
+
+Optimizing unit <deb_50mz_100ms_src> ...
+
+Optimizing unit <clock_single_run_src> ...
+
+Optimizing unit <f_div50000> ...
+Loading device for application Xst from file '3s200.nph' in environment C:/Programme/XILINX/WEBPACK_6P3.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block test_ctrl_byte_check, actual ratio is 8.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s200ft256-5 
+
+ Number of Slices:                     135  out of   1920     7%  
+ Number of Slice Flip Flops:           115  out of   3840     2%  
+ Number of 4 input LUTs:               225  out of   3840     5%  
+ Number of bonded IOBs:                 27  out of    173    15%  
+ Number of GCLKs:                        1  out of      8    12%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+F_59MHZ_T9                         | BUFGP                  | 113   |
+XLXI_10_GE_stage_cyo(XLXI_10_GE_stagecy:O)| NONE(*)(XLXI_2_COUNTER_1)| 2     |
+-----------------------------------+------------------------+-------+
+(*) This 1 clock signal(s) are generated by combinatorial logic,
+and XST is not able to identify which are the primary clock signals.
+Please use the CLOCK_SIGNAL constraint to specify the clock signal(s) generated by combinatorial logic.
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 14.911ns (Maximum Frequency: 67.065MHz)
+   Minimum input arrival time before clock: 4.294ns
+   Maximum output required time after clock: 9.821ns
+   Maximum combinational path delay: 9.930ns
+
+=========================================================================
+Completed process "Synthesize".
+
+
+
+Started process "Translate".
+
+
+Command Line: ngdbuild -intstyle ise -dd
+c:\study\uebung\studium\profibus\test_ctrl_byte_check/_ngo -uc
+test_ctrl_byte_check.ucf -p xc3s200-ft256-5 test_ctrl_byte_check.ngc
+test_ctrl_byte_check.ngd 
+
+Reading NGO file
+"c:/study/uebung/studium/profibus/test_ctrl_byte_check/test_ctrl_byte_check.ngc"
+...
+Reading component libraries for design expansion...
+
+Annotating constraints to design from file "test_ctrl_byte_check.ucf" ...
+
+Checking timing specifications ...
+Checking expanded design ...
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Total memory usage is 40932 kilobytes
+
+Writing NGD file "test_ctrl_byte_check.ngd" ...
+
+Writing NGDBUILD log file "test_ctrl_byte_check.bld"...
+
+NGDBUILD done.
+Completed process "Translate".
+
+
+
+Started process "Map".
+
+Using target part "3s200ft256-5".
+Removing unused or disabled logic...
+Running cover...
+Running directed packing...
+Running delay-based LUT packing...
+Running related packing...
+
+Design Summary:
+Number of errors:      0
+Number of warnings:    0
+Logic Utilization:
+  Number of Slice Flip Flops:         110 out of   3,840    2%
+  Number of 4 input LUTs:             185 out of   3,840    4%
+Logic Distribution:
+  Number of occupied Slices:                          150 out of   1,920    7%
+    Number of Slices containing only related logic:     150 out of     150  100%
+    Number of Slices containing unrelated logic:          0 out of     150    0%
+      *See NOTES below for an explanation of the effects of unrelated logic
+Total Number 4 input LUTs:            224 out of   3,840    5%
+  Number used as logic:                185
+  Number used as a route-thru:          39
+  Number of bonded IOBs:               28 out of     173   16%
+    IOB Flip Flops:                     5
+  Number of GCLKs:                     1 out of       8   12%
+
+Total equivalent gate count for design:  2,618
+Additional JTAG gate count for IOBs:  1,344
+Peak Memory Usage:  70 MB
+
+NOTES:
+
+   Related logic is defined as being logic that shares connectivity -
+   e.g. two LUTs are "related" if they share common inputs.
+   When assembling slices, Map gives priority to combine logic that
+   is related.  Doing so results in the best timing performance.
+
+   Unrelated logic shares no connectivity.  Map will only begin
+   packing unrelated logic into a slice once 99% of the slices are
+   occupied through related logic packing.
+
+   Note that once logic distribution reaches the 99% level through
+   related logic packing, this does not mean the device is completely
+   utilized.  Unrelated logic packing will then begin, continuing until
+   all usable LUTs and FFs are occupied.  Depending on your timing
+   budget, increased levels of unrelated logic packing may adversely
+   affect the overall timing performance of your design.
+
+
+Mapping completed.
+See MAP report file "test_ctrl_byte_check_map.mrp" for details.
+Completed process "Map".
+
+Mapping Module test_ctrl_byte_check . . .
+MAP command line:
+map -intstyle ise -p xc3s200-ft256-5 -cm area -pr b -k 4 -c 100 -tx off -o test_ctrl_byte_check_map.ncd test_ctrl_byte_check.ngd test_ctrl_byte_check.pcf
+Mapping Module test_ctrl_byte_check: DONE
+
+
+
+Started process "Place & Route".
+
+
+
+
+
+Constraints file: test_ctrl_byte_check.pcf
+
+Loading device database for application Par from file
+"test_ctrl_byte_check_map.ncd".
+   "test_ctrl_byte_check" is an NCD, version 2.38, device xc3s200, package
+ft256, speed -5
+Loading device for application Par from file '3s200.nph' in environment
+C:/Programme/XILINX/WEBPACK_6P3.
+Device speed data version:  ADVANCED 1.35 2004-11-11.
+
+
+Resolving physical constraints.
+Finished resolving physical constraints.
+
+Device utilization summary:
+
+   Number of External IOBs            28 out of 173    16%
+      Number of LOCed External IOBs   20 out of 28     71%
+
+   Number of Slices                  150 out of 1920    7%
+
+   Number of BUFGMUXs                  1 out of 8      12%
+
+
+
+Overall effort level (-ol):   Standard (set by user)
+Placer effort level (-pl):    Standard (set by user)
+Placer cost table entry (-t): 1
+Router effort level (-rl):    Standard (set by user)
+
+
+Phase 1.1
+Phase 1.1 (Checksum:989a06) REAL time: 0 secs 
+
+
+Phase 3.3
+Phase 3.3 (Checksum:1c9c37d) REAL time: 0 secs 
+
+Phase 4.5
+Phase 4.5 (Checksum:26259fc) REAL time: 0 secs 
+
+Phase 5.8
+......................
+Phase 5.8 (Checksum:9a6c6b) REAL time: 0 secs 
+
+Phase 6.5
+Phase 6.5 (Checksum:39386fa) REAL time: 0 secs 
+
+Phase 7.18
+Phase 7.18 (Checksum:42c1d79) REAL time: 0 secs 
+
+Writing design to file test_ctrl_byte_check.ncd.
+
+Total REAL time to Placer completion: 0 secs 
+Total CPU time to Placer completion: 1 secs 
+
+
+Phase 1: 780 unrouted;       REAL time: 0 secs 
+
+Phase 2: 696 unrouted;       REAL time: 0 secs 
+
+Phase 3: 210 unrouted;       REAL time: 0 secs 
+
+Phase 4: 0 unrouted;       REAL time: 0 secs 
+
+Total REAL time to Router completion: 0 secs 
+Total CPU time to Router completion: 1 secs 
+
+Generating "par" statistics.
+
+**************************
+Generating Clock Report
+**************************
+
++-------------------------+----------+------+------+------------+-------------+
+|        Clock Net        | Resource |Locked|Fanout|Net Skew(ns)|Max Delay(ns)|
++-------------------------+----------+------+------+------------+-------------+
+|  F_59MHZ_T9_BUFGP       |  BUFGMUX0| No   |   75 |  0.036     |  0.916      |
++-------------------------+----------+------+------+------------+-------------+
+|    XLXI_10_GE_stage_cyo |   Local  |      |    2 |  0.897     |  3.206      |
++-------------------------+----------+------+------+------------+-------------+
+
+Generating Pad Report.
+
+All signals are completely routed.
+
+Total REAL time to PAR completion: 2 secs 
+Total CPU time to PAR completion: 1 secs 
+
+Peak Memory Usage:  60 MB
+
+Placement: Completed - No errors found.
+Routing: Completed - No errors found.
+
+Writing design to file test_ctrl_byte_check.ncd.
+
+
+PAR done.
+Completed process "Place & Route".
+
+
+Started process "Generate Post-Place & Route Static Timing".
+
+
+Analysis completed Wed Dec 19 17:55:40 2012
+--------------------------------------------------------------------------------
+
+Generating Report ...
+
+Completed process "Generate Post-Place & Route Static Timing".
+
+Place & Route Module test_ctrl_byte_check . . .
+PAR command line: par -w -intstyle ise -ol std -t 1 test_ctrl_byte_check_map.ncd test_ctrl_byte_check.ncd test_ctrl_byte_check.pcf
+PAR completed successfully
+
+
+
+
+Started process "Generate Programming File".
+
+Completed process "Generate Programming File".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+deleting test_ctrl_byte_check.vhf
+deleting test_ctrl_byte_check.cmd_log
+deleting test_ctrl_byte_check.lso
+deleting test_ctrl_byte_check.syr
+deleting test_ctrl_byte_check.prj
+deleting test_ctrl_byte_check.sprj
+deleting test_ctrl_byte_check.ana
+deleting test_ctrl_byte_check.stx
+deleting test_ctrl_byte_check.cmd_log
+deleting test_ctrl_byte_check.ngc
+deleting test_ctrl_byte_check.ngr
+deleting __projnav/ngdbuild.err
+deleting __projnav/ednTOngd_tcl.rsp
+deleting c:\study\uebung\studium\profibus\test_ctrl_byte_check/_ngo
+deleting test_ctrl_byte_check.ngd
+deleting test_ctrl_byte_check_ngdbuild.nav
+deleting test_ctrl_byte_check.bld
+deleting test_ctrl_byte_check.ucf.untf
+deleting test_ctrl_byte_check.cmd_log
+deleting test_ctrl_byte_check_map.ncd
+deleting test_ctrl_byte_check.ngm
+deleting test_ctrl_byte_check.pcf
+deleting test_ctrl_byte_check.nc1
+deleting test_ctrl_byte_check.mrp
+deleting test_ctrl_byte_check_map.mrp
+deleting test_ctrl_byte_check.mdf
+deleting __projnav/map.log
+deleting test_ctrl_byte_check.cmd_log
+deleting __projnav/ncdTOtwr_tcl.rsp
+deleting __projnav/posttrc.log
+deleting test_ctrl_byte_check.twr
+deleting test_ctrl_byte_check.twx
+deleting test_ctrl_byte_check.tsi
+deleting test_ctrl_byte_check.cmd_log
+deleting __projnav/nc1TOncd_tcl.rsp
+deleting test_ctrl_byte_check.ncd
+deleting test_ctrl_byte_check.par
+deleting test_ctrl_byte_check.pad
+deleting test_ctrl_byte_check_pad.txt
+deleting test_ctrl_byte_check_pad.csv
+deleting test_ctrl_byte_check.pad_txt
+deleting test_ctrl_byte_check.dly
+deleting reportgen.log
+deleting test_ctrl_byte_check.xpi
+deleting test_ctrl_byte_check.grf
+deleting test_ctrl_byte_check.itr
+deleting test_ctrl_byte_check_last_par.ncd
+deleting __projnav/par.log
+deleting test_ctrl_byte_check.placed_ncd_tracker
+deleting test_ctrl_byte_check.routed_ncd_tracker
+deleting test_ctrl_byte_check.cmd_log
+deleting __projnav/test_ctrl_byte_check_ncdTOut_tcl.rsp
+deleting __projnav/bitgen.rsp
+deleting bitgen.ut
+deleting test_ctrl_byte_check.ut
+deleting test_ctrl_byte_check.bgn
+deleting test_ctrl_byte_check.rbt
+deleting test_ctrl_byte_check.ll
+deleting test_ctrl_byte_check.msk
+deleting test_ctrl_byte_check.drc
+deleting test_ctrl_byte_check.nky
+deleting test_ctrl_byte_check.bit
+deleting test_ctrl_byte_check.bin
+deleting test_ctrl_byte_check.isc
+deleting test_ctrl_byte_check.cmd_log
+deleting test_ctrl_byte_check.prm
+deleting test_ctrl_byte_check.isc
+deleting test_ctrl_byte_check.svf
+deleting xilinx.sys
+deleting test_ctrl_byte_check.mcs
+deleting test_ctrl_byte_check.exo
+deleting test_ctrl_byte_check.hex
+deleting test_ctrl_byte_check.tek
+deleting test_ctrl_byte_check.dst
+deleting test_ctrl_byte_check.dst_compressed
+deleting test_ctrl_byte_check.mpm
+deleting _impact.cmd
+deleting _impact.log
+deleting test_ctrl_byte_check.prj
+deleting test_ctrl_byte_check.prj
+deleting __projnav/test_ctrl_byte_check.xst
+deleting ./xst
+deleting __projnav/TEST_CTRL_BYTE_CHECK.gfl
+deleting __projnav/TEST_CTRL_BYTE_CHECK_flowplus.gfl
+Finished cleaning up project
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+Started process "View VHDL Functional Model".
+
+Release 6.3.03i - sch2vhdl G.35
+Copyright (c) 1995-2004 Xilinx, Inc.  All rights reserved.
+DRC Check completed: No Error found.
+Vhdl netlist file generated.
+Completed process "View VHDL Functional Model".
+
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file c:/study/uebung/studium/profibus/test_ctrl_byte_check/CTRL_BYTE_CHECK.vhd in Library work.
+Entity <CTRL_BYTE_CHECK> (Architecture <Behavioral>) compiled.
+Compiling vhdl file c:/study/uebung/studium/profibus/test_ctrl_byte_check/NIB4_7SEG_SRC.vhd in Library work.
+Entity <NIB4_7SEG_SRC> (Architecture <Behavioral>) compiled.
+Compiling vhdl file c:/study/uebung/studium/profibus/test_ctrl_byte_check/CLOCK_SINGLE_RUN_SRC.vhd in Library work.
+Entity <CLOCK_SINGLE_RUN_SRC> (Architecture <Behavioral>) compiled.
+Compiling vhdl file c:/study/uebung/studium/profibus/test_ctrl_byte_check/DEB_50MZ_100MS_SRC.vhd in Library work.
+Entity <DEB_50MZ_100MS_SRC> (Architecture <Behavioral>) compiled.
+Compiling vhdl file c:/study/uebung/studium/profibus/test_ctrl_byte_check/F_DIV50000_SRC.vhd in Library work.
+Entity <F_DIV50000> (Architecture <Behavioral>) compiled.
+Compiling vhdl file c:/study/uebung/studium/profibus/test_ctrl_byte_check/test_ctrl_byte_check.vhf in Library work.
+Entity <test_ctrl_byte_check> (Architecture <BEHAVIORAL>) compiled.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <test_ctrl_byte_check> (Architecture <BEHAVIORAL>).
+Entity <test_ctrl_byte_check> analyzed. Unit <test_ctrl_byte_check> generated.
+
+Analyzing Entity <ctrl_byte_check> (Architecture <behavioral>).
+Entity <ctrl_byte_check> analyzed. Unit <ctrl_byte_check> generated.
+
+Analyzing Entity <nib4_7seg_src> (Architecture <behavioral>).
+INFO:Xst:1561 - c:/study/uebung/studium/profibus/test_ctrl_byte_check/NIB4_7SEG_SRC.vhd line 74: Mux is complete : default of case is discarded
+INFO:Xst:1561 - c:/study/uebung/studium/profibus/test_ctrl_byte_check/NIB4_7SEG_SRC.vhd line 100: Mux is complete : default of case is discarded
+Entity <nib4_7seg_src> analyzed. Unit <nib4_7seg_src> generated.
+
+Analyzing Entity <clock_single_run_src> (Architecture <behavioral>).
+Entity <clock_single_run_src> analyzed. Unit <clock_single_run_src> generated.
+
+Analyzing Entity <deb_50mz_100ms_src> (Architecture <behavioral>).
+Entity <deb_50mz_100ms_src> analyzed. Unit <deb_50mz_100ms_src> generated.
+
+Analyzing Entity <f_div50000> (Architecture <behavioral>).
+Entity <f_div50000> analyzed. Unit <f_div50000> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <f_div50000>.
+    Related source file is c:/study/uebung/studium/profibus/test_ctrl_byte_check/F_DIV50000_SRC.vhd.
+    Found 32-bit comparator less for signal <$n0002> created at line 28.
+    Found 32-bit down counter for signal <COUNTER>.
+    Summary:
+	inferred   1 Counter(s).
+	inferred   1 Comparator(s).
+Unit <f_div50000> synthesized.
+
+
+Synthesizing Unit <deb_50mz_100ms_src>.
+    Related source file is c:/study/uebung/studium/profibus/test_ctrl_byte_check/DEB_50MZ_100MS_SRC.vhd.
+    Found 24-bit adder for signal <$n0009> created at line 61.
+    Found 24-bit comparator greatequal for signal <$n0014> created at line 65.
+    Found 24-bit subtractor for signal <$n0016> created at line 83.
+    Found 24-bit register for signal <COUNT_DEB>.
+    Found 24-bit register for signal <COUNT_DEB_M>.
+    Found 1-bit register for signal <IN_DEB_S>.
+    Found 1-bit register for signal <SV<0>>.
+    Found 1-bit register for signal <SV_M<0>>.
+    Found 1 1-bit 2-to-1 multiplexers.
+    Summary:
+	inferred  51 D-type flip-flop(s).
+	inferred   2 Adder/Subtracter(s).
+	inferred   1 Comparator(s).
+	inferred   1 Multiplexer(s).
+Unit <deb_50mz_100ms_src> synthesized.
+
+
+Synthesizing Unit <clock_single_run_src>.
+    Related source file is c:/study/uebung/studium/profibus/test_ctrl_byte_check/CLOCK_SINGLE_RUN_SRC.vhd.
+    Using one-hot encoding for signal <SV>.
+    Found 1-bit register for signal <RUN_S>.
+    Found 3-bit register for signal <SV>.
+    Found 3-bit register for signal <SV_M>.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+Unit <clock_single_run_src> synthesized.
+
+
+Synthesizing Unit <nib4_7seg_src>.
+    Related source file is c:/study/uebung/studium/profibus/test_ctrl_byte_check/NIB4_7SEG_SRC.vhd.
+    Found 16x7-bit ROM for signal <$n0004>.
+    Found 2-bit up counter for signal <COUNTER>.
+    Found 4-bit 4-to-1 multiplexer for signal <NIB_ANZ>.
+    Summary:
+	inferred   1 ROM(s).
+	inferred   1 Counter(s).
+	inferred   4 Multiplexer(s).
+Unit <nib4_7seg_src> synthesized.
+
+
+Synthesizing Unit <ctrl_byte_check>.
+    Related source file is c:/study/uebung/studium/profibus/test_ctrl_byte_check/CTRL_BYTE_CHECK.vhd.
+    Found 8-bit adder for signal <$n0011> created at line 149.
+    Found 1-bit register for signal <BYTE_CMPLT_S>.
+    Found 8-bit register for signal <BYTE_COUNT>.
+    Found 8-bit register for signal <BYTE_COUNT_M>.
+    Found 1-bit register for signal <NEXT_BYTE_S>.
+    Found 1-bit register for signal <PARITY_OK_S>.
+    Found 2-bit register for signal <SV>.
+    Found 2-bit register for signal <SV_M>.
+    Found 8 1-bit 2-to-1 multiplexers.
+    Summary:
+	inferred  23 D-type flip-flop(s).
+	inferred   1 Adder/Subtracter(s).
+	inferred   8 Multiplexer(s).
+Unit <ctrl_byte_check> synthesized.
+
+
+Synthesizing Unit <test_ctrl_byte_check>.
+    Related source file is c:/study/uebung/studium/profibus/test_ctrl_byte_check/test_ctrl_byte_check.vhf.
+Unit <test_ctrl_byte_check> synthesized.
+
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# ROMs                             : 1
+ 16x7-bit ROM                      : 1
+# Adders/Subtractors               : 3
+ 8-bit adder                       : 1
+ 24-bit subtractor                 : 1
+ 24-bit adder                      : 1
+# Counters                         : 2
+ 2-bit up counter                  : 1
+ 32-bit down counter               : 1
+# Registers                        : 15
+ 8-bit register                    : 2
+ 2-bit register                    : 2
+ 1-bit register                    : 7
+ 24-bit register                   : 2
+ 3-bit register                    : 2
+# Comparators                      : 2
+ 24-bit comparator greatequal      : 1
+ 32-bit comparator less            : 1
+# Multiplexers                     : 10
+ 1-bit 2-to-1 multiplexer          : 9
+ 4-bit 4-to-1 multiplexer          : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <test_ctrl_byte_check> ...
+
+Optimizing unit <ctrl_byte_check> ...
+
+Optimizing unit <deb_50mz_100ms_src> ...
+
+Optimizing unit <clock_single_run_src> ...
+
+Optimizing unit <f_div50000> ...
+Loading device for application Xst from file '3s200.nph' in environment C:/Programme/XILINX/WEBPACK_6P3.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block test_ctrl_byte_check, actual ratio is 8.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s200ft256-5 
+
+ Number of Slices:                     135  out of   1920     7%  
+ Number of Slice Flip Flops:           115  out of   3840     2%  
+ Number of 4 input LUTs:               225  out of   3840     5%  
+ Number of bonded IOBs:                 27  out of    173    15%  
+ Number of GCLKs:                        1  out of      8    12%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+F_59MHZ_T9                         | BUFGP                  | 113   |
+XLXI_10_GE_stage_cyo(XLXI_10_GE_stagecy:O)| NONE(*)(XLXI_2_COUNTER_1)| 2     |
+-----------------------------------+------------------------+-------+
+(*) This 1 clock signal(s) are generated by combinatorial logic,
+and XST is not able to identify which are the primary clock signals.
+Please use the CLOCK_SIGNAL constraint to specify the clock signal(s) generated by combinatorial logic.
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 14.911ns (Maximum Frequency: 67.065MHz)
+   Minimum input arrival time before clock: 4.294ns
+   Maximum output required time after clock: 9.821ns
+   Maximum combinational path delay: 9.930ns
+
+=========================================================================
+Completed process "Synthesize".
+
+
+
+Started process "Translate".
+
+
+Command Line: ngdbuild -intstyle ise -dd
+c:\study\uebung\studium\profibus\test_ctrl_byte_check/_ngo -uc
+test_ctrl_byte_check.ucf -p xc3s200-ft256-5 test_ctrl_byte_check.ngc
+test_ctrl_byte_check.ngd 
+
+Reading NGO file
+"c:/study/uebung/studium/profibus/test_ctrl_byte_check/test_ctrl_byte_check.ngc"
+...
+Reading component libraries for design expansion...
+
+Annotating constraints to design from file "test_ctrl_byte_check.ucf" ...
+
+Checking timing specifications ...
+Checking expanded design ...
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Total memory usage is 40932 kilobytes
+
+Writing NGD file "test_ctrl_byte_check.ngd" ...
+
+Writing NGDBUILD log file "test_ctrl_byte_check.bld"...
+
+NGDBUILD done.
+Completed process "Translate".
+
+
+
+Started process "Map".
+
+Using target part "3s200ft256-5".
+Removing unused or disabled logic...
+Running cover...
+Running directed packing...
+Running delay-based LUT packing...
+Running related packing...
+
+Design Summary:
+Number of errors:      0
+Number of warnings:    0
+Logic Utilization:
+  Number of Slice Flip Flops:         110 out of   3,840    2%
+  Number of 4 input LUTs:             185 out of   3,840    4%
+Logic Distribution:
+  Number of occupied Slices:                          150 out of   1,920    7%
+    Number of Slices containing only related logic:     150 out of     150  100%
+    Number of Slices containing unrelated logic:          0 out of     150    0%
+      *See NOTES below for an explanation of the effects of unrelated logic
+Total Number 4 input LUTs:            224 out of   3,840    5%
+  Number used as logic:                185
+  Number used as a route-thru:          39
+  Number of bonded IOBs:               28 out of     173   16%
+    IOB Flip Flops:                     5
+  Number of GCLKs:                     1 out of       8   12%
+
+Total equivalent gate count for design:  2,618
+Additional JTAG gate count for IOBs:  1,344
+Peak Memory Usage:  70 MB
+
+NOTES:
+
+   Related logic is defined as being logic that shares connectivity -
+   e.g. two LUTs are "related" if they share common inputs.
+   When assembling slices, Map gives priority to combine logic that
+   is related.  Doing so results in the best timing performance.
+
+   Unrelated logic shares no connectivity.  Map will only begin
+   packing unrelated logic into a slice once 99% of the slices are
+   occupied through related logic packing.
+
+   Note that once logic distribution reaches the 99% level through
+   related logic packing, this does not mean the device is completely
+   utilized.  Unrelated logic packing will then begin, continuing until
+   all usable LUTs and FFs are occupied.  Depending on your timing
+   budget, increased levels of unrelated logic packing may adversely
+   affect the overall timing performance of your design.
+
+
+Mapping completed.
+See MAP report file "test_ctrl_byte_check_map.mrp" for details.
+Completed process "Map".
+
+Mapping Module test_ctrl_byte_check . . .
+MAP command line:
+map -intstyle ise -p xc3s200-ft256-5 -cm area -pr b -k 4 -c 100 -tx off -o test_ctrl_byte_check_map.ncd test_ctrl_byte_check.ngd test_ctrl_byte_check.pcf
+Mapping Module test_ctrl_byte_check: DONE
+
+
+
+Started process "Place & Route".
+
+
+
+
+
+Constraints file: test_ctrl_byte_check.pcf
+
+Loading device database for application Par from file
+"test_ctrl_byte_check_map.ncd".
+   "test_ctrl_byte_check" is an NCD, version 2.38, device xc3s200, package
+ft256, speed -5
+Loading device for application Par from file '3s200.nph' in environment
+C:/Programme/XILINX/WEBPACK_6P3.
+Device speed data version:  ADVANCED 1.35 2004-11-11.
+
+
+Resolving physical constraints.
+Finished resolving physical constraints.
+
+Device utilization summary:
+
+   Number of External IOBs            28 out of 173    16%
+      Number of LOCed External IOBs   27 out of 28     96%
+
+   Number of Slices                  150 out of 1920    7%
+
+   Number of BUFGMUXs                  1 out of 8      12%
+
+
+
+Overall effort level (-ol):   Standard (set by user)
+Placer effort level (-pl):    Standard (set by user)
+Placer cost table entry (-t): 1
+Router effort level (-rl):    Standard (set by user)
+
+
+Phase 1.1
+Phase 1.1 (Checksum:989a06) REAL time: 0 secs 
+
+
+Phase 3.3
+Phase 3.3 (Checksum:1c9c37d) REAL time: 0 secs 
+
+Phase 4.5
+Phase 4.5 (Checksum:26259fc) REAL time: 0 secs 
+
+Phase 5.8
+....................
+Phase 5.8 (Checksum:9a5e5b) REAL time: 0 secs 
+
+Phase 6.5
+Phase 6.5 (Checksum:39386fa) REAL time: 0 secs 
+
+Phase 7.18
+Phase 7.18 (Checksum:42c1d79) REAL time: 0 secs 
+
+Writing design to file test_ctrl_byte_check.ncd.
+
+Total REAL time to Placer completion: 0 secs 
+Total CPU time to Placer completion: 1 secs 
+
+
+Phase 1: 780 unrouted;       REAL time: 0 secs 
+
+Phase 2: 696 unrouted;       REAL time: 0 secs 
+
+Phase 3: 236 unrouted;       REAL time: 2 secs 
+
+Phase 4: 0 unrouted;       REAL time: 2 secs 
+
+Total REAL time to Router completion: 2 secs 
+Total CPU time to Router completion: 1 secs 
+
+Generating "par" statistics.
+
+**************************
+Generating Clock Report
+**************************
+
++-------------------------+----------+------+------+------------+-------------+
+|        Clock Net        | Resource |Locked|Fanout|Net Skew(ns)|Max Delay(ns)|
++-------------------------+----------+------+------+------------+-------------+
+|  F_59MHZ_T9_BUFGP       |  BUFGMUX0| No   |   75 |  0.036     |  0.916      |
++-------------------------+----------+------+------+------------+-------------+
+|    XLXI_10_GE_stage_cyo |   Local  |      |    2 |  0.000     |  2.239      |
++-------------------------+----------+------+------+------------+-------------+
+
+Generating Pad Report.
+
+All signals are completely routed.
+
+Total REAL time to PAR completion: 2 secs 
+Total CPU time to PAR completion: 1 secs 
+
+Peak Memory Usage:  60 MB
+
+Placement: Completed - No errors found.
+Routing: Completed - No errors found.
+
+Writing design to file test_ctrl_byte_check.ncd.
+
+
+PAR done.
+Completed process "Place & Route".
+
+
+Started process "Generate Post-Place & Route Static Timing".
+
+
+Analysis completed Wed Dec 19 18:02:10 2012
+--------------------------------------------------------------------------------
+
+Generating Report ...
+
+Completed process "Generate Post-Place & Route Static Timing".
+
+Place & Route Module test_ctrl_byte_check . . .
+PAR command line: par -w -intstyle ise -ol std -t 1 test_ctrl_byte_check_map.ncd test_ctrl_byte_check.ncd test_ctrl_byte_check.pcf
+PAR completed successfully
+
+
+
+
+Started process "Generate Programming File".
+
+Completed process "Generate Programming File".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+deleting test_ctrl_byte_check.vhf
+deleting test_ctrl_byte_check.cmd_log
+deleting test_ctrl_byte_check.lso
+deleting test_ctrl_byte_check.syr
+deleting test_ctrl_byte_check.prj
+deleting test_ctrl_byte_check.sprj
+deleting test_ctrl_byte_check.ana
+deleting test_ctrl_byte_check.stx
+deleting test_ctrl_byte_check.cmd_log
+deleting test_ctrl_byte_check.ngc
+deleting test_ctrl_byte_check.ngr
+deleting __projnav/ngdbuild.err
+deleting __projnav/ednTOngd_tcl.rsp
+deleting c:\study\uebung\studium\profibus\test_ctrl_byte_check/_ngo
+deleting test_ctrl_byte_check.ngd
+deleting test_ctrl_byte_check_ngdbuild.nav
+deleting test_ctrl_byte_check.bld
+deleting test_ctrl_byte_check.ucf.untf
+deleting test_ctrl_byte_check.cmd_log
+deleting test_ctrl_byte_check_map.ncd
+deleting test_ctrl_byte_check.ngm
+deleting test_ctrl_byte_check.pcf
+deleting test_ctrl_byte_check.nc1
+deleting test_ctrl_byte_check.mrp
+deleting test_ctrl_byte_check_map.mrp
+deleting test_ctrl_byte_check.mdf
+deleting __projnav/map.log
+deleting test_ctrl_byte_check.cmd_log
+deleting __projnav/ncdTOtwr_tcl.rsp
+deleting __projnav/posttrc.log
+deleting test_ctrl_byte_check.twr
+deleting test_ctrl_byte_check.twx
+deleting test_ctrl_byte_check.tsi
+deleting test_ctrl_byte_check.cmd_log
+deleting __projnav/nc1TOncd_tcl.rsp
+deleting test_ctrl_byte_check.ncd
+deleting test_ctrl_byte_check.par
+deleting test_ctrl_byte_check.pad
+deleting test_ctrl_byte_check_pad.txt
+deleting test_ctrl_byte_check_pad.csv
+deleting test_ctrl_byte_check.pad_txt
+deleting test_ctrl_byte_check.dly
+deleting reportgen.log
+deleting test_ctrl_byte_check.xpi
+deleting test_ctrl_byte_check.grf
+deleting test_ctrl_byte_check.itr
+deleting test_ctrl_byte_check_last_par.ncd
+deleting __projnav/par.log
+deleting test_ctrl_byte_check.placed_ncd_tracker
+deleting test_ctrl_byte_check.routed_ncd_tracker
+deleting test_ctrl_byte_check.cmd_log
+deleting __projnav/test_ctrl_byte_check_ncdTOut_tcl.rsp
+deleting __projnav/bitgen.rsp
+deleting bitgen.ut
+deleting test_ctrl_byte_check.ut
+deleting test_ctrl_byte_check.bgn
+deleting test_ctrl_byte_check.rbt
+deleting test_ctrl_byte_check.ll
+deleting test_ctrl_byte_check.msk
+deleting test_ctrl_byte_check.drc
+deleting test_ctrl_byte_check.nky
+deleting test_ctrl_byte_check.bit
+deleting test_ctrl_byte_check.bin
+deleting test_ctrl_byte_check.isc
+deleting test_ctrl_byte_check.cmd_log
+deleting test_ctrl_byte_check.prm
+deleting test_ctrl_byte_check.isc
+deleting test_ctrl_byte_check.svf
+deleting xilinx.sys
+deleting test_ctrl_byte_check.mcs
+deleting test_ctrl_byte_check.exo
+deleting test_ctrl_byte_check.hex
+deleting test_ctrl_byte_check.tek
+deleting test_ctrl_byte_check.dst
+deleting test_ctrl_byte_check.dst_compressed
+deleting test_ctrl_byte_check.mpm
+deleting _impact.cmd
+deleting _impact.log
+deleting test_ctrl_byte_check.prj
+deleting test_ctrl_byte_check.prj
+deleting __projnav/test_ctrl_byte_check.xst
+deleting ./xst
+deleting __projnav/TEST_CTRL_BYTE_CHECK.gfl
+deleting __projnav/TEST_CTRL_BYTE_CHECK_flowplus.gfl
+Finished cleaning up project
+

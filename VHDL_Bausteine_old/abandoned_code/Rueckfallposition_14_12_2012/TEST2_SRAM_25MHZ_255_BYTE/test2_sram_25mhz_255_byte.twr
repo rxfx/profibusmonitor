@@ -1,0 +1,41 @@
+--------------------------------------------------------------------------------
+Release 6.3.03i Trace G.38
+Copyright (c) 1995-2004 Xilinx, Inc.  All rights reserved.
+
+C:/Programme/XILINX/WEBPACK_6P3/bin/nt/trce.exe -intstyle ise -e 3 -l 3 -xml
+test2_sram_25mhz_255_byte test2_sram_25mhz_255_byte.ncd -o
+test2_sram_25mhz_255_byte.twr test2_sram_25mhz_255_byte.pcf
+
+
+Design file:              test2_sram_25mhz_255_byte.ncd
+Physical constraint file: test2_sram_25mhz_255_byte.pcf
+Device,speed:             xc3s200,-5 (ADVANCED 1.35 2004-11-11)
+Report level:             error report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths
+   option. All paths that are not constrained will be reported in the
+   unconstrained paths section(s) of the report.
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Clock to Setup on destination clock F_50MHZ_T9
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+F_50MHZ_T9     |    1.971|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Analysis completed Fri Dec 07 17:16:08 2012
+--------------------------------------------------------------------------------
+
+Peak Memory Usage: 54 MB

@@ -1,0 +1,3 @@
+set ADucfFile {test_ctrl_9p6_50mhz_sch.ucf}
+set AD {}
+set ADcdcFile {}

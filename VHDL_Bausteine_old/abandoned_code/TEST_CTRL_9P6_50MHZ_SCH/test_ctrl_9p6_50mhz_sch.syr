@@ -1,0 +1,581 @@
+Release 6.3.03i - xst G.38
+Copyright (c) 1995-2004 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to __projnav
+CPU : 0.00 / 0.41 s | Elapsed : 0.00 / 1.00 s
+ 
+--> Parameter xsthdpdir set to ./xst
+CPU : 0.00 / 0.41 s | Elapsed : 0.00 / 1.00 s
+ 
+--> Reading design: test_ctrl_9p6_50mhz_sch.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) HDL Analysis
+  4) HDL Synthesis
+  5) Advanced HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Final Report
+     7.1) Device utilization summary
+     7.2) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : test_ctrl_9p6_50mhz_sch.prj
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+Verilog Include Directory          : 
+
+---- Target Parameters
+Output File Name                   : test_ctrl_9p6_50mhz_sch
+Output Format                      : NGC
+Target Device                      : xc3s200-5-ft256
+
+---- Source Options
+Top Module Name                    : test_ctrl_9p6_50mhz_sch
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+FSM Style                          : lut
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+ROM Style                          : Auto
+Mux Extraction                     : YES
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : YES
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+Resource Sharing                   : YES
+Multiplier Style                   : auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 500
+Add Generic Clock Buffer(BUFG)     : 8
+Register Duplication               : YES
+Equivalent register Removal        : YES
+Slice Packing                      : YES
+Pack IO Registers into IOBs        : auto
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : NO
+Global Optimization                : AllClockNets
+RTL Output                         : Yes
+Write Timing Constraints           : NO
+Hierarchy Separator                : _
+Bus Delimiter                      : <>
+Case Specifier                     : maintain
+Slice Utilization Ratio            : 100
+Slice Utilization Ratio Delta      : 5
+
+---- Other Options
+lso                                : test_ctrl_9p6_50mhz_sch.lso
+Read Cores                         : YES
+cross_clock_analysis               : NO
+verilog2001                        : YES
+Optimize Instantiated Primitives   : NO
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file C:/STUDY/UEBUNG/Studium/Profibus/TEST_CTRL_9P6_50MHZ_SCH/CTRL_9P6_50MHZ.vhd in Library work.
+Entity <CTRL_9P6_50MHZ_VHDL> (Architecture <Behavioral>) compiled.
+Compiling vhdl file C:/STUDY/UEBUNG/Studium/Profibus/TEST_CTRL_9P6_50MHZ_SCH/CLOCK_SINGLE_RUN_SRC.vhd in Library work.
+Entity <CLOCK_SINGLE_RUN_SRC> (Architecture <Behavioral>) compiled.
+Compiling vhdl file C:/STUDY/UEBUNG/Studium/Profibus/TEST_CTRL_9P6_50MHZ_SCH/DEB_50MZ_100MS_SRC.vhd in Library work.
+Entity <DEB_50MZ_100MS_SRC> (Architecture <Behavioral>) compiled.
+Compiling vhdl file C:/STUDY/UEBUNG/Studium/Profibus/TEST_CTRL_9P6_50MHZ_SCH/F_DIV50000_SRC.vhd in Library work.
+Entity <F_DIV50000> (Architecture <Behavioral>) compiled.
+Compiling vhdl file C:/STUDY/UEBUNG/Studium/Profibus/TEST_CTRL_9P6_50MHZ_SCH/NIB4_7SEG_SRC.vhd in Library work.
+Entity <NIB4_7SEG_SRC> (Architecture <Behavioral>) compiled.
+Compiling vhdl file C:/STUDY/UEBUNG/Studium/Profibus/TEST_CTRL_9P6_50MHZ_SCH/TEST_CTRL_9P6_50MHZ_SCH.vhf in Library work.
+Entity <test_ctrl_9p6_50mhz_sch> (Architecture <BEHAVIORAL>) compiled.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <test_ctrl_9p6_50mhz_sch> (Architecture <BEHAVIORAL>).
+Entity <test_ctrl_9p6_50mhz_sch> analyzed. Unit <test_ctrl_9p6_50mhz_sch> generated.
+
+Analyzing Entity <ctrl_9p6_50mhz_vhdl> (Architecture <behavioral>).
+Entity <ctrl_9p6_50mhz_vhdl> analyzed. Unit <ctrl_9p6_50mhz_vhdl> generated.
+
+Analyzing Entity <clock_single_run_src> (Architecture <behavioral>).
+Entity <clock_single_run_src> analyzed. Unit <clock_single_run_src> generated.
+
+Analyzing Entity <deb_50mz_100ms_src> (Architecture <behavioral>).
+Entity <deb_50mz_100ms_src> analyzed. Unit <deb_50mz_100ms_src> generated.
+
+Analyzing Entity <f_div50000> (Architecture <behavioral>).
+Entity <f_div50000> analyzed. Unit <f_div50000> generated.
+
+Analyzing Entity <nib4_7seg_src> (Architecture <behavioral>).
+INFO:Xst:1561 - C:/STUDY/UEBUNG/Studium/Profibus/TEST_CTRL_9P6_50MHZ_SCH/NIB4_7SEG_SRC.vhd line 74: Mux is complete : default of case is discarded
+INFO:Xst:1561 - C:/STUDY/UEBUNG/Studium/Profibus/TEST_CTRL_9P6_50MHZ_SCH/NIB4_7SEG_SRC.vhd line 100: Mux is complete : default of case is discarded
+Entity <nib4_7seg_src> analyzed. Unit <nib4_7seg_src> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <nib4_7seg_src>.
+    Related source file is C:/STUDY/UEBUNG/Studium/Profibus/TEST_CTRL_9P6_50MHZ_SCH/NIB4_7SEG_SRC.vhd.
+    Found 16x7-bit ROM for signal <$n0004>.
+    Found 2-bit up counter for signal <COUNTER>.
+    Found 4-bit 4-to-1 multiplexer for signal <NIB_ANZ>.
+    Summary:
+	inferred   1 ROM(s).
+	inferred   1 Counter(s).
+	inferred   4 Multiplexer(s).
+Unit <nib4_7seg_src> synthesized.
+
+
+Synthesizing Unit <f_div50000>.
+    Related source file is C:/STUDY/UEBUNG/Studium/Profibus/TEST_CTRL_9P6_50MHZ_SCH/F_DIV50000_SRC.vhd.
+    Found 32-bit comparator less for signal <$n0002> created at line 28.
+    Found 32-bit down counter for signal <COUNTER>.
+    Summary:
+	inferred   1 Counter(s).
+	inferred   1 Comparator(s).
+Unit <f_div50000> synthesized.
+
+
+Synthesizing Unit <deb_50mz_100ms_src>.
+    Related source file is C:/STUDY/UEBUNG/Studium/Profibus/TEST_CTRL_9P6_50MHZ_SCH/DEB_50MZ_100MS_SRC.vhd.
+    Found 24-bit adder for signal <$n0009> created at line 61.
+    Found 24-bit comparator greatequal for signal <$n0014> created at line 65.
+    Found 24-bit subtractor for signal <$n0016> created at line 83.
+    Found 24-bit register for signal <COUNT_DEB>.
+    Found 24-bit register for signal <COUNT_DEB_M>.
+    Found 1-bit register for signal <IN_DEB_S>.
+    Found 1-bit register for signal <SV<0>>.
+    Found 1-bit register for signal <SV_M<0>>.
+    Found 1 1-bit 2-to-1 multiplexers.
+    Summary:
+	inferred  51 D-type flip-flop(s).
+	inferred   2 Adder/Subtracter(s).
+	inferred   1 Comparator(s).
+	inferred   1 Multiplexer(s).
+Unit <deb_50mz_100ms_src> synthesized.
+
+
+Synthesizing Unit <clock_single_run_src>.
+    Related source file is C:/STUDY/UEBUNG/Studium/Profibus/TEST_CTRL_9P6_50MHZ_SCH/CLOCK_SINGLE_RUN_SRC.vhd.
+    Using one-hot encoding for signal <SV>.
+    Found 1-bit register for signal <RUN_S>.
+    Found 3-bit register for signal <SV>.
+    Found 3-bit register for signal <SV_M>.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+Unit <clock_single_run_src> synthesized.
+
+
+Synthesizing Unit <ctrl_9p6_50mhz_vhdl>.
+    Related source file is C:/STUDY/UEBUNG/Studium/Profibus/TEST_CTRL_9P6_50MHZ_SCH/CTRL_9P6_50MHZ.vhd.
+WARNING:Xst:646 - Signal <TMP20> is assigned but never used.
+WARNING:Xst:646 - Signal <BYTE_VEC<8>> is assigned but never used.
+    Using one-hot encoding for signal <SV>.
+    Found 20-bit adder for signal <$n0073> created at line 686.
+    Found 16-bit adder for signal <$n0074> created at line 686.
+    Found 16-bit comparator equal for signal <$n0085> created at line 887.
+    Found 16-bit comparator equal for signal <$n0086> created at line 923.
+    Found 16-bit comparator equal for signal <$n0087> created at line 959.
+    Found 16-bit comparator equal for signal <$n0088> created at line 995.
+    Found 16-bit comparator equal for signal <$n0089> created at line 1031.
+    Found 16-bit comparator equal for signal <$n0090> created at line 1067.
+    Found 16-bit comparator equal for signal <$n0091> created at line 1103.
+    Found 16-bit comparator equal for signal <$n0092> created at line 1139.
+    Found 16-bit comparator equal for signal <$n0093> created at line 1175.
+    Found 20-bit comparator equal for signal <$n0148> created at line 724.
+    Found 16-bit comparator equal for signal <$n0149> created at line 798.
+    Found 16-bit comparator equal for signal <$n0150> created at line 1211.
+    Found 16-bit comparator equal for signal <$n0151> created at line 1283.
+    Found 16-bit comparator equal for signal <$n0152> created at line 1355.
+    Found 8-bit adder for signal <$n0154> created at line 383.
+    Found 8-bit register for signal <BYTE_COUNT>.
+    Found 8-bit register for signal <BYTE_COUNT_M>.
+    Found 20-bit register for signal <COUNT_L>.
+    Found 20-bit register for signal <COUNT_L_M>.
+    Found 16-bit register for signal <COUNT_S>.
+    Found 16-bit register for signal <COUNT_S_M>.
+    Found 1-bit register for signal <InAB_S>.
+    Found 20-bit register for signal <SV>.
+    Found 1-bit register for signal <SV_BR_BIT0<0>>.
+    Found 1-bit register for signal <SV_BR_BIT0_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT1<0>>.
+    Found 1-bit register for signal <SV_BR_BIT1_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT2<0>>.
+    Found 1-bit register for signal <SV_BR_BIT2_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT3<0>>.
+    Found 1-bit register for signal <SV_BR_BIT3_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT4<0>>.
+    Found 1-bit register for signal <SV_BR_BIT4_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT5<0>>.
+    Found 1-bit register for signal <SV_BR_BIT5_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT6<0>>.
+    Found 1-bit register for signal <SV_BR_BIT6_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT7<0>>.
+    Found 1-bit register for signal <SV_BR_BIT7_M<0>>.
+    Found 1-bit register for signal <SV_BR_BIT8<0>>.
+    Found 1-bit register for signal <SV_BR_BIT8_M<0>>.
+    Found 2-bit register for signal <SV_BYTE_CHECK>.
+    Found 2-bit register for signal <SV_BYTE_CHECK_M>.
+    Found 20-bit register for signal <SV_M>.
+    Summary:
+	inferred 111 D-type flip-flop(s).
+	inferred   3 Adder/Subtracter(s).
+	inferred  14 Comparator(s).
+Unit <ctrl_9p6_50mhz_vhdl> synthesized.
+
+
+Synthesizing Unit <test_ctrl_9p6_50mhz_sch>.
+    Related source file is C:/STUDY/UEBUNG/Studium/Profibus/TEST_CTRL_9P6_50MHZ_SCH/TEST_CTRL_9P6_50MHZ_SCH.vhf.
+Unit <test_ctrl_9p6_50mhz_sch> synthesized.
+
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# ROMs                             : 1
+ 16x7-bit ROM                      : 1
+# Adders/Subtractors               : 5
+ 8-bit adder                       : 1
+ 16-bit adder                      : 1
+ 20-bit adder                      : 1
+ 24-bit subtractor                 : 1
+ 24-bit adder                      : 1
+# Counters                         : 2
+ 32-bit down counter               : 1
+ 2-bit up counter                  : 1
+# Registers                        : 35
+ 8-bit register                    : 2
+ 16-bit register                   : 2
+ 20-bit register                   : 4
+ 2-bit register                    : 2
+ 1-bit register                    : 21
+ 24-bit register                   : 2
+ 3-bit register                    : 2
+# Comparators                      : 16
+ 20-bit comparator equal           : 1
+ 16-bit comparator equal           : 13
+ 24-bit comparator greatequal      : 1
+ 32-bit comparator less            : 1
+# Multiplexers                     : 2
+ 1-bit 2-to-1 multiplexer          : 1
+ 4-bit 4-to-1 multiplexer          : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1291 - FF/Latch <5> is unconnected in block <SV>.
+WARNING:Xst:1291 - FF/Latch <5> is unconnected in block <SV_M>.
+WARNING:Xst:1291 - FF/Latch <SV_5> is unconnected in block <ctrl_9p6_50mhz_vhdl>.
+WARNING:Xst:1291 - FF/Latch <SV_M_5> is unconnected in block <ctrl_9p6_50mhz_vhdl>.
+
+Optimizing unit <test_ctrl_9p6_50mhz_sch> ...
+
+Optimizing unit <deb_50mz_100ms_src> ...
+
+Optimizing unit <ctrl_9p6_50mhz_vhdl> ...
+
+Optimizing unit <clock_single_run_src> ...
+
+Optimizing unit <f_div50000> ...
+Loading device for application Xst from file '3s200.nph' in environment C:/Programme/XILINX/WEBPACK_6P3.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block test_ctrl_9p6_50mhz_sch, actual ratio is 15.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : test_ctrl_9p6_50mhz_sch.ngr
+Top Level Output File Name         : test_ctrl_9p6_50mhz_sch
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : NO
+
+Design Statistics
+# IOs                              : 39
+
+Macro Statistics :
+# ROMs                             : 1
+#      16x7-bit ROM                : 1
+# Registers                        : 49
+#      1-bit register              : 39
+#      16-bit register             : 2
+#      2-bit register              : 2
+#      20-bit register             : 2
+#      24-bit register             : 2
+#      8-bit register              : 2
+# Multiplexers                     : 2
+#      2-to-1 multiplexer          : 1
+#      4-bit 4-to-1 multiplexer    : 1
+# Adders/Subtractors               : 7
+#      16-bit adder                : 1
+#      20-bit adder                : 1
+#      24-bit adder                : 1
+#      24-bit subtractor           : 1
+#      32-bit subtractor           : 2
+#      8-bit adder                 : 1
+# Comparators                      : 16
+#      16-bit comparator equal     : 13
+#      20-bit comparator equal     : 1
+#      24-bit comparator greatequal: 1
+#      32-bit comparator less      : 1
+
+Cell Usage :
+# BELS                             : 809
+#      GND                         : 1
+#      INV                         : 4
+#      LUT1                        : 114
+#      LUT1_L                      : 26
+#      LUT2                        : 24
+#      LUT2_D                      : 3
+#      LUT2_L                      : 22
+#      LUT3                        : 86
+#      LUT3_D                      : 1
+#      LUT3_L                      : 7
+#      LUT4                        : 151
+#      LUT4_D                      : 2
+#      LUT4_L                      : 5
+#      MUXCY                       : 239
+#      MUXF5                       : 3
+#      VCC                         : 1
+#      XORCY                       : 120
+# FlipFlops/Latches                : 239
+#      FD                          : 31
+#      FDC                         : 32
+#      FDCE                        : 28
+#      FDE                         : 88
+#      FDP                         : 3
+#      FDPE                        : 1
+#      FDR                         : 24
+#      FDS                         : 32
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 38
+#      IBUF                        : 10
+#      OBUF                        : 28
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s200ft256-5 
+
+ Number of Slices:                     279  out of   1920    14%  
+ Number of Slice Flip Flops:           239  out of   3840     6%  
+ Number of 4 input LUTs:               441  out of   3840    11%  
+ Number of bonded IOBs:                 38  out of    173    21%  
+ Number of GCLKs:                        1  out of      8    12%  
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+F_50MHZ_T9                         | BUFGP                  | 237   |
+XLXI_4_GE_stage_cyo(XLXI_4_GE_stagecy:O)| NONE(*)(XLXI_10_COUNTER_0)| 2     |
+-----------------------------------+------------------------+-------+
+(*) This 1 clock signal(s) are generated by combinatorial logic,
+and XST is not able to identify which are the primary clock signals.
+Please use the CLOCK_SIGNAL constraint to specify the clock signal(s) generated by combinatorial logic.
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 14.911ns (Maximum Frequency: 67.065MHz)
+   Minimum input arrival time before clock: 7.106ns
+   Maximum output required time after clock: 9.528ns
+   Maximum combinational path delay: 10.333ns
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+-------------------------------------------------------------------------
+Timing constraint: Default period analysis for Clock 'F_50MHZ_T9'
+Delay:               7.456ns (Levels of Logic = 15)
+  Source:            XLXI_3_COUNT_DEB_6 (FF)
+  Destination:       XLXI_3_COUNT_DEB_M_10 (FF)
+  Source Clock:      F_50MHZ_T9 falling
+  Destination Clock: F_50MHZ_T9 rising
+
+  Data Path: XLXI_3_COUNT_DEB_6 to XLXI_3_COUNT_DEB_M_10
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               5   0.626   0.658  XLXI_3_COUNT_DEB_6 (XLXI_3_COUNT_DEB_6)
+     LUT1_L:I0->LO         1   0.479   0.000  XLXI_3_COUNT_DEB<6>_rt (XLXI_3_COUNT_DEB<6>_rt)
+     MUXCY:S->O            1   0.435   0.000  XLXI_3_Andcy (XLXI_3_And_cyo)
+     MUXCY:CI->O           1   0.056   0.000  XLXI_3_norcy (XLXI_3_nor_cyo)
+     MUXCY:CI->O           1   0.056   0.000  XLXI_3_Andcy_rn_0 (XLXI_3_And_cyo1)
+     MUXCY:CI->O           1   0.056   0.000  XLXI_3_norcy_rn_0 (XLXI_3_nor_cyo1)
+     MUXCY:CI->O           1   0.056   0.000  XLXI_3_Andcy_rn_1 (XLXI_3_And_cyo2)
+     MUXCY:CI->O           1   0.056   0.000  XLXI_3_norcy_rn_1 (XLXI_3_nor_cyo2)
+     MUXCY:CI->O           1   0.056   0.000  XLXI_3_Andcy_rn_2 (XLXI_3_And_cyo3)
+     MUXCY:CI->O           1   0.056   0.000  XLXI_3_norcy_rn_2 (XLXI_3_nor_cyo3)
+     MUXCY:CI->O           1   0.056   0.000  XLXI_3_Andcy_rn_3 (XLXI_3_And_cyo4)
+     MUXCY:CI->O           1   0.056   0.000  XLXI_3_norcy_rn_3 (XLXI_3_nor_cyo4)
+     MUXCY:CI->O           1   0.056   0.000  XLXI_3_Andcy_rn_4 (XLXI_3_And_cyo5)
+     MUXCY:CI->O          28   0.265   1.317  XLXI_3_norcy_rn_4 (XLXI_3__n0035<1>)
+     LUT3_D:I1->O         17   0.479   1.031  XLXI_3__n00241 (XLXI_3__n0024)
+     LUT4:I3->O            1   0.479   0.240  XLXI_3_n_COUNT_DEB<6>_SW0 (N15112)
+     FDS:S                     0.892          XLXI_3_COUNT_DEB_M_6
+    ----------------------------------------
+    Total                      7.456ns (4.210ns logic, 3.246ns route)
+                                       (56.5% logic, 43.5% route)
+
+-------------------------------------------------------------------------
+Timing constraint: Default period analysis for Clock 'XLXI_4_GE_stagecy:O'
+Delay:               2.383ns (Levels of Logic = 0)
+  Source:            XLXI_10_COUNTER_0 (FF)
+  Destination:       XLXI_10_COUNTER_0 (FF)
+  Source Clock:      XLXI_4_GE_stagecy:O rising
+  Destination Clock: XLXI_4_GE_stagecy:O rising
+
+  Data Path: XLXI_10_COUNTER_0 to XLXI_10_COUNTER_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q             12   0.626   0.865  XLXI_10_COUNTER_0 (XLXI_10_COUNTER_0)
+     FDR:R                     0.892          XLXI_10_COUNTER_0
+    ----------------------------------------
+    Total                      2.383ns (1.518ns logic, 0.865ns route)
+                                       (63.7% logic, 36.3% route)
+
+-------------------------------------------------------------------------
+Timing constraint: Default OFFSET IN BEFORE for Clock 'F_50MHZ_T9'
+Offset:              7.106ns (Levels of Logic = 10)
+  Source:            CV_SW0_F12 (PAD)
+  Destination:       XLXI_1_COUNT_S_M_15 (FF)
+  Destination Clock: F_50MHZ_T9 rising
+
+  Data Path: CV_SW0_F12 to XLXI_1_COUNT_S_M_15
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            66   1.679   1.355  CV_SW0_F12_IBUF (CV_SW0_F12_IBUF)
+     LUT3_L:I2->LO         1   0.479   0.000  XLXI_1_Eq_stagelut5 (XLXI_1_N5042)
+     MUXCY:S->O            1   0.435   0.000  XLXI_1_Eq_stagecy_rn_4 (XLXI_1_Eq_stage_cyo4)
+     MUXCY:CI->O           1   0.056   0.000  XLXI_1_Eq_stagecy_rn_5 (XLXI_1_Eq_stage_cyo5)
+     MUXCY:CI->O           1   0.056   0.000  XLXI_1_Eq_stagecy_rn_6 (XLXI_1_Eq_stage_cyo6)
+     MUXCY:CI->O           1   0.056   0.000  XLXI_1_Eq_stagecy_rn_7 (XLXI_1_Eq_stage_cyo7)
+     MUXCY:CI->O           1   0.056   0.000  XLXI_1_Eq_stagecy_rn_8 (XLXI_1_Eq_stage_cyo8)
+     MUXCY:CI->O           3   0.265   0.577  XLXI_1_Eq_stagecy_rn_9 (XLXI_1__n0152)
+     LUT4_D:I1->O         15   0.479   0.960  XLXI_1_Ker1016051 (XLXI_1_N10162)
+     LUT2_L:I1->LO         1   0.479   0.000  XLXI_1_n_COUNT_S<14>1 (XLXI_1_n_COUNT_S<14>)
+     FDE:D                     0.176          XLXI_1_COUNT_S_M_14
+    ----------------------------------------
+    Total                      7.106ns (4.214ns logic, 2.892ns route)
+                                       (59.3% logic, 40.7% route)
+
+-------------------------------------------------------------------------
+Timing constraint: Default OFFSET OUT AFTER for Clock 'F_50MHZ_T9'
+Offset:              9.528ns (Levels of Logic = 6)
+  Source:            XLXI_1_COUNT_S_0 (FF)
+  Destination:       BA_E14 (PAD)
+  Source Clock:      F_50MHZ_T9 falling
+
+  Data Path: XLXI_1_COUNT_S_0 to BA_E14
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q             16   0.626   0.995  XLXI_1_COUNT_S_0 (XLXI_1_COUNT_S_0)
+     LUT3:I1->O            1   0.479   0.240  XLXI_1__n0246_SW0 (N13776)
+     LUT3:I1->O            1   0.479   0.000  XLXI_10_Mmux_NIB_ANZ_inst_mux_f5_0_SW0_F (N16137)
+     MUXF5:I0->O           1   0.314   0.240  XLXI_10_Mmux_NIB_ANZ_inst_mux_f5_0_SW0 (N15992)
+     LUT4:I3->O            7   0.479   0.717  XLXI_10_Mmux_NIB_ANZ_inst_mux_f5_0 (XLXI_10_NIB_ANZ<0>)
+     LUT4:I0->O            1   0.479   0.240  XLXI_10_Mrom__n0004_inst_lut4_01 (BA_E14_OBUF)
+     OBUF:I->O                 4.240          BA_E14_OBUF (BA_E14)
+    ----------------------------------------
+    Total                      9.528ns (7.096ns logic, 2.432ns route)
+                                       (74.5% logic, 25.5% route)
+
+-------------------------------------------------------------------------
+Timing constraint: Default OFFSET OUT AFTER for Clock 'XLXI_4_GE_stagecy:O'
+Offset:              8.426ns (Levels of Logic = 4)
+  Source:            XLXI_10_COUNTER_0 (FF)
+  Destination:       BA_E14 (PAD)
+  Source Clock:      XLXI_4_GE_stagecy:O rising
+
+  Data Path: XLXI_10_COUNTER_0 to BA_E14
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q             12   0.626   0.865  XLXI_10_COUNTER_0 (XLXI_10_COUNTER_0)
+     MUXF5:S->O            1   0.540   0.240  XLXI_10_Mmux_NIB_ANZ_inst_mux_f5_1_SW0 (N15996)
+     LUT4:I3->O            7   0.479   0.717  XLXI_10_Mmux_NIB_ANZ_inst_mux_f5_1 (XLXI_10_NIB_ANZ<1>)
+     LUT4:I1->O            1   0.479   0.240  XLXI_10_Mrom__n0004_inst_lut4_01 (BA_E14_OBUF)
+     OBUF:I->O                 4.240          BA_E14_OBUF (BA_E14)
+    ----------------------------------------
+    Total                      8.426ns (6.364ns logic, 2.062ns route)
+                                       (75.5% logic, 24.5% route)
+
+-------------------------------------------------------------------------
+Timing constraint: Default path analysis
+Delay:               10.333ns (Levels of Logic = 7)
+  Source:            DC_SW2_H14 (PAD)
+  Destination:       BA_E14 (PAD)
+
+  Data Path: DC_SW2_H14 to BA_E14
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             8   1.679   0.747  DC_SW2_H14_IBUF (DC_SW2_H14_IBUF)
+     LUT3:I0->O            1   0.479   0.240  XLXI_1__n0250_SW0 (N13724)
+     LUT3:I1->O            1   0.479   0.000  XLXI_10_Mmux_NIB_ANZ_inst_mux_f5_1_SW0_F (N16142)
+     MUXF5:I0->O           1   0.314   0.240  XLXI_10_Mmux_NIB_ANZ_inst_mux_f5_1_SW0 (N15996)
+     LUT4:I3->O            7   0.479   0.717  XLXI_10_Mmux_NIB_ANZ_inst_mux_f5_1 (XLXI_10_NIB_ANZ<1>)
+     LUT4:I1->O            1   0.479   0.240  XLXI_10_Mrom__n0004_inst_lut4_01 (BA_E14_OBUF)
+     OBUF:I->O                 4.240          BA_E14_OBUF (BA_E14)
+    ----------------------------------------
+    Total                     10.333ns (8.149ns logic, 2.184ns route)
+                                       (78.9% logic, 21.1% route)
+
+=========================================================================
+CPU : 7.48 / 8.30 s | Elapsed : 7.00 / 8.00 s
+ 
+--> 
+
+Total memory usage is 75380 kilobytes
+
+

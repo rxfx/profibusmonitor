@@ -1,0 +1,3 @@
+set ADucfFile {test2_sram_25mhz_255_byte.ucf}
+set AD {}
+set ADcdcFile {}

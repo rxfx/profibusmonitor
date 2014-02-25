@@ -1,0 +1,11 @@
+# begin LFP file c:\study\uebung\studium\profibus\test_ctrl_byte_check\test_ctrl_byte_check.lfp
+designfile test_ctrl_byte_check.ngd
+IO_GROUP "BYTE_NUM"  ;
+NET "BYTE_NUM<7>" IO_GROUP="BYTE_NUM"  ;
+NET "BYTE_NUM<6>" IO_GROUP="BYTE_NUM"  ;
+NET "BYTE_NUM<5>" IO_GROUP="BYTE_NUM"  ;
+NET "BYTE_NUM<4>" IO_GROUP="BYTE_NUM"  ;
+NET "BYTE_NUM<3>" IO_GROUP="BYTE_NUM"  ;
+NET "BYTE_NUM<2>" IO_GROUP="BYTE_NUM"  ;
+NET "BYTE_NUM<1>" IO_GROUP="BYTE_NUM"  ;
+NET "BYTE_NUM<0>" IO_GROUP="BYTE_NUM"  ;

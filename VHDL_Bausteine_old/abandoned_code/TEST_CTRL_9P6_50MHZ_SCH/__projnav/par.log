@@ -1,0 +1,3 @@
+Place & Route Module test_ctrl_9p6_50mhz_sch . . .
+PAR command line: par -w -intstyle ise -ol std -t 1 test_ctrl_9p6_50mhz_sch_map.ncd test_ctrl_9p6_50mhz_sch.ncd test_ctrl_9p6_50mhz_sch.pcf
+PAR completed successfully

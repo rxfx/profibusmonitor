@@ -1,0 +1,4 @@
+Post Route Timing Report for Module test2_sram_25mhz_255_byte . . .
+TRACE command line and options:
+trce -intstyle ise -e 3 -l 3 -xml test2_sram_25mhz_255_byte test2_sram_25mhz_255_byte.ncd -o test2_sram_25mhz_255_byte.twr test2_sram_25mhz_255_byte.pcf
+Post Route Timing Report for Module test2_sram_25mhz_255_byte : DONE

@@ -1,0 +1,184 @@
+Release 6.3.03i Par G.38
+Copyright (c) 1995-2004 Xilinx, Inc.  All rights reserved.
+
+RECHNER-407-05::  Fri Dec 07 17:16:04 2012
+
+
+C:/Programme/XILINX/WEBPACK_6P3/bin/nt/par.exe -w -intstyle ise -ol std -t 1
+test2_sram_25mhz_255_byte_map.ncd test2_sram_25mhz_255_byte.ncd
+test2_sram_25mhz_255_byte.pcf 
+
+
+Constraints file: test2_sram_25mhz_255_byte.pcf
+
+Loading device database for application Par from file
+"test2_sram_25mhz_255_byte_map.ncd".
+   "test2_sram_25mhz_255_byte" is an NCD, version 2.38, device xc3s200, package
+ft256, speed -5
+Loading device for application Par from file '3s200.nph' in environment
+C:/Programme/XILINX/WEBPACK_6P3.
+Device speed data version:  ADVANCED 1.35 2004-11-11.
+
+
+Resolved that IOB <COUNT_DAT<0>> must be placed at site N7.
+Resolved that IOB <COUNT_DAT<1>> must be placed at site T8.
+Resolved that IOB <COUNT_DAT<2>> must be placed at site R6.
+Resolved that IOB <COUNT_DAT<3>> must be placed at site T5.
+Resolved that IOB <COUNT_DAT<4>> must be placed at site R5.
+Resolved that IOB <COUNT_DAT<5>> must be placed at site C2.
+Resolved that IOB <COUNT_DAT<6>> must be placed at site C1.
+Resolved that IOB <COUNT_DAT<7>> must be placed at site B1.
+Resolved that IOB <COUNT_DAT<8>> must be placed at site D3.
+Resolved that IOB <COUNT_DAT<9>> must be placed at site P8.
+Resolved that IOB <COUNT_DAT<10>> must be placed at site F2.
+Resolved that IOB <COUNT_DAT<11>> must be placed at site H1.
+Resolved that IOB <COUNT_DAT<12>> must be placed at site J2.
+Resolved that IOB <COUNT_DAT<13>> must be placed at site L2.
+Resolved that IOB <COUNT_DAT<14>> must be placed at site P1.
+Resolved that IOB <COUNT_DAT<15>> must be placed at site R1.
+Resolved that IOB <STOP_LD0_K12> must be placed at site K12.
+Resolved that IOB <CE1_P7> must be placed at site P7.
+Resolved that IOB <GO_SW7_K13> must be placed at site K13.
+Resolved that IOB <F_50MHZ_T9> must be placed at site T9.
+Resolved that IOB <BA_E14> must be placed at site E14.
+Resolved that IOB <STEP_BTN1_M14> must be placed at site M14.
+Resolved that IOB <BB_G13> must be placed at site G13.
+Resolved that IOB <BC_N15> must be placed at site N15.
+Resolved that IOB <OE_K4> must be placed at site K4.
+Resolved that IOB <BF_F13> must be placed at site F13.
+Resolved that IOB <BD_P15> must be placed at site P15.
+Resolved that IOB <BE_R16> must be placed at site R16.
+Resolved that IOB <BG_N16> must be placed at site N16.
+Resolved that IOB <LB1_P6> must be placed at site P6.
+Resolved that IOB <WE_G3> must be placed at site G3.
+Resolved that IOB <AN0_D14> must be placed at site D14.
+Resolved that IOB <RUN_BTN2_L13> must be placed at site L13.
+Resolved that IOB <AN1_G14> must be placed at site G14.
+Resolved that IOB <AN2_F14> must be placed at site F14.
+Resolved that IOB <AN3_E13> must be placed at site E13.
+Resolved that IOB <RST_BTN3_L14> must be placed at site L14.
+Resolved that IOB <UB1_T4> must be placed at site T4.
+Resolved that IOB <COUNT_ADR<10>> must be placed at site G5.
+Resolved that IOB <COUNT_ADR<11>> must be placed at site H3.
+Resolved that IOB <COUNT_ADR<12>> must be placed at site H4.
+Resolved that IOB <COUNT_ADR<13>> must be placed at site J4.
+Resolved that IOB <COUNT_ADR<14>> must be placed at site J3.
+Resolved that IOB <COUNT_ADR<0>> must be placed at site L5.
+Resolved that IOB <COUNT_ADR<15>> must be placed at site K3.
+Resolved that IOB <COUNT_ADR<1>> must be placed at site N3.
+Resolved that IOB <COUNT_ADR<16>> must be placed at site K5.
+Resolved that IOB <COUNT_ADR<2>> must be placed at site M4.
+Resolved that IOB <COUNT_ADR<17>> must be placed at site L3.
+Resolved that IOB <COUNT_ADR<3>> must be placed at site M3.
+Resolved that IOB <COUNT_ADR<4>> must be placed at site L4.
+Resolved that IOB <COUNT_ADR<5>> must be placed at site G4.
+Resolved that IOB <COUNT_ADR<6>> must be placed at site F3.
+Resolved that IOB <COUNT_ADR<7>> must be placed at site F4.
+Resolved that IOB <COUNT_ADR<8>> must be placed at site E3.
+Resolved that IOB <COUNT_ADR<9>> must be placed at site E4.
+
+
+Device utilization summary:
+
+   Number of External IOBs            57 out of 173    32%
+      Number of LOCed External IOBs   56 out of 57     98%
+
+   Number of Slices                  207 out of 1920   10%
+
+   Number of BUFGMUXs                  1 out of 8      12%
+
+
+
+Overall effort level (-ol):   Standard (set by user)
+Placer effort level (-pl):    Standard (set by user)
+Placer cost table entry (-t): 1
+Router effort level (-rl):    Standard (set by user)
+
+
+Phase 1.1
+Phase 1.1 (Checksum:989ccf) REAL time: 0 secs 
+
+.
+Phase 3.3
+Phase 3.3 (Checksum:1c9c37d) REAL time: 0 secs 
+
+Phase 4.5
+Phase 4.5 (Checksum:26259fc) REAL time: 0 secs 
+
+Phase 5.8
+......................
+Phase 5.8 (Checksum:9d39ff) REAL time: 0 secs 
+
+Phase 6.5
+Phase 6.5 (Checksum:39386fa) REAL time: 0 secs 
+
+Phase 7.18
+Phase 7.18 (Checksum:42c1d79) REAL time: 2 secs 
+
+Writing design to file test2_sram_25mhz_255_byte.ncd.
+
+Total REAL time to Placer completion: 2 secs 
+Total CPU time to Placer completion: 1 secs 
+
+
+Phase 1: 1165 unrouted;       REAL time: 2 secs 
+
+Phase 2: 1048 unrouted;       REAL time: 2 secs 
+
+Phase 3: 357 unrouted;       REAL time: 2 secs 
+
+Phase 4: 0 unrouted;       REAL time: 2 secs 
+
+Total REAL time to Router completion: 2 secs 
+Total CPU time to Router completion: 1 secs 
+
+Generating "par" statistics.
+
+**************************
+Generating Clock Report
+**************************
+
++-------------------------+----------+------+------+------------+-------------+
+|        Clock Net        | Resource |Locked|Fanout|Net Skew(ns)|Max Delay(ns)|
++-------------------------+----------+------+------+------------+-------------+
+|  F_50MHZ_T9_BUFGP       |  BUFGMUX0| No   |    1 |  0.000     |  0.880      |
++-------------------------+----------+------+------+------------+-------------+
+|    XLXI_30_GE_stage_cyo |   Local  |      |    2 |  0.000     |  1.500      |
++-------------------------+----------+------+------+------------+-------------+
+|           XLXN_34       |   Local  |      |  106 |  0.240     |  2.582      |
++-------------------------+----------+------+------+------------+-------------+
+
+
+   The Delay Summary Report
+
+   The SCORE FOR THIS DESIGN is: 162
+
+
+The NUMBER OF SIGNALS NOT COMPLETELY ROUTED for this design is: 0
+
+   The AVERAGE CONNECTION DELAY for this design is:        1.107
+   The MAXIMUM PIN DELAY IS:                               5.267
+   The AVERAGE CONNECTION DELAY on the 10 WORST NETS is:   2.586
+
+   Listing Pin Delays by value: (nsec)
+
+    d < 1.00   < d < 2.00  < d < 3.00  < d < 4.00  < d < 6.00  d >= 6.00
+   ---------   ---------   ---------   ---------   ---------   ---------
+         658         313         173           7          14           0
+
+Generating Pad Report.
+
+All signals are completely routed.
+
+Total REAL time to PAR completion: 2 secs 
+Total CPU time to PAR completion: 1 secs 
+
+Peak Memory Usage:  61 MB
+
+Placement: Completed - No errors found.
+Routing: Completed - No errors found.
+
+Writing design to file test2_sram_25mhz_255_byte.ncd.
+
+
+PAR done.

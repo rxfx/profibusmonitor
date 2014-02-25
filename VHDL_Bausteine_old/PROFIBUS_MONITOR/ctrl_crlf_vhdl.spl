@@ -1,0 +1,11 @@
+[Inputs]
+BYTE_OK
+T_CMPLT
+CLK
+CLK_IO
+IN_NEXT_STATE
+RESET
+=BYTE_IN[7:0]=
+[Outputs]
+=BYTE_SEND[7:0]=
+[BiDir]

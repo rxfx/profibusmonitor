@@ -1,0 +1,4 @@
+# begin LFP file C:\STUDY\UEBUNG\Studium\Profibus\VHDL_Bausteine\PROFIBUS_MONITOR\profibus_monitor_sch.lfp
+designfile profibus_monitor_sch.ngd
+IO_GROUP "T_TYPE"  ;
+IO_GROUP "T_LENGTH"  ;

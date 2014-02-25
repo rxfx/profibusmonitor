@@ -1,0 +1,8 @@
+# begin LFP file F:\Profibus\TEST2_SRAM_25MHZ_255_BYTE\test2_sram_25mhz_255_byte.lfp
+designfile test2_sram_25mhz_255_byte.ngd
+IO_GROUP "XLXN_47"  ;
+IO_GROUP "XLXN_46"  ;
+IO_GROUP "XLXN_45"  ;
+IO_GROUP "XLXN_44"  ;
+IO_GROUP "XLXN_43"  ;
+IO_GROUP "XLXN_42"  ;

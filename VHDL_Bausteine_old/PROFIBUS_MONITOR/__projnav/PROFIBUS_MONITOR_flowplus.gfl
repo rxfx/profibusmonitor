@@ -1,0 +1,6 @@
+# XST flow : Creating project file
+profibus_monitor_sch.prj
+# xst flow : RunXST
+profibus_monitor_sch.prj
+__projnav/profibus_monitor_sch.xst
+./xst

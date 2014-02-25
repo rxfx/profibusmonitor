@@ -1,0 +1,7 @@
+sch2vhdl -family spartan3 -flat -suppress -w TEST_CTRL_9P6_50MHZ_SCH.sch test_ctrl_9p6_50mhz_sch.vhf
+xst -intstyle ise -ifn __projnav/test_ctrl_9p6_50mhz_sch.xst -ofn test_ctrl_9p6_50mhz_sch.syr
+ngdbuild -intstyle ise -dd c:\study\uebung\studium\profibus\test_ctrl_9p6_50mhz_sch/_ngo -uc test_ctrl_9p6_50mhz_sch.ucf  -p xc3s200-ft256-5 test_ctrl_9p6_50mhz_sch.ngc test_ctrl_9p6_50mhz_sch.ngd
+map -intstyle ise -p xc3s200-ft256-5 -cm area -pr b -k 4 -c 100 -tx off -o test_ctrl_9p6_50mhz_sch_map.ncd test_ctrl_9p6_50mhz_sch.ngd test_ctrl_9p6_50mhz_sch.pcf
+par -w -intstyle ise -ol std -t 1 test_ctrl_9p6_50mhz_sch_map.ncd test_ctrl_9p6_50mhz_sch.ncd test_ctrl_9p6_50mhz_sch.pcf
+trce -intstyle ise -e 3 -l 3 -xml test_ctrl_9p6_50mhz_sch test_ctrl_9p6_50mhz_sch.ncd -o test_ctrl_9p6_50mhz_sch.twr test_ctrl_9p6_50mhz_sch.pcf
+bitgen -intstyle ise -f test_ctrl_9p6_50mhz_sch.ut test_ctrl_9p6_50mhz_sch.ncd

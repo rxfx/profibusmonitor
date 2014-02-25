@@ -1,0 +1,123 @@
+--------------------------------------------------------------------------------
+Release 6.3.03i Trace G.38
+Copyright (c) 1995-2004 Xilinx, Inc.  All rights reserved.
+
+C:/Programme/XILINX/WEBPACK_6P3/bin/nt/trce.exe -intstyle ise -e 3 -l 3 -xml
+test_ctrl_9p6_50mhz_sch test_ctrl_9p6_50mhz_sch.ncd -o
+test_ctrl_9p6_50mhz_sch.twr test_ctrl_9p6_50mhz_sch.pcf
+
+
+Design file:              test_ctrl_9p6_50mhz_sch.ncd
+Physical constraint file: test_ctrl_9p6_50mhz_sch.pcf
+Device,speed:             xc3s200,-5 (ADVANCED 1.35 2004-11-11)
+Report level:             error report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths
+   option. All paths that are not constrained will be reported in the
+   unconstrained paths section(s) of the report.
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock F_50MHZ_T9
+-------------+------------+------------+------------------+--------+
+             |  Setup to  |  Hold to   |                  |  Clock |
+Source       | clk (edge) | clk (edge) |Internal Clock(s) |  Phase |
+-------------+------------+------------+------------------+--------+
+BC_SW5_J13   |    1.399(R)|    0.232(R)|F_50MHZ_T9_BUFGP  |   0.000|
+CV_SW0_F12   |    6.201(R)|   -1.284(R)|F_50MHZ_T9_BUFGP  |   0.000|
+InAB_SW7_K13 |    2.624(F)|   -0.400(F)|F_50MHZ_T9_BUFGP  |   0.000|
+NB_SW6_14    |    2.720(R)|   -0.218(R)|F_50MHZ_T9_BUFGP  |   0.000|
+PO_SW4_J14   |    2.554(R)|   -0.164(R)|F_50MHZ_T9_BUFGP  |   0.000|
+RST_BTN3_L14 |    5.864(R)|   -0.836(R)|F_50MHZ_T9_BUFGP  |   0.000|
+             |    5.160(F)|    0.422(F)|F_50MHZ_T9_BUFGP  |   0.000|
+RUN_BTN2_L13 |    2.624(F)|   -0.401(F)|F_50MHZ_T9_BUFGP  |   0.000|
+STEP_BTN1_M14|    2.624(F)|   -0.401(F)|F_50MHZ_T9_BUFGP  |   0.000|
+-------------+------------+------------+------------------+--------+
+
+Clock F_50MHZ_T9 to Pad
+------------+------------+------------------+--------+
+            | clk (edge) |                  |  Clock |
+Destination | to PAD     |Internal Clock(s) |  Phase |
+------------+------------+------------------+--------+
+BA_E14      |   14.290(F)|F_50MHZ_T9_BUFGP  |   0.000|
+BB_G13      |   14.332(F)|F_50MHZ_T9_BUFGP  |   0.000|
+BC_N15      |   14.578(F)|F_50MHZ_T9_BUFGP  |   0.000|
+BD_P15      |   14.996(F)|F_50MHZ_T9_BUFGP  |   0.000|
+BE_R16      |   14.500(F)|F_50MHZ_T9_BUFGP  |   0.000|
+BF_F13      |   15.085(F)|F_50MHZ_T9_BUFGP  |   0.000|
+BG_N16      |   14.647(F)|F_50MHZ_T9_BUFGP  |   0.000|
+BO_LD6_P12  |    9.705(F)|F_50MHZ_T9_BUFGP  |   0.000|
+BYTE_NUM<0> |    8.773(F)|F_50MHZ_T9_BUFGP  |   0.000|
+BYTE_NUM<1> |    8.592(F)|F_50MHZ_T9_BUFGP  |   0.000|
+BYTE_NUM<2> |    8.081(F)|F_50MHZ_T9_BUFGP  |   0.000|
+BYTE_NUM<3> |    8.422(F)|F_50MHZ_T9_BUFGP  |   0.000|
+BYTE_NUM<4> |    8.396(F)|F_50MHZ_T9_BUFGP  |   0.000|
+BYTE_NUM<5> |    8.540(F)|F_50MHZ_T9_BUFGP  |   0.000|
+BYTE_NUM<6> |    7.964(F)|F_50MHZ_T9_BUFGP  |   0.000|
+BYTE_NUM<7> |    7.690(F)|F_50MHZ_T9_BUFGP  |   0.000|
+BYTE_OUT<0> |    9.233(F)|F_50MHZ_T9_BUFGP  |   0.000|
+BYTE_OUT<1> |    8.985(F)|F_50MHZ_T9_BUFGP  |   0.000|
+BYTE_OUT<2> |    8.241(F)|F_50MHZ_T9_BUFGP  |   0.000|
+BYTE_OUT<3> |    8.373(F)|F_50MHZ_T9_BUFGP  |   0.000|
+BYTE_OUT<4> |    8.851(F)|F_50MHZ_T9_BUFGP  |   0.000|
+BYTE_OUT<5> |    8.538(F)|F_50MHZ_T9_BUFGP  |   0.000|
+BYTE_OUT<6> |    8.132(F)|F_50MHZ_T9_BUFGP  |   0.000|
+BYTE_OUT<7> |    8.552(F)|F_50MHZ_T9_BUFGP  |   0.000|
+------------+------------+------------------+--------+
+
+Clock to Setup on destination clock F_50MHZ_T9
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+F_50MHZ_T9     |    6.216|   10.400|    3.694|         |
+---------------+---------+---------+---------+---------+
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+BC_SW5_J13     |BA_E14         |   11.519|
+BC_SW5_J13     |BB_G13         |   11.775|
+BC_SW5_J13     |BC_N15         |   12.126|
+BC_SW5_J13     |BD_P15         |   12.159|
+BC_SW5_J13     |BE_R16         |   11.983|
+BC_SW5_J13     |BF_F13         |   12.642|
+BC_SW5_J13     |BG_N16         |   12.270|
+DC_SW1_G12     |BA_E14         |   10.937|
+DC_SW1_G12     |BB_G13         |   11.281|
+DC_SW1_G12     |BC_N15         |   11.700|
+DC_SW1_G12     |BD_P15         |   11.643|
+DC_SW1_G12     |BE_R16         |   11.339|
+DC_SW1_G12     |BF_F13         |   11.892|
+DC_SW1_G12     |BG_N16         |   11.478|
+DC_SW2_H14     |BA_E14         |   11.437|
+DC_SW2_H14     |BB_G13         |   11.479|
+DC_SW2_H14     |BC_N15         |   11.766|
+DC_SW2_H14     |BD_P15         |   12.143|
+DC_SW2_H14     |BE_R16         |   11.647|
+DC_SW2_H14     |BF_F13         |   12.282|
+DC_SW2_H14     |BG_N16         |   11.910|
+NB_SW6_14      |BA_E14         |   12.075|
+NB_SW6_14      |BB_G13         |   12.331|
+NB_SW6_14      |BC_N15         |   12.682|
+NB_SW6_14      |BD_P15         |   12.715|
+NB_SW6_14      |BE_R16         |   12.539|
+NB_SW6_14      |BF_F13         |   13.198|
+NB_SW6_14      |BG_N16         |   12.826|
+PO_SW4_J14     |BO_LD6_P12     |    8.598|
+---------------+---------------+---------+
+
+Analysis completed Wed Dec 19 16:40:10 2012
+--------------------------------------------------------------------------------
+
+Peak Memory Usage: 54 MB

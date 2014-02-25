@@ -1,0 +1,1 @@
+set allSynthModules {sram_25mhz_255_byte.MOD deb_50mz_100ms_src.MOD clock_single_run_src.MOD nib4_7seg_src.MOD f_div50000.MOD test2_sram_25mhz_255_byte.MOD}

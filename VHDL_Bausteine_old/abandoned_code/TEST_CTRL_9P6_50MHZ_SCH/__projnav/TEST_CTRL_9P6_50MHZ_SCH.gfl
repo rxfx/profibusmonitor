@@ -1,0 +1,94 @@
+# Schematic : View VHDL Functional Model
+test_ctrl_9p6_50mhz_sch.vhf
+test_ctrl_9p6_50mhz_sch.cmd_log
+# XST (Creating Lso File) : 
+test_ctrl_9p6_50mhz_sch.lso
+# xst flow : RunXST
+test_ctrl_9p6_50mhz_sch.syr
+test_ctrl_9p6_50mhz_sch.prj
+test_ctrl_9p6_50mhz_sch.sprj
+test_ctrl_9p6_50mhz_sch.ana
+test_ctrl_9p6_50mhz_sch.stx
+test_ctrl_9p6_50mhz_sch.cmd_log
+test_ctrl_9p6_50mhz_sch.ngc
+test_ctrl_9p6_50mhz_sch.ngr
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+c:\study\uebung\studium\profibus\test_ctrl_9p6_50mhz_sch/_ngo
+test_ctrl_9p6_50mhz_sch.ngd
+test_ctrl_9p6_50mhz_sch_ngdbuild.nav
+test_ctrl_9p6_50mhz_sch.bld
+test_ctrl_9p6_50mhz_sch.ucf.untf
+test_ctrl_9p6_50mhz_sch.cmd_log
+# Implementation : Map
+test_ctrl_9p6_50mhz_sch_map.ncd
+test_ctrl_9p6_50mhz_sch.ngm
+test_ctrl_9p6_50mhz_sch.pcf
+test_ctrl_9p6_50mhz_sch.nc1
+test_ctrl_9p6_50mhz_sch.mrp
+test_ctrl_9p6_50mhz_sch_map.mrp
+test_ctrl_9p6_50mhz_sch.mdf
+__projnav/map.log
+test_ctrl_9p6_50mhz_sch.cmd_log
+MAP_NO_GUIDE_FILE_CPF "test_ctrl_9p6_50mhz_sch"
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+test_ctrl_9p6_50mhz_sch.twr
+test_ctrl_9p6_50mhz_sch.twx
+test_ctrl_9p6_50mhz_sch.tsi
+test_ctrl_9p6_50mhz_sch.cmd_log
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+test_ctrl_9p6_50mhz_sch.ncd
+test_ctrl_9p6_50mhz_sch.par
+test_ctrl_9p6_50mhz_sch.pad
+test_ctrl_9p6_50mhz_sch_pad.txt
+test_ctrl_9p6_50mhz_sch_pad.csv
+test_ctrl_9p6_50mhz_sch.pad_txt
+test_ctrl_9p6_50mhz_sch.dly
+reportgen.log
+test_ctrl_9p6_50mhz_sch.xpi
+test_ctrl_9p6_50mhz_sch.grf
+test_ctrl_9p6_50mhz_sch.itr
+test_ctrl_9p6_50mhz_sch_last_par.ncd
+__projnav/par.log
+test_ctrl_9p6_50mhz_sch.placed_ncd_tracker
+test_ctrl_9p6_50mhz_sch.routed_ncd_tracker
+test_ctrl_9p6_50mhz_sch.cmd_log
+PAR_NO_GUIDE_FILE_CPF "test_ctrl_9p6_50mhz_sch"
+# Generate Programming File
+__projnav/test_ctrl_9p6_50mhz_sch_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+test_ctrl_9p6_50mhz_sch.ut
+# Generate Programming File
+test_ctrl_9p6_50mhz_sch.bgn
+test_ctrl_9p6_50mhz_sch.rbt
+test_ctrl_9p6_50mhz_sch.ll
+test_ctrl_9p6_50mhz_sch.msk
+test_ctrl_9p6_50mhz_sch.drc
+test_ctrl_9p6_50mhz_sch.nky
+test_ctrl_9p6_50mhz_sch.bit
+test_ctrl_9p6_50mhz_sch.bin
+test_ctrl_9p6_50mhz_sch.isc
+test_ctrl_9p6_50mhz_sch.cmd_log
+# Configure Device (iMPACT)
+test_ctrl_9p6_50mhz_sch.prm
+test_ctrl_9p6_50mhz_sch.isc
+test_ctrl_9p6_50mhz_sch.svf
+xilinx.sys
+test_ctrl_9p6_50mhz_sch.mcs
+test_ctrl_9p6_50mhz_sch.exo
+test_ctrl_9p6_50mhz_sch.hex
+test_ctrl_9p6_50mhz_sch.tek
+test_ctrl_9p6_50mhz_sch.dst
+test_ctrl_9p6_50mhz_sch.dst_compressed
+test_ctrl_9p6_50mhz_sch.mpm
+_impact.cmd
+_impact.log
+# Schematic : PDCL (jhdparse)
+__projnav/TEST_CTRL_9P6_50MHZ_SCH_jhdparse_tcl.rsp
+# Schematic : PDCL (jhdparse)
+__projnav/TEST_CTRL_9P6_50MHZ_SCH_jhdparse_tcl.rsp

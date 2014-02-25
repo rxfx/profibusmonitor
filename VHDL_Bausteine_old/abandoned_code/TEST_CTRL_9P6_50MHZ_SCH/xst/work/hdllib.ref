@@ -1,0 +1,12 @@
+EN f_div50000 NULL C:/STUDY/UEBUNG/Studium/Profibus/TEST_CTRL_9P6_50MHZ_SCH/F_DIV50000_SRC.vhd sub00/vhpl06
+AR test_ctrl_9p6_50mhz_sch behavioral C:/STUDY/UEBUNG/Studium/Profibus/TEST_CTRL_9P6_50MHZ_SCH/TEST_CTRL_9P6_50MHZ_SCH.vhf sub00/vhpl11
+EN ctrl_9p6_50mhz_vhdl NULL C:/STUDY/UEBUNG/Studium/Profibus/TEST_CTRL_9P6_50MHZ_SCH/CTRL_9P6_50MHZ.vhd sub00/vhpl00
+AR f_div50000 behavioral C:/STUDY/UEBUNG/Studium/Profibus/TEST_CTRL_9P6_50MHZ_SCH/F_DIV50000_SRC.vhd sub00/vhpl07
+EN nib4_7seg_src NULL C:/STUDY/UEBUNG/Studium/Profibus/TEST_CTRL_9P6_50MHZ_SCH/NIB4_7SEG_SRC.vhd sub00/vhpl08
+EN clock_single_run_src NULL C:/STUDY/UEBUNG/Studium/Profibus/TEST_CTRL_9P6_50MHZ_SCH/CLOCK_SINGLE_RUN_SRC.vhd sub00/vhpl02
+AR ctrl_9p6_50mhz_vhdl behavioral C:/STUDY/UEBUNG/Studium/Profibus/TEST_CTRL_9P6_50MHZ_SCH/CTRL_9P6_50MHZ.vhd sub00/vhpl01
+AR deb_50mz_100ms_src behavioral C:/STUDY/UEBUNG/Studium/Profibus/TEST_CTRL_9P6_50MHZ_SCH/DEB_50MZ_100MS_SRC.vhd sub00/vhpl05
+AR nib4_7seg_src behavioral C:/STUDY/UEBUNG/Studium/Profibus/TEST_CTRL_9P6_50MHZ_SCH/NIB4_7SEG_SRC.vhd sub00/vhpl09
+EN deb_50mz_100ms_src NULL C:/STUDY/UEBUNG/Studium/Profibus/TEST_CTRL_9P6_50MHZ_SCH/DEB_50MZ_100MS_SRC.vhd sub00/vhpl04
+AR clock_single_run_src behavioral C:/STUDY/UEBUNG/Studium/Profibus/TEST_CTRL_9P6_50MHZ_SCH/CLOCK_SINGLE_RUN_SRC.vhd sub00/vhpl03
+EN test_ctrl_9p6_50mhz_sch NULL C:/STUDY/UEBUNG/Studium/Profibus/TEST_CTRL_9P6_50MHZ_SCH/TEST_CTRL_9P6_50MHZ_SCH.vhf sub00/vhpl10

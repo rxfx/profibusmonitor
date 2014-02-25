@@ -1,0 +1,27 @@
+Release 6.3.03i - ngdbuild G.38
+Copyright (c) 1995-2004 Xilinx, Inc.  All rights reserved.
+
+Command Line: ngdbuild -intstyle ise -dd
+c:\study\uebung\studium\profibus\test_ctrl_9p6_50mhz_sch/_ngo -uc
+test_ctrl_9p6_50mhz_sch.ucf -p xc3s200-ft256-5 test_ctrl_9p6_50mhz_sch.ngc
+test_ctrl_9p6_50mhz_sch.ngd 
+
+Reading NGO file
+"C:/STUDY/UEBUNG/Studium/Profibus/TEST_CTRL_9P6_50MHZ_SCH/test_ctrl_9p6_50mhz_sc
+h.ngc" ...
+Reading component libraries for design expansion...
+
+Annotating constraints to design from file "test_ctrl_9p6_50mhz_sch.ucf" ...
+
+Checking timing specifications ...
+Checking expanded design ...
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Total memory usage is 41956 kilobytes
+
+Writing NGD file "test_ctrl_9p6_50mhz_sch.ngd" ...
+
+Writing NGDBUILD log file "test_ctrl_9p6_50mhz_sch.bld"...

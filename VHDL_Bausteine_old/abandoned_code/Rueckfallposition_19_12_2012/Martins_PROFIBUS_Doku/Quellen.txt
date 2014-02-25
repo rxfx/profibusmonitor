@@ -1,0 +1,10 @@
+16.Nov 2012:
+
+chapter11.pdf
+http://read.pudn.com/downloads163/doc/project/743842/FPGA%20Prototyping%20by%20VHDL%20Examples/Chapter%2011.pdf
+
+sync_fifo.pdf
+http://www.xilinx.com/ipcenter/catalog/logicore/docs/sync_fifo.pdf
+
+Chapter10.pdf
+http://read.pudn.com/downloads163/doc/project/743842/FPGA%20Prototyping%20by%20VHDL%20Examples/Chapter%2010.pdf

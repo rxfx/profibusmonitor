@@ -1,0 +1,6 @@
+vhdl work SRAM_25MHZ_255_BYTE.vhd
+vhdl work DEB_50MZ_100MS_SRC.vhd
+vhdl work CLOCK_SINGLE_RUN_SRC.vhd
+vhdl work NIB4_7SEG_SRC.vhd
+vhdl work F_DIV50000_SRC.vhd
+vhdl work TEST2_SRAM_25MHZ_255_BYTE.vhf

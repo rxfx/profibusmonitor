@@ -1,0 +1,3 @@
+set ADucfFile {profibus_monitor_sch.ucf}
+set AD {}
+set ADcdcFile {}

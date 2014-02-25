@@ -1,0 +1,518 @@
+Release 6.3.03i - xst G.38
+Copyright (c) 1995-2004 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to __projnav
+CPU : 0.00 / 0.41 s | Elapsed : 0.00 / 0.00 s
+ 
+--> Parameter xsthdpdir set to ./xst
+CPU : 0.00 / 0.41 s | Elapsed : 0.00 / 0.00 s
+ 
+--> Reading design: test2_sram_25mhz_255_byte.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) HDL Analysis
+  4) HDL Synthesis
+  5) Advanced HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Final Report
+     7.1) Device utilization summary
+     7.2) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : test2_sram_25mhz_255_byte.prj
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+Verilog Include Directory          : 
+
+---- Target Parameters
+Output File Name                   : test2_sram_25mhz_255_byte
+Output Format                      : NGC
+Target Device                      : xc3s200-5-ft256
+
+---- Source Options
+Top Module Name                    : test2_sram_25mhz_255_byte
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+FSM Style                          : lut
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+ROM Style                          : Auto
+Mux Extraction                     : YES
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : YES
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+Resource Sharing                   : YES
+Multiplier Style                   : auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 500
+Add Generic Clock Buffer(BUFG)     : 8
+Register Duplication               : YES
+Equivalent register Removal        : YES
+Slice Packing                      : YES
+Pack IO Registers into IOBs        : auto
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : NO
+Global Optimization                : AllClockNets
+RTL Output                         : Yes
+Write Timing Constraints           : NO
+Hierarchy Separator                : _
+Bus Delimiter                      : <>
+Case Specifier                     : maintain
+Slice Utilization Ratio            : 100
+Slice Utilization Ratio Delta      : 5
+
+---- Other Options
+lso                                : test2_sram_25mhz_255_byte.lso
+Read Cores                         : YES
+cross_clock_analysis               : NO
+verilog2001                        : YES
+Optimize Instantiated Primitives   : NO
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file C:/STUDY/UEBUNG/Studium/Profibus/TEST2_SRAM_25MHZ_255_BYTE/SRAM_25MHZ_255_BYTE.vhd in Library work.
+Architecture behavioral of Entity sram_25mhz_255_byte is up to date.
+Compiling vhdl file C:/STUDY/UEBUNG/Studium/Profibus/TEST2_SRAM_25MHZ_255_BYTE/DEB_50MZ_100MS_SRC.vhd in Library work.
+Architecture behavioral of Entity deb_50mz_100ms_src is up to date.
+Compiling vhdl file C:/STUDY/UEBUNG/Studium/Profibus/TEST2_SRAM_25MHZ_255_BYTE/CLOCK_SINGLE_RUN_SRC.vhd in Library work.
+Architecture behavioral of Entity clock_single_run_src is up to date.
+Compiling vhdl file C:/STUDY/UEBUNG/Studium/Profibus/TEST2_SRAM_25MHZ_255_BYTE/NIB4_7SEG_SRC.vhd in Library work.
+Architecture behavioral of Entity nib4_7seg_src is up to date.
+Compiling vhdl file C:/STUDY/UEBUNG/Studium/Profibus/TEST2_SRAM_25MHZ_255_BYTE/F_DIV50000_SRC.vhd in Library work.
+Architecture behavioral of Entity f_div50000 is up to date.
+Compiling vhdl file C:/STUDY/UEBUNG/Studium/Profibus/TEST2_SRAM_25MHZ_255_BYTE/TEST2_SRAM_25MHZ_255_BYTE.vhf in Library work.
+Entity <test2_sram_25mhz_255_byte> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <test2_sram_25mhz_255_byte> (Architecture <behavioral>).
+    Set user-defined property "INIT =  0" for instance <XLXI_2> in unit <test2_sram_25mhz_255_byte>.
+Entity <test2_sram_25mhz_255_byte> analyzed. Unit <test2_sram_25mhz_255_byte> generated.
+
+Analyzing Entity <sram_25mhz_255_byte> (Architecture <behavioral>).
+Entity <sram_25mhz_255_byte> analyzed. Unit <sram_25mhz_255_byte> generated.
+
+Analyzing Entity <deb_50mz_100ms_src> (Architecture <behavioral>).
+Entity <deb_50mz_100ms_src> analyzed. Unit <deb_50mz_100ms_src> generated.
+
+Analyzing Entity <clock_single_run_src> (Architecture <behavioral>).
+Entity <clock_single_run_src> analyzed. Unit <clock_single_run_src> generated.
+
+Analyzing Entity <nib4_7seg_src> (Architecture <behavioral>).
+INFO:Xst:1561 - C:/STUDY/UEBUNG/Studium/Profibus/TEST2_SRAM_25MHZ_255_BYTE/NIB4_7SEG_SRC.vhd line 74: Mux is complete : default of case is discarded
+INFO:Xst:1561 - C:/STUDY/UEBUNG/Studium/Profibus/TEST2_SRAM_25MHZ_255_BYTE/NIB4_7SEG_SRC.vhd line 100: Mux is complete : default of case is discarded
+Entity <nib4_7seg_src> analyzed. Unit <nib4_7seg_src> generated.
+
+Analyzing Entity <f_div50000> (Architecture <behavioral>).
+Entity <f_div50000> analyzed. Unit <f_div50000> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <f_div50000>.
+    Related source file is C:/STUDY/UEBUNG/Studium/Profibus/TEST2_SRAM_25MHZ_255_BYTE/F_DIV50000_SRC.vhd.
+    Found 32-bit comparator less for signal <$n0002> created at line 28.
+    Found 32-bit down counter for signal <COUNTER>.
+    Summary:
+	inferred   1 Counter(s).
+	inferred   1 Comparator(s).
+Unit <f_div50000> synthesized.
+
+
+Synthesizing Unit <nib4_7seg_src>.
+    Related source file is C:/STUDY/UEBUNG/Studium/Profibus/TEST2_SRAM_25MHZ_255_BYTE/NIB4_7SEG_SRC.vhd.
+    Found 16x7-bit ROM for signal <$n0004>.
+    Found 2-bit up counter for signal <COUNTER>.
+    Found 4-bit 4-to-1 multiplexer for signal <NIB_ANZ>.
+    Summary:
+	inferred   1 ROM(s).
+	inferred   1 Counter(s).
+	inferred   4 Multiplexer(s).
+Unit <nib4_7seg_src> synthesized.
+
+
+Synthesizing Unit <clock_single_run_src>.
+    Related source file is C:/STUDY/UEBUNG/Studium/Profibus/TEST2_SRAM_25MHZ_255_BYTE/CLOCK_SINGLE_RUN_SRC.vhd.
+    Using one-hot encoding for signal <SV>.
+    Found 1-bit register for signal <RUN_S>.
+    Found 3-bit register for signal <SV>.
+    Found 3-bit register for signal <SV_M>.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+Unit <clock_single_run_src> synthesized.
+
+
+Synthesizing Unit <deb_50mz_100ms_src>.
+    Related source file is C:/STUDY/UEBUNG/Studium/Profibus/TEST2_SRAM_25MHZ_255_BYTE/DEB_50MZ_100MS_SRC.vhd.
+    Found 24-bit adder for signal <$n0009> created at line 61.
+    Found 24-bit comparator greatequal for signal <$n0014> created at line 65.
+    Found 24-bit subtractor for signal <$n0016> created at line 83.
+    Found 24-bit register for signal <COUNT_DEB>.
+    Found 24-bit register for signal <COUNT_DEB_M>.
+    Found 1-bit register for signal <IN_DEB_S>.
+    Found 1-bit register for signal <SV<0>>.
+    Found 1-bit register for signal <SV_M<0>>.
+    Found 1 1-bit 2-to-1 multiplexers.
+    Summary:
+	inferred  51 D-type flip-flop(s).
+	inferred   2 Adder/Subtracter(s).
+	inferred   1 Comparator(s).
+	inferred   1 Multiplexer(s).
+Unit <deb_50mz_100ms_src> synthesized.
+
+
+Synthesizing Unit <sram_25mhz_255_byte>.
+    Related source file is C:/STUDY/UEBUNG/Studium/Profibus/TEST2_SRAM_25MHZ_255_BYTE/SRAM_25MHZ_255_BYTE.vhd.
+    Found 19-bit adder for signal <$n0020> created at line 167.
+    Found 16-bit subtractor for signal <$n0021> created at line 168.
+    Found 19-bit register for signal <COUNT_ADR>.
+    Found 19-bit register for signal <COUNT_ADR_M>.
+    Found 16-bit register for signal <COUNT_DAT>.
+    Found 16-bit register for signal <COUNT_DAT_M>.
+    Found 1-bit register for signal <GO_S>.
+    Found 3-bit register for signal <SV>.
+    Found 3-bit register for signal <SV_M>.
+    Summary:
+	inferred  77 D-type flip-flop(s).
+	inferred   2 Adder/Subtracter(s).
+Unit <sram_25mhz_255_byte> synthesized.
+
+
+Synthesizing Unit <test2_sram_25mhz_255_byte>.
+    Related source file is C:/STUDY/UEBUNG/Studium/Profibus/TEST2_SRAM_25MHZ_255_BYTE/TEST2_SRAM_25MHZ_255_BYTE.vhf.
+Unit <test2_sram_25mhz_255_byte> synthesized.
+
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# ROMs                             : 1
+ 16x7-bit ROM                      : 1
+# Adders/Subtractors               : 4
+ 16-bit subtractor                 : 1
+ 19-bit adder                      : 1
+ 24-bit subtractor                 : 1
+ 24-bit adder                      : 1
+# Counters                         : 2
+ 2-bit up counter                  : 1
+ 32-bit down counter               : 1
+# Registers                        : 15
+ 16-bit register                   : 2
+ 19-bit register                   : 2
+ 3-bit register                    : 4
+ 1-bit register                    : 5
+ 24-bit register                   : 2
+# Comparators                      : 2
+ 24-bit comparator greatequal      : 1
+ 32-bit comparator less            : 1
+# Multiplexers                     : 2
+ 1-bit 2-to-1 multiplexer          : 1
+ 4-bit 4-to-1 multiplexer          : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <test2_sram_25mhz_255_byte> ...
+
+Optimizing unit <sram_25mhz_255_byte> ...
+
+Optimizing unit <deb_50mz_100ms_src> ...
+
+Optimizing unit <clock_single_run_src> ...
+
+Optimizing unit <f_div50000> ...
+Loading device for application Xst from file '3s200.nph' in environment C:/Programme/XILINX/WEBPACK_6P3.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block test2_sram_25mhz_255_byte, actual ratio is 10.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : test2_sram_25mhz_255_byte.ngr
+Top Level Output File Name         : test2_sram_25mhz_255_byte
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : NO
+
+Design Statistics
+# IOs                              : 57
+
+Macro Statistics :
+# ROMs                             : 1
+#      16x7-bit ROM                : 1
+# Registers                        : 21
+#      1-bit register              : 11
+#      16-bit register             : 2
+#      19-bit register             : 2
+#      2-bit register              : 2
+#      24-bit register             : 2
+#      3-bit register              : 2
+# Multiplexers                     : 2
+#      2-to-1 multiplexer          : 1
+#      4-bit 4-to-1 multiplexer    : 1
+# Adders/Subtractors               : 4
+#      16-bit subtractor           : 1
+#      19-bit adder                : 1
+#      24-bit adder                : 1
+#      24-bit subtractor           : 1
+# Comparators                      : 2
+#      24-bit comparator greatequal: 1
+#      32-bit comparator less      : 1
+
+Cell Usage :
+# BELS                             : 566
+#      GND                         : 1
+#      INV                         : 5
+#      LUT1                        : 103
+#      LUT1_L                      : 25
+#      LUT2                        : 11
+#      LUT2_D                      : 3
+#      LUT2_L                      : 5
+#      LUT3                        : 26
+#      LUT3_D                      : 1
+#      LUT3_L                      : 2
+#      LUT4                        : 89
+#      LUT4_D                      : 37
+#      LUT4_L                      : 5
+#      MUXCY                       : 134
+#      MUXF5                       : 5
+#      VCC                         : 1
+#      XORCY                       : 113
+# FlipFlops/Latches                : 170
+#      FD                          : 32
+#      FDC                         : 7
+#      FDCE                        : 3
+#      FDE                         : 70
+#      FDP                         : 2
+#      FDR                         : 24
+#      FDS                         : 32
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 56
+#      IBUF                        : 4
+#      OBUF                        : 52
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s200ft256-5 
+
+ Number of Slices:                     179  out of   1920     9%  
+ Number of Slice Flip Flops:           170  out of   3840     4%  
+ Number of 4 input LUTs:               307  out of   3840     7%  
+ Number of bonded IOBs:                 56  out of    173    32%  
+ Number of GCLKs:                        1  out of      8    12%  
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+XLXI_2:Q                           | NONE                   | 167   |
+F_50MHZ_T9                         | BUFGP                  | 1     |
+XLXI_30_GE_stage_cyo(XLXI_30_GE_stagecy:O)| NONE(*)(XLXI_23_COUNTER_0)| 2     |
+-----------------------------------+------------------------+-------+
+(*) This 1 clock signal(s) are generated by combinatorial logic,
+and XST is not able to identify which are the primary clock signals.
+Please use the CLOCK_SIGNAL constraint to specify the clock signal(s) generated by combinatorial logic.
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 14.911ns (Maximum Frequency: 67.065MHz)
+   Minimum input arrival time before clock: 4.931ns
+   Maximum output required time after clock: 11.483ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+-------------------------------------------------------------------------
+Timing constraint: Default period analysis for Clock 'XLXI_2:Q'
+Delay:               7.456ns (Levels of Logic = 15)
+  Source:            XLXI_21_COUNT_DEB_6 (FF)
+  Destination:       XLXI_21_COUNT_DEB_M_10 (FF)
+  Source Clock:      XLXI_2:Q falling
+  Destination Clock: XLXI_2:Q rising
+
+  Data Path: XLXI_21_COUNT_DEB_6 to XLXI_21_COUNT_DEB_M_10
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               5   0.626   0.658  XLXI_21_COUNT_DEB_6 (XLXI_21_COUNT_DEB_6)
+     LUT1_L:I0->LO         1   0.479   0.000  XLXI_21_COUNT_DEB<6>_rt (XLXI_21_COUNT_DEB<6>_rt)
+     MUXCY:S->O            1   0.435   0.000  XLXI_21_Andcy (XLXI_21_And_cyo)
+     MUXCY:CI->O           1   0.056   0.000  XLXI_21_norcy (XLXI_21_nor_cyo)
+     MUXCY:CI->O           1   0.056   0.000  XLXI_21_Andcy_rn_0 (XLXI_21_And_cyo1)
+     MUXCY:CI->O           1   0.056   0.000  XLXI_21_norcy_rn_0 (XLXI_21_nor_cyo1)
+     MUXCY:CI->O           1   0.056   0.000  XLXI_21_Andcy_rn_1 (XLXI_21_And_cyo2)
+     MUXCY:CI->O           1   0.056   0.000  XLXI_21_norcy_rn_1 (XLXI_21_nor_cyo2)
+     MUXCY:CI->O           1   0.056   0.000  XLXI_21_Andcy_rn_2 (XLXI_21_And_cyo3)
+     MUXCY:CI->O           1   0.056   0.000  XLXI_21_norcy_rn_2 (XLXI_21_nor_cyo3)
+     MUXCY:CI->O           1   0.056   0.000  XLXI_21_Andcy_rn_3 (XLXI_21_And_cyo4)
+     MUXCY:CI->O           1   0.056   0.000  XLXI_21_norcy_rn_3 (XLXI_21_nor_cyo4)
+     MUXCY:CI->O           1   0.056   0.000  XLXI_21_Andcy_rn_4 (XLXI_21_And_cyo5)
+     MUXCY:CI->O          28   0.265   1.317  XLXI_21_norcy_rn_4 (XLXI_21__n0035<1>)
+     LUT3_D:I1->O         17   0.479   1.031  XLXI_21__n00241 (XLXI_21__n0024)
+     LUT4:I3->O            1   0.479   0.240  XLXI_21_n_COUNT_DEB<6>_SW0 (N11108)
+     FDS:S                     0.892          XLXI_21_COUNT_DEB_M_6
+    ----------------------------------------
+    Total                      7.456ns (4.210ns logic, 3.246ns route)
+                                       (56.5% logic, 43.5% route)
+
+-------------------------------------------------------------------------
+Timing constraint: Default period analysis for Clock 'F_50MHZ_T9'
+Delay:               2.910ns (Levels of Logic = 1)
+  Source:            XLXI_2 (FF)
+  Destination:       XLXI_2 (FF)
+  Source Clock:      F_50MHZ_T9 rising
+  Destination Clock: F_50MHZ_T9 rising
+
+  Data Path: XLXI_2 to XLXI_2
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q             100   0.626   1.389  XLXI_2 (XLXN_34)
+     INV:I->O              1   0.479   0.240  XLXI_3 (XLXN_2)
+     FD:D                      0.176          XLXI_2
+    ----------------------------------------
+    Total                      2.910ns (1.281ns logic, 1.629ns route)
+                                       (44.0% logic, 56.0% route)
+
+-------------------------------------------------------------------------
+Timing constraint: Default period analysis for Clock 'XLXI_30_GE_stagecy:O'
+Delay:               2.295ns (Levels of Logic = 0)
+  Source:            XLXI_23_COUNTER_0 (FF)
+  Destination:       XLXI_23_COUNTER_0 (FF)
+  Source Clock:      XLXI_30_GE_stagecy:O rising
+  Destination Clock: XLXI_30_GE_stagecy:O rising
+
+  Data Path: XLXI_23_COUNTER_0 to XLXI_23_COUNTER_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q              9   0.626   0.777  XLXI_23_COUNTER_0 (XLXI_23_COUNTER_0)
+     FDR:R                     0.892          XLXI_23_COUNTER_0
+    ----------------------------------------
+    Total                      2.295ns (1.518ns logic, 0.777ns route)
+                                       (66.1% logic, 33.9% route)
+
+-------------------------------------------------------------------------
+Timing constraint: Default OFFSET IN BEFORE for Clock 'XLXI_2:Q'
+Offset:              4.931ns (Levels of Logic = 2)
+  Source:            RST_BTN3_L14 (PAD)
+  Destination:       XLXI_1_COUNT_DAT_13 (FF)
+  Destination Clock: XLXI_2:Q falling
+
+  Data Path: RST_BTN3_L14 to XLXI_1_COUNT_DAT_13
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            14   1.679   0.925  RST_BTN3_L14_IBUF (RST_BTN3_L14_IBUF)
+     LUT1:I0->O           35   0.479   1.324  XLXI_1_COUNT_ADR_N5191 (XLXI_1_COUNT_ADR_N519)
+     FDE:CE                    0.524          XLXI_1_COUNT_ADR_0
+    ----------------------------------------
+    Total                      4.931ns (2.682ns logic, 2.249ns route)
+                                       (54.4% logic, 45.6% route)
+
+-------------------------------------------------------------------------
+Timing constraint: Default OFFSET OUT AFTER for Clock 'XLXI_2:Q'
+Offset:              11.483ns (Levels of Logic = 7)
+  Source:            XLXI_1_COUNT_ADR_0 (FF)
+  Destination:       BA_E14 (PAD)
+  Source Clock:      XLXI_2:Q falling
+
+  Data Path: XLXI_1_COUNT_ADR_0 to BA_E14
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q              4   0.626   0.629  XLXI_1_COUNT_ADR_0 (XLXI_1_COUNT_ADR_0)
+     LUT4_L:I3->LO         1   0.479   0.100  XLXI_1__n001929 (CHOICE374)
+     LUT4:I0->O            2   0.479   0.465  XLXI_1__n001956_SW0 (N12000)
+     LUT4_D:I3->O         18   0.479   1.066  XLXI_1__n001956_1 (XLXI_1__n001956_1)
+     MUXF5:S->O            2   0.540   0.465  XLXI_1_n_SV<2> (XLXN_68<2>)
+     LUT4:I3->O            7   0.479   0.717  XLXI_23_Mmux_NIB_ANZ_inst_mux_f5_21 (XLXI_23_NIB_ANZ<2>)
+     LUT4:I2->O            1   0.479   0.240  XLXI_23_Mrom__n0004_inst_lut4_01 (BA_E14_OBUF)
+     OBUF:I->O                 4.240          BA_E14_OBUF (BA_E14)
+    ----------------------------------------
+    Total                     11.483ns (7.801ns logic, 3.682ns route)
+                                       (67.9% logic, 32.1% route)
+
+-------------------------------------------------------------------------
+Timing constraint: Default OFFSET OUT AFTER for Clock 'XLXI_30_GE_stagecy:O'
+Offset:              7.558ns (Levels of Logic = 3)
+  Source:            XLXI_23_COUNTER_0 (FF)
+  Destination:       BA_E14 (PAD)
+  Source Clock:      XLXI_30_GE_stagecy:O rising
+
+  Data Path: XLXI_23_COUNTER_0 to BA_E14
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q              9   0.626   0.777  XLXI_23_COUNTER_0 (XLXI_23_COUNTER_0)
+     LUT4:I0->O            7   0.479   0.717  XLXI_23_Mmux_NIB_ANZ_inst_mux_f5_01 (XLXI_23_NIB_ANZ<0>)
+     LUT4:I0->O            1   0.479   0.240  XLXI_23_Mrom__n0004_inst_lut4_01 (BA_E14_OBUF)
+     OBUF:I->O                 4.240          BA_E14_OBUF (BA_E14)
+    ----------------------------------------
+    Total                      7.558ns (5.824ns logic, 1.734ns route)
+                                       (77.1% logic, 22.9% route)
+
+=========================================================================
+CPU : 6.13 / 6.94 s | Elapsed : 7.00 / 7.00 s
+ 
+--> 
+
+Total memory usage is 72308 kilobytes
+
+

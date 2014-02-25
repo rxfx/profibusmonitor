@@ -1,0 +1,8 @@
+[Inputs]
+CLK
+SINGLE
+RUN_R
+RESET
+[Outputs]
+OUT_NEXT_STATE
+[BiDir]
